@@ -42,6 +42,7 @@ http://greenfishsoftware.org/gfie.php#apage
 | | *.gha | ![rhino gha2](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a06945c4-950c-4035-a001-55c4ad2233ee)
 | Unity | *.unitypackage |![Unity Package](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/b16c96ec-311b-40d2-b7db-608026e19436)
 | |*.dmg | ![SketchFileType_ConfigurationFile_256](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f3df5055-f72c-4acc-b6ee-891d76814e79)
-
-
+| Houdini | *.houdini | ![houdini file type](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ee5509e8-2ffb-4b6c-a469-c7dac98db40a)
+| Photoshop | *.psd | ![Photoshop2](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/24cb9a8b-a1c4-4950-acb6-6a453db1e1ee)
+| Illustrator | *.ai | ![Uploading illustrator2.png…]()
 
