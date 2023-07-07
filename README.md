@@ -44,5 +44,5 @@ http://greenfishsoftware.org/gfie.php#apage
 | *.dmg |*.dmg | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f3df5055-f72c-4acc-b6ee-891d76814e79 width=64 height=64>  </P>
 | Houdini | *.houdini | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ee5509e8-2ffb-4b6c-a469-c7dac98db40a width=64 height=64>  </P>
 | Photoshop | *.psd | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/24cb9a8b-a1c4-4950-acb6-6a453db1e1ee width=64 height=64>  </P>
-| Illustrator | *.ai | 
+| Illustrator | *.ai | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/d838160d-d84b-415d-8d90-fcceff16e1a9 width=64 height=64>  </P>
 
