@@ -30,3 +30,18 @@ http://greenfishsoftware.org/gfie.php#apage
 ![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/337f1902-d92d-43ab-87de-9d60555ad818)
 
 - Then save as *.ico
+
+## Icon Refresh List
+
+| App Name  | File Type Name  | Icon |
+| ------------- | ------------- | ------------- |
+| Figma | *.fig  | ![figma file typc](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/5bd0ad70-5f7f-427c-89a6-7c986ced0a39)  |
+| Keyshot | *.ksp  | ![Keyshot Package](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ceb26172-11ef-4063-a8b1-bcf8d5db8549)  |
+| Rhino | *.3dm  | ![rhino 3dm2](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/0304a1e3-d480-49cf-9a4a-cf88f132c45b) |
+| | *.gh | ![rhino gh2](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7d181b0e-a1fe-4b14-9bf7-fbba862fe00c) |
+| | *.gha | ![rhino gha2](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a06945c4-950c-4035-a001-55c4ad2233ee)
+| Unity | *.unitypackage |![Unity Package](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/b16c96ec-311b-40d2-b7db-608026e19436)
+| |*.dmg | ![SketchFileType_ConfigurationFile_256](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f3df5055-f72c-4acc-b6ee-891d76814e79)
+
+
+
