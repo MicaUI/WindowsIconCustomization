@@ -1,4 +1,4 @@
-# WindowsCustomization
+# WindowsIconCustomization
 
 ## Figma File
 
