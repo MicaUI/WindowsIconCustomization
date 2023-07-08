@@ -43,6 +43,13 @@ http://greenfishsoftware.org/gfie.php#apage
 
 - Then save as *.ico
 
+## How to Replace Icons?
+
+Download Types from
+https://ystr.github.io/types/
+
+and do it as it said
+
 ## Icon Refresh List
 
 | App Name  | File Type Name  | Icon |
