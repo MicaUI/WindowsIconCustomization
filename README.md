@@ -27,6 +27,8 @@ Multicolor file type icons look best at 16, 48, and 96 pixel sizes in most Micro
 
 These icons are available as SVGs and.webps. SVGs are vectors and are therefore more versatile and can be resized easily, but not all browsers support SVGs. PNGs have wider browser support but require many sizes to remain visually crisp.
 
+https://fluent2.microsoft.design/iconography
+
 ## How to Create *.ico File?
 
 - Select what you want to export frame
