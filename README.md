@@ -17,6 +17,16 @@ We aim to work with you to draw the file type icon/software main icon of commonl
 
 Download Figma file or access Figma file via link, copy a copy to modify, and then initiate a PR
 
+## How to Design?
+
+File type icons indicate specific files or file formats.
+
+![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/118fc610-a959-4d88-a1d1-366bab37c8d9)
+
+Multicolor file type icons look best at 16, 48, and 96 pixel sizes in most Microsoft UIs.
+
+These icons are available as SVGs and.webps. SVGs are vectors and are therefore more versatile and can be resized easily, but not all browsers support SVGs. PNGs have wider browser support but require many sizes to remain visually crisp.
+
 ## How to Create *.ico File?
 
 - Select what you want to export frame
