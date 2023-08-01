@@ -1,4 +1,4 @@
-# WindowsIconCustomization
+![Ps4](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/73148d53-007a-4e3b-95df-4e2ac19fbc21)# WindowsIconCustomization
 
 ## Figma File
 
@@ -52,6 +52,16 @@ https://ystr.github.io/types/
 and do it as it said
 
 ## Icon Refresh List
+
+### Adobe Apps
+
+| App Name  | abbr. | Original Icon | Refresh Icon |
+| ------------- | ------------- | ------------- | ------------- |
+| Photo and Draw | | |
+| Photoshop | Ps | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/fa165d0e-5431-4b60-8783-dcec2b13b7ff width=64 height=64>  </P>|
+
+
+### File Type Icon
 
 | App Name  | File Type Name  | Icon |
 | ------------- | ------------- | ------------- |
