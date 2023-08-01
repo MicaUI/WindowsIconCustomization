@@ -61,7 +61,7 @@ and do it as it said
 | ------------- | ------------- | ------------- | ------------- |
 | Photo and Draw | | |
 | Photoshop | Ps | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/fa165d0e-5431-4b60-8783-dcec2b13b7ff width=64 height=64>  </P>|
-| Fresco | Fr |  <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Adobe_Fresco_CC_icon.svg/1024px-Adobe_Fresco_CC_icon.svg.png width=64 height=64>  </P> | |
+| Fresco | Fr |  <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Adobe_Fresco_CC_icon.svg/1024px-Adobe_Fresco_CC_icon.svg.png width=64 height=64>  </P> |  <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a351e36c-fd81-44a7-8364-4ed231da0ba3 width=64 height=64>  </P>  |
 | Lightroom | Lr |  <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1024px-Adobe_Photoshop_Lightroom_CC_logo.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
 | Lightroom Classic | LrC | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Adobe_Photoshop_Lightroom_Classic_CC_icon.svg/1024px-Adobe_Photoshop_Lightroom_Classic_CC_icon.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
 | Graphics | | |
