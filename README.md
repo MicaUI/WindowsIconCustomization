@@ -55,10 +55,26 @@ and do it as it said
 
 ### Adobe Apps
 
+#### AppIcon
+
 | App Name  | abbr. | Original Icon | Refresh Icon |
 | ------------- | ------------- | ------------- | ------------- |
 | Photo and Draw | | |
 | Photoshop | Ps | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/fa165d0e-5431-4b60-8783-dcec2b13b7ff width=64 height=64>  </P>|
+| Lightroom | Lr | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
+| Lightroom Classic | LrC | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
+| Graphics | | |
+| Illustrator | Ai | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/1b9d1eec-c88b-4c9e-a172-34ee35e3a09e width=64 height=64>  </P>|
+| Typesetting | | |
+| InDesign | Id | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/46dcfb8f-e41d-4f6b-9d35-36157bceae04 width=64 height=64>  </P>|
+| InCopy | Ic | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ffccc3e5-3398-4a1b-b228-65bcf34753eb width=64 height=64>  </P>|
+| Videos | | |
+| Premiere Pro | Pr | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f6fc0c9d-ea1e-4f08-9c40-fea365aca55a width=64 height=64>  </P>|
+| Audition | Au | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/1ac8d3b3-7807-48f4-bf3f-5838afcf6224 width=64 height=64>  </P>|
+| Character Animator | Ch | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/dae411e9-6800-4300-89f7-0b9c7da958ab width=64 height=64>  </P>|
+| 3D | | |
+| Substance 3D Painter | Pt | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f38dc5f8-7cbb-4038-b0dc-6bc743de7981 width=64 height=64>  </P>|
+| Substance 3D Stager | Sg | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/35f1d30c-c093-4477-890f-171ea103316e width=64 height=64>  </P>|
 
 
 ### File Type Icon
