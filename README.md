@@ -1,4 +1,4 @@
-![Ps4](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/73148d53-007a-4e3b-95df-4e2ac19fbc21)# WindowsIconCustomization
+# WindowsIconCustomization
 
 ## Figma File
 
