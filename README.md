@@ -61,8 +61,8 @@ and do it as it said
 | ------------- | ------------- | ------------- | ------------- |
 | Photo and Draw | | |
 | Photoshop | Ps | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/fa165d0e-5431-4b60-8783-dcec2b13b7ff width=64 height=64>  </P>|
-| Lightroom | Lr | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
-| Lightroom Classic | LrC | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
+| Lightroom | Lr |  <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1024px-Adobe_Photoshop_Lightroom_CC_logo.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
+| Lightroom Classic | LrC | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Adobe_Photoshop_Lightroom_Classic_CC_icon.svg/1024px-Adobe_Photoshop_Lightroom_Classic_CC_icon.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/864a9a72-c3f1-4d5e-88e3-89bc5277f447 width=64 height=64>  </P>|
 | Graphics | | |
 | Illustrator | Ai | | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/1b9d1eec-c88b-4c9e-a172-34ee35e3a09e width=64 height=64>  </P>|
 | Typesetting | | |
