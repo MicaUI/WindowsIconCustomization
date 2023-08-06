@@ -83,6 +83,16 @@ and do it as it said
 | Substance 3D Sampler | Sa |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-sampler-icon.png width=64 height=64>  </P> | |
 | Substance 3D Designer | Ds |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-designer-icon.png width=64 height=64>  </P> | |
 
+### Autodesk Apps
+
+#### File Type Icon
+
+| App Name  | File Type Name  | Icon |
+| ------------- | ------------- | ------------- |
+| Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P>|
+| Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P>|
+
+
 ### File Type Icon
 
 | App Name  | File Type Name  | Icon |
