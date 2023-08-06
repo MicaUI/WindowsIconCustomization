@@ -1,4 +1,4 @@
-# WindowsIconCustomization
+![dwg](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/15814922-f527-4968-815b-4aabc4d1d3be)# WindowsIconCustomization
 
 ## Figma File
 
@@ -87,9 +87,11 @@ and do it as it said
 
 #### File Type Icon
 
-| App Name  | File Type Name  | Icon |
-| ------------- | ------------- | ------------- |
-| Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P>|
+| App Name  | File Type Name  | Icon | App Name  | File Type Name  | Icon |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P>| Autodesk | *.dwg  | <P> <img src= width=64 height=64>  </P>|
+
+
 | Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P>|
 
 
