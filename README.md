@@ -93,7 +93,11 @@ and do it as it said
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7fd37ae1-f334-45ec-be50-24b2f3a552e5 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a90669fd-91ad-4967-9854-5d38802fa34f width=64 height=64>  </P> |
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8954a924-cd92-4f39-973e-caa4a48503d9 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8f11c0cd-91bd-4472-bc8a-1557d64e13a0 width=64 height=64>  </P> |
 
-
+| File Type Name | Icon | File Type Name | Icon  | File Type Name  | Icon | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Revil |  | CFD | | | |
+| *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/59da8c5c-b336-47f9-bb41-6b1b7fcbef66 width=64 height=64>  </P> |
+| *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/2c80e377-068e-49d8-9192-13d96c9a32a4 width=64 height=64>  </P> |
 
 *.rvt | <P> <img src= width=64 height=64>  </P> |
 
