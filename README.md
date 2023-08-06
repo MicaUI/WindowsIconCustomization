@@ -91,7 +91,7 @@ and do it as it said
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Fusion 360 | | Autodesk | | Revil | | 
 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P> | *.dwg  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/de828ac3-62f1-4202-8a0c-fe3124225763 width=64 height=64>  </P>| *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/eb1110dc-e0f5-4b28-a343-e95f1da86cc1 width=64 height=64>  </P>|
-| *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P> | *.arx  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/090ed391-5073-435b-9f59-c66e3db12b62 width=64 height=64>  </P>| *.rvt | <P> <img src= width=64 height=64>  </P> |
+| *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P> | *.arx  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/090ed391-5073-435b-9f59-c66e3db12b62 width=64 height=64>  </P>| *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/26463672-f043-4c1d-9352-b69131ff1e1c width=64 height=64>  </P> |
 |  |  | *.ctb | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/cd9aab88-9f1c-4fdf-ab79-f24db7ca2580 width=64 height=64>  </P>| *.rfa | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/b2606a9d-3c6b-43c8-8f14-70a4492139c2 width=64 height=64>  </P> |
 |  |  | *.DBX | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66defbc9-e647-4aeb-8e42-d4f57a854d83 width=64 height=64>  </P>| *.rft
 | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/21769eea-6e8d-4f06-8e3c-7c6463e8ae43 width=64 height=64>  </P> |
@@ -103,7 +103,7 @@ and do it as it said
 |  |  | *.shx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/2b1cb4d9-64e3-4cd3-8319-63ba9b55b3be width=64 height=64>  </P>|
 |  |  | *.shx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/5485b2d2-9b48-43ef-a06c-8b0935705245 width=64 height=64>  </P>|
 
- *.rvt | <P> <img src= width=64 height=64>  </P> |
+ *.rvt | <P> <img src= width=64 height=64>  </P>
 
 ### File Type Icon
 
