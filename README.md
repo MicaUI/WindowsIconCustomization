@@ -98,6 +98,11 @@ and do it as it said
 | Revil |  | CFD | | | |
 | *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/59da8c5c-b336-47f9-bb41-6b1b7fcbef66 width=64 height=64>  </P> |
 | *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/2c80e377-068e-49d8-9192-13d96c9a32a4 width=64 height=64>  </P> |
+| *.rfa | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/27c1a908-4f79-4822-8ba2-ee5b050c09a4 width=64 height=64>  </P> |
+| *.rft | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66a014ab-1e58-483a-b511-58dc7298d48f width=64 height=64>  </P> |
+| *.rte | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/afdf1be9-5cdd-42b4-9d8f-227ca2f6207a width=64 height=64>  </P> |
+
+
 
 *.rvt | <P> <img src= width=64 height=64>  </P> |
 
