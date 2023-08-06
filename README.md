@@ -1,4 +1,4 @@
-![dwg](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/15814922-f527-4968-815b-4aabc4d1d3be)# WindowsIconCustomization
+# WindowsIconCustomization
 
 ## Figma File
 
