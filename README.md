@@ -91,7 +91,6 @@ and do it as it said
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P>| Autodesk | *.dwg  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/de828ac3-62f1-4202-8a0c-fe3124225763 width=64 height=64>  </P>| 
 
-
 | Fusion 360 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P>| Autodesk | *.arx  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/090ed391-5073-435b-9f59-c66e3db12b62 width=64 height=64>  </P>| 
 
 
