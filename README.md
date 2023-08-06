@@ -94,6 +94,12 @@ and do it as it said
 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3a0db908-a9a2-4af1-a452-da6656561eee width=64 height=64>  </P> | *.arx  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/090ed391-5073-435b-9f59-c66e3db12b62 width=64 height=64>  </P>| 
 |  |  | *.ctb | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/cd9aab88-9f1c-4fdf-ab79-f24db7ca2580 width=64 height=64>  </P>|
 |  |  | *.DBX | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66defbc9-e647-4aeb-8e42-d4f57a854d83 width=64 height=64>  </P>|
+|  |  | *.dgn | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/9e0a57a6-b077-4ada-992d-01f819c70cd4 width=64 height=64>  </P>|
+|  |  | *.hdi | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ead4a59f-72b3-4b65-bf61-7694bc4b34c3 width=64 height=64>  </P>|
+|  |  | *.lsp | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/c4ca4ff2-d3a6-4dd3-9cd6-0a4626cb8b33 width=64 height=64>  </P>|
+
+
+
 
 ### File Type Icon
 
