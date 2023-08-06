@@ -87,8 +87,8 @@ and do it as it said
 
 #### File Type Icon
 
-| App Name  | Icon  | File Type Name | Icon  | File Type Name  | Icon | File Type Name  | Icon 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+| File Type Name | Icon | File Type Name | Icon  | File Type Name  | Icon | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Fusion 360 |  | Alies| | | |
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7fd37ae1-f334-45ec-be50-24b2f3a552e5 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a90669fd-91ad-4967-9854-5d38802fa34f width=64 height=64>  </P> |
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8954a924-cd92-4f39-973e-caa4a48503d9 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8f11c0cd-91bd-4472-bc8a-1557d64e13a0 width=64 height=64>  </P> |
