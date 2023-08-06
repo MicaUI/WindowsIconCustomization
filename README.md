@@ -101,11 +101,11 @@ and do it as it said
 |  |  | *.pmp | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/b2716236-727d-493b-98d9-1bf6d7378bcd width=64 height=64>  </P>| | | *.chr | <P> <img src= width=64 height=64>  </P> |
 |  |  | *.shx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/2b1cb4d9-64e3-4cd3-8319-63ba9b55b3be width=64 height=64>  </P>| | | *.clp | <P> <img src= width=64 height=64>  </P> |
 |  |  | *.shx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/5485b2d2-9b48-43ef-a06c-8b0935705245 width=64 height=64>  </P>| | | *.clr | <P> <img src= width=64 height=64>  </P> |
-|  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
-|  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
-|  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
-|  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
-|  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
+|  |  |  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
+|  |  |  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
+|  |  |  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
+|  |  |  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
+|  |  |  |  |  |  | *.clrx | <P> <img src= width=64 height=64>  </P> |
 
  *.rvt | <P> <img src= width=64 height=64>  </P> |
 
