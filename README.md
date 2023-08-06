@@ -87,7 +87,7 @@ and do it as it said
 
 #### File Type Icon
 
-| App Name  | Icon  | Icon | App Name  | File Type Name  | Icon |
+| App Name  | Icon  | File Type Name | Icon  | File Type Name  | Icon |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Fusion 360 | | Autodesk | | | |
 | *.f3d  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7ba7acd4-9879-4be5-8716-5a40260e1d34 width=64 height=64>  </P> | *.dwg  | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/de828ac3-62f1-4202-8a0c-fe3124225763 width=64 height=64>  </P>| 
