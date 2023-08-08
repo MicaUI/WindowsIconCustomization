@@ -93,7 +93,7 @@ and do it as it said
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7fd37ae1-f334-45ec-be50-24b2f3a552e5 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a90669fd-91ad-4967-9854-5d38802fa34f width=64 height=64>  </P> |*.axm | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/6b06eb45-e47a-4c36-897e-89710d4b8241 width=64 height=64>  </P> |
 |*.f3d | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8954a924-cd92-4f39-973e-caa4a48503d9 width=64 height=64>  </P> | *.wire | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8f11c0cd-91bd-4472-bc8a-1557d64e13a0 width=64 height=64>  </P> |*.axm | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f53035cd-bc57-48c9-a145-0211d0edaed3 width=64 height=64>  </P> |
 
-| File Type Name | Icon | File Type Name | Icon  | File Type Name  | Icon | 
+| Filename Extension | Icon | Filename Extension | Icon  | Filename Extension  | Icon | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Revil |  | CFD | | FormIt | |
 | *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/59da8c5c-b336-47f9-bb41-6b1b7fcbef66 width=64 height=64>  </P> |*.cfd | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/664a8be9-c98e-4f79-aefc-24fc021b14dd width=64 height=64>  </P> |
