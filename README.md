@@ -103,6 +103,9 @@ and do it as it said
 | *.rte | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/afdf1be9-5cdd-42b4-9d8f-227ca2f6207a width=64 height=64>  </P> |*.tpl | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/3f0254b6-a231-429c-90c6-e173e3ebe159 width=64 height=64>  </P> |
 | | | *.vtfx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/d445c53c-1a43-43ef-afa5-dabfd5f1acb7 width=64 height=64>  </P> |
 
+| File Type | Icon | File Type | Icon | File Type | Icon | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| AutoCAD |  | 3DMax | | | |
 
 *.rvt | <P> <img src= width=64 height=64>  </P> |
 
