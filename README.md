@@ -76,12 +76,12 @@ and do it as it said
 | Audition | Au | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Adobe_Audition_CC_icon_%282020%29.svg/1024px-Adobe_Audition_CC_icon_%282020%29.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/1ac8d3b3-7807-48f4-bf3f-5838afcf6224 width=64 height=64>  </P>|
 | Character Animator | Ch | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adobe_Character_Animator_icon_%282020%29.svg/1024px-Adobe_Character_Animator_icon_%282020%29.svg.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/dae411e9-6800-4300-89f7-0b9c7da958ab width=64 height=64>  </P>|
 | Media Encoder | Me | <P> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Adobe_Media_Encoder_Icon.svg/1024px-Adobe_Media_Encoder_Icon.svg.png width=64 height=64>  </P> | |
-| 3D | | |
-| Substance 3D Modeler | Md | | |
-| Substance 3D Painter | Pt | <P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-painter-icon.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f38dc5f8-7cbb-4038-b0dc-6bc743de7981 width=64 height=64>  </P>|
-| Substance 3D Stager | Sg |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-stager-icon.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/35f1d30c-c093-4477-890f-171ea103316e width=64 height=64>  </P>|
-| Substance 3D Sampler | Sa |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-sampler-icon.png width=64 height=64>  </P> | |
-| Substance 3D Designer | Ds |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-designer-icon.png width=64 height=64>  </P> | |
+| Substance | | |
+| 3D Modeler | Md | | |
+| 3D Painter | Pt | <P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-painter-icon.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/f38dc5f8-7cbb-4038-b0dc-6bc743de7981 width=64 height=64>  </P>|
+| 3D Stager | Sg |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-stager-icon.png width=64 height=64>  </P> | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/35f1d30c-c093-4477-890f-171ea103316e width=64 height=64>  </P>|
+| 3D Sampler | Sa |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-sampler-icon.png width=64 height=64>  </P> | |
+| 3D Designer | Ds |<P> <img src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-substance-3d-designer-icon.png width=64 height=64>  </P> | |
 
 ### Autodesk Apps
 
