@@ -100,6 +100,7 @@ and do it as it said
 | *.rvt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/2c80e377-068e-49d8-9192-13d96c9a32a4 width=64 height=64>  </P> |*.cfd | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/faad3fb6-b7c8-4da7-8040-22c973200795 width=64 height=64>  </P> |*.ipn | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/ef02fea9-7de6-43ca-8412-2cb24cc58f57 width=64 height=64>  </P> |
 | *.rfa | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/27c1a908-4f79-4822-8ba2-ee5b050c09a4 width=64 height=64>  </P> |*.cfdpk | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/4a2aaed9-51a2-4578-be43-f3ab22db9bb9 width=64 height=64>  </P> |*.iam | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/c816a043-33c7-47f6-adc5-6ef8b4982917 width=64 height=64>  </P> |
 | *.rft | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66a014ab-1e58-483a-b511-58dc7298d48f width=64 height=64>  </P> |*.cfz | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a7332834-a34e-4b4e-9eb2-8f1335deaa73 width=64 height=64>  </P> |*.ipt | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/a9c8f43b-057b-4c65-b404-90d556dafbe3 width=64 height=64>  </P> |
+| ... | ... | ... | ... | | |
 
 | File Type | Icon | File Type | Icon | File Type | Icon | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -108,6 +109,7 @@ and do it as it said
 |*.arx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/55b795d0-3b22-44e7-9894-d96db89b6689 width=64 height=64>  </P> |*.ant | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/87e71c96-969b-4369-a077-5f539901cff3 width=64 height=64>  </P> |
 |*.ctb | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/94263149-303a-486f-965d-34704f8e4791 width=64 height=64>  </P> |*.bip | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66476622-a948-46b5-b0cd-d14123d4f993 width=64 height=64>  </P> |
 |*.dbx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/30d7ae80-c79d-4ada-9c52-d72d9e7f3441 width=64 height=64>  </P> |*.bpr | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8f16e3ae-785b-486b-87a9-4577f03cbd17 width=64 height=64>  </P> |
+| ... | ... | ... | ... | | |
 
 *.rvt | <P> <img src= width=64 height=64>  </P> |
 
