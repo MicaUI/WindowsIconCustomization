@@ -106,6 +106,10 @@ and do it as it said
 | File Type | Icon | File Type | Icon | File Type | Icon | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | AutoCAD |  | 3DMax | | | |
+|*.dwg | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/594f9085-4e5d-4c14-8769-2a9c740c1925 width=64 height=64>  </P> |*.3ds | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/7c5a2daf-efdf-4959-b137-90c8b6b5547c width=64 height=64>  </P> |
+|*.arx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/55b795d0-3b22-44e7-9894-d96db89b6689 width=64 height=64>  </P> |*.ant | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/87e71c96-969b-4369-a077-5f539901cff3 width=64 height=64>  </P> |
+|*.ctb | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/94263149-303a-486f-965d-34704f8e4791 width=64 height=64>  </P> |*.bip | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/66476622-a948-46b5-b0cd-d14123d4f993 width=64 height=64>  </P> |
+|*.dbx | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/30d7ae80-c79d-4ada-9c52-d72d9e7f3441 width=64 height=64>  </P> |*.bpr | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/8f16e3ae-785b-486b-87a9-4577f03cbd17 width=64 height=64>  </P> |
 
 *.rvt | <P> <img src= width=64 height=64>  </P> |
 
