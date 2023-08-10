@@ -1,12 +1,5 @@
 # WindowsIconCustomization
 
-## Figma File
-
-Download from repo or click the link
-
-https://www.figma.com/file/Au2ybJxECoYeh2mIgg9KFs/Untitled?type=design&node-id=0%3A1&mode=design&t=yyQzRPQifeJsz5WD-1
-
-
 ## Aim
 
 We aim to work with you to draw the file type icon/software main icon of commonly used software to ensure that it matches the visual style of Windows 11
