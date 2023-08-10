@@ -6,13 +6,6 @@ We aim to work with you to draw the file type icon/software main icon of commonl
 
 ![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/043385eb-a228-48b5-859c-0ce79d42a7d1)
 
-## How to Replace Icons?
-
-Download Types from
-https://ystr.github.io/types/
-
-and do it as it said
-
 ## Icon Refresh List
 
 ### Adobe Apps
@@ -96,4 +89,11 @@ and do it as it said
 
 | Photoshop | *.psd | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/24cb9a8b-a1c4-4950-acb6-6a453db1e1ee width=64 height=64>  </P>
 | Illustrator | *.ai | <P> <img src=https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/d838160d-d84b-415d-8d90-fcceff16e1a9 width=64 height=64>  </P>
+
+## How to Replace Icons?
+
+Download Types from
+https://ystr.github.io/types/
+
+and do it as it said
 
