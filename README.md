@@ -13,37 +13,6 @@ We aim to work with you to draw the file type icon/software main icon of commonl
 
 ![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/043385eb-a228-48b5-859c-0ce79d42a7d1)
 
-
-## How to Join？
-
-Download Figma file or access Figma file via link, copy a copy to modify, and then initiate a PR
-
-## How to Design?
-
-File type icons indicate specific files or file formats.
-
-![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/118fc610-a959-4d88-a1d1-366bab37c8d9)
-
-Multicolor file type icons look best at 16, 48, and 96 pixel sizes in most Microsoft UIs.
-
-These icons are available as SVGs and.webps. SVGs are vectors and are therefore more versatile and can be resized easily, but not all browsers support SVGs. PNGs have wider browser support but require many sizes to remain visually crisp.
-
-https://fluent2.microsoft.design/iconography
-
-## How to Create *.ico File?
-
-- Select what you want to export frame
-![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/0637fb1a-e674-44b3-acc6-31a7a281343d)
-
-- We recommend you use greenfish icon editor to create *.ico file.It is open source and free
-You can download it from here
-http://greenfishsoftware.org/gfie.php#apage
-
-- Open png file in Gfie, click on add button to create other size resources
-![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/337f1902-d92d-43ab-87de-9d60555ad818)
-
-- Then save as *.ico
-
 ## How to Replace Icons?
 
 Download Types from
