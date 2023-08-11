@@ -10,6 +10,13 @@ We aim to work with you to draw the file type icon/software main icon of commonl
 
 https://github.com/MicaUI/WindowsIconCustomization/wiki/Icon-Refresh-List
 
+## How to Join?
+
+https://github.com/MicaUI/WindowsIconCustomization/wiki
+
+## How to Design?
+
+https://github.com/MicaUI/WindowsIconCustomization/wiki/Design-Guide
 
 ## How to Replace Icons?
 
