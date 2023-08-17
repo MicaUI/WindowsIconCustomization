@@ -1,5 +1,11 @@
 # folders icons
 
+## Overview
+
+![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/0c449a10-978b-4212-9c1d-9f410f44d562)
+
+![image](https://github.com/MicaUI/WindowsIconCustomization/assets/6630660/60315b3f-1cef-45da-af44-0be6ecec720a)
+
 ## How to do
 
 In order to use this set of icons, you need to manually replace imageres.dll.mun and shell32.dll.mun
