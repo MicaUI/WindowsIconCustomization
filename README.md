@@ -20,6 +20,8 @@ https://github.com/MicaUI/WindowsIconCustomization/wiki/Design-Guide
 
 ## How to Replace Icons?
 
+https://github.com/MicaUI/WindowsIconCustomization/wiki
+
 Download Types from
 https://ystr.github.io/types/
 
