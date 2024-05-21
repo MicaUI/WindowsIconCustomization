@@ -1,0 +1,74 @@
+name: Create-Page
+
+# Run this workflow every time a new commit pushed to your repository
+on: 
+  push:
+    branches:
+    - main
+    - dev
+
+jobs:
+  dev-to-gh-pages:
+    run-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
+
+    steps:
+      - name: checkout-main
+        uses: actions/checkout@v2
+        with:
+          ref: dev
+      
+      - name: checkout-png
+        run: |
+          chmod +x findpng.sh
+          ./findpng.sh
+
+  # main-to-gh-pages:
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: checkout-main
+  #       uses: actions/checkout@v2
+  #       with:
+  #         ref: main
+      # - name: install-nodejs
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '18.4.0'
+      #     registry-url: 'https://registry.npmjs.org'
+      # - name: install pnpm
+      #   uses: pnpm/action-setup@v2.0.1
+      #   with:
+      #     version: 7.11
+      
+      # - name: pnpm install
+      #   run: |
+      #     pnpm install
+      #     pnpm run build
+      # - name: Deploy
+      #   #将构建产物打到分支上
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
+      #     publish_branch: page
+          # cname: www.xingxiaowu.cn
+
+      # - name: push-to-branch-pages
+      #   env:
+      #     TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REF: github.com/${{github.repository}}
+      #     MYEMAIL: 329106954@qq.com 
+      #     MYNAME: ${{github.repository_owner}}
+      #   run: |
+      #     cd _book
+      #     git config --global user.email "${MYEMAIL}"   
+      #     git config --global user.name "${MYNAME}"   
+      #     git init  
+      #     git remote add origin https://${REF}
+      #     git add .
+      #     git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
+      #     git branch -M main
+      #     git push --force --quiet "https://${TOKEN}@${REF}" main:pages
