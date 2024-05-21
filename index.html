@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
     <title>Icon展示</title>
+    <script
+        src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
+    <script>
+        $.getJSON("./png_files.json", function (data) {
+            //data 代表读取到的json中的数据
+            console.log(data);
+        });
+    </script>
+
 </body>
+
 </html>
