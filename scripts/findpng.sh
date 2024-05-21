@@ -29,14 +29,15 @@ for file in "${png_files[@]}"; do
     fi  
 done  
 echo ']}' >> png_files.json  
-  
+
+
 # 或者，你可以使用jq的--args和--raw-input选项来简化构建JSON的过程  
 # jq -n --args "${png_files[@]}" '{"files": $ARGS.positional | map_values(tostring)}' > png_files.json
 
 
 echo "----------------------------分割线----------------------------"
 
-# cat ./png_files.json
+cat ./png_files.json
 
 echo "----------------------------分割线----------------------------"
 
