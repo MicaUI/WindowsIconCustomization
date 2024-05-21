@@ -30,6 +30,33 @@ jobs:
           ./findpng.sh
       - name: success
         run: echo "success"
+
+      - name: Deploy
+        #将构建产物打到分支上
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: page
+          cname: blog.xingxiaowu.cn
+
+      - name: push-to-branch-pages
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REF: github.com/${{github.repository}}
+          MYEMAIL: 329106954@qq.com 
+          MYNAME: ${{github.repository_owner}}
+        run: |
+          cd _book
+          git config --global user.email "${MYEMAIL}"   
+          git config --global user.name "${MYNAME}"   
+          git init  
+          git remote add origin https://${REF}
+          git add .
+          git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
+          git branch -M main
+          git push --force --quiet "https://${TOKEN}@${REF}" main:pages
+          
   # main-to-gh-pages:
   #   runs-on: ubuntu-latest
 
