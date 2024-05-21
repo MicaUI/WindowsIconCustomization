@@ -14,8 +14,8 @@ while IFS= read -r -d '' file; do
 done < <(find . -type f -name "*.png" -print0)  
   
 # 使用jq来构建JSON数组，并将结果写入到文件中  
-jq -n --args "${png_files[@]}" 'args.positional | map_values(fromentries({"path": .})) | { "files": . }' > png_files.json  
-  
+jq -n --args "${png_files[@]}" '{"files": $ARGS.positional}' > png_files.json
+
 # 如果不想使用jq的fromentries，可以简单地创建一个只包含路径的数组  
 # jq -n --args "${png_files[@]}" 'args.positional | { "files": . }' > png_files.json
 
