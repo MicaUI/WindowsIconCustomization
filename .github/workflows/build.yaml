@@ -27,7 +27,8 @@ jobs:
         run: |
           chmod +x findpng.sh
           ./findpng.sh
-
+      - name: success
+        run: echo "success"
   # main-to-gh-pages:
   #   runs-on: ubuntu-latest
 
