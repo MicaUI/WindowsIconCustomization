@@ -9,7 +9,7 @@ on:
 
 jobs:
   dev-to-gh-pages:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./scripts
