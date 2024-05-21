@@ -45,12 +45,13 @@ jobs:
           MYEMAIL: 329106954@qq.com 
           MYNAME: ${{github.repository_owner}}
         run: |
+          git init
           git config --global user.email "${MYEMAIL}"   
           git config --global user.name "${MYNAME}"   
           git add .
           git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
           git branch -M page
-          git push --force --quiet "https://${TOKEN}@${REF}"
+          git push --force --quiet "https://${TOKEN}@${REF}" main:pages
           
   # main-to-gh-pages:
   #   runs-on: ubuntu-latest
