@@ -28,6 +28,12 @@ jobs:
         run: |
           chmod +x findpng.sh
           ./findpng.sh
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          cname: blog.xingxiaowu.cn
 
       - name: Deploy
         #将构建产物打到分支上
@@ -36,22 +42,22 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           publish_branch: page
-          cname: blog.xingxiaowu.cn
+          
 
-      - name: push-to-branch-pages
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REF: github.com/${{github.repository}}
-          MYEMAIL: 329106954@qq.com 
-          MYNAME: ${{github.repository_owner}}
-        run: |
-          git init
-          git config --global user.email "${MYEMAIL}"   
-          git config --global user.name "${MYNAME}"   
-          git add .
-          git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
-          git branch -M page
-          git push --force --quiet "https://${TOKEN}@${REF}" main:pages
+      # - name: push-to-branch-pages
+      #   env:
+      #     TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     REF: github.com/${{github.repository}}
+      #     MYEMAIL: 329106954@qq.com 
+      #     MYNAME: ${{github.repository_owner}}
+      #   run: |
+      #     git init
+      #     git config --global user.email "${MYEMAIL}"   
+      #     git config --global user.name "${MYNAME}"   
+      #     git add .
+      #     git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
+      #     git branch -M page
+      #     git push --force --quiet "https://${TOKEN}@${REF}" main:pages
           
   # main-to-gh-pages:
   #   runs-on: ubuntu-latest

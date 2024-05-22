@@ -18,7 +18,7 @@ done < <(find . -type f -name "*.png" -print0)
   
 # 使用jq来构建JSON数组，并将结果写入到文件中  
 # 注意：这里假设jq已经安装在你的系统上  
-echo '{"files": [' > png_files.json  
+echo '[' > png_files.json  
 first=true  
 for file in "${png_files[@]}"; do  
     if [[ "$first" == true ]]; then  
@@ -28,7 +28,7 @@ for file in "${png_files[@]}"; do
         echo ",\"$file\"" >> png_files.json  
     fi  
 done  
-echo ']}' >> png_files.json  
+echo ']' >> png_files.json  
 
 
 # 或者，你可以使用jq的--args和--raw-input选项来简化构建JSON的过程  
