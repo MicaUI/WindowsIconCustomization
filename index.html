@@ -11,13 +11,26 @@
     <style>
         .icon-container {
             display: flex;
+            flex-wrap: wrap;
+            /* 允许换行 */
             justify-content: space-around;
+            align-items: flex-start;
+            /* 可以根据需要调整图标对齐方式 */
         }
 
         .icon {
-            width: 50px;
-            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin: 10px;
+            /* 不设置固定宽度和高度，让图标自适应 */
+        }
+
+        .icon img {
+            max-width: 100%;
+            /* 图片最大宽度不超过容器宽度 */
+            height: auto;
+            /* 高度自适应，保持图片比例 */
         }
     </style>
 </head>
@@ -25,9 +38,9 @@
 <body>
     <div class="icon-container">
         <!-- 动态生成图标 -->
-        <div class="icon" ng-repeat="icon in icons">
+        <!-- <div class="icon" ng-repeat="icon in icons">
             <img [src]="icon.src" alt="{{icon.name}}">
-        </div>
+        </div> -->
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
