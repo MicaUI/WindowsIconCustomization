@@ -1,0 +1,34 @@
+name: Create-Page
+
+# Run this workflow every time a new commit pushed to your repository
+on: 
+  push:
+    branches:
+    - dev
+
+jobs:
+  dev-to-gh-pages:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
+
+    steps:
+      - name: checkout-main
+        uses: actions/checkout@v2
+        with:
+          ref: dev
+          
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v2.1.0
+            
+
+      - name: checkout-png
+        run: |
+          chmod +x findpng.sh
+          ./findpng.sh
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./

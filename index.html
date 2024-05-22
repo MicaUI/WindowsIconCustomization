@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Icon Display</title>
+    <script
+        src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .icon-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* 允许换行 */
+            justify-content: space-around;
+            align-items: flex-start;
+            /* 可以根据需要调整图标对齐方式 */
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            /* 不设置固定宽度和高度，让图标自适应 */
+        }
+
+        .icon img {
+            max-width: 100%;
+            /* 图片最大宽度不超过容器宽度 */
+            height: auto;
+            /* 高度自适应，保持图片比例 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="icon-container">
+        <!-- 动态生成图标 -->
+        <!-- <div class="icon" ng-repeat="icon in icons">
+            <img [src]="icon.src" alt="{{icon.name}}">
+        </div> -->
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $.getJSON("./png_files.json", function (iconsData) {
+                //data 代表读取到的json中的数据
+                // console.log(data)
+                let iconContainer = document.querySelector('.icon-container')
+                iconsData.forEach(function (icon) {
+                    let iconDiv = document.createElement('div')
+                    iconDiv.classList.add('icon')
+
+                    let img = document.createElement('img')
+                    let iconPath = icon.split("/")
+                    img.src = icon
+                    img.alt = iconPath[iconPath.length - 1]
+                    iconDiv.appendChild(img)
+                    iconContainer.appendChild(iconDiv)
+                })
+            })
+        });
+    </script>
+
+</body>
+
+</html>
