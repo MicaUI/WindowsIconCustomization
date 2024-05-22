@@ -30,10 +30,10 @@
         </div>
     </div>
     <script>
-        $.getJSON("./png_files.json", function (iconsData) {
-            //data 代表读取到的json中的数据
-            // console.log(data)
-            document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function () {
+            $.getJSON("./png_files.json", function (iconsData) {
+                //data 代表读取到的json中的数据
+                // console.log(data)
                 let iconContainer = document.querySelector('.icon-container')
                 iconsData.forEach(function (icon) {
                     let iconDiv = document.createElement('div')
