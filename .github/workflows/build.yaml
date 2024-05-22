@@ -4,7 +4,7 @@ name: Create-Page
 on: 
   push:
     branches:
-    - dev
+    - dev-page
 
 jobs:
   dev-to-gh-pages:
