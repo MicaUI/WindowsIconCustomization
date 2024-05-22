@@ -14,7 +14,7 @@ jobs:
         working-directory: ./scripts
 
     steps:
-      - name: checkout-main
+      - name: checkout-dev-page
         uses: actions/checkout@v2
         with:
           ref: dev-page
@@ -22,13 +22,20 @@ jobs:
       - name: Install jq
         uses: dcarbone/install-jq-action@v2.1.0
             
-
       - name: checkout-png
         run: |
           chmod +x findpng.sh
           ./findpng.sh
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+
+      # - name: Deploy
+      #   #将构建产物打到分支上
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./
