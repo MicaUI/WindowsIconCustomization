@@ -8,56 +8,63 @@
     <link rel="shortcut icon" href="web/asset/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="web/asset/font/iconfont.css">
     <link rel="stylesheet" href="web/css/index.css">
+    <link rel="stylesheet" href="web/css/leftNav.css">
+    <link rel="stylesheet" href="web/css/mainContent.css">
+    <!-- <link rel="stylesheet" href="web/css/index.css"> -->
     <script src="web/js/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="home hideLeft" id="app">
-        <div class="leftNav">
+        <div class="leftNav show">
             <div class="top">
-                <!-- <div class="icon control iconfont icon-m-kaiguan">
-                </div> -->
-                <div class="logo">
+                <div class="icon control"></div>
+                <!-- <div class="logo">
                     <img src="web/asset/logo.png" alt="">
-                </div>
+                </div> -->
                 <div class="search">
-                    <span class="icon iconfont small icon-wxbsousuotuiguang"></span>
+                    <span class="icon small"></span>
                     <div class="searchBig">
-                        <span class="icon iconfont inputIcon icon-wxbsousuotuiguang"></span>
+                        <span class="icon inputIcon"></span>
                         <input class="searchInput" type="text" placeholder="搜索">
                     </div>
                 </div>
                 <p class="line"></p>
-                <h4 class="topTitle title">macOS图标库</h4>
+                <!-- <h4 class="topTitle title">Window图标库</h4> -->
                 <nav class="topNav">
                     <ul class="navList">
-                        <li class="navItem">
+                        <li class="navItem mainHome">
                             <span class="icon iconfont icon-home"></span>
-                            <span class="label">家</span>
+                            <span class="label">所有图标</span>
                         </li>
-                        <li class="navItem">
-                            <span class="icon iconfont icon-wenhao"></span>
-                            <span class="label">关于</span>
+                        <li class="navItem app">
+                            <span class="icon"></span>
+                            <span class="label">应用图标</span>
+                        </li>
+                        <li class="navItem folders">
+                            <span class="icon"></span>
+                            <span class="label">文件夹图标</span>
+                        </li>
+                        <li class="navItem file">
+                            <span class="icon"></span>
+                            <span class="label">文件图标</span>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="center">
                 <p class="line"></p>
-                <h4 class="centerTitle title">过滤器</h4>
+                <!-- <h4 class="centerTitle title">分类</h4> -->
                 <nav class="centerNav">
                     <ul class="navList">
-                        <!-- <li class="navItem">
-                            <span class="icon iconfont icon-huabi"></span>
-                            <span class="label">颜色</span>
-                        </li> -->
+
                         <!-- <li class="navItem">
                             <span class="icon iconfont icon-manhuajia"></span>
                             <span class="label">文件类型</span>
                         </li> -->
-                        <li class="navItem">
-                            <span class="icon iconfont icon-kaifashang"></span>
-                            <span class="label">公司</span>
+                        <li class="navItem company">
+                            <span class="icon"></span>
+                            <span class="label">按开发商展示</span>
                         </li>
                         <!-- <li class="navItem">
                             <span class="icon iconfont icon-yaoyiyao"></span>
@@ -67,37 +74,37 @@
                             <span class="icon iconfont icon-rili"></span>
                             <span class="label">年</span>
                         </li> -->
-                        <li class="navItem">
-                            <span class="icon iconfont icon-yingyongAPP_o"></span>
-                            <span class="label">应用</span>
+                        <li class="navItem software">
+                            <span class="icon"></span>
+                            <span class="label">按软件展示</span>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="bottom">
-                <h3 class="title">
+                <!-- <h3 class="title">
                     有关的
-                </h3>
+                </h3> -->
                 <nav class="about">
                     <ul>
                         <li class="navItem">
-                            <a href="#">iOS图标库</a>
-                            <span class="icon iconfont">&#xe74c;</span>
+                            <a href="">window图标库
+                                <span class="icon iconfont">&#xe74c;</span>
+                            </a>
                         </li>
-                        <li class="navItem">
+                        <!-- <li class="navItem">
                             <a href="#">watchOS图标库</a>
                             <span class="icon iconfont">&#xe74c;</span>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
         </div>
         <div class="mainContent">
-
             <div class="top">
                 <div class="leftTitle">
                     <span id="title">图标</span>
-                    <span class="sum">(999)</span>
+                    <span class="sum">(0)</span>
                     <div class="back iconfont icon-back"></div>
                 </div>
                 <div class="rightTool">
@@ -107,6 +114,17 @@
             <div class="content showIconWrap">
             </div>
         </div>
+        <div class="showInfo hide">
+            <div class="infoContent">
+                <div class="close">X</div>
+                <div class="coverImg">
+                    <img src="" class="coverImgShow" alt="">
+                </div>
+                <ul class="infoList">
+                </ul>
+            </div>
+        </div>
+        <div class="mask"></div>
     </div>
 </body>
 <script src="web/js/index.js"></script>
