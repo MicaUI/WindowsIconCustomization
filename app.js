@@ -22,13 +22,8 @@ function traverseDirectory(dir, fileList = []) {
 			// 如果是文件，将相对路径和文件名存入对象中，并加入到数组中
 			const relativePath = path.relative(__dirname, filePath);
 			if (
-				relativePath.startsWith('.git') ||
-				relativePath.startsWith('asset') ||
-				relativePath.startsWith('css') ||
-				relativePath.startsWith('js') ||
-				(!relativePath.endsWith('png') &&
-					!relativePath.endsWith('ico')) ||
-				relativePath === 'app.js'
+				!relativePath.endsWith('png') &&
+				!relativePath.endsWith('ico')
 			) {
 				continue;
 			}

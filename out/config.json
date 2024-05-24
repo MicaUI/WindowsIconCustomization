@@ -144,11 +144,19 @@
     "name": "xcodeproj"
   },
   {
+<<<<<<< Updated upstream
     "path": "Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png",
     "name": "Xcodworkspace"
   },
   {
     "path": "Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
+=======
+    "path": "asset\\1716458856474.png",
+    "name": "1716458856474"
+  },
+  {
+    "path": "Autodesk\\3Ds\\3Ds.png",
+>>>>>>> Stashed changes
     "name": "3Ds"
   },
   {

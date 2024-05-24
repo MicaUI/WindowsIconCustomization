@@ -15,6 +15,11 @@ const doms = {
 	 */
 	content: document.querySelector('.mainContent .content'),
 };
+<<<<<<< Updated upstream
+=======
+
+console.log(doms);
+>>>>>>> Stashed changes
 let inputHasFocus = false;
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
@@ -25,11 +30,15 @@ doms.searchInput.addEventListener('focusout', (e) => {
 	doms.leftNav.classList.remove('show');
 });
 
+<<<<<<< Updated upstream
 const parseData = () => {
 	console.log(config);
 };
 parseData();
 const createIconItemElement = () => {
+=======
+const createHomeElement = () => {
+>>>>>>> Stashed changes
 	data.home.forEach((h) => {
 		const iconItem = document.createElement('div');
 		iconItem.innerHTML = `<div class="iconItem">
@@ -40,6 +49,7 @@ const createIconItemElement = () => {
 		});
 		doms.content.appendChild(iconItem);
 	});
+<<<<<<< Updated upstream
 	doms.content.classList.remove('showIconWrap');
 	doms.content.classList.add('showIconItem');
 };
@@ -138,3 +148,7 @@ createIconWrapElement('app');
     </div>
 </div> */
 }
+=======
+};
+createHomeElement();
+>>>>>>> Stashed changes
