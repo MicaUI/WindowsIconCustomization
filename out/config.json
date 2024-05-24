@@ -1,687 +1,639 @@
 [
   {
-    "path": "Adobe\\ai\\illustrator2.ico",
-    "name": "illustrator2"
-  },
-  {
-    "path": "Adobe\\Illustrator\\AI.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\AI.png",
     "name": "AI"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai6128w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai6128w.png",
     "name": "Ai6128w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai616w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai616w.png",
     "name": "Ai616w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai620w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai620w.png",
     "name": "Ai620w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai6256w.ico",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai6256w.ico",
     "name": "Ai6256w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai6256w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai6256w.png",
     "name": "Ai6256w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai632w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai632w.png",
     "name": "Ai632w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai640w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai640w.png",
     "name": "Ai640w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai648w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai648w.png",
     "name": "Ai648w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai660w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai660w.png",
     "name": "Ai660w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai664w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai664w.png",
     "name": "Ai664w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai672w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai672w.png",
     "name": "Ai672w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai680w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai680w.png",
     "name": "Ai680w"
   },
   {
-    "path": "Adobe\\Illustrator\\Ai696w.png",
+    "path": "Adobe\\Illustrator\\AppIcon\\Ai696w.png",
     "name": "Ai696w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps4.ico",
+    "path": "Adobe\\Illustrator\\FileTypeIcon\\ai.ico",
+    "name": "ai"
+  },
+  {
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps4.ico",
     "name": "Ps4"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps4.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps4.png",
     "name": "Ps4"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps416w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps416w.png",
     "name": "Ps416w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps420w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps420w.png",
     "name": "Ps420w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps4256.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps4256.png",
     "name": "Ps4256"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps432w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps432w.png",
     "name": "Ps432w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps440w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps440w.png",
     "name": "Ps440w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps448w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps448w.png",
     "name": "Ps448w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps460w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps460w.png",
     "name": "Ps460w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps464w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps464w.png",
     "name": "Ps464w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps472w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps472w.png",
     "name": "Ps472w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps480w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps480w.png",
     "name": "Ps480w"
   },
   {
-    "path": "Adobe\\Photoshop\\Ps496w.png",
+    "path": "Adobe\\Photoshop\\AppIcon\\Ps496w.png",
     "name": "Ps496w"
   },
   {
-    "path": "Adobe\\psd\\Photoshop2.ico",
-    "name": "Photoshop2"
+    "path": "Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
+    "name": "psb"
   },
   {
-    "path": "Adobe\\psd\\Photoshop3.ico",
-    "name": "Photoshop3"
+    "path": "Adobe\\Photoshop\\FileTypeIcon\\psd.ico",
+    "name": "psd"
   },
   {
-    "path": "apk\\apk.ico",
-    "name": "apk"
+    "path": "Apple\\macOS\\FileTyepIcon\\dmg.ico",
+    "name": "dmg"
   },
   {
-    "path": "apk\\apk.png",
-    "name": "apk"
+    "path": "Apple\\macOS\\FileTyepIcon\\pkg.png",
+    "name": "pkg"
   },
   {
-    "path": "apk\\apk2.ico",
-    "name": "apk2"
+    "path": "Apple\\Xcode\\FileTypeIcon\\sdef.png",
+    "name": "sdef"
   },
   {
-    "path": "apk\\apk2.png",
-    "name": "apk2"
+    "path": "Apple\\Xcode\\FileTypeIcon\\storyboard.png",
+    "name": "storyboard"
   },
   {
-    "path": "appxmanifast\\appxmanifast.ico",
-    "name": "appxmanifast"
+    "path": "Apple\\Xcode\\FileTypeIcon\\Xcodearchive.png",
+    "name": "Xcodearchive"
   },
   {
-    "path": "appxmanifast\\appxmanifast.png",
-    "name": "appxmanifast"
+    "path": "Apple\\Xcode\\FileTypeIcon\\xcodeproj.png",
+    "name": "xcodeproj"
   },
   {
-    "path": "Autodesk\\3Ds\\3Ds.png",
+    "path": "Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png",
+    "name": "Xcodworkspace"
+  },
+  {
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
     "name": "3Ds"
   },
   {
-    "path": "Autodesk\\3Ds\\ant.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\ant.png",
     "name": "ant"
   },
   {
-    "path": "Autodesk\\3Ds\\bip.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\bip.png",
     "name": "bip"
   },
   {
-    "path": "Autodesk\\3Ds\\bpr.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\bpr.png",
     "name": "bpr"
   },
   {
-    "path": "Autodesk\\3Ds\\bprx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\bprx.png",
     "name": "bprx"
   },
   {
-    "path": "Autodesk\\3Ds\\cal.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cal.png",
     "name": "cal"
   },
   {
-    "path": "Autodesk\\3Ds\\cam.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cam.png",
     "name": "cam"
   },
   {
-    "path": "Autodesk\\3Ds\\cfx-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx-1.png",
     "name": "cfx-1"
   },
   {
-    "path": "Autodesk\\3Ds\\cfx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx.png",
     "name": "cfx"
   },
   {
-    "path": "Autodesk\\3Ds\\chr.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\chr.png",
     "name": "chr"
   },
   {
-    "path": "Autodesk\\3Ds\\clp.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\clp.png",
     "name": "clp"
   },
   {
-    "path": "Autodesk\\3Ds\\clr.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\clr.png",
     "name": "clr"
   },
   {
-    "path": "Autodesk\\3Ds\\clrx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\clrx.png",
     "name": "clrx"
   },
   {
-    "path": "Autodesk\\3Ds\\cpy.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cpy.png",
     "name": "cpy"
   },
   {
-    "path": "Autodesk\\3Ds\\csm.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\csm.png",
     "name": "csm"
   },
   {
-    "path": "Autodesk\\3Ds\\cui.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cui.png",
     "name": "cui"
   },
   {
-    "path": "Autodesk\\3Ds\\cuix.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\cuix.png",
     "name": "cuix"
   },
   {
-    "path": "Autodesk\\3Ds\\ds.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\ds.png",
     "name": "ds"
   },
   {
-    "path": "Autodesk\\3Ds\\dxf.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\dxf.png",
     "name": "dxf"
   },
   {
-    "path": "Autodesk\\3Ds\\eny.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\eny.png",
     "name": "eny"
   },
   {
-    "path": "Autodesk\\3Ds\\fgm-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm-1.png",
     "name": "fgm-1"
   },
   {
-    "path": "Autodesk\\3Ds\\fgm.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm.png",
     "name": "fgm"
   },
   {
-    "path": "Autodesk\\3Ds\\fig.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\fig.png",
     "name": "fig"
   },
   {
-    "path": "Autodesk\\3Ds\\ifl.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\ifl.png",
     "name": "ifl"
   },
   {
-    "path": "Autodesk\\3Ds\\kbd.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\kbd.png",
     "name": "kbd"
   },
   {
-    "path": "Autodesk\\3Ds\\kbdx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\kbdx.png",
     "name": "kbdx"
   },
   {
-    "path": "Autodesk\\3Ds\\mat.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mat.png",
     "name": "mat"
   },
   {
-    "path": "Autodesk\\3Ds\\max-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\max-1.png",
     "name": "max-1"
   },
   {
-    "path": "Autodesk\\3Ds\\max.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\max.png",
     "name": "max"
   },
   {
-    "path": "Autodesk\\3Ds\\maxc-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc-1.png",
     "name": "maxc-1"
   },
   {
-    "path": "Autodesk\\3Ds\\maxc.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc.png",
     "name": "maxc"
   },
   {
-    "path": "Autodesk\\3Ds\\maxt-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt-1.png",
     "name": "maxt-1"
   },
   {
-    "path": "Autodesk\\3Ds\\maxt.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt.png",
     "name": "maxt"
   },
   {
-    "path": "Autodesk\\3Ds\\mcg-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg-1.png",
     "name": "mcg-1"
   },
   {
-    "path": "Autodesk\\3Ds\\mcg.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg.png",
     "name": "mcg"
   },
   {
-    "path": "Autodesk\\3Ds\\mcr-1.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr-1.png",
     "name": "mcr-1"
   },
   {
-    "path": "Autodesk\\3Ds\\mcr.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr.png",
     "name": "mcr"
   },
   {
-    "path": "Autodesk\\3Ds\\mfe.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mfe.png",
     "name": "mfe"
   },
   {
-    "path": "Autodesk\\3Ds\\mi.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mi.png",
     "name": "mi"
   },
   {
-    "path": "Autodesk\\3Ds\\mix.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mix.png",
     "name": "mix"
   },
   {
-    "path": "Autodesk\\3Ds\\mnm.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mnm.png",
     "name": "mnm"
   },
   {
-    "path": "Autodesk\\3Ds\\mnu.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mnu.png",
     "name": "mnu"
   },
   {
-    "path": "Autodesk\\3Ds\\mnux.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mnux.png",
     "name": "mnux"
   },
   {
-    "path": "Autodesk\\3Ds\\moc.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\moc.png",
     "name": "moc"
   },
   {
-    "path": "Autodesk\\3Ds\\ms.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\ms.png",
     "name": "ms"
   },
   {
-    "path": "Autodesk\\3Ds\\mse.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mse.png",
     "name": "mse"
   },
   {
-    "path": "Autodesk\\3Ds\\mus.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mus.png",
     "name": "mus"
   },
   {
-    "path": "Autodesk\\3Ds\\musx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\musx.png",
     "name": "musx"
   },
   {
-    "path": "Autodesk\\3Ds\\mxp.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mxp.png",
     "name": "mxp"
   },
   {
-    "path": "Autodesk\\3Ds\\mzp.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\mzp.png",
     "name": "mzp"
   },
   {
-    "path": "Autodesk\\3Ds\\pc2.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\pc2.png",
     "name": "pc2"
   },
   {
-    "path": "Autodesk\\3Ds\\pfc.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\pfc.png",
     "name": "pfc"
   },
   {
-    "path": "Autodesk\\3Ds\\phy.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\phy.png",
     "name": "phy"
   },
   {
-    "path": "Autodesk\\3Ds\\pmap.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\pmap.png",
     "name": "pmap"
   },
   {
-    "path": "Autodesk\\3Ds\\prj.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\prj.png",
     "name": "prj"
   },
   {
-    "path": "Autodesk\\3Ds\\pse.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\pse.png",
     "name": "pse"
   },
   {
-    "path": "Autodesk\\3Ds\\qop.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\qop.png",
     "name": "qop"
   },
   {
-    "path": "Autodesk\\3Ds\\rcs.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\rcs.png",
     "name": "rcs"
   },
   {
-    "path": "Autodesk\\3Ds\\rg3.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\rg3.png",
     "name": "rg3"
   },
   {
-    "path": "Autodesk\\3Ds\\rps.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\rps.png",
     "name": "rps"
   },
   {
-    "path": "Autodesk\\3Ds\\shp.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\shp.png",
     "name": "shp"
   },
   {
-    "path": "Autodesk\\3Ds\\stat.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\stat.png",
     "name": "stat"
   },
   {
-    "path": "Autodesk\\3Ds\\stp.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\stp.png",
     "name": "stp"
   },
   {
-    "path": "Autodesk\\3Ds\\ui.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\ui.png",
     "name": "ui"
   },
   {
-    "path": "Autodesk\\3Ds\\vpx.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\vpx.png",
     "name": "vpx"
   },
   {
-    "path": "Autodesk\\3Ds\\xaf.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\xaf.png",
     "name": "xaf"
   },
   {
-    "path": "Autodesk\\3Ds\\xmm.png",
+    "path": "Autodesk\\3Ds\\FileTypeIcon\\xmm.png",
     "name": "xmm"
   },
   {
-    "path": "Autodesk\\Alias\\wire_1.png",
+    "path": "Autodesk\\Alias\\FileTypeIcon\\wire_1.png",
     "name": "wire_1"
   },
   {
-    "path": "Autodesk\\Alias\\Wire_2.png",
+    "path": "Autodesk\\Alias\\FileTypeIcon\\Wire_2.png",
     "name": "Wire_2"
   },
   {
-    "path": "Autodesk\\Autodesk\\ARX.png",
+    "path": "Autodesk\\AutoCAD\\AppIcon\\CAD.ico",
+    "name": "CAD"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\AppIcon\\CAD.png",
+    "name": "CAD"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ARX.png",
     "name": "ARX"
   },
   {
-    "path": "Autodesk\\Autodesk\\ctb.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ctb.png",
     "name": "ctb"
   },
   {
-    "path": "Autodesk\\Autodesk\\DBX.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\DBX.png",
     "name": "DBX"
   },
   {
-    "path": "Autodesk\\Autodesk\\dgn.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dgn.png",
     "name": "dgn"
   },
   {
-    "path": "Autodesk\\Autodesk\\dwg.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.ico",
     "name": "dwg"
   },
   {
-    "path": "Autodesk\\Autodesk\\HDI.png",
-    "name": "HDI"
-  },
-  {
-    "path": "Autodesk\\Autodesk\\LSP.png",
-    "name": "LSP"
-  },
-  {
-    "path": "Autodesk\\Autodesk\\PC3.png",
-    "name": "PC3"
-  },
-  {
-    "path": "Autodesk\\Autodesk\\pmp.png",
-    "name": "pmp"
-  },
-  {
-    "path": "Autodesk\\Autodesk\\SHX.png",
-    "name": "SHX"
-  },
-  {
-    "path": "Autodesk\\Autodesk\\stb.png",
-    "name": "stb"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\CAD.ico",
-    "name": "CAD"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\CAD.png",
-    "name": "CAD"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\figma file typc.png",
-    "name": "figma file typc"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\figma.ico",
-    "name": "figma"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\glsl.ico",
-    "name": "glsl"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\glsl.png",
-    "name": "glsl"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\hlsl.ico",
-    "name": "hlsl"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\hlsl.png",
-    "name": "hlsl"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\html.ico",
-    "name": "html"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\html.png",
-    "name": "html"
-  },
-  {
-    "path": "Autodesk\\Autodesk CAD\\Keyshot Package.ico",
-    "name": "Keyshot Package"
-  },
-  {
-    "path": "Autodesk\\CFD\\cfd-1.png",
-    "name": "cfd-1"
-  },
-  {
-    "path": "Autodesk\\CFD\\cfd.png",
-    "name": "cfd"
-  },
-  {
-    "path": "Autodesk\\CFD\\cfdpk.png",
-    "name": "cfdpk"
-  },
-  {
-    "path": "Autodesk\\CFD\\cfz.png",
-    "name": "cfz"
-  },
-  {
-    "path": "Autodesk\\CFD\\tpl.png",
-    "name": "tpl"
-  },
-  {
-    "path": "Autodesk\\CFD\\vtfx.png",
-    "name": "vtfx"
-  },
-  {
-    "path": "Autodesk\\dwg\\dwg.ico",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.png",
     "name": "dwg"
   },
   {
-    "path": "Autodesk\\dwg\\dwg.png",
-    "name": "dwg"
-  },
-  {
-    "path": "Autodesk\\dwg\\dwg@0.5x.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@0.5x.png",
     "name": "dwg@0"
   },
   {
-    "path": "Autodesk\\dwg\\dwg@16w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@16w.png",
     "name": "dwg@16w"
   },
   {
-    "path": "Autodesk\\dwg\\dwg@20w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@20w.png",
     "name": "dwg@20w"
   },
   {
-    "path": "Autodesk\\dwg\\dwg@32w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@32w.png",
     "name": "dwg@32w"
   },
   {
-    "path": "Autodesk\\dwg\\dwg@40w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@40w.png",
     "name": "dwg@40w"
   },
   {
-    "path": "Autodesk\\dwg\\dwg@64w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@64w.png",
     "name": "dwg@64w"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak.ico",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.ico",
     "name": "dwgbak"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.png",
     "name": "dwgbak"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@0.5x.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@0.5x.png",
     "name": "dwgbak@0"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@16w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@16w.png",
     "name": "dwgbak@16w"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@20w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@20w.png",
     "name": "dwgbak@20w"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@32w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@32w.png",
     "name": "dwgbak@32w"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@40w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@40w.png",
     "name": "dwgbak@40w"
   },
   {
-    "path": "Autodesk\\dwg\\dwgbak@64w.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@64w.png",
     "name": "dwgbak@64w"
   },
   {
-    "path": "Autodesk\\FromIt\\axm.png",
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\HDI.png",
+    "name": "HDI"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\LSP.png",
+    "name": "LSP"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\PC3.png",
+    "name": "PC3"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\pmp.png",
+    "name": "pmp"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\SHX.png",
+    "name": "SHX"
+  },
+  {
+    "path": "Autodesk\\AutoCAD\\FileTypeIcon\\stb.png",
+    "name": "stb"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\cfd-1.png",
+    "name": "cfd-1"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\cfd.png",
+    "name": "cfd"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\cfdpk.png",
+    "name": "cfdpk"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\cfz.png",
+    "name": "cfz"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\tpl.png",
+    "name": "tpl"
+  },
+  {
+    "path": "Autodesk\\CFD\\FileTypeIcon\\vtfx.png",
+    "name": "vtfx"
+  },
+  {
+    "path": "Autodesk\\FromIt\\FileTypeIcon\\axm.png",
     "name": "axm"
   },
   {
-    "path": "Autodesk\\FromIt\\axm_2.png",
+    "path": "Autodesk\\FromIt\\FileTypeIcon\\axm_2.png",
     "name": "axm_2"
   },
   {
-    "path": "Autodesk\\Fusion360\\f3d_1.png",
+    "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_1.png",
     "name": "f3d_1"
   },
   {
-    "path": "Autodesk\\Fusion360\\f3d_2.png",
+    "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_2.png",
     "name": "f3d_2"
   },
   {
-    "path": "Autodesk\\Inventor\\idw.png",
+    "path": "Autodesk\\Inventor\\FileTypeIcon\\idw.png",
     "name": "idw"
   },
   {
-    "path": "Autodesk\\Inventor\\ipn.png",
+    "path": "Autodesk\\Inventor\\FileTypeIcon\\ipn.png",
     "name": "ipn"
   },
   {
-    "path": "Autodesk\\Inventor\\ipt-1.png",
+    "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt-1.png",
     "name": "ipt-1"
   },
   {
-    "path": "Autodesk\\Inventor\\ipt.png",
+    "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt.png",
     "name": "ipt"
   },
   {
-    "path": "Autodesk\\Revil\\RFA.png",
+    "path": "Autodesk\\Revit\\FileTypeIcon\\RFA.png",
     "name": "RFA"
   },
   {
-    "path": "Autodesk\\Revil\\RFT.png",
+    "path": "Autodesk\\Revit\\FileTypeIcon\\RFT.png",
     "name": "RFT"
   },
   {
-    "path": "Autodesk\\Revil\\RTE.png",
+    "path": "Autodesk\\Revit\\FileTypeIcon\\RTE.png",
     "name": "RTE"
   },
   {
-    "path": "Autodesk\\Revil\\RVT.png",
+    "path": "Autodesk\\Revit\\FileTypeIcon\\RVT.png",
     "name": "RVT"
   },
   {
-    "path": "Autodesk\\Revil\\RVT_2.png",
+    "path": "Autodesk\\Revit\\FileTypeIcon\\RVT_2.png",
     "name": "RVT_2"
   },
   {
-    "path": "bat\\bat.ico",
-    "name": "bat"
-  },
-  {
-    "path": "bat\\bat.png",
-    "name": "bat"
-  },
-  {
-    "path": "blend\\Blende1.ico",
+    "path": "Blender\\FileTypeIcon\\blend\\Blende1.ico",
     "name": "Blende1"
   },
   {
-    "path": "blend\\Blende1.png",
+    "path": "Blender\\FileTypeIcon\\blend\\Blende1.png",
     "name": "Blende1"
   },
   {
-    "path": "blend\\Blender.ico",
+    "path": "Blender\\FileTypeIcon\\blend\\Blender.ico",
     "name": "Blender"
   },
   {
-    "path": "blend\\Blender.png",
+    "path": "Blender\\FileTypeIcon\\blend\\Blender.png",
     "name": "Blender"
   },
   {
-    "path": "dmg\\dmgFileType_ConfigurationFile_256.ico",
-    "name": "dmgFileType_ConfigurationFile_256"
-  },
-  {
-    "path": "fig\\figma file typc.ico",
-    "name": "figma file typc"
-  },
-  {
-    "path": "Figma\\figma.ico",
+    "path": "Figma\\Figma\\AppIcon\\figma.ico",
     "name": "figma"
+  },
+  {
+    "path": "Figma\\Figma\\FileTypeIcon\\fig.ico",
+    "name": "fig"
   },
   {
     "path": "folders\\blue grey\\blue grey.png",
@@ -1500,139 +1452,183 @@
     "name": "yellow grey_Windows"
   },
   {
-    "path": "glsl\\glsl.ico",
-    "name": "glsl"
+    "path": "Google\\FileTypeIcon\\apk\\apk.ico",
+    "name": "apk"
   },
   {
-    "path": "glsl\\glsl.png",
-    "name": "glsl"
+    "path": "Google\\FileTypeIcon\\apk\\apk.png",
+    "name": "apk"
   },
   {
-    "path": "hip\\houdini file type.ico",
+    "path": "Google\\FileTypeIcon\\apk\\apk2.ico",
+    "name": "apk2"
+  },
+  {
+    "path": "Google\\FileTypeIcon\\apk\\apk2.png",
+    "name": "apk2"
+  },
+  {
+    "path": "Houdini\\Houdini\\FileTypeIcon\\houdini file type.ico",
     "name": "houdini file type"
   },
   {
-    "path": "hlsl\\hlsl.ico",
-    "name": "hlsl"
-  },
-  {
-    "path": "hlsl\\hlsl.png",
-    "name": "hlsl"
-  },
-  {
-    "path": "html\\html.ico",
-    "name": "html"
-  },
-  {
-    "path": "html\\html.png",
-    "name": "html"
-  },
-  {
-    "path": "icc\\icc.png",
-    "name": "icc"
-  },
-  {
-    "path": "icc\\icm.png",
-    "name": "icm"
-  },
-  {
-    "path": "ini\\ini.ico",
-    "name": "ini"
-  },
-  {
-    "path": "ini\\ini.png",
-    "name": "ini"
-  },
-  {
-    "path": "ksp\\Keyshot Package.ico",
+    "path": "Luxion\\Keyshot\\FileTypeIcon\\ksp\\Keyshot Package.ico",
     "name": "Keyshot Package"
   },
   {
-    "path": "ksp\\Keyshot Package.png",
+    "path": "Luxion\\Keyshot\\FileTypeIcon\\ksp\\Keyshot Package.png",
     "name": "Keyshot Package"
   },
   {
-    "path": "msstyle\\msstyle.ico",
-    "name": "msstyle"
-  },
-  {
-    "path": "msstyle\\msstyle.png",
-    "name": "msstyle"
-  },
-  {
-    "path": "QQ\\tencent-qq.ico",
-    "name": "tencent-qq"
-  },
-  {
-    "path": "Rhino\\3dm\\rhino 3dm.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino 3dm.png",
     "name": "rhino 3dm"
   },
   {
-    "path": "Rhino\\3dm\\rhino 3dm2.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino 3dm2.png",
     "name": "rhino 3dm2"
   },
   {
-    "path": "Rhino\\3dm\\rhino3dm.ico",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino3dm.ico",
     "name": "rhino3dm"
   },
   {
-    "path": "Rhino\\3dmbak\\3dmbak.ico",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\3dmbak\\3dmbak.ico",
     "name": "3dmbak"
   },
   {
-    "path": "Rhino\\3dmbak\\3dmbak.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\3dmbak\\3dmbak.png",
     "name": "3dmbak"
   },
   {
-    "path": "Rhino\\gh\\rhino gh.ico",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh.ico",
     "name": "rhino gh"
   },
   {
-    "path": "Rhino\\gh\\rhino gh.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh.png",
     "name": "rhino gh"
   },
   {
-    "path": "Rhino\\gh\\rhino gh2.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh2.png",
     "name": "rhino gh2"
   },
   {
-    "path": "Rhino\\gha\\rhino gha2.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gha\\rhino gha2.png",
     "name": "rhino gha2"
   },
   {
-    "path": "Rhino\\gha\\rhino ghr.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gha\\rhino ghr.png",
     "name": "rhino ghr"
   },
   {
-    "path": "Rhino\\gha\\rhinogha.ico",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\gha\\rhinogha.ico",
     "name": "rhinogha"
   },
   {
-    "path": "Rhino\\rhi\\rhi.ico",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\rhi\\rhi.ico",
     "name": "rhi"
   },
   {
-    "path": "Rhino\\rhi\\rhi.png",
+    "path": "McNeel\\Rhino\\FileTyepIcon\\rhi\\rhi.png",
     "name": "rhi"
   },
   {
-    "path": "svg\\svg.ico",
-    "name": "svg"
+    "path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast\\appxmanifast.ico",
+    "name": "appxmanifast"
   },
   {
-    "path": "svg\\svg.png",
-    "name": "svg"
+    "path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast\\appxmanifast.png",
+    "name": "appxmanifast"
   },
   {
-    "path": "unitypackage\\Unity Package.ico",
-    "name": "Unity Package"
-  },
-  {
-    "path": "xaml\\xaml.ico",
+    "path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml\\xaml.ico",
     "name": "xaml"
   },
   {
-    "path": "xaml\\xaml.png",
+    "path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml\\xaml.png",
     "name": "xaml"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\bat\\bat.ico",
+    "name": "bat"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\bat\\bat.png",
+    "name": "bat"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\glsl\\glsl.ico",
+    "name": "glsl"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\glsl\\glsl.png",
+    "name": "glsl"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\hlsl\\hlsl.ico",
+    "name": "hlsl"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\hlsl\\hlsl.png",
+    "name": "hlsl"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\html\\html.ico",
+    "name": "html"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\html\\html.png",
+    "name": "html"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\icc\\icc.png",
+    "name": "icc"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\icc\\icm.png",
+    "name": "icm"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\ini\\ini.ico",
+    "name": "ini"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\ini\\ini.png",
+    "name": "ini"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\msstyle\\msstyle.ico",
+    "name": "msstyle"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\msstyle\\msstyle.png",
+    "name": "msstyle"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\svg\\svg.ico",
+    "name": "svg"
+  },
+  {
+    "path": "Microsoft\\Windows\\FileTypeIcon\\svg\\svg.png",
+    "name": "svg"
+  },
+  {
+    "path": "QuickLook\\QuickLook\\FileTypeIcon\\qlplugin\\QLPlugin.ico",
+    "name": "QLPlugin"
+  },
+  {
+    "path": "QuickLook\\QuickLook\\FileTypeIcon\\qlplugin\\QLPlugin.png",
+    "name": "QLPlugin"
+  },
+  {
+    "path": "Tencent\\QQ\\tencent-qq.ico",
+    "name": "tencent-qq"
+  },
+  {
+    "path": "Unity\\Unity\\FileTypeIcon\\unitypackage.ico",
+    "name": "unitypackage"
+  },
+  {
+    "path": "web\\asset\\1716458856474.png",
+    "name": "1716458856474"
   }
 ]
