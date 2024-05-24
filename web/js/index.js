@@ -24,11 +24,19 @@ doms.searchInput.addEventListener('focusout', (e) => {
 	inputHasFocus = false;
 	doms.leftNav.classList.remove('show');
 });
-
+const getData = () => {};
+console.log(1);
+document.addEventListener('DOMContentLoaded', function () {
+	$.getJSON('../../config.json', function (config) {
+		//data 代表读取到的json中的数据
+		console.log(config);
+	});
+});
 const parseData = () => {
 	console.log(config);
 };
 parseData();
+
 const createIconItemElement = () => {
 	data.home.forEach((h) => {
 		const iconItem = document.createElement('div');
