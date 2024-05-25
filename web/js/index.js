@@ -3,9 +3,17 @@
  * @type {Array} iconData - iconData
  */
 let iconData;
+let folders;
+let file;
+let appData;
 let lastData;
+let allIconItemData;
+let allFolderIconItemData;
+let allFileIconItemData;
 let type;
-function convertConfigToData(config) {
+let curPage = 'home';
+let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'app'];
+const convertConfigToIconData = (config) => {
 	const data = [];
 
 	for (const company in config) {
@@ -46,20 +54,191 @@ function convertConfigToData(config) {
 	}
 
 	return data;
-}
+};
+const convertFoldersToFoldersData = (folders) => {
+	const data = [];
+
+	for (const folder in folders) {
+		let fileList = folders[folder]._files;
+
+		const folderData = [];
+
+		fileList.forEach((file) => {
+			const fileData = {
+				pic: file.path,
+				tip: file.name,
+				url: '#',
+				name: file.name,
+			};
+			folderData.push(fileData);
+		});
+
+		data.push({
+			[folder]: folderData,
+		});
+	}
+
+	return data;
+};
+const convertConfigToFileData = (config) => {
+	const data = [];
+
+	for (const company in config) {
+		if (company === 'folders') {
+			continue;
+		}
+		const apps = [];
+
+		for (const app in config[company]) {
+			let fileList;
+			if (config[company][app].FileTypeIcon) {
+				if (config[company][app].FileTypeIcon._files)
+					fileList = config[company][app].FileTypeIcon._files;
+			} else {
+				continue;
+			}
+			const appData = [];
+
+			fileList.forEach((file) => {
+				const fileData = {
+					pic: file.path,
+					tip: file.name,
+					url: '#',
+					name: file.name,
+				};
+				appData.push(fileData);
+			});
+
+			apps.push({
+				[app]: appData,
+			});
+		}
+
+		data.push({
+			[company]: apps,
+		});
+	}
+
+	return data;
+};
+const convertConfigToAppData = (config) => {
+	const data = [];
+
+	for (const company in config) {
+		if (company === 'folders') {
+			continue;
+		}
+		const apps = [];
+
+		for (const app in config[company]) {
+			let fileList;
+			if (config[company][app].FileTypeIcon) {
+				if (config[company][app].FileTypeIcon._files)
+					fileList = config[company][app].FileTypeIcon._files;
+			} else {
+				if (config[company][app].AppIcon._files)
+					fileList = config[company][app].AppIcon._files;
+			}
+			const appData = [];
+
+			fileList.forEach((file) => {
+				const fileData = {
+					pic: file.path,
+					tip: file.name,
+					url: '#',
+					name: file.name,
+				};
+				appData.push(fileData);
+			});
+
+			apps.push({
+				[app]: appData,
+			});
+		}
+
+		data.push(...apps);
+	}
+
+	return data;
+};
 document.addEventListener('DOMContentLoaded', function () {
 	$.getJSON('../../config.json', function (_config) {
 		//data 代表读取到的json中的数据
-		iconData = convertConfigToData(_config);
+		iconData = convertConfigToIconData(_config);
+		folders = convertFoldersToFoldersData(_config['folders']);
+		file = convertConfigToFileData(_config);
+		appData = convertConfigToAppData(_config);
+		allIconItemData = extractData(iconData, true);
+		allFolderIconItemData = extractData(folders, true);
+		allFileIconItemData = extractData(file, true);
+		allIconItemData.push(...allFolderIconItemData);
 		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
 		doms.sum.style.opacity = 1;
-		createIconWrapElement(iconData);
+		// createIconWrapElement(iconData);
+		createHomePage();
 	});
 });
+let curLeftNavStatus = true;
+const toggleLeftNav = () => {
+	curLeftNavStatus = !curLeftNavStatus;
+	curLeftNavStatus ? showLeftNav() : hideLeftNav();
+};
+const showLeftNav = () => {
+	curLeftNavStatus = true;
+	doms.leftNav.classList.remove('hide');
+	doms.leftNav.classList.remove('show');
+	doms.leftNav.classList.add('show');
+};
+const hideLeftNav = () => {
+	curLeftNavStatus = false;
+	doms.leftNav.classList.remove('hide');
+	doms.leftNav.classList.remove('show');
+	doms.leftNav.classList.add('hide');
+};
 const doms = {
 	/**
+	 * inputIcon
+	 * @type {HTMLSpanElement} inputIcon - inputIcon
+	 */
+	inputIcon: document.querySelector('.inputIcon'),
+	/**
+	 * small
+	 * @type {HTMLInputElement} small - small
+	 */
+	small: document.querySelector('.small'),
+	/**
+	 * control
+	 * @type {HTMLDivElement} control - control
+	 */
+	control: document.querySelector('.control'),
+	/**
+	 * mainHome
+	 * @type {HTMLLIElement} mainHome - mainHome
+	 */
+	mainHome: document.querySelector('.mainHome'),
+	/**
+	 * fileBook
+	 * @type {HTMLLIElement} fileBook - fileBook
+	 */
+	folders: document.querySelector('.folders'),
+	/**
+	 * file
+	 * @type {HTMLLIElement} file - file
+	 */
+	file: document.querySelector('.file'),
+	/**
+	 * company
+	 * @type {HTMLLIElement} company - company
+	 */
+	company: document.querySelector('.company'),
+	/**
+	 * app
+	 * @type {HTMLLIElement} app - app
+	 */
+	app: document.querySelector('.app'),
+	/**
 	 * sum
-	 * @type {HTMLInputElement} sum - sum
+	 * @type {HTMLLIElement} sum - sum
 	 */
 	sum: document.querySelector('.mainContent .sum'),
 	/**
@@ -78,36 +257,62 @@ const doms = {
 	 */
 	content: document.querySelector('.mainContent .content'),
 	/**
-	 * iconWrap
-	 * @type {HTMLDivElement} iconWrap - iconWrap
-	 */
-	iconWrap: document.querySelector('.mainContent .iconWrap'),
-	/**
 	 * back
 	 * @type {HTMLDivElement} back - back
 	 */
 	back: document.querySelector('.mainContent .back'),
 };
 let inputHasFocus = false;
+
+const search = () => {};
+
+doms.inputIcon.addEventListener('click', (e) => {
+	search();
+});
+
+doms.small.addEventListener('click', (e) => {
+	showLeftNav();
+	doms.searchInput.focus();
+});
+
+doms.control.addEventListener('click', (e) => {
+	toggleLeftNav();
+});
+doms.mainHome.addEventListener('click', (e) => {
+	createHomePage();
+});
+doms.folders.addEventListener('click', (e) => {
+	createFoldersPage();
+});
+doms.file.addEventListener('click', (e) => {
+	createFilePage();
+});
+doms.company.addEventListener('click', (e) => {
+	createCompanyPage();
+});
+doms.app.addEventListener('click', (e) => {
+	createAppPage();
+});
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
-	doms.leftNav.classList.add('show');
+	// doms.leftNav.classList.add('show');
 });
 doms.searchInput.addEventListener('focusout', (e) => {
 	inputHasFocus = false;
-	doms.leftNav.classList.remove('show');
+	// doms.leftNav.classList.remove('show');
 });
 
 function extractData(
 	obj,
-	targetType = 'tip',
+	more = false,
 	targetCount = 7,
+	targetType = 'tip',
 	extractedData = []
 ) {
 	// Helper function to recursively traverse the object
 	function traverse(obj) {
 		// Check if the target count has been reached
-		if (extractedData.length === targetCount) {
+		if (extractedData.length === targetCount && !more) {
 			return;
 		}
 
@@ -127,8 +332,11 @@ function extractData(
 
 	// Start traversing the object
 	traverse(obj);
-
-	return extractedData.slice(0, targetCount); // Return only the required number of extracted data
+	if (!more) {
+		return extractedData.slice(0, targetCount); // Return only the required number of extracted data
+	} else {
+		return extractedData;
+	}
 }
 
 function countSpecificTypeObjects(obj, targetType = 'tip') {
@@ -149,6 +357,38 @@ function countSpecificTypeObjects(obj, targetType = 'tip') {
 
 	return count;
 }
+
+const createHomePage = () => {
+	curPage = 'home';
+	createIconItemElement(allIconItemData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(allIconItemData)})`;
+	hideBack();
+};
+const createFoldersPage = () => {
+	curPage = 'folders';
+	createIconItemElement(allFolderIconItemData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(allFolderIconItemData)})`;
+	hideBack();
+};
+const createFilePage = () => {
+	curPage = 'file';
+	createIconItemElement(allFileIconItemData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(allFileIconItemData)})`;
+	hideBack();
+};
+const createCompanyPage = () => {
+	curPage = 'company';
+	createIconWrapElement(iconData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
+	hideBack();
+};
+
+const createAppPage = () => {
+	curPage = 'app';
+	createAppElement(appData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(appData)})`;
+	hideBack();
+};
 const createIconWrapElement = (what) => {
 	doms.content.innerHTML = '';
 	what.forEach((data) => {
@@ -186,10 +426,10 @@ const createIconWrapElement = (what) => {
 				iconWrapContent.insertBefore(bigIcon, smallIconWrap);
 			}
 		}
-		console.log(data);
 		iconWrapContent.addEventListener('click', () => {
 			lastData = what;
 			type = 'wrap';
+			curPage = 'canShowBack';
 			createAppElement(data[companyName]);
 		});
 	});
@@ -199,7 +439,6 @@ const createIconWrapElement = (what) => {
 };
 
 const createAppElement = (data = []) => {
-	console.log(data);
 	doms.content.innerHTML = '';
 	data.forEach((d) => {
 		const companyName = Object.keys(d)[0];
@@ -243,11 +482,14 @@ const createAppElement = (data = []) => {
 		});
 	});
 	showBack();
+	console.log(curPage);
+	if (noShowBackBtnPage.includes(curPage)) {
+		hideBack();
+	}
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
 const createIconItemElement = (data) => {
-	console.log(data);
 	doms.content.innerHTML = '';
 	data.forEach((d) => {
 		const iconItem = document.createElement('div');
@@ -259,6 +501,9 @@ const createIconItemElement = (data) => {
 		doms.content.appendChild(iconItem);
 	});
 	showBack();
+	// if (!noShowBackBtnPage.includes(curPage)) {
+	// showBack();
+	// }
 	doms.content.classList.remove('showIconWrap');
 	doms.content.classList.add('showIconItem');
 };
