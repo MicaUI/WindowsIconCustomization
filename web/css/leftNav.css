@@ -15,6 +15,7 @@
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+    /* transition-delay: 0.02s; */
 }
 
 
@@ -24,13 +25,17 @@
 
     width: var(--leftNavWidth);
     max-width: var(--leftNavWidth);
-    transition-delay: 0.02s;
+    /* transition-delay: 0.2s; */
+    transition-delay: 0s;
+
 }
 
-.home .leftNav:hover {
+.home .leftNav:focus {
     width: var(--leftNavWidth);
     max-width: var(--leftNavWidth);
-    transition-delay: 0.02s;
+    /* transition-delay: 0.2s; */
+    transition-delay: 0s;
+
 }
 
 .home .leftNav.show .logo {
@@ -43,7 +48,7 @@
     -o-transform: scale(4.6);
 }
 
-.home .leftNav:hover .logo {
+.home .leftNav:focus .logo {
     /*width: 200px;
     */
     transform: scale(4.6);
@@ -91,11 +96,11 @@
     opacity: 1;
 }
 
-.home .leftNav:hover .top .search .small {
+.home .leftNav:focus .top .search .small {
     font-size: 0px;
 }
 
-.home .leftNav:hover .top .search .searchBig {
+.home .leftNav:focus .top .search .searchBig {
     opacity: 1;
 }
 
@@ -166,17 +171,17 @@
 }
 
 
-.home .leftNav:hover .label {
+.home .leftNav:focus .label {
     font-size: 14px;
 }
 
-.home .leftNav:hover .title {
+.home .leftNav:focus .title {
     opacity: 1;
     font-size: 16px;
 }
 
 
-.home .leftNav:hover .line {
+.home .leftNav:focus .line {
     width: var(--lineWidth);
     transition-delay: 0s;
 }
@@ -225,19 +230,19 @@
     opacity: 1;
 }
 
-.home .leftNav:hover .bottom {
+.home .leftNav:focus .bottom {
     opacity: 1;
 }
 
-.home .leftNav:hover .bottom .about .navItem>* {
+.home .leftNav:focus .bottom .about .navItem>* {
     opacity: 1;
 }
 
-.home .leftNav:hover .bottom .about .navItem>a {
+.home .leftNav:focus .bottom .about .navItem>a {
     font-size: 16px;
 }
 
-.home .leftNav:hover .bottom .about .navItem .icon {
+.home .leftNav:focus .bottom .about .navItem .icon {
     opacity: 1;
 }
 
