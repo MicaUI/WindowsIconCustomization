@@ -5,14 +5,16 @@
 let iconData;
 let folders;
 let file;
-let appData;
+let app;
+let softwareData;
 let lastData;
 let allIconItemData;
 let allFolderIconItemData;
 let allFileIconItemData;
+let allAppIconItemData;
 let type;
 let curPage = 'home';
-let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'app'];
+let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 const convertConfigToIconData = (config) => {
 	const data = [];
 
@@ -132,6 +134,48 @@ const convertConfigToAppData = (config) => {
 
 		for (const app in config[company]) {
 			let fileList;
+			if (config[company][app].AppIcon) {
+				if (config[company][app].AppIcon._files)
+					fileList = config[company][app].AppIcon._files;
+			} else {
+				continue;
+			}
+			const appData = [];
+
+			fileList.forEach((file) => {
+				const fileData = {
+					pic: file.path,
+					tip: file.name,
+					url: '#',
+					name: file.name,
+				};
+				appData.push(fileData);
+			});
+
+			apps.push({
+				[app]: appData,
+			});
+		}
+		if (apps.length !== 0) {
+			data.push({
+				[company]: apps,
+			});
+		}
+	}
+
+	return data;
+};
+const convertConfigToSoftwareData = (config) => {
+	const data = [];
+
+	for (const company in config) {
+		if (company === 'folders') {
+			continue;
+		}
+		const apps = [];
+
+		for (const app in config[company]) {
+			let fileList;
 			if (config[company][app].FileTypeIcon) {
 				if (config[company][app].FileTypeIcon._files)
 					fileList = config[company][app].FileTypeIcon._files;
@@ -167,10 +211,12 @@ document.addEventListener('DOMContentLoaded', function () {
 		iconData = convertConfigToIconData(_config);
 		folders = convertFoldersToFoldersData(_config['folders']);
 		file = convertConfigToFileData(_config);
-		appData = convertConfigToAppData(_config);
+		app = convertConfigToAppData(_config);
+		softwareData = convertConfigToSoftwareData(_config);
 		allIconItemData = extractData(iconData, true);
 		allFolderIconItemData = extractData(folders, true);
 		allFileIconItemData = extractData(file, true);
+		allAppIconItemData = extractData(app, true);
 		allIconItemData.push(...allFolderIconItemData);
 		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
 		doms.sum.style.opacity = 1;
@@ -217,6 +263,16 @@ const doms = {
 	 */
 	mainHome: document.querySelector('.mainHome'),
 	/**
+	 * app
+	 * @type {HTMLLIElement} app - app
+	 */
+	app: document.querySelector('.app'),
+	/**
+	 * mainHome
+	 * @type {HTMLLIElement} mainHome - mainHome
+	 */
+	mainHome: document.querySelector('.mainHome'),
+	/**
 	 * fileBook
 	 * @type {HTMLLIElement} fileBook - fileBook
 	 */
@@ -232,10 +288,10 @@ const doms = {
 	 */
 	company: document.querySelector('.company'),
 	/**
-	 * app
-	 * @type {HTMLLIElement} app - app
+	 * software
+	 * @type {HTMLLIElement} software - software
 	 */
-	app: document.querySelector('.app'),
+	software: document.querySelector('.software'),
 	/**
 	 * sum
 	 * @type {HTMLLIElement} sum - sum
@@ -287,11 +343,14 @@ doms.folders.addEventListener('click', (e) => {
 doms.file.addEventListener('click', (e) => {
 	createFilePage();
 });
+doms.app.addEventListener('click', (e) => {
+	createAppPage();
+});
 doms.company.addEventListener('click', (e) => {
 	createCompanyPage();
 });
-doms.app.addEventListener('click', (e) => {
-	createAppPage();
+doms.software.addEventListener('click', (e) => {
+	createSoftwarePage();
 });
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
@@ -376,6 +435,12 @@ const createFilePage = () => {
 	doms.sum.innerText = `(${countSpecificTypeObjects(allFileIconItemData)})`;
 	hideBack();
 };
+const createAppPage = () => {
+	curPage = 'app';
+	createIconItemElement(allAppIconItemData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(allAppIconItemData)})`;
+	hideBack();
+};
 const createCompanyPage = () => {
 	curPage = 'company';
 	createIconWrapElement(iconData);
@@ -383,10 +448,10 @@ const createCompanyPage = () => {
 	hideBack();
 };
 
-const createAppPage = () => {
-	curPage = 'app';
-	createAppElement(appData);
-	doms.sum.innerText = `(${countSpecificTypeObjects(appData)})`;
+const createSoftwarePage = () => {
+	curPage = 'software';
+	createAppElement(softwareData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(softwareData)})`;
 	hideBack();
 };
 const createIconWrapElement = (what) => {
@@ -494,7 +559,8 @@ const createIconItemElement = (data) => {
 	data.forEach((d) => {
 		const iconItem = document.createElement('div');
 		iconItem.classList.add('iconItem');
-		iconItem.innerHTML = `<img src="${d.pic}" title="${d.tip}" alt="">`;
+		iconItem.title = d.tip;
+		iconItem.innerHTML = `<img src="${d.pic}" alt="">`;
 		iconItem.addEventListener('click', () => {
 			window.open(d.url);
 		});
