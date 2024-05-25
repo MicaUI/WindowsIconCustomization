@@ -1,5 +1,95 @@
 {
 	"Adobe": {
+		"Au": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Au\\AppIcon\\Au.png",
+					"Adobe\\Au\\AppIcon\\Au16w.png",
+					"Adobe\\Au\\AppIcon\\Au20w.png",
+					"Adobe\\Au\\AppIcon\\Au256.png",
+					"Adobe\\Au\\AppIcon\\Au32w.png",
+					"Adobe\\Au\\AppIcon\\Au40w.png",
+					"Adobe\\Au\\AppIcon\\Au48w.png",
+					"Adobe\\Au\\AppIcon\\Au60w.png",
+					"Adobe\\Au\\AppIcon\\Au64w.png",
+					"Adobe\\Au\\AppIcon\\Au72w.png",
+					"Adobe\\Au\\AppIcon\\Au80w.png",
+					"Adobe\\Au\\AppIcon\\Au96w.png"
+				]
+			}
+		},
+		"Ch": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Ch\\AppIcon\\Ch.png",
+					"Adobe\\Ch\\AppIcon\\Ch16w.png",
+					"Adobe\\Ch\\AppIcon\\Ch20w.png",
+					"Adobe\\Ch\\AppIcon\\Ch256.png",
+					"Adobe\\Ch\\AppIcon\\Ch32w.png",
+					"Adobe\\Ch\\AppIcon\\Ch40w.png",
+					"Adobe\\Ch\\AppIcon\\Ch48w.png",
+					"Adobe\\Ch\\AppIcon\\Ch60w.png",
+					"Adobe\\Ch\\AppIcon\\Ch64w.png",
+					"Adobe\\Ch\\AppIcon\\Ch72w.png",
+					"Adobe\\Ch\\AppIcon\\Ch80w.png",
+					"Adobe\\Ch\\AppIcon\\Ch96w.png"
+				]
+			}
+		},
+		"Fr": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Fr\\AppIcon\\Fr.png",
+					"Adobe\\Fr\\AppIcon\\Fr16w.png",
+					"Adobe\\Fr\\AppIcon\\Fr20w.png",
+					"Adobe\\Fr\\AppIcon\\Fr256.png",
+					"Adobe\\Fr\\AppIcon\\Fr32w.png",
+					"Adobe\\Fr\\AppIcon\\Fr40w.png",
+					"Adobe\\Fr\\AppIcon\\Fr48w.png",
+					"Adobe\\Fr\\AppIcon\\Fr60w.png",
+					"Adobe\\Fr\\AppIcon\\Fr64w.png",
+					"Adobe\\Fr\\AppIcon\\Fr72w.png",
+					"Adobe\\Fr\\AppIcon\\Fr80w.png",
+					"Adobe\\Fr\\AppIcon\\Fr96w.png"
+				]
+			}
+		},
+		"Ic": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Ic\\AppIcon\\IC.png",
+					"Adobe\\Ic\\AppIcon\\IC16w.png",
+					"Adobe\\Ic\\AppIcon\\IC20w.png",
+					"Adobe\\Ic\\AppIcon\\IC256.png",
+					"Adobe\\Ic\\AppIcon\\IC32w.png",
+					"Adobe\\Ic\\AppIcon\\IC40w.png",
+					"Adobe\\Ic\\AppIcon\\IC48w.png",
+					"Adobe\\Ic\\AppIcon\\IC60w.png",
+					"Adobe\\Ic\\AppIcon\\IC64w.png",
+					"Adobe\\Ic\\AppIcon\\IC72w.png",
+					"Adobe\\Ic\\AppIcon\\IC80w.png",
+					"Adobe\\Ic\\AppIcon\\IC96w.png"
+				]
+			}
+		},
+		"Id": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Id\\AppIcon\\ID.png",
+					"Adobe\\Id\\AppIcon\\ID16w.png",
+					"Adobe\\Id\\AppIcon\\ID20w.png",
+					"Adobe\\Id\\AppIcon\\ID256.png",
+					"Adobe\\Id\\AppIcon\\ID32w.png",
+					"Adobe\\Id\\AppIcon\\ID40w.png",
+					"Adobe\\Id\\AppIcon\\ID48w.png",
+					"Adobe\\Id\\AppIcon\\ID60w.png",
+					"Adobe\\Id\\AppIcon\\ID64w.png",
+					"Adobe\\Id\\AppIcon\\ID72w.png",
+					"Adobe\\Id\\AppIcon\\ID80w.png",
+					"Adobe\\Id\\AppIcon\\ID96w.png"
+				]
+			}
+		},
 		"Illustrator": {
 			"AppIcon": {
 				"_files": [
@@ -21,6 +111,24 @@
 			},
 			"FileTypeIcon": {
 				"_files": ["Adobe\\Illustrator\\FileTypeIcon\\ai.ico"]
+			}
+		},
+		"Lr": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Lr\\AppIcon\\Lr.png",
+					"Adobe\\Lr\\AppIcon\\Lr16w.png",
+					"Adobe\\Lr\\AppIcon\\Lr20w.png",
+					"Adobe\\Lr\\AppIcon\\Lr256.png",
+					"Adobe\\Lr\\AppIcon\\Lr32w.png",
+					"Adobe\\Lr\\AppIcon\\Lr40w.png",
+					"Adobe\\Lr\\AppIcon\\Lr48w.png",
+					"Adobe\\Lr\\AppIcon\\Lr60w.png",
+					"Adobe\\Lr\\AppIcon\\Lr64w.png",
+					"Adobe\\Lr\\AppIcon\\Lr72w.png",
+					"Adobe\\Lr\\AppIcon\\Lr80w.png",
+					"Adobe\\Lr\\AppIcon\\Lr96w.png"
+				]
 			}
 		},
 		"Photoshop": {
@@ -45,6 +153,60 @@
 				"_files": [
 					"Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
 					"Adobe\\Photoshop\\FileTypeIcon\\psd.ico"
+				]
+			}
+		},
+		"Pr": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Pr\\AppIcon\\Pr.png",
+					"Adobe\\Pr\\AppIcon\\Pr16w.png",
+					"Adobe\\Pr\\AppIcon\\Pr20w.png",
+					"Adobe\\Pr\\AppIcon\\Pr256.png",
+					"Adobe\\Pr\\AppIcon\\Pr32w.png",
+					"Adobe\\Pr\\AppIcon\\Pr40w.png",
+					"Adobe\\Pr\\AppIcon\\Pr48w.png",
+					"Adobe\\Pr\\AppIcon\\Pr60w.png",
+					"Adobe\\Pr\\AppIcon\\Pr64w.png",
+					"Adobe\\Pr\\AppIcon\\Pr72w.png",
+					"Adobe\\Pr\\AppIcon\\Pr80w.png",
+					"Adobe\\Pr\\AppIcon\\Pr96w.png"
+				]
+			}
+		},
+		"Pt": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Pt\\AppIcon\\Pt.png",
+					"Adobe\\Pt\\AppIcon\\Pt16w.png",
+					"Adobe\\Pt\\AppIcon\\Pt20w.png",
+					"Adobe\\Pt\\AppIcon\\Pt256.png",
+					"Adobe\\Pt\\AppIcon\\Pt32w.png",
+					"Adobe\\Pt\\AppIcon\\Pt40w.png",
+					"Adobe\\Pt\\AppIcon\\Pt48w.png",
+					"Adobe\\Pt\\AppIcon\\Pt60w.png",
+					"Adobe\\Pt\\AppIcon\\Pt64w.png",
+					"Adobe\\Pt\\AppIcon\\Pt72w.png",
+					"Adobe\\Pt\\AppIcon\\Pt80w.png",
+					"Adobe\\Pt\\AppIcon\\Pt96w.png"
+				]
+			}
+		},
+		"Sb": {
+			"AppIcon": {
+				"_files": [
+					"Adobe\\Sb\\AppIcon\\Sb.png",
+					"Adobe\\Sb\\AppIcon\\Sb16w.png",
+					"Adobe\\Sb\\AppIcon\\Sb20w.png",
+					"Adobe\\Sb\\AppIcon\\Sb256.png",
+					"Adobe\\Sb\\AppIcon\\Sb32w.png",
+					"Adobe\\Sb\\AppIcon\\Sb40w.png",
+					"Adobe\\Sb\\AppIcon\\Sb48w.png",
+					"Adobe\\Sb\\AppIcon\\Sb60w.png",
+					"Adobe\\Sb\\AppIcon\\Sb64w.png",
+					"Adobe\\Sb\\AppIcon\\Sb72w.png",
+					"Adobe\\Sb\\AppIcon\\Sb80w.png",
+					"Adobe\\Sb\\AppIcon\\Sb96w.png"
 				]
 			}
 		}
@@ -249,13 +411,13 @@
 		}
 	},
 	"Blender": {
-		"FileTypeIcon": {
-			"blend": {
+		"Blender": {
+			"FileTypeIcon": {
 				"_files": [
-					"Blender\\FileTypeIcon\\blend\\Blende1.ico",
-					"Blender\\FileTypeIcon\\blend\\Blende1.png",
-					"Blender\\FileTypeIcon\\blend\\Blender.ico",
-					"Blender\\FileTypeIcon\\blend\\Blender.png"
+					"Blender\\Blender\\FileTypeIcon\\blend.ico",
+					"Blender\\Blender\\FileTypeIcon\\blend.png",
+					"Blender\\Blender\\FileTypeIcon\\Blend1.ico",
+					"Blender\\Blender\\FileTypeIcon\\Blend1.png"
 				]
 			}
 		}
@@ -550,14 +712,16 @@
 		}
 	},
 	"Google": {
-		"FileTypeIcon": {
-			"apk": {
-				"_files": [
-					"Google\\FileTypeIcon\\apk\\apk.ico",
-					"Google\\FileTypeIcon\\apk\\apk.png",
-					"Google\\FileTypeIcon\\apk\\apk2.ico",
-					"Google\\FileTypeIcon\\apk\\apk2.png"
-				]
+		"Android": {
+			"FileTypeIcon": {
+				"apk": {
+					"_files": [
+						"Google\\Android\\FileTypeIcon\\apk\\apk.ico",
+						"Google\\Android\\FileTypeIcon\\apk\\apk.png",
+						"Google\\Android\\FileTypeIcon\\apk\\apk2.ico",
+						"Google\\Android\\FileTypeIcon\\apk\\apk2.png"
+					]
+				}
 			}
 		}
 	},
@@ -585,57 +749,33 @@
 	"McNeel": {
 		"Rhino": {
 			"FileTyepIcon": {
-				"3dm": {
-					"_files": [
-						"McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino 3dm.png",
-						"McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino 3dm2.png",
-						"McNeel\\Rhino\\FileTyepIcon\\3dm\\rhino3dm.ico"
-					]
-				},
-				"3dmbak": {
-					"_files": [
-						"McNeel\\Rhino\\FileTyepIcon\\3dmbak\\3dmbak.ico",
-						"McNeel\\Rhino\\FileTyepIcon\\3dmbak\\3dmbak.png"
-					]
-				},
-				"gh": {
-					"_files": [
-						"McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh.ico",
-						"McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh.png",
-						"McNeel\\Rhino\\FileTyepIcon\\gh\\rhino gh2.png"
-					]
-				},
-				"gha": {
-					"_files": [
-						"McNeel\\Rhino\\FileTyepIcon\\gha\\rhino gha2.png",
-						"McNeel\\Rhino\\FileTyepIcon\\gha\\rhino ghr.png",
-						"McNeel\\Rhino\\FileTyepIcon\\gha\\rhinogha.ico"
-					]
-				},
-				"rhi": {
-					"_files": [
-						"McNeel\\Rhino\\FileTyepIcon\\rhi\\rhi.ico",
-						"McNeel\\Rhino\\FileTyepIcon\\rhi\\rhi.png"
-					]
-				}
+				"_files": [
+					"McNeel\\Rhino\\FileTyepIcon\\3dm.ico",
+					"McNeel\\Rhino\\FileTyepIcon\\3dm.origin.png",
+					"McNeel\\Rhino\\FileTyepIcon\\3dm.png",
+					"McNeel\\Rhino\\FileTyepIcon\\3dmbak.ico",
+					"McNeel\\Rhino\\FileTyepIcon\\3dmbak.png",
+					"McNeel\\Rhino\\FileTyepIcon\\gh.ico",
+					"McNeel\\Rhino\\FileTyepIcon\\gh.origin.png",
+					"McNeel\\Rhino\\FileTyepIcon\\gh.png",
+					"McNeel\\Rhino\\FileTyepIcon\\gha.ico",
+					"McNeel\\Rhino\\FileTyepIcon\\gha.png",
+					"McNeel\\Rhino\\FileTyepIcon\\ghi.origin.png",
+					"McNeel\\Rhino\\FileTyepIcon\\rhi.ico",
+					"McNeel\\Rhino\\FileTyepIcon\\rhi.png"
+				]
 			}
 		}
 	},
 	"Microsoft": {
 		"Visual Studio": {
 			"FileTypeIcon": {
-				"appxmanifast": {
-					"_files": [
-						"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast\\appxmanifast.ico",
-						"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast\\appxmanifast.png"
-					]
-				},
-				"xaml": {
-					"_files": [
-						"Microsoft\\Visual Studio\\FileTypeIcon\\xaml\\xaml.ico",
-						"Microsoft\\Visual Studio\\FileTypeIcon\\xaml\\xaml.png"
-					]
-				}
+				"_files": [
+					"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.ico",
+					"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.png",
+					"Microsoft\\Visual Studio\\FileTypeIcon\\xaml.ico",
+					"Microsoft\\Visual Studio\\FileTypeIcon\\xaml.png"
+				]
 			}
 		},
 		"Windows": {
@@ -694,18 +834,18 @@
 	"QuickLook": {
 		"QuickLook": {
 			"FileTypeIcon": {
-				"qlplugin": {
-					"_files": [
-						"QuickLook\\QuickLook\\FileTypeIcon\\qlplugin\\QLPlugin.ico",
-						"QuickLook\\QuickLook\\FileTypeIcon\\qlplugin\\QLPlugin.png"
-					]
-				}
+				"_files": [
+					"QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.ico",
+					"QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.png"
+				]
 			}
 		}
 	},
 	"Tencent": {
 		"QQ": {
-			"_files": ["Tencent\\QQ\\tencent-qq.ico"]
+			"AppIcon": {
+				"_files": ["Tencent\\QQ\\AppIcon\\tencent-qq.ico"]
+			}
 		}
 	},
 	"Unity": {
