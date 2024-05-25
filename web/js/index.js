@@ -1,4 +1,67 @@
+/**
+ * iconData
+ * @type {Array} iconData - iconData
+ */
+let iconData;
+let lastData;
+let type;
+function convertConfigToData(config) {
+	const data = [];
+
+	for (const company in config) {
+		if (company === 'folders') {
+			continue;
+		}
+		const apps = [];
+
+		for (const app in config[company]) {
+			let fileList;
+			if (config[company][app].FileTypeIcon) {
+				if (config[company][app].FileTypeIcon._files)
+					fileList = config[company][app].FileTypeIcon._files;
+			} else {
+				if (config[company][app].AppIcon._files)
+					fileList = config[company][app].AppIcon._files;
+			}
+			const appData = [];
+
+			fileList.forEach((file) => {
+				const fileData = {
+					pic: file.path,
+					tip: file.name,
+					url: '#',
+					name: file.name,
+				};
+				appData.push(fileData);
+			});
+
+			apps.push({
+				[app]: appData,
+			});
+		}
+
+		data.push({
+			[company]: apps,
+		});
+	}
+
+	return data;
+}
+document.addEventListener('DOMContentLoaded', function () {
+	$.getJSON('../../config.json', function (_config) {
+		//data 代表读取到的json中的数据
+		iconData = convertConfigToData(_config);
+		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
+		doms.sum.style.opacity = 1;
+		createIconWrapElement(iconData);
+	});
+});
 const doms = {
+	/**
+	 * sum
+	 * @type {HTMLInputElement} sum - sum
+	 */
+	sum: document.querySelector('.mainContent .sum'),
 	/**
 	 * searchInput
 	 * @type {HTMLInputElement} searchInput - searchInput
@@ -14,6 +77,16 @@ const doms = {
 	 * @type {HTMLDivElement} content - content
 	 */
 	content: document.querySelector('.mainContent .content'),
+	/**
+	 * iconWrap
+	 * @type {HTMLDivElement} iconWrap - iconWrap
+	 */
+	iconWrap: document.querySelector('.mainContent .iconWrap'),
+	/**
+	 * back
+	 * @type {HTMLDivElement} back - back
+	 */
+	back: document.querySelector('.mainContent .back'),
 };
 let inputHasFocus = false;
 doms.searchInput.addEventListener('focusin', (e) => {
@@ -24,124 +97,232 @@ doms.searchInput.addEventListener('focusout', (e) => {
 	inputHasFocus = false;
 	doms.leftNav.classList.remove('show');
 });
-const getData = () => {};
-document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON('../../config.json', function (config) {
-		//data 代表读取到的json中的数据
-		console.log(config);
-	});
-});
-const parseData = () => {
-	console.log(config);
-};
-parseData();
 
-const createIconItemElement = () => {
-	data.home.forEach((h) => {
-		const iconItem = document.createElement('div');
-		iconItem.innerHTML = `<div class="iconItem">
-            <img src="${h.pic}" title="${h.tip}" alt="">
-         </div>`;
-		iconItem.addEventListener('click', () => {
-			window.open(h.url);
-		});
-		doms.content.appendChild(iconItem);
-	});
-	doms.content.classList.remove('showIconWrap');
-	doms.content.classList.add('showIconItem');
-};
+function extractData(
+	obj,
+	targetType = 'tip',
+	targetCount = 7,
+	extractedData = []
+) {
+	// Helper function to recursively traverse the object
+	function traverse(obj) {
+		// Check if the target count has been reached
+		if (extractedData.length === targetCount) {
+			return;
+		}
+
+		// Check if the current object is an array
+		if (Array.isArray(obj)) {
+			// If it's an array, traverse each element
+			obj.forEach((element) => traverse(element));
+		} else if (typeof obj === 'object' && obj !== null) {
+			// If it's an object, check if it contains the target type
+			if (obj[targetType]) {
+				extractedData.push(obj);
+			}
+			// Traverse each key-value pair
+			Object.values(obj).forEach((value) => traverse(value));
+		}
+	}
+
+	// Start traversing the object
+	traverse(obj);
+
+	return extractedData.slice(0, targetCount); // Return only the required number of extracted data
+}
+
+function countSpecificTypeObjects(obj, targetType = 'tip') {
+	let count = 0;
+
+	function traverse(obj) {
+		if (Array.isArray(obj)) {
+			obj.forEach((element) => traverse(element));
+		} else if (typeof obj === 'object' && obj !== null) {
+			if (obj[targetType]) {
+				count++;
+			}
+			Object.values(obj).forEach((value) => traverse(value));
+		}
+	}
+
+	traverse(obj);
+
+	return count;
+}
 const createIconWrapElement = (what) => {
-	config[what].forEach((a, i) => {
-		const content = config[what][i][Object.keys(config[what][i])[0]];
-		console.log(content);
+	doms.content.innerHTML = '';
+	what.forEach((data) => {
+		const companyName = Object.keys(data)[0];
+		const allIconNum = countSpecificTypeObjects(data[companyName]);
 		const iconWrap = document.createElement('div');
-		iconWrap.innerHTML = `<div class="iconWrap">
-    <div class="iconWrapContent">
-        <div class="bigIcon" style='display:${content[0] ? 'block' : 'none'}'>
-            <img src="${content[0] ? content[0].pic : ''}" alt="">
-        </div>
-        <div class="bigIcon" style='display:${content[1] ? 'block' : 'none'}'>
-            <img src="${content[1] ? content[1].pic : ''}" alt="">
-        </div>
-        <div class="bigIcon" style='display:${content[2] ? 'block' : 'none'}'>
-            <img src="${content[2] ? content[2].pic : ''}" alt="">
-        </div>
-        <div class="smallIconWrap">
-            <div class="smallIcon" style='display:${
-				content[3] ? 'block' : 'none'
-			}'>
-                <img src="${content[3] ? content[3].pic : ''}" alt="">
-            </div>
-            <div class="smallIcon" style='display:${
-				content[4] ? 'block' : 'none'
-			}'>
-                <img src="${content[4] ? content[4].pic : ''}" alt="">
-            </div>
-            <div class="smallIcon" style='display:${
-				content[5] ? 'block' : 'none'
-			}'>
-                <img src="${content[5] ? content[5].pic : ''}" alt="">
-            </div>
-            <div class="smallIcon" style='display:${
-				content[6] ? 'block' : 'none'
-			}'>
-                <img src="${content[6] ? content[6].pic : ''}" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="bottomInfo">
-        <p class="name">
-            ${Object.keys(config[what][i])[0]}
-        </p>
-        <span class="sum">
-            (${content.length})
-        </span>
-    </div>
-        </div>`;
+		const showIconData = extractData(data[companyName]);
+
+		iconWrap.classList.add('iconWrap');
+		iconWrap.innerHTML = `<div class="iconWrapContent">
+	        <div class="smallIconWrap">
+	        </div>
+	    </div>
+	    <div class="bottomInfo">
+	        <p class="name">
+	            ${companyName}
+	        </p>
+	        <span class="sum">
+	            (${allIconNum})
+	        </span>
+	    </div>`;
 		doms.content.appendChild(iconWrap);
+		const iconWrapContent = iconWrap.querySelector('.iconWrapContent');
+		const smallIconWrap = iconWrap.querySelector('.smallIconWrap');
+		for (let i = 0; i < showIconData.length; i++) {
+			if (i >= 3) {
+				const smallIcon = document.createElement('div');
+				smallIcon.classList.add('smallIcon');
+				smallIcon.innerHTML = `<img src="${showIconData[i].pic}" alt="">`;
+				smallIconWrap.appendChild(smallIcon);
+			} else {
+				const bigIcon = document.createElement('div');
+				bigIcon.classList.add('bigIcon');
+				bigIcon.innerHTML = `<img src="${showIconData[i].pic}" alt="">`;
+				iconWrapContent.insertBefore(bigIcon, smallIconWrap);
+			}
+		}
+		console.log(data);
+		iconWrapContent.addEventListener('click', () => {
+			lastData = what;
+			type = 'wrap';
+			createAppElement(data[companyName]);
+		});
 	});
+	hideBack();
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
 
-// createHomeElement();
+const createAppElement = (data = []) => {
+	console.log(data);
+	doms.content.innerHTML = '';
+	data.forEach((d) => {
+		const companyName = Object.keys(d)[0];
+		const allIconNum = countSpecificTypeObjects(d[companyName]);
+		const iconWrap = document.createElement('div');
+		const showIconData = extractData(d[companyName]);
 
-createIconWrapElement('app');
+		iconWrap.classList.add('iconWrap');
+		iconWrap.innerHTML = `<div class="iconWrapContent">
+	        <div class="smallIconWrap">
+	        </div>
+	    </div>
+	    <div class="bottomInfo">
+	        <p class="name">
+	            ${companyName}
+	        </p>
+	        <span class="sum">
+	            (${allIconNum})
+	        </span>
+	    </div>`;
+		doms.content.appendChild(iconWrap);
+		const iconWrapContent = iconWrap.querySelector('.iconWrapContent');
+		const smallIconWrap = iconWrap.querySelector('.smallIconWrap');
+		for (let i = 0; i < showIconData.length; i++) {
+			if (i >= 3) {
+				const smallIcon = document.createElement('div');
+				smallIcon.classList.add('smallIcon');
+				smallIcon.innerHTML = `<img src="${showIconData[i].pic}" alt="">`;
+				smallIconWrap.appendChild(smallIcon);
+			} else {
+				const bigIcon = document.createElement('div');
+				bigIcon.classList.add('bigIcon');
+				bigIcon.innerHTML = `<img src="${showIconData[i].pic}" alt="">`;
+				iconWrapContent.insertBefore(bigIcon, smallIconWrap);
+			}
+		}
+		iconWrapContent.addEventListener('click', () => {
+			type = 'app';
+			lastData = data;
+			createIconItemElement(d[companyName]);
+		});
+	});
+	showBack();
+	doms.content.classList.remove('showIconItem');
+	doms.content.classList.add('showIconWrap');
+};
+const createIconItemElement = (data) => {
+	console.log(data);
+	doms.content.innerHTML = '';
+	data.forEach((d) => {
+		const iconItem = document.createElement('div');
+		iconItem.classList.add('iconItem');
+		iconItem.innerHTML = `<img src="${d.pic}" title="${d.tip}" alt="">`;
+		iconItem.addEventListener('click', () => {
+			window.open(d.url);
+		});
+		doms.content.appendChild(iconItem);
+	});
+	showBack();
+	doms.content.classList.remove('showIconWrap');
+	doms.content.classList.add('showIconItem');
+};
+// createHomeElement();
+let isBackShow = false;
+const hideBack = () => {
+	doms.back.style.opacity = 0;
+	isBackShow = false;
+};
+const showBack = () => {
+	doms.back.style.opacity = 1;
+	isBackShow = true;
+};
+const back = () => {
+	if (!isBackShow) {
+		return;
+	}
+	switch (type) {
+		case 'wrap': {
+			createIconWrapElement(iconData);
+			break;
+		}
+		case 'app': {
+			createAppElement(lastData);
+		}
+	}
+	type = 'wrap';
+};
+doms.back.addEventListener('click', back);
 
 {
-	/* <div class="iconWrap">
-    <div class="iconWrapContent">
-        <div class="bigIcon">
-            <img src="./asset/1716458856474.png" alt="">
-        </div>
-        <div class="bigIcon">
-            <img src="./asset/1716515782501.png" alt="">
-        </div>
-        <div class="bigIcon">
-            <img src="./asset/1716515799621.png" alt="">
-        </div>
-        <div class="smallIconWrap">
-            <div class="smallIcon">
-                <img src="./asset/1716515811590.png" alt="">
-            </div>
-            <div class="smallIcon">
-                <img src="./asset/1716515811590.png" alt="">
-            </div>
-            <div class="smallIcon">
-                <img src="./asset/1716515811590.png" alt="">
-            </div>
-            <div class="smallIcon">
-                <img src="./asset/1716515811590.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="bottomInfo">
-        <p class="name">
-            xygod
-        </p>
-        <span class="sum">
-            (99)
-        </span>
-    </div>
-</div> */
+	// 	<div class="iconWrap">
+	//     <div class="iconWrapContent">
+	//         <div class="bigIcon">
+	//             <img src="./asset/1716458856474.png" alt="">
+	//         </div>
+	//         <div class="bigIcon">
+	//             <img src="./asset/1716515782501.png" alt="">
+	//         </div>
+	//         <div class="bigIcon">
+	//             <img src="./asset/1716515799621.png" alt="">
+	//         </div>
+	//         <div class="smallIconWrap">
+	//             <div class="smallIcon">
+	//                 <img src="./asset/1716515811590.png" alt="">
+	//             </div>
+	//             <div class="smallIcon">
+	//                 <img src="./asset/1716515811590.png" alt="">
+	//             </div>
+	//             <div class="smallIcon">
+	//                 <img src="./asset/1716515811590.png" alt="">
+	//             </div>
+	//             <div class="smallIcon">
+	//                 <img src="./asset/1716515811590.png" alt="">
+	//             </div>
+	//         </div>
+	//     </div>
+	//     <div class="bottomInfo">
+	//         <p class="name">
+	//             xygod
+	//         </p>
+	//         <span class="sum">
+	//             (99)
+	//         </span>
+	//     </div>
+	// </div>
 }

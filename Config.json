@@ -1,858 +1,2893 @@
 {
-	"Adobe": {
-		"Au": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Au\\AppIcon\\Au.png",
-					"Adobe\\Au\\AppIcon\\Au16w.png",
-					"Adobe\\Au\\AppIcon\\Au20w.png",
-					"Adobe\\Au\\AppIcon\\Au256.png",
-					"Adobe\\Au\\AppIcon\\Au32w.png",
-					"Adobe\\Au\\AppIcon\\Au40w.png",
-					"Adobe\\Au\\AppIcon\\Au48w.png",
-					"Adobe\\Au\\AppIcon\\Au60w.png",
-					"Adobe\\Au\\AppIcon\\Au64w.png",
-					"Adobe\\Au\\AppIcon\\Au72w.png",
-					"Adobe\\Au\\AppIcon\\Au80w.png",
-					"Adobe\\Au\\AppIcon\\Au96w.png"
-				]
-			}
-		},
-		"Ch": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Ch\\AppIcon\\Ch.png",
-					"Adobe\\Ch\\AppIcon\\Ch16w.png",
-					"Adobe\\Ch\\AppIcon\\Ch20w.png",
-					"Adobe\\Ch\\AppIcon\\Ch256.png",
-					"Adobe\\Ch\\AppIcon\\Ch32w.png",
-					"Adobe\\Ch\\AppIcon\\Ch40w.png",
-					"Adobe\\Ch\\AppIcon\\Ch48w.png",
-					"Adobe\\Ch\\AppIcon\\Ch60w.png",
-					"Adobe\\Ch\\AppIcon\\Ch64w.png",
-					"Adobe\\Ch\\AppIcon\\Ch72w.png",
-					"Adobe\\Ch\\AppIcon\\Ch80w.png",
-					"Adobe\\Ch\\AppIcon\\Ch96w.png"
-				]
-			}
-		},
-		"Fr": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Fr\\AppIcon\\Fr.png",
-					"Adobe\\Fr\\AppIcon\\Fr16w.png",
-					"Adobe\\Fr\\AppIcon\\Fr20w.png",
-					"Adobe\\Fr\\AppIcon\\Fr256.png",
-					"Adobe\\Fr\\AppIcon\\Fr32w.png",
-					"Adobe\\Fr\\AppIcon\\Fr40w.png",
-					"Adobe\\Fr\\AppIcon\\Fr48w.png",
-					"Adobe\\Fr\\AppIcon\\Fr60w.png",
-					"Adobe\\Fr\\AppIcon\\Fr64w.png",
-					"Adobe\\Fr\\AppIcon\\Fr72w.png",
-					"Adobe\\Fr\\AppIcon\\Fr80w.png",
-					"Adobe\\Fr\\AppIcon\\Fr96w.png"
-				]
-			}
-		},
-		"Ic": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Ic\\AppIcon\\IC.png",
-					"Adobe\\Ic\\AppIcon\\IC16w.png",
-					"Adobe\\Ic\\AppIcon\\IC20w.png",
-					"Adobe\\Ic\\AppIcon\\IC256.png",
-					"Adobe\\Ic\\AppIcon\\IC32w.png",
-					"Adobe\\Ic\\AppIcon\\IC40w.png",
-					"Adobe\\Ic\\AppIcon\\IC48w.png",
-					"Adobe\\Ic\\AppIcon\\IC60w.png",
-					"Adobe\\Ic\\AppIcon\\IC64w.png",
-					"Adobe\\Ic\\AppIcon\\IC72w.png",
-					"Adobe\\Ic\\AppIcon\\IC80w.png",
-					"Adobe\\Ic\\AppIcon\\IC96w.png"
-				]
-			}
-		},
-		"Id": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Id\\AppIcon\\ID.png",
-					"Adobe\\Id\\AppIcon\\ID16w.png",
-					"Adobe\\Id\\AppIcon\\ID20w.png",
-					"Adobe\\Id\\AppIcon\\ID256.png",
-					"Adobe\\Id\\AppIcon\\ID32w.png",
-					"Adobe\\Id\\AppIcon\\ID40w.png",
-					"Adobe\\Id\\AppIcon\\ID48w.png",
-					"Adobe\\Id\\AppIcon\\ID60w.png",
-					"Adobe\\Id\\AppIcon\\ID64w.png",
-					"Adobe\\Id\\AppIcon\\ID72w.png",
-					"Adobe\\Id\\AppIcon\\ID80w.png",
-					"Adobe\\Id\\AppIcon\\ID96w.png"
-				]
-			}
-		},
-		"Illustrator": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Illustrator\\AppIcon\\AI.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai6128w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai616w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai620w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai6256w.ico",
-					"Adobe\\Illustrator\\AppIcon\\Ai6256w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai632w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai640w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai648w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai660w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai664w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai672w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai680w.png",
-					"Adobe\\Illustrator\\AppIcon\\Ai696w.png"
-				]
-			},
-			"FileTypeIcon": {
-				"_files": ["Adobe\\Illustrator\\FileTypeIcon\\ai.ico"]
-			}
-		},
-		"Lr": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Lr\\AppIcon\\Lr.png",
-					"Adobe\\Lr\\AppIcon\\Lr16w.png",
-					"Adobe\\Lr\\AppIcon\\Lr20w.png",
-					"Adobe\\Lr\\AppIcon\\Lr256.png",
-					"Adobe\\Lr\\AppIcon\\Lr32w.png",
-					"Adobe\\Lr\\AppIcon\\Lr40w.png",
-					"Adobe\\Lr\\AppIcon\\Lr48w.png",
-					"Adobe\\Lr\\AppIcon\\Lr60w.png",
-					"Adobe\\Lr\\AppIcon\\Lr64w.png",
-					"Adobe\\Lr\\AppIcon\\Lr72w.png",
-					"Adobe\\Lr\\AppIcon\\Lr80w.png",
-					"Adobe\\Lr\\AppIcon\\Lr96w.png"
-				]
-			}
-		},
-		"Photoshop": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Photoshop\\AppIcon\\Ps4.ico",
-					"Adobe\\Photoshop\\AppIcon\\Ps4.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps416w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps420w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps4256.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps432w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps440w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps448w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps460w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps464w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps472w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps480w.png",
-					"Adobe\\Photoshop\\AppIcon\\Ps496w.png"
-				]
-			},
-			"FileTypeIcon": {
-				"_files": [
-					"Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
-					"Adobe\\Photoshop\\FileTypeIcon\\psd.ico"
-				]
-			}
-		},
-		"Pr": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Pr\\AppIcon\\Pr.png",
-					"Adobe\\Pr\\AppIcon\\Pr16w.png",
-					"Adobe\\Pr\\AppIcon\\Pr20w.png",
-					"Adobe\\Pr\\AppIcon\\Pr256.png",
-					"Adobe\\Pr\\AppIcon\\Pr32w.png",
-					"Adobe\\Pr\\AppIcon\\Pr40w.png",
-					"Adobe\\Pr\\AppIcon\\Pr48w.png",
-					"Adobe\\Pr\\AppIcon\\Pr60w.png",
-					"Adobe\\Pr\\AppIcon\\Pr64w.png",
-					"Adobe\\Pr\\AppIcon\\Pr72w.png",
-					"Adobe\\Pr\\AppIcon\\Pr80w.png",
-					"Adobe\\Pr\\AppIcon\\Pr96w.png"
-				]
-			}
-		},
-		"Pt": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Pt\\AppIcon\\Pt.png",
-					"Adobe\\Pt\\AppIcon\\Pt16w.png",
-					"Adobe\\Pt\\AppIcon\\Pt20w.png",
-					"Adobe\\Pt\\AppIcon\\Pt256.png",
-					"Adobe\\Pt\\AppIcon\\Pt32w.png",
-					"Adobe\\Pt\\AppIcon\\Pt40w.png",
-					"Adobe\\Pt\\AppIcon\\Pt48w.png",
-					"Adobe\\Pt\\AppIcon\\Pt60w.png",
-					"Adobe\\Pt\\AppIcon\\Pt64w.png",
-					"Adobe\\Pt\\AppIcon\\Pt72w.png",
-					"Adobe\\Pt\\AppIcon\\Pt80w.png",
-					"Adobe\\Pt\\AppIcon\\Pt96w.png"
-				]
-			}
-		},
-		"Sb": {
-			"AppIcon": {
-				"_files": [
-					"Adobe\\Sb\\AppIcon\\Sb.png",
-					"Adobe\\Sb\\AppIcon\\Sb16w.png",
-					"Adobe\\Sb\\AppIcon\\Sb20w.png",
-					"Adobe\\Sb\\AppIcon\\Sb256.png",
-					"Adobe\\Sb\\AppIcon\\Sb32w.png",
-					"Adobe\\Sb\\AppIcon\\Sb40w.png",
-					"Adobe\\Sb\\AppIcon\\Sb48w.png",
-					"Adobe\\Sb\\AppIcon\\Sb60w.png",
-					"Adobe\\Sb\\AppIcon\\Sb64w.png",
-					"Adobe\\Sb\\AppIcon\\Sb72w.png",
-					"Adobe\\Sb\\AppIcon\\Sb80w.png",
-					"Adobe\\Sb\\AppIcon\\Sb96w.png"
-				]
-			}
-		}
-	},
-	"Apple": {
-		"macOS": {
-			"FileTyepIcon": {
-				"_files": [
-					"Apple\\macOS\\FileTyepIcon\\dmg.ico",
-					"Apple\\macOS\\FileTyepIcon\\pkg.png"
-				]
-			}
-		},
-		"Xcode": {
-			"FileTypeIcon": {
-				"_files": [
-					"Apple\\Xcode\\FileTypeIcon\\sdef.png",
-					"Apple\\Xcode\\FileTypeIcon\\storyboard.png",
-					"Apple\\Xcode\\FileTypeIcon\\Xcodearchive.png",
-					"Apple\\Xcode\\FileTypeIcon\\xcodeproj.png",
-					"Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png"
-				]
-			}
-		}
-	},
-	"Autodesk": {
-		"3Ds": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\ant.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\bip.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\bpr.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\bprx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cal.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cam.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cfx-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cfx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\chr.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\clp.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\clr.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\clrx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cpy.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\csm.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cui.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\cuix.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\ds.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\dxf.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\eny.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\fgm-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\fgm.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\fig.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\ifl.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\kbd.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\kbdx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mat.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\max-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\max.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\maxc-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\maxc.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\maxt-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\maxt.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mcg-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mcg.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mcr-1.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mcr.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mfe.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mi.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mix.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mnm.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mnu.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mnux.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\moc.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\ms.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mse.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mus.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\musx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mxp.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\mzp.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\pc2.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\pfc.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\phy.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\pmap.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\prj.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\pse.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\qop.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\rcs.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\rg3.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\rps.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\shp.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\stat.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\stp.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\ui.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\vpx.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\xaf.png",
-					"Autodesk\\3Ds\\FileTypeIcon\\xmm.png"
-				]
-			}
-		},
-		"Alias": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\Alias\\FileTypeIcon\\wire_1.png",
-					"Autodesk\\Alias\\FileTypeIcon\\Wire_2.png"
-				]
-			}
-		},
-		"AutoCAD": {
-			"AppIcon": {
-				"_files": [
-					"Autodesk\\AutoCAD\\AppIcon\\CAD.ico",
-					"Autodesk\\AutoCAD\\AppIcon\\CAD.png"
-				]
-			},
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\AutoCAD\\FileTypeIcon\\ARX.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\ctb.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\DBX.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\dgn.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\HDI.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\LSP.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\PC3.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\pmp.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\SHX.png",
-					"Autodesk\\AutoCAD\\FileTypeIcon\\stb.png"
-				],
-				"dwg": {
-					"_files": [
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.ico",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@0.5x.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@16w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@20w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@32w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@40w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@64w.png"
-					]
-				},
-				"dwgbak": {
-					"_files": [
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.ico",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@0.5x.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@16w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@20w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@32w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@40w.png",
-						"Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@64w.png"
-					]
-				}
-			}
-		},
-		"CFD": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\CFD\\FileTypeIcon\\cfd-1.png",
-					"Autodesk\\CFD\\FileTypeIcon\\cfd.png",
-					"Autodesk\\CFD\\FileTypeIcon\\cfdpk.png",
-					"Autodesk\\CFD\\FileTypeIcon\\cfz.png",
-					"Autodesk\\CFD\\FileTypeIcon\\tpl.png",
-					"Autodesk\\CFD\\FileTypeIcon\\vtfx.png"
-				]
-			}
-		},
-		"FromIt": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\FromIt\\FileTypeIcon\\axm.png",
-					"Autodesk\\FromIt\\FileTypeIcon\\axm_2.png"
-				]
-			}
-		},
-		"Fusion360": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\Fusion360\\FileTypeIcon\\f3d_1.png",
-					"Autodesk\\Fusion360\\FileTypeIcon\\f3d_2.png"
-				]
-			}
-		},
-		"Inventor": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\Inventor\\FileTypeIcon\\idw.png",
-					"Autodesk\\Inventor\\FileTypeIcon\\ipn.png",
-					"Autodesk\\Inventor\\FileTypeIcon\\ipt-1.png",
-					"Autodesk\\Inventor\\FileTypeIcon\\ipt.png"
-				]
-			}
-		},
-		"Revit": {
-			"FileTypeIcon": {
-				"_files": [
-					"Autodesk\\Revit\\FileTypeIcon\\RFA.png",
-					"Autodesk\\Revit\\FileTypeIcon\\RFT.png",
-					"Autodesk\\Revit\\FileTypeIcon\\RTE.png",
-					"Autodesk\\Revit\\FileTypeIcon\\RVT.png",
-					"Autodesk\\Revit\\FileTypeIcon\\RVT_2.png"
-				]
-			}
-		}
-	},
-	"Blender": {
-		"Blender": {
-			"FileTypeIcon": {
-				"_files": [
-					"Blender\\Blender\\FileTypeIcon\\blend.ico",
-					"Blender\\Blender\\FileTypeIcon\\blend.png",
-					"Blender\\Blender\\FileTypeIcon\\Blend1.ico",
-					"Blender\\Blender\\FileTypeIcon\\Blend1.png"
-				]
-			}
-		}
-	},
-	"Figma": {
-		"Figma": {
-			"AppIcon": {
-				"_files": ["Figma\\Figma\\AppIcon\\figma.ico"]
-			},
-			"FileTypeIcon": {
-				"_files": ["Figma\\Figma\\FileTypeIcon\\fig.ico"]
-			}
-		}
-	},
-	"folders": {
-		"blue grey": {
-			"_files": [
-				"folders\\blue grey\\blue grey.png",
-				"folders\\blue grey\\blue grey_Background.png",
-				"folders\\blue grey\\blue grey_Desktop.png",
-				"folders\\blue grey\\blue grey_Documents.png",
-				"folders\\blue grey\\blue grey_Download.png",
-				"folders\\blue grey\\blue grey_Links.png",
-				"folders\\blue grey\\blue grey_Music.png",
-				"folders\\blue grey\\blue grey_Pictures.png",
-				"folders\\blue grey\\blue grey_User.png",
-				"folders\\blue grey\\blue grey_Users.png",
-				"folders\\blue grey\\blue grey_Videos.png",
-				"folders\\blue grey\\blue grey_Windows.png"
-			]
-		},
-		"bluepink": {
-			"_files": [
-				"folders\\bluepink\\bluepink.png",
-				"folders\\bluepink\\bluepink_Background.png",
-				"folders\\bluepink\\bluepink_Desktop.png",
-				"folders\\bluepink\\bluepink_Documents.png",
-				"folders\\bluepink\\bluepink_Download.png",
-				"folders\\bluepink\\bluepink_Links.png",
-				"folders\\bluepink\\bluepink_Music.png",
-				"folders\\bluepink\\bluepink_Pictures.png",
-				"folders\\bluepink\\bluepink_User.png",
-				"folders\\bluepink\\bluepink_Users.png",
-				"folders\\bluepink\\bluepink_Videos.png",
-				"folders\\bluepink\\bluepink_Windows.png"
-			]
-		},
-		"cyan": {
-			"_files": [
-				"folders\\cyan\\cyan green_Background.png",
-				"folders\\cyan\\cyan green_Desktop.png",
-				"folders\\cyan\\cyan green_Documents.png",
-				"folders\\cyan\\cyan green_Download.png",
-				"folders\\cyan\\cyan green_Links.png",
-				"folders\\cyan\\cyan green_Music.png",
-				"folders\\cyan\\cyan green_Pictures.png",
-				"folders\\cyan\\cyan green_User.png",
-				"folders\\cyan\\cyan green_Users.png",
-				"folders\\cyan\\cyan green_Videos.png",
-				"folders\\cyan\\cyan green_Windows.png"
-			]
-		},
-		"cyan blue": {
-			"_files": [
-				"folders\\cyan blue\\cyan blue.png",
-				"folders\\cyan blue\\cyan blue_Background.png",
-				"folders\\cyan blue\\cyan blue_Desktop.png",
-				"folders\\cyan blue\\cyan blue_Documents.png",
-				"folders\\cyan blue\\cyan blue_Download.png",
-				"folders\\cyan blue\\cyan blue_Links.png",
-				"folders\\cyan blue\\cyan blue_Music.png",
-				"folders\\cyan blue\\cyan blue_Pictures.png",
-				"folders\\cyan blue\\cyan blue_Users.png",
-				"folders\\cyan blue\\cyan blue_User_Windows.png",
-				"folders\\cyan blue\\cyan blue_Videos.png",
-				"folders\\cyan blue\\cyan blue_Windows.png"
-			]
-		},
-		"cyan green": {
-			"_files": [
-				"folders\\cyan green\\cyan green.png",
-				"folders\\cyan green\\cyan.png",
-				"folders\\cyan green\\cyan_Background.png",
-				"folders\\cyan green\\cyan_Desktop.png",
-				"folders\\cyan green\\cyan_Documents.png",
-				"folders\\cyan green\\cyan_Download.png",
-				"folders\\cyan green\\cyan_Links.png",
-				"folders\\cyan green\\cyan_Music.png",
-				"folders\\cyan green\\cyan_Pictures.png",
-				"folders\\cyan green\\cyan_User.png",
-				"folders\\cyan green\\cyan_Users.png",
-				"folders\\cyan green\\cyan_Videos.png",
-				"folders\\cyan green\\cyan_Windows.png"
-			]
-		},
-		"Fluent": {
-			"_files": [
-				"folders\\Fluent\\Fluent Light.png",
-				"folders\\Fluent\\Fluent Light_Background.png",
-				"folders\\Fluent\\Fluent Light_Desktop.png",
-				"folders\\Fluent\\Fluent Light_Documents.png",
-				"folders\\Fluent\\Fluent Light_Download.png",
-				"folders\\Fluent\\Fluent Light_Links.png",
-				"folders\\Fluent\\Fluent Light_Music.png",
-				"folders\\Fluent\\Fluent Light_Pictures.png",
-				"folders\\Fluent\\Fluent Light_Users.png",
-				"folders\\Fluent\\Fluent Light_Videos.png"
-			]
-		},
-		"green": {
-			"_files": [
-				"folders\\green\\green.png",
-				"folders\\green\\green_Background.png",
-				"folders\\green\\green_Desktop.png",
-				"folders\\green\\green_Documents.png",
-				"folders\\green\\green_Download.png",
-				"folders\\green\\green_Links.png",
-				"folders\\green\\green_Music.png",
-				"folders\\green\\green_Pictures.png",
-				"folders\\green\\green_User.png",
-				"folders\\green\\green_Users.png",
-				"folders\\green\\green_Videos.png",
-				"folders\\green\\green_Windows.png"
-			]
-		},
-		"green grey": {
-			"_files": [
-				"folders\\green grey\\green grey.png",
-				"folders\\green grey\\green grey_Background.png",
-				"folders\\green grey\\green grey_Desktop.png",
-				"folders\\green grey\\green grey_Documents.png",
-				"folders\\green grey\\green grey_Download.png",
-				"folders\\green grey\\green grey_Links.png",
-				"folders\\green grey\\green grey_Music.png",
-				"folders\\green grey\\green grey_Pictures.png",
-				"folders\\green grey\\green grey_User.png",
-				"folders\\green grey\\green grey_Users.png",
-				"folders\\green grey\\green grey_Videos.png",
-				"folders\\green grey\\green grey_Windows.png"
-			]
-		},
-		"grey": {
-			"_files": [
-				"folders\\grey\\ballance.ico",
-				"folders\\grey\\ballance.png"
-			]
-		},
-		"Oringe": {
-			"_files": [
-				"folders\\Oringe\\Oringe-1.png",
-				"folders\\Oringe\\Oringe.png",
-				"folders\\Oringe\\Oringe_Background.png",
-				"folders\\Oringe\\Oringe_Desktop.png",
-				"folders\\Oringe\\Oringe_Documents.png",
-				"folders\\Oringe\\Oringe_Download.png",
-				"folders\\Oringe\\Oringe_Links.png",
-				"folders\\Oringe\\Oringe_Music.png",
-				"folders\\Oringe\\Oringe_Pictures.png",
-				"folders\\Oringe\\Oringe_User.png",
-				"folders\\Oringe\\Oringe_Users.png",
-				"folders\\Oringe\\Oringe_Videos.png",
-				"folders\\Oringe\\Oringe_Windows.png"
-			]
-		},
-		"pink": {
-			"_files": [
-				"folders\\pink\\pink_Background.png",
-				"folders\\pink\\pink_Desktop.png",
-				"folders\\pink\\pink_Download.png",
-				"folders\\pink\\pink_Links.png",
-				"folders\\pink\\pink_Music.png",
-				"folders\\pink\\pink_Pictures.png",
-				"folders\\pink\\pink_User.png",
-				"folders\\pink\\pink_Users.png",
-				"folders\\pink\\pink_Videos.png",
-				"folders\\pink\\pink_Windows.png"
-			]
-		},
-		"purpose": {
-			"_files": [
-				"folders\\purpose\\purpose.png",
-				"folders\\purpose\\purpose_Background.png",
-				"folders\\purpose\\purpose_Desktop.png",
-				"folders\\purpose\\purpose_Documents.png",
-				"folders\\purpose\\purpose_Download.png",
-				"folders\\purpose\\purpose_Links.png",
-				"folders\\purpose\\purpose_Music.png",
-				"folders\\purpose\\purpose_Pictures.png",
-				"folders\\purpose\\purpose_User.png",
-				"folders\\purpose\\purpose_Users.png",
-				"folders\\purpose\\purpose_Videos.png",
-				"folders\\purpose\\purpose_Windows.png"
-			]
-		},
-		"purpose red": {
-			"_files": [
-				"folders\\purpose red\\purpose red.png",
-				"folders\\purpose red\\purpose red_Background.png",
-				"folders\\purpose red\\purpose red_Desktop.png",
-				"folders\\purpose red\\purpose red_Documents.png",
-				"folders\\purpose red\\purpose red_Download.png",
-				"folders\\purpose red\\purpose red_Links.png",
-				"folders\\purpose red\\purpose red_Music.png",
-				"folders\\purpose red\\purpose red_Pictures.png",
-				"folders\\purpose red\\purpose red_User.png",
-				"folders\\purpose red\\purpose red_Users.png",
-				"folders\\purpose red\\purpose red_Videos.png",
-				"folders\\purpose red\\purpose red_Windows.png"
-			]
-		},
-		"_files": ["folders\\readme.md"],
-		"red yellow": {
-			"_files": [
-				"folders\\red yellow\\red yellow grey.png",
-				"folders\\red yellow\\red yellow grey_Background.png",
-				"folders\\red yellow\\red yellow grey_Desktop.png",
-				"folders\\red yellow\\red yellow grey_Documents.png",
-				"folders\\red yellow\\red yellow grey_Download.png",
-				"folders\\red yellow\\red yellow grey_Links.png",
-				"folders\\red yellow\\red yellow grey_Music.png",
-				"folders\\red yellow\\red yellow grey_Pictures.png",
-				"folders\\red yellow\\red yellow grey_User.png",
-				"folders\\red yellow\\red yellow grey_Users.png",
-				"folders\\red yellow\\red yellow grey_Videos.png",
-				"folders\\red yellow\\red yellow grey_Windows.png"
-			]
-		},
-		"Sunrise": {
-			"_files": [
-				"folders\\Sunrise\\Fluent Light_Back.png",
-				"folders\\Sunrise\\Fluent Light_Desktop.png",
-				"folders\\Sunrise\\Fluent Light_Documents.png",
-				"folders\\Sunrise\\Fluent Light_Folder.png",
-				"folders\\Sunrise\\Fluent Light_Music.png",
-				"folders\\Sunrise\\Fluent Light_Pictures.png",
-				"folders\\Sunrise\\Fluent Light_User.png",
-				"folders\\Sunrise\\Fluent Light_Users.png",
-				"folders\\Sunrise\\Fluent Light_Windows.png"
-			]
-		},
-		"Windows Blue Dark": {
-			"_files": [
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Background.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Desktop.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Documents.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Download.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Favorites.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Games.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Links.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Music.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_new.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Pictures.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Program Files.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_User.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Users.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Video.png",
-				"folders\\Windows Blue Dark\\Windows Blue Dark_Windows.png"
-			]
-		},
-		"Windows Blue Light": {
-			"_files": [
-				"folders\\Windows Blue Light\\Windows Blue Dark_Desktop.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_Documents.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_Music.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_Pictures.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_User.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_Users.png",
-				"folders\\Windows Blue Light\\Windows Blue Dark_Windows.png",
-				"folders\\Windows Blue Light\\Windows Blue Light-1.png",
-				"folders\\Windows Blue Light\\Windows Blue Light-1_Background.png",
-				"folders\\Windows Blue Light\\Windows Blue Light-1_Download.png",
-				"folders\\Windows Blue Light\\Windows Blue Light-1_Links.png",
-				"folders\\Windows Blue Light\\Windows Blue Light-1_Videos.png",
-				"folders\\Windows Blue Light\\Windows Blue Light.png"
-			]
-		},
-		"yellow grey": {
-			"_files": [
-				"folders\\yellow grey\\yellow grey.png",
-				"folders\\yellow grey\\yellow grey_Background.png",
-				"folders\\yellow grey\\yellow grey_Desktop.png",
-				"folders\\yellow grey\\yellow grey_Documents.png",
-				"folders\\yellow grey\\yellow grey_Download.png",
-				"folders\\yellow grey\\yellow grey_Links.png",
-				"folders\\yellow grey\\yellow grey_Music.png",
-				"folders\\yellow grey\\yellow grey_Pictures.png",
-				"folders\\yellow grey\\yellow grey_User.png",
-				"folders\\yellow grey\\yellow grey_Users.png",
-				"folders\\yellow grey\\yellow grey_Videos.png",
-				"folders\\yellow grey\\yellow grey_Windows.png"
-			]
-		}
-	},
-	"Google": {
-		"Android": {
-			"FileTypeIcon": {
-				"apk": {
-					"_files": [
-						"Google\\Android\\FileTypeIcon\\apk\\apk.ico",
-						"Google\\Android\\FileTypeIcon\\apk\\apk.png",
-						"Google\\Android\\FileTypeIcon\\apk\\apk2.ico",
-						"Google\\Android\\FileTypeIcon\\apk\\apk2.png"
-					]
-				}
-			}
-		}
-	},
-	"Houdini": {
-		"Houdini": {
-			"FileTypeIcon": {
-				"_files": [
-					"Houdini\\Houdini\\FileTypeIcon\\houdini file type.ico"
-				]
-			}
-		}
-	},
-	"Luxion": {
-		"Keyshot": {
-			"FileTypeIcon": {
-				"ksp": {
-					"_files": [
-						"Luxion\\Keyshot\\FileTypeIcon\\ksp\\Keyshot Package.ico",
-						"Luxion\\Keyshot\\FileTypeIcon\\ksp\\Keyshot Package.png"
-					]
-				}
-			}
-		}
-	},
-	"McNeel": {
-		"Rhino": {
-			"FileTyepIcon": {
-				"_files": [
-					"McNeel\\Rhino\\FileTyepIcon\\3dm.ico",
-					"McNeel\\Rhino\\FileTyepIcon\\3dm.origin.png",
-					"McNeel\\Rhino\\FileTyepIcon\\3dm.png",
-					"McNeel\\Rhino\\FileTyepIcon\\3dmbak.ico",
-					"McNeel\\Rhino\\FileTyepIcon\\3dmbak.png",
-					"McNeel\\Rhino\\FileTyepIcon\\gh.ico",
-					"McNeel\\Rhino\\FileTyepIcon\\gh.origin.png",
-					"McNeel\\Rhino\\FileTyepIcon\\gh.png",
-					"McNeel\\Rhino\\FileTyepIcon\\gha.ico",
-					"McNeel\\Rhino\\FileTyepIcon\\gha.png",
-					"McNeel\\Rhino\\FileTyepIcon\\ghi.origin.png",
-					"McNeel\\Rhino\\FileTyepIcon\\rhi.ico",
-					"McNeel\\Rhino\\FileTyepIcon\\rhi.png"
-				]
-			}
-		}
-	},
-	"Microsoft": {
-		"Visual Studio": {
-			"FileTypeIcon": {
-				"_files": [
-					"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.ico",
-					"Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.png",
-					"Microsoft\\Visual Studio\\FileTypeIcon\\xaml.ico",
-					"Microsoft\\Visual Studio\\FileTypeIcon\\xaml.png"
-				]
-			}
-		},
-		"Windows": {
-			"FileTypeIcon": {
-				"bat": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\bat\\bat.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\bat\\bat.png"
-					]
-				},
-				"glsl": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\glsl\\glsl.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\glsl\\glsl.png"
-					]
-				},
-				"hlsl": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\hlsl\\hlsl.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\hlsl\\hlsl.png"
-					]
-				},
-				"html": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\html\\html.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\html\\html.png"
-					]
-				},
-				"icc": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\icc\\icc.png",
-						"Microsoft\\Windows\\FileTypeIcon\\icc\\icm.png"
-					]
-				},
-				"ini": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\ini\\ini.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\ini\\ini.png"
-					]
-				},
-				"msstyle": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\msstyle\\msstyle.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\msstyle\\msstyle.png"
-					]
-				},
-				"svg": {
-					"_files": [
-						"Microsoft\\Windows\\FileTypeIcon\\svg\\svg.ico",
-						"Microsoft\\Windows\\FileTypeIcon\\svg\\svg.png"
-					]
-				}
-			}
-		}
-	},
-	"QuickLook": {
-		"QuickLook": {
-			"FileTypeIcon": {
-				"_files": [
-					"QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.ico",
-					"QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.png"
-				]
-			}
-		}
-	},
-	"Tencent": {
-		"QQ": {
-			"AppIcon": {
-				"_files": ["Tencent\\QQ\\AppIcon\\tencent-qq.ico"]
-			}
-		}
-	},
-	"Unity": {
-		"Unity": {
-			"FileTypeIcon": {
-				"_files": ["Unity\\Unity\\FileTypeIcon\\unitypackage.ico"]
-			}
-		}
-	}
+  "Adobe": {
+    "Au": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au.png",
+            "name": "Au",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au16w.png",
+            "name": "Au16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au20w.png",
+            "name": "Au20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au256.png",
+            "name": "Au256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au32w.png",
+            "name": "Au32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au40w.png",
+            "name": "Au40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au48w.png",
+            "name": "Au48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au60w.png",
+            "name": "Au60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au64w.png",
+            "name": "Au64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au72w.png",
+            "name": "Au72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au80w.png",
+            "name": "Au80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Au\\AppIcon\\Au96w.png",
+            "name": "Au96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Ch": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch.png",
+            "name": "Ch",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch16w.png",
+            "name": "Ch16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch20w.png",
+            "name": "Ch20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch256.png",
+            "name": "Ch256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch32w.png",
+            "name": "Ch32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch40w.png",
+            "name": "Ch40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch48w.png",
+            "name": "Ch48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch60w.png",
+            "name": "Ch60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch64w.png",
+            "name": "Ch64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch72w.png",
+            "name": "Ch72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch80w.png",
+            "name": "Ch80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ch\\AppIcon\\Ch96w.png",
+            "name": "Ch96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Fr": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr.png",
+            "name": "Fr",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr16w.png",
+            "name": "Fr16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr20w.png",
+            "name": "Fr20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr256.png",
+            "name": "Fr256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr32w.png",
+            "name": "Fr32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr40w.png",
+            "name": "Fr40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr48w.png",
+            "name": "Fr48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr60w.png",
+            "name": "Fr60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr64w.png",
+            "name": "Fr64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr72w.png",
+            "name": "Fr72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr80w.png",
+            "name": "Fr80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Fr\\AppIcon\\Fr96w.png",
+            "name": "Fr96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Ic": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC.png",
+            "name": "IC",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC16w.png",
+            "name": "IC16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC20w.png",
+            "name": "IC20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC256.png",
+            "name": "IC256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC32w.png",
+            "name": "IC32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC40w.png",
+            "name": "IC40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC48w.png",
+            "name": "IC48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC60w.png",
+            "name": "IC60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC64w.png",
+            "name": "IC64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC72w.png",
+            "name": "IC72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC80w.png",
+            "name": "IC80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Ic\\AppIcon\\IC96w.png",
+            "name": "IC96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Id": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID.png",
+            "name": "ID",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID16w.png",
+            "name": "ID16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID20w.png",
+            "name": "ID20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID256.png",
+            "name": "ID256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID32w.png",
+            "name": "ID32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID40w.png",
+            "name": "ID40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID48w.png",
+            "name": "ID48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID60w.png",
+            "name": "ID60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID64w.png",
+            "name": "ID64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID72w.png",
+            "name": "ID72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID80w.png",
+            "name": "ID80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Id\\AppIcon\\ID96w.png",
+            "name": "ID96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Illustrator": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\AI.png",
+            "name": "AI",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai6128w.png",
+            "name": "Ai6128w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai616w.png",
+            "name": "Ai616w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai620w.png",
+            "name": "Ai620w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai6256w.ico",
+            "name": "Ai6256w",
+            "type": "ico"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai6256w.png",
+            "name": "Ai6256w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai632w.png",
+            "name": "Ai632w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai640w.png",
+            "name": "Ai640w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai648w.png",
+            "name": "Ai648w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai660w.png",
+            "name": "Ai660w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai664w.png",
+            "name": "Ai664w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai672w.png",
+            "name": "Ai672w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai680w.png",
+            "name": "Ai680w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Illustrator\\AppIcon\\Ai696w.png",
+            "name": "Ai696w",
+            "type": "png"
+          }
+        ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Illustrator\\FileTypeIcon\\ai.ico",
+            "name": "ai",
+            "type": "ico"
+          }
+        ]
+      }
+    },
+    "Lr": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr.png",
+            "name": "Lr",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr16w.png",
+            "name": "Lr16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr20w.png",
+            "name": "Lr20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr256.png",
+            "name": "Lr256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr32w.png",
+            "name": "Lr32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr40w.png",
+            "name": "Lr40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr48w.png",
+            "name": "Lr48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr60w.png",
+            "name": "Lr60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr64w.png",
+            "name": "Lr64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr72w.png",
+            "name": "Lr72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr80w.png",
+            "name": "Lr80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Lr\\AppIcon\\Lr96w.png",
+            "name": "Lr96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Photoshop": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps4.ico",
+            "name": "Ps4",
+            "type": "ico"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps4.png",
+            "name": "Ps4",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps416w.png",
+            "name": "Ps416w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps420w.png",
+            "name": "Ps420w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps4256.png",
+            "name": "Ps4256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps432w.png",
+            "name": "Ps432w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps440w.png",
+            "name": "Ps440w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps448w.png",
+            "name": "Ps448w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps460w.png",
+            "name": "Ps460w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps464w.png",
+            "name": "Ps464w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps472w.png",
+            "name": "Ps472w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps480w.png",
+            "name": "Ps480w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Photoshop\\AppIcon\\Ps496w.png",
+            "name": "Ps496w",
+            "type": "png"
+          }
+        ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
+            "name": "psb",
+            "type": "ico"
+          },
+          {
+            "path": "Adobe\\Photoshop\\FileTypeIcon\\psd.ico",
+            "name": "psd",
+            "type": "ico"
+          }
+        ]
+      }
+    },
+    "Pr": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr.png",
+            "name": "Pr",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr16w.png",
+            "name": "Pr16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr20w.png",
+            "name": "Pr20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr256.png",
+            "name": "Pr256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr32w.png",
+            "name": "Pr32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr40w.png",
+            "name": "Pr40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr48w.png",
+            "name": "Pr48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr60w.png",
+            "name": "Pr60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr64w.png",
+            "name": "Pr64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr72w.png",
+            "name": "Pr72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr80w.png",
+            "name": "Pr80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pr\\AppIcon\\Pr96w.png",
+            "name": "Pr96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Pt": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt.png",
+            "name": "Pt",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt16w.png",
+            "name": "Pt16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt20w.png",
+            "name": "Pt20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt256.png",
+            "name": "Pt256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt32w.png",
+            "name": "Pt32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt40w.png",
+            "name": "Pt40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt48w.png",
+            "name": "Pt48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt60w.png",
+            "name": "Pt60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt64w.png",
+            "name": "Pt64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt72w.png",
+            "name": "Pt72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt80w.png",
+            "name": "Pt80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Pt\\AppIcon\\Pt96w.png",
+            "name": "Pt96w",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Sb": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb.png",
+            "name": "Sb",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb16w.png",
+            "name": "Sb16w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb20w.png",
+            "name": "Sb20w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb256.png",
+            "name": "Sb256",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb32w.png",
+            "name": "Sb32w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb40w.png",
+            "name": "Sb40w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb48w.png",
+            "name": "Sb48w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb60w.png",
+            "name": "Sb60w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb64w.png",
+            "name": "Sb64w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb72w.png",
+            "name": "Sb72w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb80w.png",
+            "name": "Sb80w",
+            "type": "png"
+          },
+          {
+            "path": "Adobe\\Sb\\AppIcon\\Sb96w.png",
+            "name": "Sb96w",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Apple": {
+    "macOS": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Apple\\macOS\\FileTypeIcon\\dmg.ico",
+            "name": "dmg",
+            "type": "ico"
+          },
+          {
+            "path": "Apple\\macOS\\FileTypeIcon\\pkg.png",
+            "name": "pkg",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Xcode": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Apple\\Xcode\\FileTypeIcon\\sdef.png",
+            "name": "sdef",
+            "type": "png"
+          },
+          {
+            "path": "Apple\\Xcode\\FileTypeIcon\\storyboard.png",
+            "name": "storyboard",
+            "type": "png"
+          },
+          {
+            "path": "Apple\\Xcode\\FileTypeIcon\\Xcodearchive.png",
+            "name": "Xcodearchive",
+            "type": "png"
+          },
+          {
+            "path": "Apple\\Xcode\\FileTypeIcon\\xcodeproj.png",
+            "name": "xcodeproj",
+            "type": "png"
+          },
+          {
+            "path": "Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png",
+            "name": "Xcodworkspace",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Autodesk": {
+    "3Ds": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
+            "name": "3Ds",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\ant.png",
+            "name": "ant",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\bip.png",
+            "name": "bip",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\bpr.png",
+            "name": "bpr",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\bprx.png",
+            "name": "bprx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cal.png",
+            "name": "cal",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cam.png",
+            "name": "cam",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx-1.png",
+            "name": "cfx-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx.png",
+            "name": "cfx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\chr.png",
+            "name": "chr",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\clp.png",
+            "name": "clp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\clr.png",
+            "name": "clr",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\clrx.png",
+            "name": "clrx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cpy.png",
+            "name": "cpy",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\csm.png",
+            "name": "csm",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cui.png",
+            "name": "cui",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\cuix.png",
+            "name": "cuix",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\ds.png",
+            "name": "ds",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\dxf.png",
+            "name": "dxf",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\eny.png",
+            "name": "eny",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm-1.png",
+            "name": "fgm-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm.png",
+            "name": "fgm",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\fig.png",
+            "name": "fig",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\ifl.png",
+            "name": "ifl",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\kbd.png",
+            "name": "kbd",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\kbdx.png",
+            "name": "kbdx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mat.png",
+            "name": "mat",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\max-1.png",
+            "name": "max-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\max.png",
+            "name": "max",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc-1.png",
+            "name": "maxc-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc.png",
+            "name": "maxc",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt-1.png",
+            "name": "maxt-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt.png",
+            "name": "maxt",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg-1.png",
+            "name": "mcg-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg.png",
+            "name": "mcg",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr-1.png",
+            "name": "mcr-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr.png",
+            "name": "mcr",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mfe.png",
+            "name": "mfe",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mi.png",
+            "name": "mi",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mix.png",
+            "name": "mix",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mnm.png",
+            "name": "mnm",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mnu.png",
+            "name": "mnu",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mnux.png",
+            "name": "mnux",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\moc.png",
+            "name": "moc",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\ms.png",
+            "name": "ms",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mse.png",
+            "name": "mse",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mus.png",
+            "name": "mus",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\musx.png",
+            "name": "musx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mxp.png",
+            "name": "mxp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\mzp.png",
+            "name": "mzp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\pc2.png",
+            "name": "pc2",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\pfc.png",
+            "name": "pfc",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\phy.png",
+            "name": "phy",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\pmap.png",
+            "name": "pmap",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\prj.png",
+            "name": "prj",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\pse.png",
+            "name": "pse",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\qop.png",
+            "name": "qop",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\rcs.png",
+            "name": "rcs",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\rg3.png",
+            "name": "rg3",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\rps.png",
+            "name": "rps",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\shp.png",
+            "name": "shp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\stat.png",
+            "name": "stat",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\stp.png",
+            "name": "stp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\ui.png",
+            "name": "ui",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\vpx.png",
+            "name": "vpx",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\xaf.png",
+            "name": "xaf",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\3Ds\\FileTypeIcon\\xmm.png",
+            "name": "xmm",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Alias": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\Alias\\FileTypeIcon\\wire_1.png",
+            "name": "wire_1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Alias\\FileTypeIcon\\Wire_2.png",
+            "name": "Wire_2",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "AutoCAD": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\AutoCAD\\AppIcon\\CAD.ico",
+            "name": "CAD",
+            "type": "ico"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\AppIcon\\CAD.png",
+            "name": "CAD",
+            "type": "png"
+          }
+        ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ARX.png",
+            "name": "ARX",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ctb.png",
+            "name": "ctb",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\DBX.png",
+            "name": "DBX",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dgn.png",
+            "name": "dgn",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\HDI.png",
+            "name": "HDI",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\LSP.png",
+            "name": "LSP",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\PC3.png",
+            "name": "PC3",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\pmp.png",
+            "name": "pmp",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\SHX.png",
+            "name": "SHX",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\AutoCAD\\FileTypeIcon\\stb.png",
+            "name": "stb",
+            "type": "png"
+          }
+        ],
+        "dwg": {
+          "_files": [
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.ico",
+              "name": "dwg",
+              "type": "ico"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.png",
+              "name": "dwg",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@0.5x.png",
+              "name": "dwg@0",
+              "type": "5x"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@16w.png",
+              "name": "dwg@16w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@20w.png",
+              "name": "dwg@20w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@32w.png",
+              "name": "dwg@32w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@40w.png",
+              "name": "dwg@40w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@64w.png",
+              "name": "dwg@64w",
+              "type": "png"
+            }
+          ]
+        },
+        "dwgbak": {
+          "_files": [
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.ico",
+              "name": "dwgbak",
+              "type": "ico"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.png",
+              "name": "dwgbak",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@0.5x.png",
+              "name": "dwgbak@0",
+              "type": "5x"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@16w.png",
+              "name": "dwgbak@16w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@20w.png",
+              "name": "dwgbak@20w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@32w.png",
+              "name": "dwgbak@32w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@40w.png",
+              "name": "dwgbak@40w",
+              "type": "png"
+            },
+            {
+              "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@64w.png",
+              "name": "dwgbak@64w",
+              "type": "png"
+            }
+          ]
+        }
+      }
+    },
+    "CFD": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\cfd-1.png",
+            "name": "cfd-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\cfd.png",
+            "name": "cfd",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\cfdpk.png",
+            "name": "cfdpk",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\cfz.png",
+            "name": "cfz",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\tpl.png",
+            "name": "tpl",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\CFD\\FileTypeIcon\\vtfx.png",
+            "name": "vtfx",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "FromIt": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\FromIt\\FileTypeIcon\\axm.png",
+            "name": "axm",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\FromIt\\FileTypeIcon\\axm_2.png",
+            "name": "axm_2",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Fusion360": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_1.png",
+            "name": "f3d_1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_2.png",
+            "name": "f3d_2",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Inventor": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\Inventor\\FileTypeIcon\\idw.png",
+            "name": "idw",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Inventor\\FileTypeIcon\\ipn.png",
+            "name": "ipn",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt-1.png",
+            "name": "ipt-1",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt.png",
+            "name": "ipt",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Revit": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Autodesk\\Revit\\FileTypeIcon\\RFA.png",
+            "name": "RFA",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Revit\\FileTypeIcon\\RFT.png",
+            "name": "RFT",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Revit\\FileTypeIcon\\RTE.png",
+            "name": "RTE",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Revit\\FileTypeIcon\\RVT.png",
+            "name": "RVT",
+            "type": "png"
+          },
+          {
+            "path": "Autodesk\\Revit\\FileTypeIcon\\RVT_2.png",
+            "name": "RVT_2",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Blender": {
+    "Blender": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Blender\\Blender\\FileTypeIcon\\blend.ico",
+            "name": "blend",
+            "type": "ico"
+          },
+          {
+            "path": "Blender\\Blender\\FileTypeIcon\\blend.png",
+            "name": "blend",
+            "type": "png"
+          },
+          {
+            "path": "Blender\\Blender\\FileTypeIcon\\Blend1.ico",
+            "name": "Blend1",
+            "type": "ico"
+          },
+          {
+            "path": "Blender\\Blender\\FileTypeIcon\\Blend1.png",
+            "name": "Blend1",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Figma": {
+    "Figma": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Figma\\Figma\\AppIcon\\figma.ico",
+            "name": "figma",
+            "type": "ico"
+          }
+        ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Figma\\Figma\\FileTypeIcon\\fig.ico",
+            "name": "fig",
+            "type": "ico"
+          }
+        ]
+      }
+    }
+  },
+  "folders": {
+    "blue grey": {
+      "_files": [
+        {
+          "path": "folders\\blue grey\\blue grey.png",
+          "name": "blue grey",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Background.png",
+          "name": "blue grey_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Desktop.png",
+          "name": "blue grey_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Documents.png",
+          "name": "blue grey_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Download.png",
+          "name": "blue grey_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Links.png",
+          "name": "blue grey_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Music.png",
+          "name": "blue grey_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Pictures.png",
+          "name": "blue grey_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_User.png",
+          "name": "blue grey_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Users.png",
+          "name": "blue grey_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Videos.png",
+          "name": "blue grey_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\blue grey\\blue grey_Windows.png",
+          "name": "blue grey_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "bluepink": {
+      "_files": [
+        {
+          "path": "folders\\bluepink\\bluepink.png",
+          "name": "bluepink",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Background.png",
+          "name": "bluepink_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Desktop.png",
+          "name": "bluepink_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Documents.png",
+          "name": "bluepink_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Download.png",
+          "name": "bluepink_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Links.png",
+          "name": "bluepink_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Music.png",
+          "name": "bluepink_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Pictures.png",
+          "name": "bluepink_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_User.png",
+          "name": "bluepink_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Users.png",
+          "name": "bluepink_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Videos.png",
+          "name": "bluepink_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\bluepink\\bluepink_Windows.png",
+          "name": "bluepink_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "cyan": {
+      "_files": [
+        {
+          "path": "folders\\cyan\\cyan green_Background.png",
+          "name": "cyan green_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Desktop.png",
+          "name": "cyan green_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Documents.png",
+          "name": "cyan green_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Download.png",
+          "name": "cyan green_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Links.png",
+          "name": "cyan green_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Music.png",
+          "name": "cyan green_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Pictures.png",
+          "name": "cyan green_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_User.png",
+          "name": "cyan green_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Users.png",
+          "name": "cyan green_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Videos.png",
+          "name": "cyan green_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan\\cyan green_Windows.png",
+          "name": "cyan green_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "cyan blue": {
+      "_files": [
+        {
+          "path": "folders\\cyan blue\\cyan blue.png",
+          "name": "cyan blue",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Background.png",
+          "name": "cyan blue_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Desktop.png",
+          "name": "cyan blue_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Documents.png",
+          "name": "cyan blue_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Download.png",
+          "name": "cyan blue_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Links.png",
+          "name": "cyan blue_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Music.png",
+          "name": "cyan blue_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Pictures.png",
+          "name": "cyan blue_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Users.png",
+          "name": "cyan blue_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_User_Windows.png",
+          "name": "cyan blue_User_Windows",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Videos.png",
+          "name": "cyan blue_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan blue\\cyan blue_Windows.png",
+          "name": "cyan blue_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "cyan green": {
+      "_files": [
+        {
+          "path": "folders\\cyan green\\cyan green.png",
+          "name": "cyan green",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan.png",
+          "name": "cyan",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Background.png",
+          "name": "cyan_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Desktop.png",
+          "name": "cyan_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Documents.png",
+          "name": "cyan_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Download.png",
+          "name": "cyan_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Links.png",
+          "name": "cyan_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Music.png",
+          "name": "cyan_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Pictures.png",
+          "name": "cyan_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_User.png",
+          "name": "cyan_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Users.png",
+          "name": "cyan_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Videos.png",
+          "name": "cyan_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\cyan green\\cyan_Windows.png",
+          "name": "cyan_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "Fluent": {
+      "_files": [
+        {
+          "path": "folders\\Fluent\\Fluent Light.png",
+          "name": "Fluent Light",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Background.png",
+          "name": "Fluent Light_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Desktop.png",
+          "name": "Fluent Light_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Documents.png",
+          "name": "Fluent Light_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Download.png",
+          "name": "Fluent Light_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Links.png",
+          "name": "Fluent Light_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Music.png",
+          "name": "Fluent Light_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Pictures.png",
+          "name": "Fluent Light_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Users.png",
+          "name": "Fluent Light_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Fluent\\Fluent Light_Videos.png",
+          "name": "Fluent Light_Videos",
+          "type": "png"
+        }
+      ]
+    },
+    "green": {
+      "_files": [
+        {
+          "path": "folders\\green\\green.png",
+          "name": "green",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Background.png",
+          "name": "green_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Desktop.png",
+          "name": "green_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Documents.png",
+          "name": "green_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Download.png",
+          "name": "green_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Links.png",
+          "name": "green_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Music.png",
+          "name": "green_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Pictures.png",
+          "name": "green_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_User.png",
+          "name": "green_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Users.png",
+          "name": "green_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Videos.png",
+          "name": "green_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green\\green_Windows.png",
+          "name": "green_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "green grey": {
+      "_files": [
+        {
+          "path": "folders\\green grey\\green grey.png",
+          "name": "green grey",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Background.png",
+          "name": "green grey_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Desktop.png",
+          "name": "green grey_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Documents.png",
+          "name": "green grey_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Download.png",
+          "name": "green grey_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Links.png",
+          "name": "green grey_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Music.png",
+          "name": "green grey_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Pictures.png",
+          "name": "green grey_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_User.png",
+          "name": "green grey_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Users.png",
+          "name": "green grey_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Videos.png",
+          "name": "green grey_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\green grey\\green grey_Windows.png",
+          "name": "green grey_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "grey": {
+      "_files": [
+        {
+          "path": "folders\\grey\\ballance.ico",
+          "name": "ballance",
+          "type": "ico"
+        },
+        {
+          "path": "folders\\grey\\ballance.png",
+          "name": "ballance",
+          "type": "png"
+        }
+      ]
+    },
+    "Oringe": {
+      "_files": [
+        {
+          "path": "folders\\Oringe\\Oringe-1.png",
+          "name": "Oringe-1",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe.png",
+          "name": "Oringe",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Background.png",
+          "name": "Oringe_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Desktop.png",
+          "name": "Oringe_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Documents.png",
+          "name": "Oringe_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Download.png",
+          "name": "Oringe_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Links.png",
+          "name": "Oringe_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Music.png",
+          "name": "Oringe_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Pictures.png",
+          "name": "Oringe_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_User.png",
+          "name": "Oringe_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Users.png",
+          "name": "Oringe_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Videos.png",
+          "name": "Oringe_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Oringe\\Oringe_Windows.png",
+          "name": "Oringe_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "pink": {
+      "_files": [
+        {
+          "path": "folders\\pink\\pink_Background.png",
+          "name": "pink_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Desktop.png",
+          "name": "pink_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Download.png",
+          "name": "pink_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Links.png",
+          "name": "pink_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Music.png",
+          "name": "pink_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Pictures.png",
+          "name": "pink_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_User.png",
+          "name": "pink_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Users.png",
+          "name": "pink_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Videos.png",
+          "name": "pink_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\pink\\pink_Windows.png",
+          "name": "pink_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "purpose": {
+      "_files": [
+        {
+          "path": "folders\\purpose\\purpose.png",
+          "name": "purpose",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Background.png",
+          "name": "purpose_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Desktop.png",
+          "name": "purpose_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Documents.png",
+          "name": "purpose_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Download.png",
+          "name": "purpose_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Links.png",
+          "name": "purpose_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Music.png",
+          "name": "purpose_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Pictures.png",
+          "name": "purpose_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_User.png",
+          "name": "purpose_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Users.png",
+          "name": "purpose_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Videos.png",
+          "name": "purpose_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose\\purpose_Windows.png",
+          "name": "purpose_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "purpose red": {
+      "_files": [
+        {
+          "path": "folders\\purpose red\\purpose red.png",
+          "name": "purpose red",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Background.png",
+          "name": "purpose red_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Desktop.png",
+          "name": "purpose red_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Documents.png",
+          "name": "purpose red_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Download.png",
+          "name": "purpose red_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Links.png",
+          "name": "purpose red_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Music.png",
+          "name": "purpose red_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Pictures.png",
+          "name": "purpose red_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_User.png",
+          "name": "purpose red_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Users.png",
+          "name": "purpose red_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Videos.png",
+          "name": "purpose red_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\purpose red\\purpose red_Windows.png",
+          "name": "purpose red_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "red yellow": {
+      "_files": [
+        {
+          "path": "folders\\red yellow\\red yellow grey.png",
+          "name": "red yellow grey",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Background.png",
+          "name": "red yellow grey_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Desktop.png",
+          "name": "red yellow grey_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Documents.png",
+          "name": "red yellow grey_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Download.png",
+          "name": "red yellow grey_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Links.png",
+          "name": "red yellow grey_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Music.png",
+          "name": "red yellow grey_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Pictures.png",
+          "name": "red yellow grey_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_User.png",
+          "name": "red yellow grey_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Users.png",
+          "name": "red yellow grey_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Videos.png",
+          "name": "red yellow grey_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\red yellow\\red yellow grey_Windows.png",
+          "name": "red yellow grey_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "Sunrise": {
+      "_files": [
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Back.png",
+          "name": "Fluent Light_Back",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Desktop.png",
+          "name": "Fluent Light_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Documents.png",
+          "name": "Fluent Light_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Folder.png",
+          "name": "Fluent Light_Folder",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Music.png",
+          "name": "Fluent Light_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Pictures.png",
+          "name": "Fluent Light_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_User.png",
+          "name": "Fluent Light_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Users.png",
+          "name": "Fluent Light_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Sunrise\\Fluent Light_Windows.png",
+          "name": "Fluent Light_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "Windows Blue Dark": {
+      "_files": [
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Background.png",
+          "name": "Windows Blue Dark_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Desktop.png",
+          "name": "Windows Blue Dark_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Documents.png",
+          "name": "Windows Blue Dark_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Download.png",
+          "name": "Windows Blue Dark_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Favorites.png",
+          "name": "Windows Blue Dark_Favorites",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Games.png",
+          "name": "Windows Blue Dark_Games",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Links.png",
+          "name": "Windows Blue Dark_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Music.png",
+          "name": "Windows Blue Dark_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_new.png",
+          "name": "Windows Blue Dark_new",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Pictures.png",
+          "name": "Windows Blue Dark_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Program Files.png",
+          "name": "Windows Blue Dark_Program Files",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_User.png",
+          "name": "Windows Blue Dark_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Users.png",
+          "name": "Windows Blue Dark_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Video.png",
+          "name": "Windows Blue Dark_Video",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Windows.png",
+          "name": "Windows Blue Dark_Windows",
+          "type": "png"
+        }
+      ]
+    },
+    "Windows Blue Light": {
+      "_files": [
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Desktop.png",
+          "name": "Windows Blue Dark_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Documents.png",
+          "name": "Windows Blue Dark_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Music.png",
+          "name": "Windows Blue Dark_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Pictures.png",
+          "name": "Windows Blue Dark_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_User.png",
+          "name": "Windows Blue Dark_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Users.png",
+          "name": "Windows Blue Dark_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Dark_Windows.png",
+          "name": "Windows Blue Dark_Windows",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light-1.png",
+          "name": "Windows Blue Light-1",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Background.png",
+          "name": "Windows Blue Light-1_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Download.png",
+          "name": "Windows Blue Light-1_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Links.png",
+          "name": "Windows Blue Light-1_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Videos.png",
+          "name": "Windows Blue Light-1_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\Windows Blue Light\\Windows Blue Light.png",
+          "name": "Windows Blue Light",
+          "type": "png"
+        }
+      ]
+    },
+    "yellow grey": {
+      "_files": [
+        {
+          "path": "folders\\yellow grey\\yellow grey.png",
+          "name": "yellow grey",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Background.png",
+          "name": "yellow grey_Background",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Desktop.png",
+          "name": "yellow grey_Desktop",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Documents.png",
+          "name": "yellow grey_Documents",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Download.png",
+          "name": "yellow grey_Download",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Links.png",
+          "name": "yellow grey_Links",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Music.png",
+          "name": "yellow grey_Music",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Pictures.png",
+          "name": "yellow grey_Pictures",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_User.png",
+          "name": "yellow grey_User",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Users.png",
+          "name": "yellow grey_Users",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Videos.png",
+          "name": "yellow grey_Videos",
+          "type": "png"
+        },
+        {
+          "path": "folders\\yellow grey\\yellow grey_Windows.png",
+          "name": "yellow grey_Windows",
+          "type": "png"
+        }
+      ]
+    }
+  },
+  "Google": {
+    "Android": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Google\\Android\\FileTypeIcon\\apk.ico",
+            "name": "apk",
+            "type": "ico"
+          },
+          {
+            "path": "Google\\Android\\FileTypeIcon\\apk.png",
+            "name": "apk",
+            "type": "png"
+          },
+          {
+            "path": "Google\\Android\\FileTypeIcon\\apk2.ico",
+            "name": "apk2",
+            "type": "ico"
+          },
+          {
+            "path": "Google\\Android\\FileTypeIcon\\apk2.png",
+            "name": "apk2",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Houdini": {
+    "Houdini": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Houdini\\Houdini\\FileTypeIcon\\houdini file type.ico",
+            "name": "houdini file type",
+            "type": "ico"
+          }
+        ]
+      }
+    }
+  },
+  "Luxion": {
+    "Keyshot": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Luxion\\Keyshot\\FileTypeIcon\\Keyshot Package.ico",
+            "name": "Keyshot Package",
+            "type": "ico"
+          },
+          {
+            "path": "Luxion\\Keyshot\\FileTypeIcon\\Keyshot Package.png",
+            "name": "Keyshot Package",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "McNeel": {
+    "Rhino": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\3dm.ico",
+            "name": "3dm",
+            "type": "ico"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\3dm.origin.png",
+            "name": "3dm",
+            "type": "origin"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\3dm.png",
+            "name": "3dm",
+            "type": "png"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\3dmbak.ico",
+            "name": "3dmbak",
+            "type": "ico"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\3dmbak.png",
+            "name": "3dmbak",
+            "type": "png"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\gh.ico",
+            "name": "gh",
+            "type": "ico"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\gh.origin.png",
+            "name": "gh",
+            "type": "origin"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\gh.png",
+            "name": "gh",
+            "type": "png"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\gha.ico",
+            "name": "gha",
+            "type": "ico"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\gha.png",
+            "name": "gha",
+            "type": "png"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\ghi.origin.png",
+            "name": "ghi",
+            "type": "origin"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\rhi.ico",
+            "name": "rhi",
+            "type": "ico"
+          },
+          {
+            "path": "McNeel\\Rhino\\FileTypeIcon\\rhi.png",
+            "name": "rhi",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Microsoft": {
+    "Visual Studio": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.ico",
+            "name": "appxmanifast",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.png",
+            "name": "appxmanifast",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml.ico",
+            "name": "xaml",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml.png",
+            "name": "xaml",
+            "type": "png"
+          }
+        ]
+      }
+    },
+    "Windows": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\bat.ico",
+            "name": "bat",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\bat.png",
+            "name": "bat",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\glsl.ico",
+            "name": "glsl",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\glsl.png",
+            "name": "glsl",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\hlsl.ico",
+            "name": "hlsl",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\hlsl.png",
+            "name": "hlsl",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\html.ico",
+            "name": "html",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\html.png",
+            "name": "html",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\icc.png",
+            "name": "icc",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\icm.png",
+            "name": "icm",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\ini.ico",
+            "name": "ini",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\ini.png",
+            "name": "ini",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\msstyle.ico",
+            "name": "msstyle",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\msstyle.png",
+            "name": "msstyle",
+            "type": "png"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\svg.ico",
+            "name": "svg",
+            "type": "ico"
+          },
+          {
+            "path": "Microsoft\\Windows\\FileTypeIcon\\svg.png",
+            "name": "svg",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "QuickLook": {
+    "QuickLook": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.ico",
+            "name": "QLPlugin",
+            "type": "ico"
+          },
+          {
+            "path": "QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.png",
+            "name": "QLPlugin",
+            "type": "png"
+          }
+        ]
+      }
+    }
+  },
+  "Tencent": {
+    "QQ": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Tencent\\QQ\\AppIcon\\tencent-qq.ico",
+            "name": "tencent-qq",
+            "type": "ico"
+          }
+        ]
+      }
+    }
+  },
+  "Unity": {
+    "Unity": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Unity\\Unity\\FileTypeIcon\\unitypackage.ico",
+            "name": "unitypackage",
+            "type": "ico"
+          }
+        ]
+      }
+    }
+  }
 }
