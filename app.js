@@ -9,7 +9,7 @@ function traverseDirectory(dir, rootDir) {
 	const items = fs.readdirSync(dir);
 
 	for (const item of items) {
-		if (item === '.git' || item === 'web') {
+		if (item === '.git' || item === 'web' || item.endsWith('.md')) {
 			// 如果是 .git 或者 web 目录，则跳过
 			continue;
 		}
@@ -28,7 +28,11 @@ function traverseDirectory(dir, rootDir) {
 				if (!companies['_files']) {
 					companies['_files'] = [];
 				}
-				companies['_files'].push(relativePath);
+				companies['_files'].push({
+					path: relativePath,
+					name: item.split('.')[0],
+					type: item.split('.')[1],
+				});
 			}
 		}
 	}

@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WindowsIconCustomization</title>
-    <link rel="stylesheet" href="web/css/font.css">
+    <link rel="shortcut icon" href="web/asset/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="web/asset/font/iconfont.css">
     <link rel="stylesheet" href="web/css/index.css">
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="web/js/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="home hideLeft">
+    <div class="home hideLeft" id="app">
         <div class="leftNav">
             <div class="top">
-                <div class="icon control iconfont">
-                    &#xe7d9;
+                <!-- <div class="icon control iconfont icon-m-kaiguan">
+                </div> -->
+                <div class="logo">
+                    <img src="web/asset/logo.png" alt="">
                 </div>
                 <div class="search">
-                    <span class="icon iconfont small">&#xe620;</span>
+                    <span class="icon iconfont small icon-wxbsousuotuiguang"></span>
                     <div class="searchBig">
-                        <span class="icon iconfont inputIcon">&#xe620;</span>
+                        <span class="icon iconfont inputIcon icon-wxbsousuotuiguang"></span>
                         <input class="searchInput" type="text" placeholder="搜索">
                     </div>
                 </div>
@@ -29,11 +32,11 @@
                 <nav class="topNav">
                     <ul class="navList">
                         <li class="navItem">
-                            <span class="icon iconfont">&#xe674;</span>
+                            <span class="icon iconfont icon-home"></span>
                             <span class="label">家</span>
                         </li>
                         <li class="navItem">
-                            <span class="icon iconfont">&#xe72d;</span>
+                            <span class="icon iconfont icon-wenhao"></span>
                             <span class="label">关于</span>
                         </li>
                     </ul>
@@ -45,27 +48,27 @@
                 <nav class="centerNav">
                     <ul class="navList">
                         <!-- <li class="navItem">
-                            <span class="icon iconfont">&#xe61f;</span>
+                            <span class="icon iconfont icon-huabi"></span>
                             <span class="label">颜色</span>
                         </li> -->
-                        <li class="navItem">
-                            <span class="icon iconfont">&#xe647;</span>
+                        <!-- <li class="navItem">
+                            <span class="icon iconfont icon-manhuajia"></span>
                             <span class="label">文件类型</span>
-                        </li>
+                        </li> -->
                         <li class="navItem">
-                            <span class="icon iconfont">&#xe783;</span>
+                            <span class="icon iconfont icon-kaifashang"></span>
                             <span class="label">公司</span>
                         </li>
                         <!-- <li class="navItem">
-                            <span class="icon iconfont">&#xe63e;</span>
+                            <span class="icon iconfont icon-yaoyiyao"></span>
                             <span class="label">类别</span>
                         </li> -->
                         <!-- <li class="navItem">
-                            <span class="icon iconfont">&#xe600;</span>
+                            <span class="icon iconfont icon-rili"></span>
                             <span class="label">年</span>
                         </li> -->
                         <li class="navItem">
-                            <span class="icon iconfont">&#xeb88;</span>
+                            <span class="icon iconfont icon-yingyongAPP_o"></span>
                             <span class="label">应用</span>
                         </li>
                     </ul>
@@ -90,22 +93,22 @@
             </div>
         </div>
         <div class="mainContent">
+
             <div class="top">
                 <div class="leftTitle">
                     <span id="title">图标</span>
                     <span class="sum">(999)</span>
+                    <div class="back iconfont icon-back"></div>
                 </div>
                 <div class="rightTool">
                     占位工具
                 </div>
             </div>
             <div class="content showIconWrap">
-
             </div>
         </div>
     </div>
 </body>
-<script src="web/js/data.js"></script>
 <script src="web/js/index.js"></script>
 
 </html>

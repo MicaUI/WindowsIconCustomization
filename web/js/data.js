@@ -1,33 +1,33 @@
-const data = {
-	home: [
-		{
-			pic: './asset/1716458856474.png',
-			tip: '测试图片~',
-			url: '#',
-			name: '宝石',
-		},
-	],
-};
-const c = {
-	company: [
-		{
-			公司名: [
-				{
-					软件名: [
-						{
-							AppIcon: [],
-						},
-						{
-							FileTypeIcon: [],
-						},
-					],
-				},
-			],
-		},
-	],
-};
+// const data = {
+// 	home: [
+// 		{
+// 			pic: './asset/1716458856474.png',
+// 			tip: '测试图片~',
+// 			url: '#',
+// 			name: '宝石',
+// 		},
+// 	],
+// };
+// const c = {
+// 	company: [
+// 		{
+// 			公司名: [
+// 				{
+// 					软件名: [
+// 						{
+// 							AppIcon: [],
+// 						},
+// 						{
+// 							FileTypeIcon: [],
+// 						},
+// 					],
+// 				},
+// 			],
+// 		},
+// 	],
+// };
 
-const config = {
+const config2 = {
 	file: [
 		{
 			obj: [
