@@ -25,7 +25,6 @@ doms.searchInput.addEventListener('focusout', (e) => {
 	doms.leftNav.classList.remove('show');
 });
 const getData = () => {};
-console.log(1);
 document.addEventListener('DOMContentLoaded', function () {
 	$.getJSON('../../config.json', function (config) {
 		//data 代表读取到的json中的数据
