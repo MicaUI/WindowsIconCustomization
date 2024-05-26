@@ -349,26 +349,32 @@ const setCurStatus = (who) => {
 doms.mainHome.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createHomePage();
+	setCurStatus(e.target);
 });
 doms.folders.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createFoldersPage();
+	setCurStatus(e.target);
 });
 doms.file.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createFilePage();
+	setCurStatus(e.target);
 });
 doms.app.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createAppPage();
+	setCurStatus(e.target);
 });
 doms.company.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createCompanyPage();
+	setCurStatus(e.target);
 });
 doms.software.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createSoftwarePage();
+	setCurStatus(e.target);
 });
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
