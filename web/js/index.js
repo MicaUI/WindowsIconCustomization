@@ -572,6 +572,98 @@ const createAppElement = (data = []) => {
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
+const showInfoDataInit = {
+	pic: '',
+	app: '',
+	company: '',
+	type: [],
+};
+let showInfoData = showInfoDataInit;
+const extractDataToShowInfo = (infoData, showInfoData) => {
+	for (const key in showInfoData) {
+		if (infoData[key] !== undefined) {
+			showInfoData[key] = infoData[key];
+		}
+	}
+};
+
+/**
+ * addEventListenerInfoItemClickWillGo
+ * @type {HTMLDivElement} infoItem - infoItem
+ * @type {string} key - key
+ * @type {string} will - will
+ */
+const addEventListenerInfoItemClickWillGo = (
+	infoItem = new HTMLDivElement(),
+	key,
+	will
+) => {
+	switch (key) {
+		case 'company': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+				setTimeout(() => {
+					location.href = `#${will}`;
+				}, 1);
+			});
+			break;
+		}
+		case 'app': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createAppPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createSoftwarePage();
+				setTimeout(() => {
+					location.href = `#${will}`;
+				}, 1);
+			});
+			break;
+		}
+	}
+};
+
+const showShowInfo = (infoData) => {
+	console.log(infoData);
+	extractDataToShowInfo(infoData, showInfoData);
+	doms.coverImgShow.src = showInfoData.pic;
+	for (key in showInfoData) {
+		if (key === 'pic' || showInfoData[key] === '') {
+			continue;
+		}
+		const infoItem = document.createElement('li');
+		infoItem.classList.add('infoItem');
+		infoItem.innerHTML = `<div class="what" title="${key}">${key}</div>
+                        <div class="info" title="${showInfoData[key]}">${showInfoData[key]}</div>`;
+		if (key === 'company' || key === 'app') {
+			addEventListenerInfoItemClickWillGo(
+				infoItem,
+				key,
+				showInfoData[key]
+			);
+		}
+		doms.infoList.appendChild(infoItem);
+	}
+	doms.showInfo.classList.remove('show');
+	doms.showInfo.classList.remove('hide');
+	doms.showInfo.classList.add('show');
+};
+
+const hideShowInfo = () => {
+	doms.infoList.innerHTML = '';
+	showInfoData = showInfoDataInit;
+	doms.showInfo.classList.remove('show');
+	doms.showInfo.classList.remove('hide');
+	doms.showInfo.classList.add('hide');
+};
+
 const createIconItemElement = (data) => {
 	doms.content.innerHTML = '';
 	data.forEach((d) => {

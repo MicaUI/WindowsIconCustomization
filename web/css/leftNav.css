@@ -1,15 +1,18 @@
 .home {
     --leftNavWidth: 260px;
-    --lineWidth: 200px;
+    --lineWidth: 100%;
+    transition-delay: 0 0;
 }
 
 .home .leftNav {
-    min-width: 30px;
-    max-width: 30px;
+    width: 48px;
+    font-family: "Segoe Fluent Icons" !important;
     /* height: 100; */
+    /* margin: 0 4px; */
     padding: 12px;
+    padding-left: 4px;
     overflow: hidden;
-    background-color: #393939;
+    background-color: rgb(251, 251, 251);
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -119,6 +122,7 @@
 
 .home .leftNav .top .search .small {
     font-size: 26px;
+    margin-left: 6px;
 }
 
 .home .leftNav .top .search .searchBig {
@@ -137,6 +141,7 @@
     top: 25%;
     left: 6%;
     font-size: 20px;
+    margin-left: 0px;
     color: #b1b1b1;
 }
 
@@ -151,7 +156,9 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     text-indent: 36px;
-    background-color: #747272;
+    outline-color: currentcolor;
+    border-color: currentcolor;
+    background-color: rgb(87, 94, 97);
 }
 
 .home .leftNav .top .search .searchBig input::placeholder {
@@ -193,9 +200,12 @@
 
 
 .home .leftNav .line {
-    width: 20px;
-    height: 0px;
-    border: 1px solid #fff;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.83);
+    margin-top: 3px;
+    margin-bottom: 4px;
+    /* border: 1px solid rgba(0, 0, 0, 0.083); */
     transition: 0.2s;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -205,21 +215,21 @@
 }
 
 .home .leftNav .top {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .home .leftNav .center {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .home .leftNav .bottom {
-    height: 300px;
-    margin-top: 100px;
-    margin-bottom: 40px;
+    /* height: 300px; */
+    /* margin-bottom: 40px; */
 }
 
 .home .leftNav.show .bottom {
-    opacity: 1;
+    /* display: block; */
+    visibility: visible;
 }
 
 .home .leftNav.show .bottom .about .navItem>* {
@@ -234,23 +244,6 @@
     opacity: 1;
 }
 
-.home .leftNav:focus .bottom {
-    opacity: 1;
-}
-
-.home .leftNav:focus .bottom .about .navItem>* {
-    opacity: 1;
-}
-
-.home .leftNav:focus .bottom .about .navItem>a {
-    font-size: 16px;
-}
-
-.home .leftNav:focus .bottom .about .navItem .icon {
-    opacity: 1;
-}
-
-
 .home .leftNav .bottom .about .navItem:hover a {
     color: #fff;
     transition-delay: 0s;
@@ -262,9 +255,9 @@
 }
 
 .home .leftNav .bottom .about .navItem a {
-    color: #b1b1b1;
+    color: rgb(183, 176, 167);
     opacity: 0;
-    font-size: 1px;
+    font-size: 0px;
     transition: 0.2s;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -273,40 +266,53 @@
     transition-delay: 0.02s;
 }
 
+.home .leftNav .bottom {
+    /* display: none; */
+    visibility: hidden;
+    margin-left: 12px;
+}
+
 .home .leftNav .bottom .about .navItem .icon {
     color: #b1b1b1;
     opacity: 0;
 }
 
-
+.home .leftNav.show .navItem:hover {
+    width: auto;
+}
 
 .home .leftNav .navItem:hover {
+    /* width: 18px; */
+    height: 40px;
+    /* margin: 2px 0; */
+    outline-offset: -2px;
     background-color: #b1b1b1;
 }
 
 .home .leftNav .navItem {
-    height: 50px;
     width: 100%;
+    height: 40px;
     cursor: pointer;
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    transition: 0.1s;
-    -webkit-transition: 0.1s;
-    -moz-transition: 0.1s;
-    -ms-transition: 0.1s;
-    -o-transition: 0.1s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .icon {
-    font-size: 26px;
-    color: #117bdd;
+    font-size: 16px;
+    margin-left: 12px;
+    color: #000000;
     cursor: pointer;
     transition: 0.2s;
     -webkit-transition: 0.2s;
@@ -318,7 +324,7 @@
 .title {
     height: 30px;
     font-size: 1px;
-    color: #747272;
+    color: rgb(159, 151, 139);
     font-weight: 600;
     margin: 14px 0;
     opacity: 0;
@@ -329,14 +335,21 @@
     -o-transition: 0.2s;
 }
 
+.label:hover {
+    /* background-color: #dfb7b7; */
+}
+
 .label {
-    color: #fff;
+    color: #000;
     margin-left: 10px;
+    height: 40px;
+    line-height: 36px;
+    /* display: flex; */
+    /* align-items: center; */
     font-size: 0px;
     transition: 0.2s;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-
 }
