@@ -106,6 +106,7 @@ const traverseDirectory = (dir, rootDir) => {
 
 		const itemPath = path.join(dir, item);
 		const relativePath = path.relative(__dirname, itemPath);
+		const relativePathFroImgs = path.relative(rootDir, itemPath);
 		const stats = fs.statSync(itemPath);
 
 		if (stats.isDirectory()) {
@@ -118,7 +119,7 @@ const traverseDirectory = (dir, rootDir) => {
 				if (!companies['_files']) {
 					companies['_files'] = [];
 				}
-				const infos = relativePath.split('\\');
+				const infos = relativePathFroImgs.split('\\');
 				const company = infos[0];
 				const app = infos[1];
 				// const app;
@@ -129,7 +130,7 @@ const traverseDirectory = (dir, rootDir) => {
 						name: item.split('.')[0],
 						company: company === 'folders' ? '' : company,
 						app: company === 'folders' ? '' : app,
-						type: getFileType(relativePath),
+						type: getFileType(relativePathFroImgs),
 					});
 			}
 		}
