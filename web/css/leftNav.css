@@ -1,5 +1,5 @@
 .home {
-    --leftNavWidth: 260px;
+    --leftNavWidth: 320px;
     --lineWidth: 100%;
 }
 
@@ -30,7 +30,6 @@
 
 
 .home .leftNav.show {
-
     width: var(--leftNavWidth);
     max-width: var(--leftNavWidth);
     /* transition-delay: 0.2s; */
@@ -224,10 +223,6 @@
     margin-bottom: 0px;
 }
 
-.home .leftNav .bottom {
-    /* height: 300px; */
-    /* margin-bottom: 40px; */
-}
 
 .home .leftNav.show .bottom {
     /* display: block; */
@@ -244,6 +239,10 @@
 
 .home .leftNav.show .bottom .about .navItem .icon {
     opacity: 1;
+}
+
+.home .leftNav .bottom .about .navItem {
+    padding-left: 12px;
 }
 
 .home .leftNav .bottom .about .navItem:hover a {
@@ -273,6 +272,7 @@
     visibility: hidden;
     /* padding-left: 12px; */
 }
+
 
 .home .leftNav .bottom .about .navItem .icon {
     color: #b1b1b1;
