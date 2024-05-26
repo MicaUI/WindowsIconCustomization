@@ -6,7 +6,7 @@
 .home .leftNav {
     min-width: 30px;
     max-width: 30px;
-    height: 100vh;
+    /* height: 100; */
     padding: 12px;
     overflow: hidden;
     background-color: #393939;
@@ -18,6 +18,10 @@
     /* transition-delay: 0.02s; */
 }
 
+#app .leftNav.show+.mainContent.content.showIconItem {
+    grid-template-columns: repeat(9, 1fr) !important;
+
+}
 
 
 

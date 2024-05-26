@@ -1,10 +1,134 @@
 @import "./base.css";
 @import "./leftNav.css";
 @import "./mainContent.css";
+@import "./showInfo.css";
+
+body {
+    /* 调整底部空白区域的大小，根据需要调整数值 */
+}
 
 .home {
     width: 100vw;
     height: 100vh;
     display: flex;
     overflow: hidden;
+    overflow-y: hidden;
+}
+
+.home .mask {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 255, 250);
+    opacity: 0.3;
+    position: absolute;
+    z-index: 2;
+}
+
+.home .showInfo.show {
+    display: block;
+    top: 0px;
+    opacity: 1;
+}
+
+.home .showInfo.show~.mask {
+    display: block;
+}
+
+.home .showInfo.hide {
+    display: block;
+    top: -600px;
+    opacity: 0;
+
+}
+
+.home .showInfo.hide~.mask {
+    display: none;
+}
+
+.home .showInfo {
+    width: 100vw;
+    height: 500px;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
+
+.home .showInfo .infoContent {
+    width: 50vw;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.home .showInfo .infoContent .close {
+    font-size: 32px;
+    position: absolute;
+    right: 6.4%;
+    top: 9.8%;
+    cursor: pointer;
+    text-decoration: dotted;
+    user-select: none;
+}
+
+.home .showInfo .infoContent .coverImg {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .showInfo .infoContent .coverImg img {
+    /* min-width: 100%; */
+    /* min-height: 80%; */
+    object-fit: fill;
+
+}
+
+
+.home .showInfo .infoContent .infoList {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.home .showInfo .infoContent .infoList .infoItem {
+    width: 90%;
+    height: 24px;
+    display: flex;
+    padding: 4px;
+    padding-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid saddlebrown;
+}
+
+.home .showInfo .infoContent .infoList .infoItem .what {
+    width: 30%;
+    height: 100%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.home .showInfo .infoContent .infoList .infoItem .info {
+    max-width: 60%;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: end;
+    cursor: pointer;
 }
