@@ -1,52 +1,58 @@
-function convertConfigToData(config) {
-	const data = [];
-
-	for (const company in config) {
-		if (company === 'folders') {
-			continue;
-		}
-		const apps = [];
-
-		for (const app in config[company]) {
-			let fileList;
-			if (config[company][app].FileTypeIcon) {
-				if (config[company][app].FileTypeIcon._files)
-					fileList = config[company][app].FileTypeIcon._files;
-			} else {
-				if (config[company][app].AppIcon._files)
-					fileList = config[company][app].AppIcon._files;
-			}
-			const appData = [];
-			console.log(app);
-			console.log(fileList);
-
-			fileList.forEach((file) => {
-				const fileData = {
-					pic: file.path,
-					tip: file.name,
-					url: '#',
-					name: file.name,
-				};
-				appData.push(fileData);
+function excludeDifferentExtensions(data) {
+	for (const key in data) {
+		if (key === '_files') {
+			const filenames = new Set();
+			console.log(key);
+			data[key] = data[key].filter((file) => {
+				const filename = file.name;
+				console.log(filename);
+				if (filenames.has(filename)) {
+					return false; // 如果已经存在相同文件名，则排除该文件
+				} else {
+					filenames.add(filename);
+					return true;
+				}
 			});
-
-			apps.push({
-				[app]: appData,
-			});
+		} else if (typeof data[key] === 'object') {
+			data[key] = excludeDifferentExtensions(data[key]); // 递归处理嵌套结构
 		}
-
-		data.push({
-			[company]: apps,
-		});
 	}
 
-	return data;
+	return data; // 返回处理后的数据
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON('../../config.json', function (_config) {
-		//data 代表读取到的json中的数据
-		const data = convertConfigToData(_config);
-		console.log(data);
-	});
-});
+// 测试数据
+const testdata = {
+	Google: {
+		Android: {
+			FileTypeIcon: {
+				_files: [
+					{
+						path: 'Google\\Android\\FileTypeIcon\\apk.ico',
+						name: 'apk',
+						type: 'ico',
+					},
+					{
+						path: 'Google\\Android\\FileTypeIcon\\apk.png',
+						name: 'apk',
+						type: 'png',
+					},
+					{
+						path: 'Google\\Android\\FileTypeIcon\\apk2.ico',
+						name: 'apk2',
+						type: 'ico',
+					},
+					{
+						path: 'Google\\Android\\FileTypeIcon\\apk2.png',
+						name: 'apk2',
+						type: 'png',
+					},
+				],
+			},
+		},
+	},
+};
+
+// 调用函数并打印处理后的数据
+const processedData = excludeDifferentExtensions(testdata);
+console.log(JSON.stringify(processedData, null, 2));
