@@ -69,7 +69,7 @@ function traverseDirectory(dir, rootDir) {
 		}
 
 		const itemPath = path.join(dir, item);
-		const relativePath = path.relative(rootDir, itemPath);
+		const relativePath = path.relative(__dirname, itemPath);
 		const stats = fs.statSync(itemPath);
 
 		if (stats.isDirectory()) {
