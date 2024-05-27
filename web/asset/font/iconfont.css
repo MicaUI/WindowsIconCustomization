@@ -6,6 +6,16 @@
         url('iconfont.ttf?t=1716626153113') format('truetype');
 }
 
+@font-face {
+    font-family: "SEGOEICONS";
+    /* Project id 4558692 */
+    src: url('SEGOEICONS.TTF?t=1716626153113') format('truetype');
+}
+
+.leftNav {
+    font-family: "SEGOEICONS" !important;
+}
+
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 16px;
