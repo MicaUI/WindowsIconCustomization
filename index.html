@@ -3,66 +3,130 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-    <title>Icon Display</title>
-    <script
-        src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <style>
-        .icon-container {
-            display: flex;
-            flex-wrap: wrap;
-            /* 允许换行 */
-            justify-content: space-around;
-            align-items: flex-start;
-            /* 可以根据需要调整图标对齐方式 */
-        }
-
-        .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 10px;
-            /* 不设置固定宽度和高度，让图标自适应 */
-        }
-
-        .icon img {
-            max-width: 100%;
-            /* 图片最大宽度不超过容器宽度 */
-            height: auto;
-            /* 高度自适应，保持图片比例 */
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindowsIconCustomization</title>
+    <link rel="shortcut icon" href="web/asset/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="web/asset/font/iconfont.css">
+    <link rel="stylesheet" href="web/css/index.css">
+    <link rel="stylesheet" href="web/css/leftNav.css">
+    <link rel="stylesheet" href="web/css/mainContent.css">
+    <!-- <link rel="stylesheet" href="web/css/index.css"> -->
+    <script src="web/js/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="icon-container">
-        <!-- 动态生成图标 -->
-        <!-- <div class="icon" ng-repeat="icon in icons">
-            <img [src]="icon.src" alt="{{icon.name}}">
-        </div> -->
+    <div class="home hideLeft" id="app">
+        <div class="leftNav show">
+            <div class="top">
+                <div class="icon control"></div>
+                <!-- <div class="logo">
+                    <img src="web/asset/logo.png" alt="">
+                </div> -->
+                <div class="search">
+                    <span class="icon small"></span>
+                    <div class="searchBig">
+                        <span class="icon inputIcon"></span>
+                        <input class="searchInput" type="text" placeholder="搜索">
+                    </div>
+                </div>
+                <p class="line"></p>
+                <!-- <h4 class="topTitle title">Window图标库</h4> -->
+                <nav class="topNav">
+                    <ul class="navList">
+                        <li class="navItem mainHome">
+                            <span class="icon iconfont icon-home"></span>
+                            <span class="label">所有图标</span>
+                        </li>
+                        <li class="navItem app">
+                            <span class="icon"></span>
+                            <span class="label">应用图标</span>
+                        </li>
+                        <li class="navItem folders">
+                            <span class="icon"></span>
+                            <span class="label">文件夹图标</span>
+                        </li>
+                        <li class="navItem file">
+                            <span class="icon"></span>
+                            <span class="label">文件图标</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="center">
+                <p class="line"></p>
+                <!-- <h4 class="centerTitle title">分类</h4> -->
+                <nav class="centerNav">
+                    <ul class="navList">
+
+                        <!-- <li class="navItem">
+                            <span class="icon iconfont icon-manhuajia"></span>
+                            <span class="label">文件类型</span>
+                        </li> -->
+                        <li class="navItem company">
+                            <span class="icon"></span>
+                            <span class="label">按开发商展示</span>
+                        </li>
+                        <!-- <li class="navItem">
+                            <span class="icon iconfont icon-yaoyiyao"></span>
+                            <span class="label">类别</span>
+                        </li> -->
+                        <!-- <li class="navItem">
+                            <span class="icon iconfont icon-rili"></span>
+                            <span class="label">年</span>
+                        </li> -->
+                        <li class="navItem software">
+                            <span class="icon"></span>
+                            <span class="label">按软件展示</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottom">
+                <!-- <h3 class="title">
+                    有关的
+                </h3> -->
+                <nav class="about">
+                    <ul>
+                        <li class="navItem">
+                            <a href="">window图标库
+                                <span class="icon iconfont">&#xe74c;</span>
+                            </a>
+                        </li>
+                        <!-- <li class="navItem">
+                            <a href="#">watchOS图标库</a>
+                            <span class="icon iconfont">&#xe74c;</span>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="top">
+                <div class="leftTitle">
+                    <span id="title">图标</span>
+                    <span class="sum">(0)</span>
+                    <div class="back iconfont icon-back"></div>
+                </div>
+                <div class="rightTool">
+                    占位工具
+                </div>
+            </div>
+            <div class="content showIconWrap">
+            </div>
+        </div>
+        <div class="showInfo hide">
+            <div class="infoContent">
+                <div class="close">X</div>
+                <div class="coverImg">
+                    <img src="" class="coverImgShow" alt="">
+                </div>
+                <ul class="infoList">
+                </ul>
+            </div>
+        </div>
+        <div class="mask"></div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            $.getJSON("./png_files.json", function (iconsData) {
-                //data 代表读取到的json中的数据
-                // console.log(data)
-                let iconContainer = document.querySelector('.icon-container')
-                iconsData.forEach(function (icon) {
-                    let iconDiv = document.createElement('div')
-                    iconDiv.classList.add('icon')
-
-                    let img = document.createElement('img')
-                    let iconPath = icon.split("/")
-                    img.src = icon
-                    img.alt = iconPath[iconPath.length - 1]
-                    iconDiv.appendChild(img)
-                    iconContainer.appendChild(iconDiv)
-                })
-            })
-        });
-    </script>
-
 </body>
+<script src="web/js/index.js"></script>
 
 </html>
