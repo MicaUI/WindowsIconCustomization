@@ -3,7 +3,7 @@ name: createConfig
 on:
     push:
         branches:
-            - dev
+            - xygodcyx-webpageDev
 
 jobs:
     build-and-deploy:
