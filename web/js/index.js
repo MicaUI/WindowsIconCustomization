@@ -15,6 +15,18 @@ let allAppIconItemData;
 let type;
 let curPage = 'home';
 let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
+const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
+const deconstructionFileData = (file) => {
+	return {
+		pic: file.path,
+		tip: file.name,
+		url: baseUrl + file.path,
+		name: file.name,
+		company: file.company,
+		app: file.app,
+		type: file.type,
+	};
+};
 const convertConfigToIconData = (config) => {
 	const data = [];
 
@@ -36,12 +48,7 @@ const convertConfigToIconData = (config) => {
 			const appData = [];
 
 			fileList.forEach((file) => {
-				const fileData = {
-					pic: file.path,
-					tip: file.name,
-					url: '#',
-					name: file.name,
-				};
+				const fileData = deconstructionFileData(file);
 				appData.push(fileData);
 			});
 
@@ -66,12 +73,7 @@ const convertFoldersToFoldersData = (folders) => {
 		const folderData = [];
 
 		fileList.forEach((file) => {
-			const fileData = {
-				pic: file.path,
-				tip: file.name,
-				url: '#',
-				name: file.name,
-			};
+			const fileData = deconstructionFileData(file);
 			folderData.push(fileData);
 		});
 
@@ -102,12 +104,7 @@ const convertConfigToFileData = (config) => {
 			const appData = [];
 
 			fileList.forEach((file) => {
-				const fileData = {
-					pic: file.path,
-					tip: file.name,
-					url: '#',
-					name: file.name,
-				};
+				const fileData = deconstructionFileData(file);
 				appData.push(fileData);
 			});
 
@@ -143,12 +140,7 @@ const convertConfigToAppData = (config) => {
 			const appData = [];
 
 			fileList.forEach((file) => {
-				const fileData = {
-					pic: file.path,
-					tip: file.name,
-					url: '#',
-					name: file.name,
-				};
+				const fileData = deconstructionFileData(file);
 				appData.push(fileData);
 			});
 
@@ -186,12 +178,7 @@ const convertConfigToSoftwareData = (config) => {
 			const appData = [];
 
 			fileList.forEach((file) => {
-				const fileData = {
-					pic: file.path,
-					tip: file.name,
-					url: '#',
-					name: file.name,
-				};
+				const fileData = deconstructionFileData(file);
 				appData.push(fileData);
 			});
 
@@ -226,6 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 let curLeftNavStatus = true;
 const toggleLeftNav = () => {
+	console.log('toggle');
 	curLeftNavStatus = !curLeftNavStatus;
 	curLeftNavStatus ? showLeftNav() : hideLeftNav();
 };
@@ -243,6 +231,26 @@ const hideLeftNav = () => {
 };
 const doms = {
 	/**
+	 * coverImgShow
+	 * @type {HTMLImageElement} coverImgShow - coverImgShow
+	 */
+	coverImgShow: document.querySelector('.showInfo .coverImgShow'),
+	/**
+	 * infoList
+	 * @type {HTMLUListElement} infoList - infoList
+	 */
+	infoList: document.querySelector('.showInfo .infoList'),
+	/**
+	 * close
+	 * @type {HTMLDivElement} close - close
+	 */
+	close: document.querySelector('.showInfo .close'),
+	/**
+	 * showInfo
+	 * @type {HTMLDivElement} showInfo - showInfo
+	 */
+	showInfo: document.querySelector('.showInfo'),
+	/**
 	 * inputIcon
 	 * @type {HTMLSpanElement} inputIcon - inputIcon
 	 */
@@ -256,7 +264,7 @@ const doms = {
 	 * control
 	 * @type {HTMLDivElement} control - control
 	 */
-	control: document.querySelector('.control'),
+	control: document.querySelector('.leftNav .control'),
 	/**
 	 * mainHome
 	 * @type {HTMLLIElement} mainHome - mainHome
@@ -321,11 +329,23 @@ const doms = {
 let inputHasFocus = false;
 
 const search = () => {};
+// Notification.requestPermission().then(function (permission) {
+// 	if (permission === 'granted') {
+// 		new Notification('页面有变化,请更新');
+// 	}
+// });
+
+doms.close.addEventListener('click', (e) => {
+	hideShowInfo();
+});
+
+doms.close.addEventListener('click', (e) => {
+	hideShowInfo();
+});
 
 doms.inputIcon.addEventListener('click', (e) => {
 	search();
 });
-
 doms.small.addEventListener('click', (e) => {
 	showLeftNav();
 	doms.searchInput.focus();
@@ -334,22 +354,45 @@ doms.small.addEventListener('click', (e) => {
 doms.control.addEventListener('click', (e) => {
 	toggleLeftNav();
 });
+/**
+ * setCurStatus
+ * @param {HTMLElement} who - who
+ */
+const setCurStatus = (who) => {
+	[
+		doms.mainHome,
+		doms.folders,
+		doms.file,
+		doms.app,
+		doms.company,
+		doms.software,
+	].forEach((d) => {
+		if (who != d) d.classList.remove('cur');
+	});
+	who.classList.add('cur');
+};
 doms.mainHome.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createHomePage();
 });
 doms.folders.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createFoldersPage();
 });
 doms.file.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createFilePage();
 });
 doms.app.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createAppPage();
 });
 doms.company.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createCompanyPage();
 });
 doms.software.addEventListener('click', (e) => {
+	setCurStatus(e.target);
 	createSoftwarePage();
 });
 doms.searchInput.addEventListener('focusin', (e) => {
@@ -461,7 +504,7 @@ const createIconWrapElement = (what) => {
 		const allIconNum = countSpecificTypeObjects(data[companyName]);
 		const iconWrap = document.createElement('div');
 		const showIconData = extractData(data[companyName]);
-
+		iconWrap.id = companyName;
 		iconWrap.classList.add('iconWrap');
 		iconWrap.innerHTML = `<div class="iconWrapContent">
 	        <div class="smallIconWrap">
@@ -506,11 +549,11 @@ const createIconWrapElement = (what) => {
 const createAppElement = (data = []) => {
 	doms.content.innerHTML = '';
 	data.forEach((d) => {
-		const companyName = Object.keys(d)[0];
-		const allIconNum = countSpecificTypeObjects(d[companyName]);
+		const appName = Object.keys(d)[0];
+		const allIconNum = countSpecificTypeObjects(d[appName]);
 		const iconWrap = document.createElement('div');
-		const showIconData = extractData(d[companyName]);
-
+		const showIconData = extractData(d[appName]);
+		iconWrap.id = appName;
 		iconWrap.classList.add('iconWrap');
 		iconWrap.innerHTML = `<div class="iconWrapContent">
 	        <div class="smallIconWrap">
@@ -518,7 +561,7 @@ const createAppElement = (data = []) => {
 	    </div>
 	    <div class="bottomInfo">
 	        <p class="name">
-	            ${companyName}
+	            ${appName}
 	        </p>
 	        <span class="sum">
 	            (${allIconNum})
@@ -543,7 +586,7 @@ const createAppElement = (data = []) => {
 		iconWrapContent.addEventListener('click', () => {
 			type = 'app';
 			lastData = data;
-			createIconItemElement(d[companyName]);
+			createIconItemElement(d[appName]);
 		});
 	});
 	showBack();
@@ -554,15 +597,108 @@ const createAppElement = (data = []) => {
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
+const showInfoDataInit = {
+	pic: '',
+	app: '',
+	company: '',
+	type: [],
+};
+let showInfoData = showInfoDataInit;
+const extractDataToShowInfo = (infoData, showInfoData) => {
+	for (const key in showInfoData) {
+		if (infoData[key] !== undefined) {
+			showInfoData[key] = infoData[key];
+		}
+	}
+};
+
+/**
+ * addEventListenerInfoItemClickWillGo
+ * @type {HTMLDivElement} infoItem - infoItem
+ * @type {string} key - key
+ * @type {string} will - will
+ */
+const addEventListenerInfoItemClickWillGo = (
+	infoItem = new HTMLDivElement(),
+	key,
+	will
+) => {
+	switch (key) {
+		case 'company': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+				setTimeout(() => {
+					location.href = `#${will}`;
+				}, 1);
+			});
+			break;
+		}
+		case 'app': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createAppPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createSoftwarePage();
+				setTimeout(() => {
+					location.href = `#${will}`;
+				}, 1);
+			});
+			break;
+		}
+	}
+};
+
+const showShowInfo = (infoData) => {
+	console.log(infoData);
+	extractDataToShowInfo(infoData, showInfoData);
+	doms.coverImgShow.src = showInfoData.pic;
+	for (key in showInfoData) {
+		if (key === 'pic' || showInfoData[key] === '') {
+			continue;
+		}
+		const infoItem = document.createElement('li');
+		infoItem.classList.add('infoItem');
+		infoItem.innerHTML = `<div class="what" title="${key}">${key}</div>
+                        <div class="info" title="${showInfoData[key]}">${showInfoData[key]}</div>`;
+		if (key === 'company' || key === 'app') {
+			addEventListenerInfoItemClickWillGo(
+				infoItem,
+				key,
+				showInfoData[key]
+			);
+		}
+		doms.infoList.appendChild(infoItem);
+	}
+	doms.showInfo.classList.remove('show');
+	doms.showInfo.classList.remove('hide');
+	doms.showInfo.classList.add('show');
+};
+
+const hideShowInfo = () => {
+	doms.infoList.innerHTML = '';
+	showInfoData = showInfoDataInit;
+	doms.showInfo.classList.remove('show');
+	doms.showInfo.classList.remove('hide');
+	doms.showInfo.classList.add('hide');
+};
+
 const createIconItemElement = (data) => {
 	doms.content.innerHTML = '';
 	data.forEach((d) => {
 		const iconItem = document.createElement('div');
 		iconItem.classList.add('iconItem');
 		iconItem.title = d.tip;
-		iconItem.innerHTML = `<img src="${d.pic}" alt="">`;
+		iconItem.innerHTML = `<img id="${d.name}" src="${d.pic}" alt="">`;
 		iconItem.addEventListener('click', () => {
-			window.open(d.url);
+			// window.open(d.url);
+			showShowInfo(d);
 		});
 		doms.content.appendChild(iconItem);
 	});

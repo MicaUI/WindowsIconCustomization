@@ -6,7 +6,9 @@
 					{
 						"path": "Adobe\\Au\\AppIcon\\Au.png",
 						"name": "Au",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Au",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -17,7 +19,9 @@
 					{
 						"path": "Adobe\\Ch\\AppIcon\\Ch.png",
 						"name": "Ch",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Ch",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -28,7 +32,9 @@
 					{
 						"path": "Adobe\\Fr\\AppIcon\\Fr.png",
 						"name": "Fr",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Fr",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -39,7 +45,9 @@
 					{
 						"path": "Adobe\\Ic\\AppIcon\\IC.png",
 						"name": "IC",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Ic",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -50,7 +58,9 @@
 					{
 						"path": "Adobe\\Id\\AppIcon\\ID.png",
 						"name": "ID",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Id",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -61,12 +71,16 @@
 					{
 						"path": "Adobe\\Illustrator\\AppIcon\\AI.png",
 						"name": "AI",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Illustrator",
+						"type": ["应用图标"]
 					},
 					{
 						"path": "Adobe\\Illustrator\\AppIcon\\Ai6128w.png",
 						"name": "Ai6128w",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Illustrator",
+						"type": ["应用图标"]
 					}
 				]
 			},
@@ -75,7 +89,9 @@
 					{
 						"path": "Adobe\\Illustrator\\FileTypeIcon\\ai.ico",
 						"name": "ai",
-						"type": "ico"
+						"company": "Adobe",
+						"app": "Illustrator",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -86,7 +102,9 @@
 					{
 						"path": "Adobe\\Lr\\AppIcon\\Lr.png",
 						"name": "Lr",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Lr",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -97,7 +115,9 @@
 					{
 						"path": "Adobe\\Photoshop\\AppIcon\\Ps4.ico",
 						"name": "Ps4",
-						"type": "ico"
+						"company": "Adobe",
+						"app": "Photoshop",
+						"type": ["应用图标"]
 					}
 				]
 			},
@@ -106,12 +126,16 @@
 					{
 						"path": "Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
 						"name": "psb",
-						"type": "ico"
+						"company": "Adobe",
+						"app": "Photoshop",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Adobe\\Photoshop\\FileTypeIcon\\psd.ico",
 						"name": "psd",
-						"type": "ico"
+						"company": "Adobe",
+						"app": "Photoshop",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -122,7 +146,9 @@
 					{
 						"path": "Adobe\\Pr\\AppIcon\\Pr.png",
 						"name": "Pr",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Pr",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -133,7 +159,9 @@
 					{
 						"path": "Adobe\\Pt\\AppIcon\\Pt.png",
 						"name": "Pt",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Pt",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -144,7 +172,9 @@
 					{
 						"path": "Adobe\\Sb\\AppIcon\\Sb.png",
 						"name": "Sb",
-						"type": "png"
+						"company": "Adobe",
+						"app": "Sb",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -157,12 +187,16 @@
 					{
 						"path": "Apple\\macOS\\FileTypeIcon\\dmg.ico",
 						"name": "dmg",
-						"type": "ico"
+						"company": "Apple",
+						"app": "macOS",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Apple\\macOS\\FileTypeIcon\\pkg.png",
 						"name": "pkg",
-						"type": "png"
+						"company": "Apple",
+						"app": "macOS",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -173,27 +207,37 @@
 					{
 						"path": "Apple\\Xcode\\FileTypeIcon\\sdef.png",
 						"name": "sdef",
-						"type": "png"
+						"company": "Apple",
+						"app": "Xcode",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Apple\\Xcode\\FileTypeIcon\\storyboard.png",
 						"name": "storyboard",
-						"type": "png"
+						"company": "Apple",
+						"app": "Xcode",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Apple\\Xcode\\FileTypeIcon\\Xcodearchive.png",
 						"name": "Xcodearchive",
-						"type": "png"
+						"company": "Apple",
+						"app": "Xcode",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Apple\\Xcode\\FileTypeIcon\\xcodeproj.png",
 						"name": "xcodeproj",
-						"type": "png"
+						"company": "Apple",
+						"app": "Xcode",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png",
 						"name": "Xcodworkspace",
-						"type": "png"
+						"company": "Apple",
+						"app": "Xcode",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -206,337 +250,471 @@
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
 						"name": "3Ds",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\ant.png",
 						"name": "ant",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\bip.png",
 						"name": "bip",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\bpr.png",
 						"name": "bpr",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\bprx.png",
 						"name": "bprx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cal.png",
 						"name": "cal",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cam.png",
 						"name": "cam",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cfx-1.png",
 						"name": "cfx-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cfx.png",
 						"name": "cfx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\chr.png",
 						"name": "chr",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\clp.png",
 						"name": "clp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\clr.png",
 						"name": "clr",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\clrx.png",
 						"name": "clrx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cpy.png",
 						"name": "cpy",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\csm.png",
 						"name": "csm",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cui.png",
 						"name": "cui",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\cuix.png",
 						"name": "cuix",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\ds.png",
 						"name": "ds",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\dxf.png",
 						"name": "dxf",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\eny.png",
 						"name": "eny",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\fgm-1.png",
 						"name": "fgm-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\fgm.png",
 						"name": "fgm",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\fig.png",
 						"name": "fig",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\ifl.png",
 						"name": "ifl",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\kbd.png",
 						"name": "kbd",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\kbdx.png",
 						"name": "kbdx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mat.png",
 						"name": "mat",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\max-1.png",
 						"name": "max-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\max.png",
 						"name": "max",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\maxc-1.png",
 						"name": "maxc-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\maxc.png",
 						"name": "maxc",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\maxt-1.png",
 						"name": "maxt-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\maxt.png",
 						"name": "maxt",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mcg-1.png",
 						"name": "mcg-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mcg.png",
 						"name": "mcg",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mcr-1.png",
 						"name": "mcr-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mcr.png",
 						"name": "mcr",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mfe.png",
 						"name": "mfe",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mi.png",
 						"name": "mi",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mix.png",
 						"name": "mix",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mnm.png",
 						"name": "mnm",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mnu.png",
 						"name": "mnu",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mnux.png",
 						"name": "mnux",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\moc.png",
 						"name": "moc",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\ms.png",
 						"name": "ms",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mse.png",
 						"name": "mse",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mus.png",
 						"name": "mus",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\musx.png",
 						"name": "musx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mxp.png",
 						"name": "mxp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\mzp.png",
 						"name": "mzp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\pc2.png",
 						"name": "pc2",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\pfc.png",
 						"name": "pfc",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\phy.png",
 						"name": "phy",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\pmap.png",
 						"name": "pmap",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\prj.png",
 						"name": "prj",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\pse.png",
 						"name": "pse",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\qop.png",
 						"name": "qop",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\rcs.png",
 						"name": "rcs",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\rg3.png",
 						"name": "rg3",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\rps.png",
 						"name": "rps",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\shp.png",
 						"name": "shp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\stat.png",
 						"name": "stat",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\stp.png",
 						"name": "stp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\ui.png",
 						"name": "ui",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\vpx.png",
 						"name": "vpx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\xaf.png",
 						"name": "xaf",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\3Ds\\FileTypeIcon\\xmm.png",
 						"name": "xmm",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "3Ds",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -547,12 +725,16 @@
 					{
 						"path": "Autodesk\\Alias\\FileTypeIcon\\wire_1.png",
 						"name": "wire_1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Alias",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Alias\\FileTypeIcon\\Wire_2.png",
 						"name": "Wire_2",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Alias",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -563,7 +745,9 @@
 					{
 						"path": "Autodesk\\AutoCAD\\AppIcon\\CAD.ico",
 						"name": "CAD",
-						"type": "ico"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["应用图标"]
 					}
 				]
 			},
@@ -572,52 +756,72 @@
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\ARX.png",
 						"name": "ARX",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\ctb.png",
 						"name": "ctb",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\DBX.png",
 						"name": "DBX",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\dgn.png",
 						"name": "dgn",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\HDI.png",
 						"name": "HDI",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\LSP.png",
 						"name": "LSP",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\PC3.png",
 						"name": "PC3",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\pmp.png",
 						"name": "pmp",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\SHX.png",
 						"name": "SHX",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\AutoCAD\\FileTypeIcon\\stb.png",
 						"name": "stb",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "AutoCAD",
+						"type": ["文件类型图标"]
 					}
 				],
 				"dwg": {
@@ -625,12 +829,16 @@
 						{
 							"path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg.ico",
 							"name": "dwg",
-							"type": "ico"
+							"company": "Autodesk",
+							"app": "AutoCAD",
+							"type": ["文件类型图标"]
 						},
 						{
 							"path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg\\dwg@0.5x.png",
 							"name": "dwg@0",
-							"type": "5x"
+							"company": "Autodesk",
+							"app": "AutoCAD",
+							"type": ["文件类型图标"]
 						}
 					]
 				},
@@ -639,12 +847,16 @@
 						{
 							"path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak.ico",
 							"name": "dwgbak",
-							"type": "ico"
+							"company": "Autodesk",
+							"app": "AutoCAD",
+							"type": ["文件类型图标"]
 						},
 						{
 							"path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak\\dwgbak@0.5x.png",
 							"name": "dwgbak@0",
-							"type": "5x"
+							"company": "Autodesk",
+							"app": "AutoCAD",
+							"type": ["文件类型图标"]
 						}
 					]
 				}
@@ -656,32 +868,44 @@
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\cfd-1.png",
 						"name": "cfd-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\cfd.png",
 						"name": "cfd",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\cfdpk.png",
 						"name": "cfdpk",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\cfz.png",
 						"name": "cfz",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\tpl.png",
 						"name": "tpl",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\CFD\\FileTypeIcon\\vtfx.png",
 						"name": "vtfx",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "CFD",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -692,12 +916,16 @@
 					{
 						"path": "Autodesk\\FromIt\\FileTypeIcon\\axm.png",
 						"name": "axm",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "FromIt",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\FromIt\\FileTypeIcon\\axm_2.png",
 						"name": "axm_2",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "FromIt",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -708,12 +936,16 @@
 					{
 						"path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_1.png",
 						"name": "f3d_1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Fusion360",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_2.png",
 						"name": "f3d_2",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Fusion360",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -724,22 +956,30 @@
 					{
 						"path": "Autodesk\\Inventor\\FileTypeIcon\\idw.png",
 						"name": "idw",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Inventor",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Inventor\\FileTypeIcon\\ipn.png",
 						"name": "ipn",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Inventor",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Inventor\\FileTypeIcon\\ipt-1.png",
 						"name": "ipt-1",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Inventor",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Inventor\\FileTypeIcon\\ipt.png",
 						"name": "ipt",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Inventor",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -750,27 +990,37 @@
 					{
 						"path": "Autodesk\\Revit\\FileTypeIcon\\RFA.png",
 						"name": "RFA",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Revit",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Revit\\FileTypeIcon\\RFT.png",
 						"name": "RFT",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Revit",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Revit\\FileTypeIcon\\RTE.png",
 						"name": "RTE",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Revit",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Revit\\FileTypeIcon\\RVT.png",
 						"name": "RVT",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Revit",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Autodesk\\Revit\\FileTypeIcon\\RVT_2.png",
 						"name": "RVT_2",
-						"type": "png"
+						"company": "Autodesk",
+						"app": "Revit",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -783,12 +1033,16 @@
 					{
 						"path": "Blender\\Blender\\FileTypeIcon\\blend.ico",
 						"name": "blend",
-						"type": "ico"
+						"company": "Blender",
+						"app": "Blender",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Blender\\Blender\\FileTypeIcon\\Blend1.ico",
 						"name": "Blend1",
-						"type": "ico"
+						"company": "Blender",
+						"app": "Blender",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -801,7 +1055,9 @@
 					{
 						"path": "Figma\\Figma\\AppIcon\\figma.ico",
 						"name": "figma",
-						"type": "ico"
+						"company": "Figma",
+						"app": "Figma",
+						"type": ["应用图标"]
 					}
 				]
 			},
@@ -810,7 +1066,9 @@
 					{
 						"path": "Figma\\Figma\\FileTypeIcon\\fig.ico",
 						"name": "fig",
-						"type": "ico"
+						"company": "Figma",
+						"app": "Figma",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -822,62 +1080,86 @@
 				{
 					"path": "folders\\blue grey\\blue grey.png",
 					"name": "blue grey",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Background.png",
 					"name": "blue grey_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Desktop.png",
 					"name": "blue grey_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Documents.png",
 					"name": "blue grey_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Download.png",
 					"name": "blue grey_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Links.png",
 					"name": "blue grey_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Music.png",
 					"name": "blue grey_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Pictures.png",
 					"name": "blue grey_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_User.png",
 					"name": "blue grey_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Users.png",
 					"name": "blue grey_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Videos.png",
 					"name": "blue grey_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\blue grey\\blue grey_Windows.png",
 					"name": "blue grey_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -886,62 +1168,86 @@
 				{
 					"path": "folders\\bluepink\\bluepink.png",
 					"name": "bluepink",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Background.png",
 					"name": "bluepink_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Desktop.png",
 					"name": "bluepink_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Documents.png",
 					"name": "bluepink_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Download.png",
 					"name": "bluepink_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Links.png",
 					"name": "bluepink_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Music.png",
 					"name": "bluepink_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Pictures.png",
 					"name": "bluepink_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_User.png",
 					"name": "bluepink_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Users.png",
 					"name": "bluepink_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Videos.png",
 					"name": "bluepink_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\bluepink\\bluepink_Windows.png",
 					"name": "bluepink_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -950,57 +1256,79 @@
 				{
 					"path": "folders\\cyan\\cyan green_Background.png",
 					"name": "cyan green_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Desktop.png",
 					"name": "cyan green_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Documents.png",
 					"name": "cyan green_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Download.png",
 					"name": "cyan green_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Links.png",
 					"name": "cyan green_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Music.png",
 					"name": "cyan green_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Pictures.png",
 					"name": "cyan green_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_User.png",
 					"name": "cyan green_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Users.png",
 					"name": "cyan green_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Videos.png",
 					"name": "cyan green_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan\\cyan green_Windows.png",
 					"name": "cyan green_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1009,62 +1337,86 @@
 				{
 					"path": "folders\\cyan blue\\cyan blue.png",
 					"name": "cyan blue",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Background.png",
 					"name": "cyan blue_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Desktop.png",
 					"name": "cyan blue_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Documents.png",
 					"name": "cyan blue_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Download.png",
 					"name": "cyan blue_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Links.png",
 					"name": "cyan blue_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Music.png",
 					"name": "cyan blue_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Pictures.png",
 					"name": "cyan blue_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Users.png",
 					"name": "cyan blue_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_User_Windows.png",
 					"name": "cyan blue_User_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Videos.png",
 					"name": "cyan blue_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan blue\\cyan blue_Windows.png",
 					"name": "cyan blue_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1073,67 +1425,93 @@
 				{
 					"path": "folders\\cyan green\\cyan green.png",
 					"name": "cyan green",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan.png",
 					"name": "cyan",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Background.png",
 					"name": "cyan_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Desktop.png",
 					"name": "cyan_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Documents.png",
 					"name": "cyan_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Download.png",
 					"name": "cyan_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Links.png",
 					"name": "cyan_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Music.png",
 					"name": "cyan_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Pictures.png",
 					"name": "cyan_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_User.png",
 					"name": "cyan_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Users.png",
 					"name": "cyan_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Videos.png",
 					"name": "cyan_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\cyan green\\cyan_Windows.png",
 					"name": "cyan_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1142,52 +1520,72 @@
 				{
 					"path": "folders\\Fluent\\Fluent Light.png",
 					"name": "Fluent Light",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Background.png",
 					"name": "Fluent Light_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Desktop.png",
 					"name": "Fluent Light_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Documents.png",
 					"name": "Fluent Light_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Download.png",
 					"name": "Fluent Light_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Links.png",
 					"name": "Fluent Light_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Music.png",
 					"name": "Fluent Light_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Pictures.png",
 					"name": "Fluent Light_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Users.png",
 					"name": "Fluent Light_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Fluent\\Fluent Light_Videos.png",
 					"name": "Fluent Light_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1196,62 +1594,86 @@
 				{
 					"path": "folders\\green\\green.png",
 					"name": "green",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Background.png",
 					"name": "green_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Desktop.png",
 					"name": "green_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Documents.png",
 					"name": "green_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Download.png",
 					"name": "green_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Links.png",
 					"name": "green_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Music.png",
 					"name": "green_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Pictures.png",
 					"name": "green_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_User.png",
 					"name": "green_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Users.png",
 					"name": "green_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Videos.png",
 					"name": "green_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green\\green_Windows.png",
 					"name": "green_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1260,62 +1682,86 @@
 				{
 					"path": "folders\\green grey\\green grey.png",
 					"name": "green grey",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Background.png",
 					"name": "green grey_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Desktop.png",
 					"name": "green grey_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Documents.png",
 					"name": "green grey_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Download.png",
 					"name": "green grey_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Links.png",
 					"name": "green grey_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Music.png",
 					"name": "green grey_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Pictures.png",
 					"name": "green grey_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_User.png",
 					"name": "green grey_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Users.png",
 					"name": "green grey_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Videos.png",
 					"name": "green grey_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\green grey\\green grey_Windows.png",
 					"name": "green grey_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1324,7 +1770,9 @@
 				{
 					"path": "folders\\grey\\ballance.ico",
 					"name": "ballance",
-					"type": "ico"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1333,67 +1781,93 @@
 				{
 					"path": "folders\\Oringe\\Oringe-1.png",
 					"name": "Oringe-1",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe.png",
 					"name": "Oringe",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Background.png",
 					"name": "Oringe_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Desktop.png",
 					"name": "Oringe_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Documents.png",
 					"name": "Oringe_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Download.png",
 					"name": "Oringe_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Links.png",
 					"name": "Oringe_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Music.png",
 					"name": "Oringe_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Pictures.png",
 					"name": "Oringe_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_User.png",
 					"name": "Oringe_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Users.png",
 					"name": "Oringe_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Videos.png",
 					"name": "Oringe_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Oringe\\Oringe_Windows.png",
 					"name": "Oringe_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1402,52 +1876,72 @@
 				{
 					"path": "folders\\pink\\pink_Background.png",
 					"name": "pink_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Desktop.png",
 					"name": "pink_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Download.png",
 					"name": "pink_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Links.png",
 					"name": "pink_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Music.png",
 					"name": "pink_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Pictures.png",
 					"name": "pink_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_User.png",
 					"name": "pink_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Users.png",
 					"name": "pink_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Videos.png",
 					"name": "pink_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\pink\\pink_Windows.png",
 					"name": "pink_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1456,62 +1950,86 @@
 				{
 					"path": "folders\\purpose\\purpose.png",
 					"name": "purpose",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Background.png",
 					"name": "purpose_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Desktop.png",
 					"name": "purpose_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Documents.png",
 					"name": "purpose_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Download.png",
 					"name": "purpose_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Links.png",
 					"name": "purpose_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Music.png",
 					"name": "purpose_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Pictures.png",
 					"name": "purpose_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_User.png",
 					"name": "purpose_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Users.png",
 					"name": "purpose_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Videos.png",
 					"name": "purpose_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose\\purpose_Windows.png",
 					"name": "purpose_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1520,62 +2038,86 @@
 				{
 					"path": "folders\\purpose red\\purpose red.png",
 					"name": "purpose red",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Background.png",
 					"name": "purpose red_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Desktop.png",
 					"name": "purpose red_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Documents.png",
 					"name": "purpose red_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Download.png",
 					"name": "purpose red_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Links.png",
 					"name": "purpose red_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Music.png",
 					"name": "purpose red_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Pictures.png",
 					"name": "purpose red_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_User.png",
 					"name": "purpose red_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Users.png",
 					"name": "purpose red_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Videos.png",
 					"name": "purpose red_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\purpose red\\purpose red_Windows.png",
 					"name": "purpose red_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1584,62 +2126,86 @@
 				{
 					"path": "folders\\red yellow\\red yellow grey.png",
 					"name": "red yellow grey",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Background.png",
 					"name": "red yellow grey_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Desktop.png",
 					"name": "red yellow grey_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Documents.png",
 					"name": "red yellow grey_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Download.png",
 					"name": "red yellow grey_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Links.png",
 					"name": "red yellow grey_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Music.png",
 					"name": "red yellow grey_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Pictures.png",
 					"name": "red yellow grey_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_User.png",
 					"name": "red yellow grey_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Users.png",
 					"name": "red yellow grey_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Videos.png",
 					"name": "red yellow grey_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\red yellow\\red yellow grey_Windows.png",
 					"name": "red yellow grey_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1648,47 +2214,65 @@
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Back.png",
 					"name": "Fluent Light_Back",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Desktop.png",
 					"name": "Fluent Light_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Documents.png",
 					"name": "Fluent Light_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Folder.png",
 					"name": "Fluent Light_Folder",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Music.png",
 					"name": "Fluent Light_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Pictures.png",
 					"name": "Fluent Light_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_User.png",
 					"name": "Fluent Light_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Users.png",
 					"name": "Fluent Light_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Sunrise\\Fluent Light_Windows.png",
 					"name": "Fluent Light_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1697,77 +2281,107 @@
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Background.png",
 					"name": "Windows Blue Dark_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Desktop.png",
 					"name": "Windows Blue Dark_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Documents.png",
 					"name": "Windows Blue Dark_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Download.png",
 					"name": "Windows Blue Dark_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Favorites.png",
 					"name": "Windows Blue Dark_Favorites",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Games.png",
 					"name": "Windows Blue Dark_Games",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Links.png",
 					"name": "Windows Blue Dark_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Music.png",
 					"name": "Windows Blue Dark_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_new.png",
 					"name": "Windows Blue Dark_new",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Pictures.png",
 					"name": "Windows Blue Dark_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Program Files.png",
 					"name": "Windows Blue Dark_Program Files",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_User.png",
 					"name": "Windows Blue Dark_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Users.png",
 					"name": "Windows Blue Dark_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Video.png",
 					"name": "Windows Blue Dark_Video",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Dark\\Windows Blue Dark_Windows.png",
 					"name": "Windows Blue Dark_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1776,67 +2390,93 @@
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Desktop.png",
 					"name": "Windows Blue Dark_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Documents.png",
 					"name": "Windows Blue Dark_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Music.png",
 					"name": "Windows Blue Dark_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Pictures.png",
 					"name": "Windows Blue Dark_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_User.png",
 					"name": "Windows Blue Dark_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Users.png",
 					"name": "Windows Blue Dark_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Dark_Windows.png",
 					"name": "Windows Blue Dark_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light-1.png",
 					"name": "Windows Blue Light-1",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light-1_Background.png",
 					"name": "Windows Blue Light-1_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light-1_Download.png",
 					"name": "Windows Blue Light-1_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light-1_Links.png",
 					"name": "Windows Blue Light-1_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light-1_Videos.png",
 					"name": "Windows Blue Light-1_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\Windows Blue Light\\Windows Blue Light.png",
 					"name": "Windows Blue Light",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		},
@@ -1845,62 +2485,86 @@
 				{
 					"path": "folders\\yellow grey\\yellow grey.png",
 					"name": "yellow grey",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Background.png",
 					"name": "yellow grey_Background",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Desktop.png",
 					"name": "yellow grey_Desktop",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Documents.png",
 					"name": "yellow grey_Documents",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Download.png",
 					"name": "yellow grey_Download",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Links.png",
 					"name": "yellow grey_Links",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Music.png",
 					"name": "yellow grey_Music",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Pictures.png",
 					"name": "yellow grey_Pictures",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_User.png",
 					"name": "yellow grey_User",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Users.png",
 					"name": "yellow grey_Users",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Videos.png",
 					"name": "yellow grey_Videos",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				},
 				{
 					"path": "folders\\yellow grey\\yellow grey_Windows.png",
 					"name": "yellow grey_Windows",
-					"type": "png"
+					"company": "",
+					"app": "",
+					"type": ["文件夹图标"]
 				}
 			]
 		}
@@ -1912,12 +2576,16 @@
 					{
 						"path": "Google\\Android\\FileTypeIcon\\apk.ico",
 						"name": "apk",
-						"type": "ico"
+						"company": "Google",
+						"app": "Android",
+						"type": ["文件类型图标", "安卓图标"]
 					},
 					{
 						"path": "Google\\Android\\FileTypeIcon\\apk2.ico",
 						"name": "apk2",
-						"type": "ico"
+						"company": "Google",
+						"app": "Android",
+						"type": ["文件类型图标", "安卓图标"]
 					}
 				]
 			}
@@ -1930,7 +2598,9 @@
 					{
 						"path": "Houdini\\Houdini\\FileTypeIcon\\houdini file type.ico",
 						"name": "houdini file type",
-						"type": "ico"
+						"company": "Houdini",
+						"app": "Houdini",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -1943,7 +2613,9 @@
 					{
 						"path": "Luxion\\Keyshot\\FileTypeIcon\\Keyshot Package.ico",
 						"name": "Keyshot Package",
-						"type": "ico"
+						"company": "Luxion",
+						"app": "Keyshot",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -1956,32 +2628,87 @@
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\3dm.ico",
 						"name": "3dm",
-						"type": "ico"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\3dmbak.ico",
 						"name": "3dmbak",
-						"type": "ico"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\gh.ico",
 						"name": "gh",
-						"type": "ico"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\gha.ico",
 						"name": "gha",
-						"type": "ico"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\ghi.origin.png",
 						"name": "ghi",
-						"type": "origin"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "McNeel\\Rhino\\FileTypeIcon\\rhi.ico",
 						"name": "rhi",
-						"type": "ico"
+						"company": "McNeel",
+						"app": "Rhino",
+						"type": ["文件类型图标"]
+					}
+				]
+			}
+		}
+	},
+	"MicaApps": {
+		"DiskInfo": {
+			"AppIcon": {
+				"_files": [
+					{
+						"path": "MicaApps\\DiskInfo\\AppIcon\\DiskInfo.png",
+						"name": "DiskInfo",
+						"company": "MicaApps",
+						"app": "DiskInfo",
+						"type": ["应用图标"]
+					}
+				]
+			}
+		}
+	},
+	"MicaGames": {
+		"Ballance": {
+			"AppIcon": {
+				"_files": [
+					{
+						"path": "MicaGames\\Ballance\\AppIcon\\Ballance.png",
+						"name": "Ballance",
+						"company": "MicaGames",
+						"app": "Ballance",
+						"type": ["应用图标"]
+					}
+				]
+			}
+		},
+		"Inkball": {
+			"AppIcon": {
+				"_files": [
+					{
+						"path": "MicaGames\\Inkball\\AppIcon\\InkBall.png",
+						"name": "InkBall",
+						"company": "MicaGames",
+						"app": "Inkball",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -1994,12 +2721,16 @@
 					{
 						"path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.ico",
 						"name": "appxmanifast",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Visual Studio",
+						"type": ["文件类型图标"]
 					},
 					{
 						"path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml.ico",
 						"name": "xaml",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Visual Studio",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -2010,47 +2741,65 @@
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\bat.ico",
 						"name": "bat",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\glsl.ico",
 						"name": "glsl",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\hlsl.ico",
 						"name": "hlsl",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\html.ico",
 						"name": "html",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\icc.png",
 						"name": "icc",
-						"type": "png"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\icm.png",
 						"name": "icm",
-						"type": "png"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\ini.ico",
 						"name": "ini",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\msstyle.ico",
 						"name": "msstyle",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					},
 					{
 						"path": "Microsoft\\Windows\\FileTypeIcon\\svg.ico",
 						"name": "svg",
-						"type": "ico"
+						"company": "Microsoft",
+						"app": "Windows",
+						"type": ["文件类型图标", "Windows图标"]
 					}
 				]
 			}
@@ -2063,7 +2812,9 @@
 					{
 						"path": "QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.ico",
 						"name": "QLPlugin",
-						"type": "ico"
+						"company": "QuickLook",
+						"app": "QuickLook",
+						"type": ["文件类型图标"]
 					}
 				]
 			}
@@ -2076,7 +2827,9 @@
 					{
 						"path": "Tencent\\QQ\\AppIcon\\tencent-qq.ico",
 						"name": "tencent-qq",
-						"type": "ico"
+						"company": "Tencent",
+						"app": "QQ",
+						"type": ["应用图标"]
 					}
 				]
 			}
@@ -2089,7 +2842,24 @@
 					{
 						"path": "Unity\\Unity\\FileTypeIcon\\unitypackage.ico",
 						"name": "unitypackage",
-						"type": "ico"
+						"company": "Unity",
+						"app": "Unity",
+						"type": ["文件类型图标"]
+					}
+				]
+			}
+		}
+	},
+	"Ventoy": {
+		"Ventoy": {
+			"AppIcon": {
+				"_files": [
+					{
+						"path": "Ventoy\\Ventoy\\AppIcon\\Ventoy.png",
+						"name": "Ventoy",
+						"company": "Ventoy",
+						"app": "Ventoy",
+						"type": ["应用图标"]
 					}
 				]
 			}

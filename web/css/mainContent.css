@@ -1,13 +1,21 @@
 .home .mainContent {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #252525;
+    /*height: 100vh;
+    */
+    background-color: #f3f3f3;
     padding: 30px;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
+
 }
 
+.home .mainContent>* {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
 
 
 .home .mainContent .top {
@@ -28,7 +36,7 @@
 
 .home .mainContent .top .leftTitle #title {
     font-size: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .home .mainContent .top .leftTitle .sum {
@@ -47,7 +55,7 @@
     font-size: 42px;
     /*background-color: #fff;
     */
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     margin-left: 20px;
     opacity: 0;
@@ -60,16 +68,18 @@
 
 .home .mainContent .content {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 60px;
+    /* grid-template-columns: repeat(10, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 60px;
-
 }
 
 .home .mainContent .content.showIconItem {
-    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-columns: repeat(10, 1fr); */
+    /* gap: 0 1%; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .home .mainContent .content.showIconWrap {
@@ -101,6 +111,7 @@
     --iconItemHeight: 100px;
     width: var(--iconItemWidth);
     height: var(--iconItemHeight);
+    margin: 40px;
     cursor: pointer;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -121,7 +132,7 @@
 }
 
 .home .mainContent .content .iconWrap {
-    width: 18%;
+    width: 280px;
     height: 320px;
     /*background-color: #fff;
     */
@@ -141,7 +152,7 @@
     padding-top: 20px;
     display: grid;
     cursor: pointer;
-    background-color: #7a7979;
+    background-color: #fff;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
@@ -150,15 +161,10 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    transition: 0.6s;
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -ms-transition: 0.6s;
-    -o-transition: 0.6s;
 }
 
 .home .mainContent .content .iconWrap .iconWrapContent:hover {
-    background-color: #c7c7c7;
+    background-color: #fff;
 }
 
 .home .mainContent .content .iconWrap .iconWrapContent .bigIcon {
@@ -219,9 +225,11 @@
 
 .home .mainContent .content .iconWrap .bottomInfo .name {
     font-size: 22px;
+    color: #000;
 }
 
 .home .mainContent .content .iconWrap .bottomInfo .sum {
     font-size: 14px;
     margin-left: 4px;
+    color: #000;
 }

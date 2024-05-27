@@ -1,7 +1,8 @@
+const { info } = require('console');
 const fs = require('fs');
 const path = require('path');
 
-function excludeDifferentExtensions(data) {
+const excludeDifferentExtensions = (data) => {
 	for (const key in data) {
 		if (key === '_files') {
 			const filenames = new Set();
@@ -20,7 +21,7 @@ function excludeDifferentExtensions(data) {
 	}
 
 	return data; // 返回处理后的数据
-}
+};
 
 const noCreateFileName = [
 	'16w',
@@ -46,30 +47,71 @@ const noCreateFileName = [
 	'96',
 	'256',
 ];
-function containsKeyword(fileName) {
+
+const containsKeyword = (fileName) => {
 	for (let i = 0; i < noCreateFileName.length; i++) {
 		if (fileName.includes(noCreateFileName[i])) {
 			return true;
 		}
 	}
 	return false;
-}
+};
+
+const typeMap = {
+	AppIcon: '应用图标',
+	FileTypeIcon: '文件类型图标',
+	folders: '文件夹图标',
+	Android: '安卓图标',
+	Windows: 'Windows图标',
+};
+/**
+ * getFileType
+ * @type {string} filePath - filePath
+ */
+const getFileType = (
+	filePath = 'folders\\cyan blue\\cyan blue_Desktop.png'
+) => {
+	let result;
+	let types = [];
+	if (filePath.split('\\')[0] === 'folders') {
+		types = ['文件夹图标'];
+	} else {
+		filePath =
+			filePath.split('\\')[0] +
+			'\\' +
+			filePath.split('\\')[1] +
+			filePath.split('\\')[2];
+		for (let typeKey in typeMap) {
+			if (filePath.includes(typeKey)) {
+				types.push(typeMap[typeKey]);
+			}
+		}
+	}
+	result = types.join('/');
+	return types;
+};
 
 // 函数用于遍历目录下的所有文件
-function traverseDirectory(dir, rootDir) {
+const traverseDirectory = (dir, rootDir) => {
 	const companies = {};
 
 	// 获取目录下的所有文件和文件夹
 	const items = fs.readdirSync(dir);
 
 	for (const item of items) {
-		if (item === '.git' || item === 'web' || item.endsWith('.md')) {
+		if (
+			item === '.git' ||
+			item === '.github' ||
+			item === 'web' ||
+			item.endsWith('.md')
+		) {
 			// 如果是 .git 或者 web 目录，则跳过
 			continue;
 		}
 
 		const itemPath = path.join(dir, item);
-		const relativePath = path.relative(rootDir, itemPath);
+		const relativePath = path.relative(__dirname, itemPath);
+		const relativePathFroImgs = path.relative(rootDir, itemPath);
 		const stats = fs.statSync(itemPath);
 
 		if (stats.isDirectory()) {
@@ -82,19 +124,25 @@ function traverseDirectory(dir, rootDir) {
 				if (!companies['_files']) {
 					companies['_files'] = [];
 				}
+				const infos = relativePathFroImgs.split('\\');
+				const company = infos[0];
+				const app = infos[1];
+				// const app;
 				// Au16w Au20w Au32w
 				if (!containsKeyword(item.split('.')[0]))
 					companies['_files'].push({
 						path: relativePath,
 						name: item.split('.')[0],
-						type: item.split('.')[1],
+						company: company === 'folders' ? '' : company,
+						app: company === 'folders' ? '' : app,
+						type: getFileType(relativePathFroImgs),
 					});
 			}
 		}
 	}
 
 	return companies;
-}
+};
 
 // 遍历当前目录
 const rootDir = __dirname;
