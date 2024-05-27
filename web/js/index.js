@@ -192,8 +192,12 @@ const convertConfigToSoftwareData = (config) => {
 
 	return data;
 };
+
+const configUrl =
+	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
+// const configUrl = "./../CONFIG.json"
 document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON('../../CONFIG.json', function (_config) {
+	$.getJSON(configUrl, function (_config) {
 		//data 代表读取到的json中的数据
 		iconData = convertConfigToIconData(_config);
 		folders = convertFoldersToFoldersData(_config['folders']);
