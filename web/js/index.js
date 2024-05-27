@@ -15,6 +15,18 @@ let allAppIconItemData;
 let type;
 let curPage = 'home';
 let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
+const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
+const deconstructionFileData = (file) => {
+	return {
+		pic: file.path,
+		tip: file.name,
+		url: baseUrl + file.path,
+		name: file.name,
+		company: file.company,
+		app: file.app,
+		type: file.type,
+	};
+};
 const convertConfigToIconData = (config) => {
 	const data = [];
 
@@ -317,6 +329,19 @@ const doms = {
 let inputHasFocus = false;
 
 const search = () => {};
+// Notification.requestPermission().then(function (permission) {
+// 	if (permission === 'granted') {
+// 		new Notification('页面有变化,请更新');
+// 	}
+// });
+
+doms.close.addEventListener('click', (e) => {
+	hideShowInfo();
+});
+
+doms.close.addEventListener('click', (e) => {
+	hideShowInfo();
+});
 
 doms.inputIcon.addEventListener('click', (e) => {
 	search();
@@ -349,32 +374,26 @@ const setCurStatus = (who) => {
 doms.mainHome.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createHomePage();
-	setCurStatus(e.target);
 });
 doms.folders.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createFoldersPage();
-	setCurStatus(e.target);
 });
 doms.file.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createFilePage();
-	setCurStatus(e.target);
 });
 doms.app.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createAppPage();
-	setCurStatus(e.target);
 });
 doms.company.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createCompanyPage();
-	setCurStatus(e.target);
 });
 doms.software.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createSoftwarePage();
-	setCurStatus(e.target);
 });
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
