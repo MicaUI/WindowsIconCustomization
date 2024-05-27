@@ -124,7 +124,8 @@ const traverseDirectory = (dir, rootDir) => {
 				if (!companies['_files']) {
 					companies['_files'] = [];
 				}
-				const infos = relativePathFroImgs.split('\\');
+				// const infos = relativePathFroImgs.split('\\');
+				const infos = relativePathFroImgs.split('/');
 				const company = infos[0];
 				const app = infos[1];
 				// const app;
