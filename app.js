@@ -154,7 +154,7 @@ if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir);
 }
 
-const configPath = path.join(outputDir, 'config.json');
+const configPath = path.join(outputDir, 'CONFIG.json');
 fs.writeFileSync(configPath, JSON.stringify(result, null, 2));
 
 console.log('config.json 文件已生成');
