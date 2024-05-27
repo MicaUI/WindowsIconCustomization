@@ -6,151 +6,60 @@
 body {
     font-family: 'Segoe UI', "PingFang SC", "SF Pro", Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box !important;
+
+}
+
+:root {
+    /* input */
+    --inputBackgroundColor: #ffffff0d;
+    --inputBorderColor: #ffffff14;
+    --inputLabelColor: rgba(255, 255, 255, 0.786);
+
+    /* leftNav */
+    --leftNavBackground: #202020;
+    --leftNavItemHoverBackgroundColor: rgba(255, 255, 255, 0.0605);
+    --leftCurNavItemBackgroundColor: rgba(255, 255, 255, 0.0605);
+    --leftCurNavItemHoverBackgroundColor: rgba(255, 255, 255, 0.0605);
+
+    /* other */
+    --label: #FFFFFF;
+    --icon: #FFFFFF;
+    --title: rgb(159, 151, 139);
+
+    /* mainContent */
+    --mainContentBackground: #202020;
+    --mainContentLeftTitle: #ffffff;
+    --mainContentLeftSum: #7a7979;
+    --backBtnColor: #ffffff;
+    --mainContentIconWrapContent: #2b2b2b;
+    --mainContentIconWrapContentBottomInfoNameCOlor: #ffffff;
+    --mainContentIconWrapContentBottomInfoSumCOlor: #ffffff;
+
+    /* showInfo */
+    --showInfoBackgroundColor: #2c2c2cf0;
+    --showInfoBorderColor: ##ffffff0d;
+    --showInfoLabelBorderColor: #ffffff17;
+    --showInfoLabelColor: #FFFFFF;
+    --closeColor: #ffffff;
+    --maskColor: #2b2b2b;
 }
 
 .home {
+    --leftNavWidth: 320px;
+    --lineWidth: 100%;
     width: 100vw;
     height: 100vh;
     display: flex;
     overflow: hidden;
     overflow-y: hidden;
+
 }
 
-.home .mask {
+.mask {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--maskColor);
     opacity: 0.15;
     position: absolute;
     z-index: 2;
-}
-
-.home .showInfo.show {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 1;
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform-origin: center;
-}
-
-.home .showInfo.show~.mask {
-    display: block;
-}
-
-.home .showInfo.hide {
-    display: block;
-    transform: scale(0);
-    opacity: 1;
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform-origin: center;
-
-}
-
-.home .showInfo.hide~.mask {
-    display: none;
-}
-
-.home .showInfo {
-    width: 100vw;
-    height: 100vh;
-    z-index: 9;
-    position: absolute;
-    opacity: 1;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    text-align: center;
-    transform-origin: center;
-}
-
-
-
-.home .showInfo .infoContent {
-    width: 50vw;
-    height: 500px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.82);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-
-    /* background-color: #2c2c2cd1 !important; */
-    backdrop-filter: blur(20px);
-    border-radius: 8px;
-    border: 1px solid #00000042;
-}
-
-.home .showInfo .infoContent .close {
-    font-size: 32px;
-    position: absolute;
-    right: 6.4%;
-    top: 9.8%;
-    cursor: pointer;
-    text-decoration: dotted;
-    user-select: none;
-}
-
-.home .showInfo .infoContent .coverImg {
-    width: 46%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home .showInfo .infoContent .coverImg img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: fill;
-}
-
-
-.home .showInfo .infoContent .infoList {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-
-.home .showInfo .infoContent .infoList .infoItem {
-    width: 90%;
-    height: 24px;
-    display: flex;
-    padding: 4px;
-    padding-right: 0;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #00000038;
-}
-
-.home .showInfo .infoContent .infoList .infoItem .what {
-    width: 30%;
-    height: 100%;
-    text-wrap: nowrap;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-}
-
-.home .showInfo .infoContent .infoList .infoItem .info {
-    max-width: 60%;
-    max-height: 100%;
-    text-wrap: nowrap;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    text-align: end;
-    cursor: pointer;
 }
