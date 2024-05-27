@@ -1,4 +1,17 @@
 {
+  ".github": {
+    "workflows": {
+      "_files": [
+        {
+          "path": ".github\\workflows\\createConfig.yml",
+          "name": "createConfig",
+          "company": ".github",
+          "app": "workflows",
+          "type": []
+        }
+      ]
+    }
+  },
   "Adobe": {
     "Au": {
       "AppIcon": {
@@ -3357,6 +3370,55 @@
       }
     }
   },
+  "MicaApps": {
+    "DiskInfo": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaApps\\DiskInfo\\AppIcon\\DiskInfo.png",
+            "name": "DiskInfo",
+            "company": "MicaApps",
+            "app": "DiskInfo",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "MicaGames": {
+    "Ballance": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaGames\\Ballance\\AppIcon\\Ballance.png",
+            "name": "Ballance",
+            "company": "MicaGames",
+            "app": "Ballance",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    },
+    "Inkball": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaGames\\Inkball\\AppIcon\\InkBall.png",
+            "name": "InkBall",
+            "company": "MicaGames",
+            "app": "Inkball",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Microsoft": {
     "Visual Studio": {
       "FileTypeIcon": {
@@ -3524,6 +3586,23 @@
             "app": "Unity",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Ventoy": {
+    "Ventoy": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Ventoy\\Ventoy\\AppIcon\\Ventoy.png",
+            "name": "Ventoy",
+            "company": "Ventoy",
+            "app": "Ventoy",
+            "type": [
+              "应用图标"
             ]
           }
         ]
