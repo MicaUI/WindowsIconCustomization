@@ -99,7 +99,12 @@ const traverseDirectory = (dir, rootDir) => {
 	const items = fs.readdirSync(dir);
 
 	for (const item of items) {
-		if (item === '.git' || item === 'web' || item.endsWith('.md')) {
+		if (
+			item === '.git' ||
+			item === '.github' ||
+			item === 'web' ||
+			item.endsWith('.md')
+		) {
 			// 如果是 .git 或者 web 目录，则跳过
 			continue;
 		}
