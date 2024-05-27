@@ -193,7 +193,7 @@ const convertConfigToSoftwareData = (config) => {
 	return data;
 };
 document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON('../../config.json', function (_config) {
+	$.getJSON('../../CONFIG.json', function (_config) {
 		//data 代表读取到的json中的数据
 		iconData = convertConfigToIconData(_config);
 		folders = convertFoldersToFoldersData(_config['folders']);
