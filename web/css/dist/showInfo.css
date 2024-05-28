@@ -16,7 +16,8 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   border-radius: 8px;
   border: 1px solid var(--showInfoBorderColor);
 }
@@ -26,8 +27,10 @@
   right: 6.4%;
   top: 9.8%;
   cursor: pointer;
-  text-decoration: dotted;
-  user-select: none;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  -webkit-user-select: none;
+          user-select: none;
   color: var(--closeColor);
   font-family: "SEGOEICONS" !important;
 }
@@ -120,3 +123,4 @@
   -ms-transition: 0s;
   -o-transition: 0s;
 }
+/*# sourceMappingURL=./showInfo.css.map */
