@@ -16,6 +16,8 @@ let type;
 let curPage = 'home';
 let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 
+let lastPosition = [];
+
 const lightColors = {
 	inputBackgroundColor: '#ffffff',
 	inputBorderColor: '#00000035',
@@ -618,6 +620,7 @@ const createIconWrapElement = (what) => {
 			lastData = what;
 			type = 'wrap';
 			curPage = 'canShowBack';
+			lastPosition.push(companyName);
 			createAppElement(data[companyName]);
 		});
 	});
@@ -666,6 +669,7 @@ const createAppElement = (data = []) => {
 		iconWrapContent.addEventListener('click', () => {
 			type = 'app';
 			lastData = data;
+			lastPosition.push(appName);
 			createIconItemElement(d[appName]);
 		});
 	});
@@ -812,10 +816,12 @@ const back = () => {
 	switch (type) {
 		case 'wrap': {
 			createIconWrapElement(iconData);
+			location.href = `#${lastPosition.pop()}`;
 			break;
 		}
 		case 'app': {
 			createAppElement(lastData);
+			location.href = `#${lastPosition.pop()}`;
 		}
 	}
 	type = 'wrap';
