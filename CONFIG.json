@@ -1394,6 +1394,32 @@
       }
     }
   },
+  "Maxon": {
+    "Cinema 4D": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D.png",
+            "name": "Cinema4D",
+            "company": "Maxon",
+            "app": "Cinema 4D",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D_2.png",
+            "name": "Cinema4D_2",
+            "company": "Maxon",
+            "app": "Cinema 4D",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "McNeel": {
     "Rhino": {
       "FileTypeIcon": {
@@ -1627,6 +1653,49 @@
       }
     }
   },
+  "OpenJS": {
+    "NodeJS": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "OpenJS/NodeJS/AppIcon/Node.js.png",
+            "name": "Node",
+            "company": "OpenJS",
+            "app": "NodeJS",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Python": {
+    "Python": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Python/Python/AppIcon/IDLE.png",
+            "name": "IDLE",
+            "company": "Python",
+            "app": "Python",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Python/Python/AppIcon/Python.png",
+            "name": "Python",
+            "company": "Python",
+            "app": "Python",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "QuickLook": {
     "QuickLook": {
       "FileTypeIcon": {
@@ -1653,6 +1722,32 @@
             "name": "tencent-qq",
             "company": "Tencent",
             "app": "QQ",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "ToDesk": {
+    "ToDesk": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "ToDesk/ToDesk/AppIcon/ToDesk.ico",
+            "name": "ToDesk",
+            "company": "ToDesk",
+            "app": "ToDesk",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "ToDesk/ToDesk/AppIcon/Todesk_2.png",
+            "name": "Todesk_2",
+            "company": "ToDesk",
+            "app": "ToDesk",
             "type": [
               "应用图标"
             ]
