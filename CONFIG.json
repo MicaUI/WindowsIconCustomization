@@ -1276,6 +1276,32 @@
       }
     }
   },
+  "Baidu": {
+    "BaiduWangpan": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Baidu/BaiduWangpan/AppIcon/BaiduWangpan.ico",
+            "name": "BaiduWangpan",
+            "company": "Baidu",
+            "app": "BaiduWangpan",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Baidu/BaiduWangpan/AppIcon/BaiduWangpan_2.ico",
+            "name": "BaiduWangpan_2",
+            "company": "Baidu",
+            "app": "BaiduWangpan",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Blender": {
     "Blender": {
       "FileTypeIcon": {
@@ -1358,6 +1384,22 @@
           }
         ]
       }
+    },
+    "Android Studio": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Google/Android Studio/AppIcon/Android Studio.png",
+            "name": "Android Studio",
+            "company": "Google",
+            "app": "Android Studio",
+            "type": [
+              "应用图标",
+              "安卓图标"
+            ]
+          }
+        ]
+      }
     }
   },
   "Houdini": {
@@ -1371,6 +1413,23 @@
             "app": "Houdini",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "IDM": {
+    "IDM": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "IDM/IDM/AppIcon/IDM.png",
+            "name": "IDM",
+            "company": "IDM",
+            "app": "IDM",
+            "type": [
+              "应用图标"
             ]
           }
         ]
@@ -1713,6 +1772,23 @@
       }
     }
   },
+  "RustDesk": {
+    "RustDesk": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "RustDesk/RustDesk/AppIcon/RustDesk.png",
+            "name": "RustDesk",
+            "company": "RustDesk",
+            "app": "RustDesk",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Tencent": {
     "QQ": {
       "AppIcon": {
@@ -1767,6 +1843,40 @@
             "app": "Unity",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VLC": {
+    "VLC": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "VLC/VLC/AppIcon/VLC.png",
+            "name": "VLC",
+            "company": "VLC",
+            "app": "VLC",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Valve": {
+    "Steam": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Valve/Steam/AppIcon/Steam.png",
+            "name": "Steam",
+            "company": "Valve",
+            "app": "Steam",
+            "type": [
+              "应用图标"
             ]
           }
         ]
