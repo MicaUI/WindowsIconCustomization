@@ -287,6 +287,23 @@
       }
     }
   },
+  "AskLink": {
+    "AskLink": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "AskLink/AskLink/AppIcon/asklink.ico",
+            "name": "asklink",
+            "company": "AskLink",
+            "app": "AskLink",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Autodesk": {
     "3Ds": {
       "FileTypeIcon": {
@@ -1436,6 +1453,23 @@
       }
     }
   },
+  "Kakao": {
+    "PotPlayer": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Kakao/PotPlayer/AppIcon/PotPlayer.png",
+            "name": "PotPlayer",
+            "company": "Kakao",
+            "app": "PotPlayer",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Luxion": {
     "Keyshot": {
       "FileTypeIcon": {
@@ -1591,6 +1625,36 @@
     }
   },
   "Microsoft": {
+    "MineCraft": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Microsoft/MineCraft/AppIcon/Minecraft.png",
+            "name": "Minecraft",
+            "company": "Microsoft",
+            "app": "MineCraft",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    },
+    "Spy++": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Microsoft/Spy++/AppIcon/Spy++.png",
+            "name": "Spy++",
+            "company": "Microsoft",
+            "app": "Spy++",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    },
     "Visual Studio": {
       "FileTypeIcon": {
         "_files": [
@@ -1629,6 +1693,16 @@
             ]
           },
           {
+            "path": "Microsoft/Windows/FileTypeIcon/chm.png",
+            "name": "chm",
+            "company": "Microsoft",
+            "app": "Windows",
+            "type": [
+              "文件类型图标",
+              "Windows图标"
+            ]
+          },
+          {
             "path": "Microsoft/Windows/FileTypeIcon/glsl.ico",
             "name": "glsl",
             "company": "Microsoft",
@@ -1651,6 +1725,16 @@
           {
             "path": "Microsoft/Windows/FileTypeIcon/html.ico",
             "name": "html",
+            "company": "Microsoft",
+            "app": "Windows",
+            "type": [
+              "文件类型图标",
+              "Windows图标"
+            ]
+          },
+          {
+            "path": "Microsoft/Windows/FileTypeIcon/hxs.png",
+            "name": "hxs",
             "company": "Microsoft",
             "app": "Windows",
             "type": [
@@ -1777,7 +1861,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "RustDesk/RustDesk/AppIcon/RustDesk.png",
+            "path": "RustDesk/RustDesk/AppIcon/RustDesk.ico",
             "name": "RustDesk",
             "company": "RustDesk",
             "app": "RustDesk",
@@ -1820,7 +1904,7 @@
             ]
           },
           {
-            "path": "ToDesk/ToDesk/AppIcon/Todesk_2.png",
+            "path": "ToDesk/ToDesk/AppIcon/Todesk_2.ico",
             "name": "Todesk_2",
             "company": "ToDesk",
             "app": "ToDesk",
@@ -3842,6 +3926,23 @@
           ]
         }
       ]
+    }
+  },
+  "ni": {
+    "Multisim": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "ni/Multisim/AppIcon/Multisim.png",
+            "name": "Multisim",
+            "company": "ni",
+            "app": "Multisim",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
     }
   }
 }
