@@ -1345,6 +1345,23 @@
       }
     }
   },
+  "Cisco": {
+    "CiscoPacketTracer": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Cisco/CiscoPacketTracer/AppIcon/CiscoPacketTracer.png",
+            "name": "CiscoPacketTracer",
+            "company": "Cisco",
+            "app": "CiscoPacketTracer",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Coscos2d": {
     "Coscos2d": {
       "AppIcon": {
@@ -1386,6 +1403,23 @@
             "app": "Figma",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "GIMP": {
+    "GIMP": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "GIMP/GIMP/AppIcon/GIMP.png",
+            "name": "GIMP",
+            "company": "GIMP",
+            "app": "GIMP",
+            "type": [
+              "应用图标"
             ]
           }
         ]
@@ -1496,6 +1530,23 @@
             "name": "PotPlayer",
             "company": "Kakao",
             "app": "PotPlayer",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Krita": {
+    "Krita": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Krita/Krita/AppIcon/Krita.png",
+            "name": "Krita",
+            "company": "Krita",
+            "app": "Krita",
             "type": [
               "应用图标"
             ]
@@ -1941,6 +1992,23 @@
             "name": "OriginPro",
             "company": "OriginLab",
             "app": "OriginPro",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Postman": {
+    "Postman": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Postman/Postman/AppIcon/Postman.png",
+            "name": "Postman",
+            "company": "Postman",
+            "app": "Postman",
             "type": [
               "应用图标"
             ]
