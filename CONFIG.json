@@ -1504,6 +1504,23 @@
       }
     }
   },
+  "LabCenterElectronics": {
+    "Proteus": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "LabCenterElectronics/Proteus/AppIcon/Proteus.png",
+            "name": "Proteus",
+            "company": "LabCenterElectronics",
+            "app": "Proteus",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Luxion": {
     "Keyshot": {
       "FileTypeIcon": {
@@ -1915,6 +1932,23 @@
       }
     }
   },
+  "OriginLab": {
+    "OriginPro": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "OriginLab/OriginPro/AppIcon/OriginPro.png",
+            "name": "OriginPro",
+            "company": "OriginLab",
+            "app": "OriginPro",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Python": {
     "Python": {
       "AppIcon": {
@@ -2110,6 +2144,23 @@
             "name": "Ventoy",
             "company": "Ventoy",
             "app": "Ventoy",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Zotero": {
+    "Zotero": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Zotero/Zotero/AppIcon/Zotero.png",
+            "name": "Zotero",
+            "company": "Zotero",
+            "app": "Zotero",
             "type": [
               "应用图标"
             ]
