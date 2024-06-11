@@ -1941,15 +1941,19 @@
       }
     },
     "TencentMeeting": {
-      "_files": [
-        {
-          "path": "Tencent/TencentMeeting/TencentMeeting.png",
-          "name": "TencentMeeting",
-          "company": "Tencent",
-          "app": "TencentMeeting",
-          "type": []
-        }
-      ]
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Tencent/TencentMeeting/AppIcon/TencentMeeting.png",
+            "name": "TencentMeeting",
+            "company": "Tencent",
+            "app": "TencentMeeting",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
     }
   },
   "ToDesk": {
