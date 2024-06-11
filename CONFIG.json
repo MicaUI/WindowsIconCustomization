@@ -1940,13 +1940,13 @@
         ]
       }
     },
-    "Tencent Meeting": {
+    "TencentMeeting": {
       "_files": [
         {
-          "path": "Tencent/Tencent Meeting/tencent meeting.png",
-          "name": "tencent meeting",
+          "path": "Tencent/TencentMeeting/TencentMeeting.png",
+          "name": "TencentMeeting",
           "company": "Tencent",
-          "app": "Tencent Meeting",
+          "app": "TencentMeeting",
           "type": []
         }
       ]
