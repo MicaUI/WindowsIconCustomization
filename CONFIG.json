@@ -1830,6 +1830,57 @@
       }
     }
   },
+  "MuseGroup": {
+    "Audacity": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MuseGroup/Audacity/AppIcon/Audacity.png",
+            "name": "Audacity",
+            "company": "MuseGroup",
+            "app": "Audacity",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "NetSarang": {
+    "XShell": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "NetSarang/XShell/AppIcon/Xshell.png",
+            "name": "Xshell",
+            "company": "NetSarang",
+            "app": "XShell",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "OBSStudio": {
+    "OBSStudio": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "OBSStudio/OBSStudio/AppIcon/OBSStudio.png",
+            "name": "OBSStudio",
+            "company": "OBSStudio",
+            "app": "OBSStudio",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Obsidian": {
     "Obsidian": {
       "AppIcon": {
