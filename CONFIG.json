@@ -1345,6 +1345,23 @@
       }
     }
   },
+  "Coscos2d": {
+    "Coscos2d": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Coscos2d/Coscos2d/AppIcon/Coscos2D.png",
+            "name": "Coscos2D",
+            "company": "Coscos2d",
+            "app": "Coscos2d",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Figma": {
     "Figma": {
       "AppIcon": {
@@ -1369,6 +1386,23 @@
             "app": "Figma",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Godot": {
+    "Godot": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Godot/Godot/AppIcon/Godot.png",
+            "name": "Godot",
+            "company": "Godot",
+            "app": "Godot",
+            "type": [
+              "应用图标"
             ]
           }
         ]
@@ -1796,6 +1830,23 @@
       }
     }
   },
+  "Obsidian": {
+    "Obsidian": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Obsidian/Obsidian/AppIcon/Obsidian.png",
+            "name": "Obsidian",
+            "company": "Obsidian",
+            "app": "Obsidian",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "OpenJS": {
     "NodeJS": {
       "AppIcon": {
@@ -1888,6 +1939,17 @@
           }
         ]
       }
+    },
+    "Tencent Meeting": {
+      "_files": [
+        {
+          "path": "Tencent/Tencent Meeting/tencent meeting.png",
+          "name": "tencent meeting",
+          "company": "Tencent",
+          "app": "Tencent Meeting",
+          "type": []
+        }
+      ]
     }
   },
   "ToDesk": {
@@ -1908,6 +1970,23 @@
             "name": "Todesk_2",
             "company": "ToDesk",
             "app": "ToDesk",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Typora": {
+    "Typora": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Typora/Typora/AppIcon/Typora.png",
+            "name": "Typora",
+            "company": "Typora",
+            "app": "Typora",
             "type": [
               "应用图标"
             ]
