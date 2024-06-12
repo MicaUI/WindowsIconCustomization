@@ -1566,15 +1566,6 @@
             "type": [
               "应用图标"
             ]
-          },
-          {
-            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D_2.png",
-            "name": "Cinema4D_2",
-            "company": "Maxon",
-            "app": "Cinema 4D",
-            "type": [
-              "应用图标"
-            ]
           }
         ]
       }
@@ -2098,6 +2089,23 @@
             "app": "QuickLook",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "ResourceHacker": {
+    "ResourceHacker": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "ResourceHacker/ResourceHacker/AppIcon/ResourceHacker.png",
+            "name": "ResourceHacker",
+            "company": "ResourceHacker",
+            "app": "ResourceHacker",
+            "type": [
+              "应用图标"
             ]
           }
         ]
