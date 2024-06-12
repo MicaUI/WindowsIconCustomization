@@ -2126,6 +2126,24 @@
       "AppIcon": {
         "_files": [
           {
+            "path": "Tencent/QQ/AppIcon/qq.png",
+            "name": "qq",
+            "company": "Tencent",
+            "app": "QQ",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Tencent/QQ/AppIcon/qq2.ico",
+            "name": "qq2",
+            "company": "Tencent",
+            "app": "QQ",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "Tencent/QQ/AppIcon/tencent-qq.ico",
             "name": "tencent-qq",
             "company": "Tencent",
