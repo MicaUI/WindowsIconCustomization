@@ -1996,6 +1996,24 @@
             ]
           },
           {
+            "path": "PTC/CREO/AppIcon/creo_modelcheck.png",
+            "name": "creo_modelcheck",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/creo_optionsmodeler.png",
+            "name": "creo_optionsmodeler",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "PTC/CREO/AppIcon/creo_render_studio.png",
             "name": "creo_render_studio",
             "company": "PTC",
@@ -2016,24 +2034,6 @@
           {
             "path": "PTC/CREO/AppIcon/dsm.png",
             "name": "dsm",
-            "company": "PTC",
-            "app": "CREO",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "PTC/CREO/AppIcon/modelcheck.png",
-            "name": "modelcheck",
-            "company": "PTC",
-            "app": "CREO",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "PTC/CREO/AppIcon/optionsmodeler.png",
-            "name": "optionsmodeler",
             "company": "PTC",
             "app": "CREO",
             "type": [
