@@ -1663,6 +1663,21 @@
           }
         ]
       }
+    },
+    "PDF Viewer": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaApps/PDF Viewer/AppIcon/PDF Viewer.png",
+            "name": "PDF Viewer",
+            "company": "MicaApps",
+            "app": "PDF Viewer",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
     }
   },
   "MicaGames": {
