@@ -1648,6 +1648,21 @@
           }
         ]
       }
+    },
+    "Mail": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaApps/Mail/AppIcon/Mail.png",
+            "name": "Mail",
+            "company": "MicaApps",
+            "app": "Mail",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
     }
   },
   "MicaGames": {
