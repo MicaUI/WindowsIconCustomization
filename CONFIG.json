@@ -2109,8 +2109,17 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "RustDesk/RustDesk/AppIcon/RustDesk.ico",
-            "name": "RustDesk",
+            "path": "RustDesk/RustDesk/AppIcon/RustDesk_D2.ico",
+            "name": "RustDesk_D2",
+            "company": "RustDesk",
+            "app": "RustDesk",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "RustDesk/RustDesk/AppIcon/RustDesk_W.ico",
+            "name": "RustDesk_W",
             "company": "RustDesk",
             "app": "RustDesk",
             "type": [
@@ -2125,15 +2134,6 @@
     "QQ": {
       "AppIcon": {
         "_files": [
-          {
-            "path": "Tencent/QQ/AppIcon/qq.png",
-            "name": "qq",
-            "company": "Tencent",
-            "app": "QQ",
-            "type": [
-              "应用图标"
-            ]
-          },
           {
             "path": "Tencent/QQ/AppIcon/qq2.ico",
             "name": "qq2",
