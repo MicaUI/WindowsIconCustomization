@@ -1027,6 +1027,24 @@
             ]
           },
           {
+            "path": "Autodesk/AutoCAD/FileTypeIcon/dwg.ico",
+            "name": "dwg",
+            "company": "Autodesk",
+            "app": "AutoCAD",
+            "type": [
+              "文件类型图标"
+            ]
+          },
+          {
+            "path": "Autodesk/AutoCAD/FileTypeIcon/dwgbak.ico",
+            "name": "dwgbak",
+            "company": "Autodesk",
+            "app": "AutoCAD",
+            "type": [
+              "文件类型图标"
+            ]
+          },
+          {
             "path": "Autodesk/AutoCAD/FileTypeIcon/pmp.png",
             "name": "pmp",
             "company": "Autodesk",
@@ -1044,51 +1062,7 @@
               "文件类型图标"
             ]
           }
-        ],
-        "dwg": {
-          "_files": [
-            {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwg/dwg.ico",
-              "name": "dwg",
-              "company": "Autodesk",
-              "app": "AutoCAD",
-              "type": [
-                "文件类型图标"
-              ]
-            },
-            {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwg/dwg@0.5x.png",
-              "name": "dwg@0",
-              "company": "Autodesk",
-              "app": "AutoCAD",
-              "type": [
-                "文件类型图标"
-              ]
-            }
-          ]
-        },
-        "dwgbak": {
-          "_files": [
-            {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak.ico",
-              "name": "dwgbak",
-              "company": "Autodesk",
-              "app": "AutoCAD",
-              "type": [
-                "文件类型图标"
-              ]
-            },
-            {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak@0.5x.png",
-              "name": "dwgbak@0",
-              "company": "Autodesk",
-              "app": "AutoCAD",
-              "type": [
-                "文件类型图标"
-              ]
-            }
-          ]
-        }
+        ]
       }
     },
     "CFD": {
@@ -1906,6 +1880,23 @@
       }
     }
   },
+  "NetEase": {
+    "NetEaseCloudMusic": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "NetEase/NetEaseCloudMusic/AppIcon/NetEaseCloudMusic.png",
+            "name": "NetEaseCloudMusic",
+            "company": "NetEase",
+            "app": "NetEaseCloudMusic",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "NetSarang": {
     "XShell": {
       "AppIcon": {
@@ -1983,6 +1974,68 @@
             "name": "OriginPro",
             "company": "OriginLab",
             "app": "OriginPro",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "PTC": {
+    "CREO": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "PTC/CREO/AppIcon/Creo.png",
+            "name": "Creo",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/creo_render_studio.png",
+            "name": "creo_render_studio",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/dbatchc.png",
+            "name": "dbatchc",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/dsm.png",
+            "name": "dsm",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/modelcheck.png",
+            "name": "modelcheck",
+            "company": "PTC",
+            "app": "CREO",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "PTC/CREO/AppIcon/optionsmodeler.png",
+            "name": "optionsmodeler",
+            "company": "PTC",
+            "app": "CREO",
             "type": [
               "应用图标"
             ]
