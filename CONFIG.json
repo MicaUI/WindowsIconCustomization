@@ -1284,6 +1284,23 @@
       }
     }
   },
+  "BitTorrent": {
+    "uTorrent": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "BitTorrent/uTorrent/AppIcon/uTorrent.png",
+            "name": "uTorrent",
+            "company": "BitTorrent",
+            "app": "uTorrent",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Blender": {
     "Blender": {
       "FileTypeIcon": {
@@ -1391,6 +1408,32 @@
       }
     }
   },
+  "Git": {
+    "GitGUI": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Git/GitGUI/AppIcon/GitGUI_D.png",
+            "name": "GitGUI_D",
+            "company": "Git",
+            "app": "GitGUI",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Git/GitGUI/AppIcon/GitGUI_W.png",
+            "name": "GitGUI_W",
+            "company": "Git",
+            "app": "GitGUI",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Godot": {
     "Godot": {
       "AppIcon": {
@@ -1446,23 +1489,6 @@
             "type": [
               "应用图标",
               "安卓图标"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "Houdini": {
-    "Houdini": {
-      "FileTypeIcon": {
-        "_files": [
-          {
-            "path": "Houdini/Houdini/FileTypeIcon/houdini file type.ico",
-            "name": "houdini file type",
-            "company": "Houdini",
-            "app": "Houdini",
-            "type": [
-              "文件类型图标"
             ]
           }
         ]
@@ -1544,6 +1570,15 @@
           {
             "path": "Luxion/Keyshot/FileTypeIcon/Keyshot Package.ico",
             "name": "Keyshot Package",
+            "company": "Luxion",
+            "app": "Keyshot",
+            "type": [
+              "文件类型图标"
+            ]
+          },
+          {
+            "path": "Luxion/Keyshot/FileTypeIcon/ksp.ico",
+            "name": "ksp",
             "company": "Luxion",
             "app": "Keyshot",
             "type": [
@@ -1884,6 +1919,23 @@
       }
     }
   },
+  "MongoDB": {
+    "MongoDB": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MongoDB/MongoDB/AppIcon/MongoDB.png",
+            "name": "MongoDB",
+            "company": "MongoDB",
+            "app": "MongoDB",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "MuseGroup": {
     "Audacity": {
       "AppIcon": {
@@ -2162,6 +2214,45 @@
             "app": "RustDesk",
             "type": [
               "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "SideFX": {
+    "Houdini": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "SideFX/Houdini/AppIcon/Houdini_D.png",
+            "name": "Houdini_D",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "SideFX/Houdini/AppIcon/Houdini_W.png",
+            "name": "Houdini_W",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "SideFX/Houdini/FileTypeIcon/hip.ico",
+            "name": "hip",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "文件类型图标"
             ]
           }
         ]
