@@ -2371,6 +2371,19 @@
   },
   "Unity": {
     "Unity": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Unity/Unity/AppIcon/Unity.ico",
+            "name": "Unity",
+            "company": "Unity",
+            "app": "Unity",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      },
       "FileTypeIcon": {
         "_files": [
           {
