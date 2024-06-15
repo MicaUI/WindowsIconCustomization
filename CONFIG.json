@@ -2374,6 +2374,15 @@
       "AppIcon": {
         "_files": [
           {
+            "path": "Unity/Unity/AppIcon/Report a Problem with Unity.png",
+            "name": "Report a Problem with Unity",
+            "company": "Unity",
+            "app": "Unity",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "Unity/Unity/AppIcon/Unity.ico",
             "name": "Unity",
             "company": "Unity",
