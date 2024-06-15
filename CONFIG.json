@@ -1979,6 +1979,23 @@
       }
     }
   },
+  "Navida": {
+    "Navida": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Navida/Navida/AppIcon/Navida.png",
+            "name": "Navida",
+            "company": "Navida",
+            "app": "Navida",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "NetEase": {
     "NetEaseCloudMusic": {
       "AppIcon": {
