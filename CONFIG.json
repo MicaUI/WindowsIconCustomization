@@ -292,7 +292,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "AskLink/AskLink/AppIcon/asklink.ico",
+            "path": "AskLink/AskLink/AppIcon/asklink.png",
             "name": "asklink",
             "company": "AskLink",
             "app": "AskLink",
@@ -1361,6 +1361,23 @@
       }
     }
   },
+  "Discord": {
+    "Discord": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Discord/Discord/AppIcon/Discord.png",
+            "name": "Discord",
+            "company": "Discord",
+            "app": "Discord",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "Figma": {
     "Figma": {
       "AppIcon": {
@@ -1368,6 +1385,15 @@
           {
             "path": "Figma/Figma/AppIcon/figma.ico",
             "name": "figma",
+            "company": "Figma",
+            "app": "Figma",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Figma/Figma/AppIcon/figma_2.ico",
+            "name": "figma_2",
             "company": "Figma",
             "app": "Figma",
             "type": [
@@ -2354,6 +2380,21 @@
             "app": "Unity",
             "type": [
               "文件类型图标"
+            ]
+          }
+        ]
+      }
+    },
+    "UnityHub": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Unity/UnityHub/AppIcon/UnityHub.ico",
+            "name": "UnityHub",
+            "company": "Unity",
+            "app": "UnityHub",
+            "type": [
+              "应用图标"
             ]
           }
         ]
