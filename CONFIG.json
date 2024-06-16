@@ -292,7 +292,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "AskLink/AskLink/AppIcon/asklink.png",
+            "path": "AskLink/AskLink/AppIcon/asklink.ico",
             "name": "asklink",
             "company": "AskLink",
             "app": "AskLink",
@@ -1425,15 +1425,6 @@
             "type": [
               "文件类型图标"
             ]
-          },
-          {
-            "path": "Figma/Figma/FileTypeIcon/figma file typc.png",
-            "name": "figma file typc",
-            "company": "Figma",
-            "app": "Figma",
-            "type": [
-              "文件类型图标"
-            ]
           }
         ]
       }
@@ -1444,7 +1435,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Fontforge/Fontforge/AppIcon/Fontforge.png",
+            "path": "Fontforge/Fontforge/AppIcon/Fontforge.ico",
             "name": "Fontforge",
             "company": "Fontforge",
             "app": "Fontforge",
@@ -1474,23 +1465,41 @@
     }
   },
   "Git": {
-    "GitGUI": {
+    "Git": {
       "AppIcon": {
         "_files": [
           {
-            "path": "Git/GitGUI/AppIcon/GitGUI_D.png",
-            "name": "GitGUI_D",
+            "path": "Git/Git/AppIcon/GitBash.ico",
+            "name": "GitBash",
             "company": "Git",
-            "app": "GitGUI",
+            "app": "Git",
             "type": [
               "应用图标"
             ]
           },
           {
-            "path": "Git/GitGUI/AppIcon/GitGUI_W.png",
+            "path": "Git/Git/AppIcon/GitCMD.ico",
+            "name": "GitCMD",
+            "company": "Git",
+            "app": "Git",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Git/Git/AppIcon/GitGUI_D.ico",
+            "name": "GitGUI_D",
+            "company": "Git",
+            "app": "Git",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Git/Git/AppIcon/GitGUI_W.png",
             "name": "GitGUI_W",
             "company": "Git",
-            "app": "GitGUI",
+            "app": "Git",
             "type": [
               "应用图标"
             ]
@@ -1560,6 +1569,41 @@
       }
     }
   },
+  "HighContrast": {
+    "HightContrast": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "HighContrast/HightContrast/AppIcon/CommandLine_HighContrastDark.ico",
+            "name": "CommandLine_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "HighContrast/HightContrast/AppIcon/Manual_HighContrastDark.ico",
+            "name": "Manual_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "HighContrast/HightContrast/AppIcon/ReleaseNote_HighContrastDark.ico",
+            "name": "ReleaseNote_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "IDM": {
     "IDM": {
       "AppIcon": {
@@ -1582,7 +1626,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Kakao/PotPlayer/AppIcon/PotPlayer.png",
+            "path": "Kakao/PotPlayer/AppIcon/PotPlayer.ico",
             "name": "PotPlayer",
             "company": "Kakao",
             "app": "PotPlayer",
@@ -1659,8 +1703,17 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D.png",
+            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D.ico",
             "name": "Cinema4D",
+            "company": "Maxon",
+            "app": "Cinema 4D",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "Maxon/Cinema 4D/AppIcon/Cinema4D_HighContrastDark.ico",
+            "name": "Cinema4D_HighContrastDark",
             "company": "Maxon",
             "app": "Cinema 4D",
             "type": [
@@ -1686,6 +1739,19 @@
   },
   "McNeel": {
     "Rhino": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "McNeel/Rhino/AppIcon/Rhino.ico",
+            "name": "Rhino",
+            "company": "McNeel",
+            "app": "Rhino",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      },
       "FileTypeIcon": {
         "_files": [
           {
@@ -1909,7 +1975,7 @@
             ]
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/chm.png",
+            "path": "Microsoft/Windows/FileTypeIcon/chm.ico",
             "name": "chm",
             "company": "Microsoft",
             "app": "Windows",
@@ -2335,7 +2401,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "SideFX/Houdini/AppIcon/Houdini_D.png",
+            "path": "SideFX/Houdini/AppIcon/Houdini_D.ico",
             "name": "Houdini_D",
             "company": "SideFX",
             "app": "Houdini",
