@@ -1303,6 +1303,19 @@
   },
   "Blender": {
     "Blender": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Blender/Blender/AppIcon/Blender.png",
+            "name": "Blender",
+            "company": "Blender",
+            "app": "Blender",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      },
       "FileTypeIcon": {
         "_files": [
           {
@@ -1411,6 +1424,32 @@
             "app": "Figma",
             "type": [
               "文件类型图标"
+            ]
+          },
+          {
+            "path": "Figma/Figma/FileTypeIcon/figma file typc.png",
+            "name": "figma file typc",
+            "company": "Figma",
+            "app": "Figma",
+            "type": [
+              "文件类型图标"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fontforge": {
+    "Fontforge": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Fontforge/Fontforge/AppIcon/Fontforge.png",
+            "name": "Fontforge",
+            "company": "Fontforge",
+            "app": "Fontforge",
+            "type": [
+              "应用图标"
             ]
           }
         ]
@@ -1629,6 +1668,19 @@
             ]
           }
         ]
+      },
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "Maxon/Cinema 4D/FileTypeIcon/c4d.ico",
+            "name": "c4d",
+            "company": "Maxon",
+            "app": "Cinema 4D",
+            "type": [
+              "文件类型图标"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1695,6 +1747,21 @@
     }
   },
   "MicaApps": {
+    "Character Map": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "MicaApps/Character Map/AppIcon/Character Map.png",
+            "name": "Character Map",
+            "company": "MicaApps",
+            "app": "Character Map",
+            "type": [
+              "应用图标"
+            ]
+          }
+        ]
+      }
+    },
     "DiskInfo": {
       "AppIcon": {
         "_files": [
