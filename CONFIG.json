@@ -1024,8 +1024,8 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Baidu/BaiduWangpan/AppIcon/BaiduWangpan_2.ico",
-            "name": "BaiduWangpan_2",
+            "path": "Baidu/BaiduWangpan/AppIcon/BaiduWangpan.ico",
+            "name": "BaiduWangpan",
             "company": "Baidu",
             "app": "BaiduWangpan",
             "type": "应用图标"
