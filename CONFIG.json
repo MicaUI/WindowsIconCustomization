@@ -1574,6 +1574,15 @@
       "AppIcon": {
         "_files": [
           {
+            "path": "HighContrast/HightContrast/AppIcon/Bug_HighContrastDark.ico",
+            "name": "Bug_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "HighContrast/HightContrast/AppIcon/CommandLine_HighContrastDark.ico",
             "name": "CommandLine_HighContrastDark",
             "company": "HighContrast",
@@ -1592,8 +1601,35 @@
             ]
           },
           {
+            "path": "HighContrast/HightContrast/AppIcon/Permission_HighContrastDark.ico",
+            "name": "Permission_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "HighContrast/HightContrast/AppIcon/Permission_HighContrastDark_Line.ico",
+            "name": "Permission_HighContrastDark_Line",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "HighContrast/HightContrast/AppIcon/ReleaseNote_HighContrastDark.ico",
             "name": "ReleaseNote_HighContrastDark",
+            "company": "HighContrast",
+            "app": "HightContrast",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "HighContrast/HightContrast/AppIcon/ReleaseNote_HighContrastDark_Line.ico",
+            "name": "ReleaseNote_HighContrastDark_Line",
             "company": "HighContrast",
             "app": "HightContrast",
             "type": [
@@ -2401,6 +2437,24 @@
       "AppIcon": {
         "_files": [
           {
+            "path": "SideFX/Houdini/AppIcon/GeometryViewer.ico",
+            "name": "GeometryViewer",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "SideFX/Houdini/AppIcon/GeometryViewer_2.ico",
+            "name": "GeometryViewer_2",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
             "path": "SideFX/Houdini/AppIcon/Houdini_D.ico",
             "name": "Houdini_D",
             "company": "SideFX",
@@ -2412,6 +2466,24 @@
           {
             "path": "SideFX/Houdini/AppIcon/Houdini_W.png",
             "name": "Houdini_W",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "SideFX/Houdini/AppIcon/ImageViewer.ico",
+            "name": "ImageViewer",
+            "company": "SideFX",
+            "app": "Houdini",
+            "type": [
+              "应用图标"
+            ]
+          },
+          {
+            "path": "SideFX/Houdini/AppIcon/ImageViewer_2.ico",
+            "name": "ImageViewer_2",
             "company": "SideFX",
             "app": "Houdini",
             "type": [
