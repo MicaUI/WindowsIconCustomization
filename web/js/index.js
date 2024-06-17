@@ -5,12 +5,14 @@
 let iconData;
 let folders;
 let file;
+let highContrast;
 let app;
 let softwareData;
 let lastData;
 let allIconItemData;
 let allFolderIconItemData;
 let allFileIconItemData;
+let allHighContrastIconItemData;
 let allAppIconItemData;
 let type;
 let curPage = 'home';
@@ -108,7 +110,7 @@ const convertConfigToIconData = (config) => {
 	const data = [];
 
 	for (const company in config) {
-		if (company === 'folders') {
+		if (company === 'folders' || company === 'HighContrast') {
 			continue;
 		}
 		const apps = [];
@@ -143,7 +145,6 @@ const convertConfigToIconData = (config) => {
 };
 const convertFoldersToFoldersData = (folders) => {
 	const data = [];
-
 	for (const folder in folders) {
 		let fileList = folders[folder]._files;
 
@@ -165,7 +166,7 @@ const convertConfigToFileData = (config) => {
 	const data = [];
 
 	for (const company in config) {
-		if (company === 'folders') {
+		if (company === 'folders' || company === 'HighContrast') {
 			continue;
 		}
 		const apps = [];
@@ -197,11 +198,51 @@ const convertConfigToFileData = (config) => {
 
 	return data;
 };
-const convertConfigToAppData = (config) => {
+const convertConfigToHighContrastData = (config) => {
 	const data = [];
 
 	for (const company in config) {
 		if (company === 'folders') {
+			continue;
+		}
+		const apps = [];
+
+		for (const app in config[company]) {
+			let highContrastList;
+			if (config[company][app].AppIcon) {
+				if (config[company][app].AppIcon._files)
+					highContrastList = config[company][app].AppIcon._files;
+			} else {
+				continue;
+			}
+			const appData = [];
+			highContrastList.forEach((file) => {
+				if (
+					file.name.endsWith('_HighContrastDark_Line') ||
+					file.name.endsWith('_HighContrastDark')
+				) {
+					const fileData = deconstructionFileData(file);
+					appData.push(fileData);
+				}
+			});
+
+			apps.push({
+				[app]: appData,
+			});
+		}
+
+		data.push({
+			[company]: apps,
+		});
+	}
+
+	return data;
+};
+const convertConfigToAppData = (config) => {
+	const data = [];
+
+	for (const company in config) {
+		if (company === 'folders' || company === 'HighContrast') {
 			continue;
 		}
 		const apps = [];
@@ -238,7 +279,7 @@ const convertConfigToSoftwareData = (config) => {
 	const data = [];
 
 	for (const company in config) {
-		if (company === 'folders') {
+		if (company === 'folders' || company === 'HighContrast') {
 			continue;
 		}
 		const apps = [];
@@ -272,18 +313,21 @@ const convertConfigToSoftwareData = (config) => {
 
 const configUrl =
 	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
-// const configUrl = "./../CONFIG.json"
+// const configUrl = './../config.json';
 document.addEventListener('DOMContentLoaded', function () {
 	$.getJSON(configUrl, function (_config) {
 		//data 代表读取到的json中的数据
 		iconData = convertConfigToIconData(_config);
 		folders = convertFoldersToFoldersData(_config['folders']);
 		file = convertConfigToFileData(_config);
+		highContrast = convertConfigToHighContrastData(_config);
 		app = convertConfigToAppData(_config);
 		softwareData = convertConfigToSoftwareData(_config);
+
 		allIconItemData = extractData(iconData, true);
 		allFolderIconItemData = extractData(folders, true);
 		allFileIconItemData = extractData(file, true);
+		allHighContrastIconItemData = extractData(highContrast, true);
 		allAppIconItemData = extractData(app, true);
 		allIconItemData.push(...allFolderIconItemData);
 		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
@@ -373,6 +417,11 @@ const doms = {
 	 */
 	file: document.querySelector('.file'),
 	/**
+	 * highContrast
+	 * @type {HTMLLIElement} highContrast - highContrast
+	 */
+	highContrast: document.querySelector('.highContrast'),
+	/**
 	 * company
 	 * @type {HTMLLIElement} company - company
 	 */
@@ -448,8 +497,11 @@ const setCurStatus = (who) => {
 		doms.app,
 		doms.company,
 		doms.software,
+		doms.highContrast,
 	].forEach((d) => {
-		if (who != d) d.classList.remove('cur');
+		if (who.className != d.className) {
+			d.classList.remove('cur');
+		}
 	});
 	who.classList.add('cur');
 };
@@ -464,6 +516,10 @@ doms.folders.addEventListener('click', (e) => {
 doms.file.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createFilePage();
+});
+doms.highContrast.addEventListener('click', (e) => {
+	setCurStatus(e.target);
+	createHighContrastPage();
 });
 doms.app.addEventListener('click', (e) => {
 	setCurStatus(e.target);
@@ -558,6 +614,14 @@ const createFilePage = () => {
 	curPage = 'file';
 	createIconItemElement(allFileIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allFileIconItemData)})`;
+	hideBack();
+};
+const createHighContrastPage = () => {
+	curPage = 'file';
+	createIconItemElement(allHighContrastIconItemData);
+	doms.sum.innerText = `(${countSpecificTypeObjects(
+		allHighContrastIconItemData
+	)})`;
 	hideBack();
 };
 const createAppPage = () => {
