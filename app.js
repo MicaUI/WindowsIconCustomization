@@ -75,6 +75,10 @@ const getFileType = (
 	let types = [];
 	if (filePath.split('\\')[0] === 'folders') {
 		types = ['文件夹图标'];
+	} else if (filePath.split('\\')[0] === 'HighContrast') {
+		types = ['高对比度图标'];
+	} else if (filePath.includes('_HighContrastDark')) {
+		types = ['高对比度图标'];
 	} else {
 		filePath =
 			filePath.split('\\')[0] +
@@ -88,7 +92,7 @@ const getFileType = (
 		}
 	}
 	result = types.join('/');
-	return types;
+	return result;
 };
 
 // 函数用于遍历目录下的所有文件
@@ -138,8 +142,18 @@ const traverseDirectory = (dir, rootDir) => {
 					companies['_files'].push({
 						path: relativePath,
 						name: item.split('.')[0],
-						company: company === 'folders' ? '' : company,
-						app: company === 'folders' ? '' : app,
+						company:
+							company === 'folders'
+								? ''
+								: company === 'HighContrast'
+								? ''
+								: company,
+						app:
+							company === 'folders'
+								? ''
+								: company === 'HighContrast'
+								? ''
+								: app,
 						type: getFileType(relativePathFroImgs),
 					});
 			}
