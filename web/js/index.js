@@ -20,6 +20,10 @@ let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 
 let lastPosition = [];
 
+const configUrl =
+	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
+// const configUrl = './../config.json';
+
 const lightColors = {
 	inputBackgroundColor: '#ffffff',
 	inputBorderColor: '#00000035',
@@ -95,6 +99,7 @@ function toggleTheme(dark = false) {
 }
 
 const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
+
 const deconstructionFileData = (file) => {
 	return {
 		pic: file.path,
@@ -329,8 +334,6 @@ const convertConfigToSoftwareData = (config) => {
 	return data;
 };
 
-// const configUrl = 'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
-const configUrl = './../config.json';
 document.addEventListener('DOMContentLoaded', function () {
 	$.getJSON(configUrl, function (_config) {
 		//data 代表读取到的json中的数据
