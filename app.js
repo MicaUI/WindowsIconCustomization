@@ -77,7 +77,7 @@ const getFileType = (
 		types = ['文件夹图标'];
 	} else if (filePath.split('\\')[0] === 'HighContrast') {
 		types = ['高对比度图标'];
-	} else if (filePath.split('\\')[3].includes('_HighContrastDark')) {
+	} else if (filePath.includes('_HighContrastDark')) {
 		types = ['高对比度图标'];
 	} else {
 		filePath =
