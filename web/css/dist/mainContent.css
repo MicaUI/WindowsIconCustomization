@@ -77,6 +77,8 @@
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
+  -webkit-user-select: none;
+          user-select: none;
 }
 .mainContent .content .iconItem img {
   max-width: 100%;
@@ -189,4 +191,3 @@
 .mainContent .content.showIconWrap .iconWrap {
   margin-right: -10px;
 }
-/*# sourceMappingURL=./mainContent.css.map */
