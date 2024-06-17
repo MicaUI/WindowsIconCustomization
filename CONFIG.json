@@ -1570,75 +1570,43 @@
     }
   },
   "HighContrast": {
-    "HightContrast": {
-      "AppIcon": {
-        "_files": [
-          {
-            "path": "HighContrast/HightContrast/AppIcon/Bug_HighContrastDark.ico",
-            "name": "Bug_HighContrastDark",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/CommandLine_HighContrastDark.ico",
-            "name": "CommandLine_HighContrastDark",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/Manual_HighContrastDark.ico",
-            "name": "Manual_HighContrastDark",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/Permission_HighContrastDark.ico",
-            "name": "Permission_HighContrastDark",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/Permission_HighContrastDark_Line.ico",
-            "name": "Permission_HighContrastDark_Line",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/ReleaseNote_HighContrastDark.ico",
-            "name": "ReleaseNote_HighContrastDark",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          },
-          {
-            "path": "HighContrast/HightContrast/AppIcon/ReleaseNote_HighContrastDark_Line.ico",
-            "name": "ReleaseNote_HighContrastDark_Line",
-            "company": "HighContrast",
-            "app": "HightContrast",
-            "type": [
-              "应用图标"
-            ]
-          }
-        ]
+    "_files": [
+      {
+        "path": "HighContrast/Bug_HighContrastDark.ico",
+        "name": "Bug_HighContrastDark",
+        "company": "HighContrast",
+        "app": "Bug_HighContrastDark.ico",
+        "type": []
+      },
+      {
+        "path": "HighContrast/CommandLine_HighContrastDark.ico",
+        "name": "CommandLine_HighContrastDark",
+        "company": "HighContrast",
+        "app": "CommandLine_HighContrastDark.ico",
+        "type": []
+      },
+      {
+        "path": "HighContrast/Manual_HighContrastDark.ico",
+        "name": "Manual_HighContrastDark",
+        "company": "HighContrast",
+        "app": "Manual_HighContrastDark.ico",
+        "type": []
+      },
+      {
+        "path": "HighContrast/Permission_HighContrastDark.ico",
+        "name": "Permission_HighContrastDark",
+        "company": "HighContrast",
+        "app": "Permission_HighContrastDark.ico",
+        "type": []
+      },
+      {
+        "path": "HighContrast/ReleaseNote_HighContrastDark.ico",
+        "name": "ReleaseNote_HighContrastDark",
+        "company": "HighContrast",
+        "app": "ReleaseNote_HighContrastDark.ico",
+        "type": []
       }
-    }
+    ]
   },
   "IDM": {
     "IDM": {
@@ -2093,6 +2061,16 @@
           {
             "path": "Microsoft/Windows/FileTypeIcon/msstyle.ico",
             "name": "msstyle",
+            "company": "Microsoft",
+            "app": "Windows",
+            "type": [
+              "文件类型图标",
+              "Windows图标"
+            ]
+          },
+          {
+            "path": "Microsoft/Windows/FileTypeIcon/otf.ico",
+            "name": "otf",
             "company": "Microsoft",
             "app": "Windows",
             "type": [
