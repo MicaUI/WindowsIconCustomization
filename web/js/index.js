@@ -204,18 +204,41 @@ const convertConfigToHighContrastData = (config) => {
 	for (const company in config) {
 		if (company === 'folders') {
 			continue;
-		}
-		const apps = [];
+		} else if (company !== 'HighContrast') {
+			const apps = [];
 
-		for (const app in config[company]) {
-			let highContrastList;
-			if (config[company][app].AppIcon) {
-				if (config[company][app].AppIcon._files)
-					highContrastList = config[company][app].AppIcon._files;
-			} else {
-				continue;
+			for (const app in config[company]) {
+				let highContrastList;
+				if (config[company][app].AppIcon) {
+					if (config[company][app].AppIcon._files)
+						highContrastList = config[company][app].AppIcon._files;
+				} else {
+					continue;
+				}
+				const appData = [];
+				highContrastList.forEach((file) => {
+					if (
+						file.name.endsWith('_HighContrastDark_Line') ||
+						file.name.endsWith('_HighContrastDark')
+					) {
+						const fileData = deconstructionFileData(file);
+						appData.push(fileData);
+					}
+				});
+
+				apps.push({
+					[app]: appData,
+				});
 			}
+
+			data.push({
+				[company]: apps,
+			});
+		} else {
+			const highContrastList = config[company]._files;
+			console.log(highContrastList);
 			const appData = [];
+
 			highContrastList.forEach((file) => {
 				if (
 					file.name.endsWith('_HighContrastDark_Line') ||
@@ -225,15 +248,10 @@ const convertConfigToHighContrastData = (config) => {
 					appData.push(fileData);
 				}
 			});
-
-			apps.push({
-				[app]: appData,
+			data.push({
+				[company]: appData,
 			});
 		}
-
-		data.push({
-			[company]: apps,
-		});
 	}
 
 	return data;
@@ -311,9 +329,8 @@ const convertConfigToSoftwareData = (config) => {
 	return data;
 };
 
-const configUrl =
-	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
-// const configUrl = './../config.json';
+// const configUrl = 'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
+const configUrl = './../config.json';
 document.addEventListener('DOMContentLoaded', function () {
 	$.getJSON(configUrl, function (_config) {
 		//data 代表读取到的json中的数据
@@ -328,6 +345,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		allFolderIconItemData = extractData(folders, true);
 		allFileIconItemData = extractData(file, true);
 		allHighContrastIconItemData = extractData(highContrast, true);
+
 		allAppIconItemData = extractData(app, true);
 		allIconItemData.push(...allFolderIconItemData);
 		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
