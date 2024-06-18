@@ -55,6 +55,8 @@
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
+  -webkit-user-select: none;
+          user-select: none;
 }
 .leftNav .navItem:hover {
   background-color: var(--leftNavItemHoverBackgroundColor);
@@ -241,6 +243,8 @@
 }
 .leftNav.show .label {
   font-size: 14px;
+  -webkit-user-select: none;
+          user-select: none;
 }
 .leftNav.show .title {
   opacity: 1;
@@ -250,4 +254,3 @@
   width: var(--lineWidth);
   transition-delay: 0s;
 }
-/*# sourceMappingURL=./leftNav.css.map */

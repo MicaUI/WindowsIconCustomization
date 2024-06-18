@@ -1,105 +1,94 @@
+import { doms } from './modules/dom.js';
+let iconData, folders, file, highContrast, app, softwareData, lastData;
+
+let allIconItemData,
+	allFolderIconItemData,
+	allFileIconItemData,
+	allHighContrastIconItemData,
+	allAppIconItemData;
+
 /**
- * iconData
- * @type {Array} iconData - iconData
+ * 将要生成的图标类型(是公司还是应用)
+ * @type {string}
  */
-let iconData;
-let folders;
-let file;
-let highContrast;
-let app;
-let softwareData;
-let lastData;
-let allIconItemData;
-let allFolderIconItemData;
-let allFileIconItemData;
-let allHighContrastIconItemData;
-let allAppIconItemData;
-let type;
+let curWillCreateType;
+
+/**
+ * 当前页面
+ * @type {string}
+ */
 let curPage = 'home';
+
+/**
+ * 不显示返回按钮的页面
+ * @type {Array<string>}
+ */
 let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 
+/**
+ * 最后位置
+ * @type {Array<string>}
+ */
 let lastPosition = [];
 
+/**
+ * 配置文件的URL
+ * @type {string}
+ */
 const configUrl =
 	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
 // const configUrl = './../config.json';
 
-const lightColors = {
-	inputBackgroundColor: '#ffffff',
-	inputBorderColor: '#00000035',
-	inputLabelColor: '#000000',
-
-	leftNavBackground: '#f3f3f3',
-	leftNavItemHoverBackgroundColor: '#00000017',
-	leftCurNavItemBackgroundColor: '#00000017',
-	leftCurNavItemHoverBackgroundColor: '#00000017',
-
-	label: '#000000',
-	icon: '#000000',
-	title: 'rgb(159, 151, 139)',
-
-	mainContentBackground: '#f3f3f3',
-	mainContentLeftTitle: '#000000',
-	mainContentLeftSum: '#7a7979',
-	backBtnColor: '#000000',
-	mainContentIconWrapContent: '#ffffff',
-	mainContentIconWrapContentBottomInfoNameCOlor: '#000000',
-	mainContentIconWrapContentBottomInfoSumCOlor: '#000000',
-
-	showInfoBackgroundColor: 'rgba(255, 255, 255, 0.82)',
-	showInfoBorderColor: '#00000042',
-	showInfoLabelBorderColor: '#00000038',
-	showInfoLabelColor: '#000000',
-	closeColor: '#000000',
-	maskColor: '#2b2b2b',
-};
-
-const darkColors = {
-	inputBackgroundColor: '#ffffff0d',
-	inputBorderColor: '#ffffff14',
-	inputLabelColor: 'rgba(255, 255, 255, 0.786)',
-
-	leftNavBackground: '#202020',
-	leftNavItemHoverBackgroundColor: 'rgba(255, 255, 255, 0.0605)',
-	leftCurNavItemBackgroundColor: 'rgba(255, 255, 255, 0.0605)',
-	leftCurNavItemHoverBackgroundColor: 'rgba(255, 255, 255, 0.0605)',
-
-	label: '#FFFFFF',
-	icon: '#FFFFFF',
-	title: 'rgb(159, 151, 139)',
-
-	mainContentBackground: '#202020',
-	mainContentLeftTitle: '#ffffff',
-	mainContentLeftSum: '#ffffff',
-	backBtnColor: '#ffffff',
-	mainContentIconWrapContent: '#2b2b2b',
-	mainContentIconWrapContentBottomInfoNameCOlor: '#ffffff',
-	mainContentIconWrapContentBottomInfoSumCOlor: '#ffffff',
-
-	showInfoBackgroundColor: '#2c2c2cf0',
-	showInfoBorderColor: '#ffffff0d',
-	showInfoLabelBorderColor: '#ffffff17',
-	showInfoLabelColor: '#FFFFFF',
-	closeColor: '#FFFFFF',
-	maskColor: '#2b2b2b',
-};
-
-// auto change light dark
-const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-darkModeMediaQuery.addEventListener('change', (e) => {
-	toggleTheme(e.matches);
-});
-toggleTheme(darkModeMediaQuery.matches);
-function toggleTheme(dark = false) {
-	const colors = dark ? darkColors : lightColors;
-	Object.keys(colors).forEach((key) => {
-		document.documentElement.style.setProperty(`--${key}`, colors[key]);
-	});
-	return dark ? 'dark' : 'light';
-}
-
+/* 下载文件的基础路径 */
 const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
 
+/* 启动函数 */
+document.addEventListener('DOMContentLoaded', async function () {
+	const configPromise = (await fetch(configUrl)).json();
+	const config = await configPromise;
+	main(config);
+});
+/* 主函数 */
+const main = (_config) => {
+	//_config 代表读取到的json中的数据
+	iconData = convertConfigToIconData(_config);
+	folders = convertFoldersToFoldersData(_config['folders']);
+	file = convertConfigToFileData(_config);
+	highContrast = convertConfigToHighContrastData(_config);
+	app = convertConfigToAppData(_config);
+	softwareData = convertConfigToSoftwareData(_config);
+
+	allIconItemData = extractData(iconData, true);
+	allFolderIconItemData = extractData(folders, true);
+	allFileIconItemData = extractData(file, true);
+	allHighContrastIconItemData = extractData(highContrast, true);
+	allAppIconItemData = extractData(app, true);
+	allIconItemData.push(...allFolderIconItemData);
+
+	doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
+	doms.sum.style.opacity = 1;
+	// createIconWrapElement(iconData);
+	createHomePage();
+	setCurStatus(doms.mainHome);
+};
+/**
+ * Deconstructs the file object into a new object with specified properties.
+ *
+ * @param {Object} file - The file object to be deconstructed.
+ * @param {string} file.path - The path of the file.
+ * @param {string} file.name - The name of the file.
+ * @param {string} file.company - The company associated with the file.
+ * @param {string} file.app - The application associated with the file.
+ * @param {string} file.type - The type of the file.
+ * @return {Object} The deconstructed object with the following properties:
+ *   - pic: The path of the file.
+ *   - tip: The name of the file.
+ *   - url: The URL of the file.
+ *   - name: The name of the file.
+ *   - company: The company associated with the file.
+ *   - app: The application associated with the file.
+ *   - type: The type of the file.
+ */
 const deconstructionFileData = (file) => {
 	return {
 		pic: file.path,
@@ -334,30 +323,6 @@ const convertConfigToSoftwareData = (config) => {
 	return data;
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON(configUrl, function (_config) {
-		//data 代表读取到的json中的数据
-		iconData = convertConfigToIconData(_config);
-		folders = convertFoldersToFoldersData(_config['folders']);
-		file = convertConfigToFileData(_config);
-		highContrast = convertConfigToHighContrastData(_config);
-		app = convertConfigToAppData(_config);
-		softwareData = convertConfigToSoftwareData(_config);
-
-		allIconItemData = extractData(iconData, true);
-		allFolderIconItemData = extractData(folders, true);
-		allFileIconItemData = extractData(file, true);
-		allHighContrastIconItemData = extractData(highContrast, true);
-
-		allAppIconItemData = extractData(app, true);
-		allIconItemData.push(...allFolderIconItemData);
-		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
-		doms.sum.style.opacity = 1;
-		// createIconWrapElement(iconData);
-		createHomePage();
-		setCurStatus(doms.mainHome);
-	});
-});
 let curLeftNavStatus = true;
 const toggleLeftNav = () => {
 	console.log('toggle');
@@ -376,120 +341,6 @@ const hideLeftNav = () => {
 	doms.leftNav.classList.remove('show');
 	doms.leftNav.classList.add('hide');
 };
-const doms = {
-	/**
-	 * coverImgShow
-	 * @type {HTMLImageElement} coverImgShow - coverImgShow
-	 */
-	coverImgShow: document.querySelector('.showInfo .coverImgShow'),
-	/**
-	 * infoList
-	 * @type {HTMLUListElement} infoList - infoList
-	 */
-	infoList: document.querySelector('.showInfo .infoList'),
-	/**
-	 * close
-	 * @type {HTMLDivElement} close - close
-	 */
-	close: document.querySelector('.showInfo .close'),
-	/**
-	 * showInfo
-	 * @type {HTMLDivElement} showInfo - showInfo
-	 */
-	showInfo: document.querySelector('.showInfo'),
-	/**
-	 * inputIcon
-	 * @type {HTMLSpanElement} inputIcon - inputIcon
-	 */
-	inputIcon: document.querySelector('.inputIcon'),
-	/**
-	 * small
-	 * @type {HTMLInputElement} small - small
-	 */
-	small: document.querySelector('.small'),
-	/**
-	 * control
-	 * @type {HTMLDivElement} control - control
-	 */
-	control: document.querySelector('.leftNav .control'),
-	/**
-	 * mainHome
-	 * @type {HTMLLIElement} mainHome - mainHome
-	 */
-	mainHome: document.querySelector('.mainHome'),
-	/**
-	 * app
-	 * @type {HTMLLIElement} app - app
-	 */
-	app: document.querySelector('.app'),
-	/**
-	 * mainHome
-	 * @type {HTMLLIElement} mainHome - mainHome
-	 */
-	mainHome: document.querySelector('.mainHome'),
-	/**
-	 * fileBook
-	 * @type {HTMLLIElement} fileBook - fileBook
-	 */
-	folders: document.querySelector('.folders'),
-	/**
-	 * file
-	 * @type {HTMLLIElement} file - file
-	 */
-	file: document.querySelector('.file'),
-	/**
-	 * highContrast
-	 * @type {HTMLLIElement} highContrast - highContrast
-	 */
-	highContrast: document.querySelector('.highContrast'),
-	/**
-	 * company
-	 * @type {HTMLLIElement} company - company
-	 */
-	company: document.querySelector('.company'),
-	/**
-	 * software
-	 * @type {HTMLLIElement} software - software
-	 */
-	software: document.querySelector('.software'),
-	/**
-	 * sum
-	 * @type {HTMLLIElement} sum - sum
-	 */
-	sum: document.querySelector('.mainContent .sum'),
-	/**
-	 * searchInput
-	 * @type {HTMLInputElement} searchInput - searchInput
-	 */
-	searchInput: document.querySelector('.searchInput'),
-	/**
-	 * leftNav
-	 * @type {HTMLDivElement} leftNav - leftNav
-	 */
-	leftNav: document.querySelector('.leftNav'),
-	/**
-	 * content
-	 * @type {HTMLDivElement} content - content
-	 */
-	content: document.querySelector('.mainContent .content'),
-	/**
-	 * back
-	 * @type {HTMLDivElement} back - back
-	 */
-	back: document.querySelector('.mainContent .back'),
-};
-let inputHasFocus = false;
-
-const search = () => {};
-// Notification.requestPermission().then(function (permission) {
-// 	if (permission === 'granted') {
-// 		new Notification('页面有变化,请更新');
-// 	}
-// });
-
-doms.close.addEventListener('click', (e) => {
-	hideShowInfo();
-});
 
 doms.close.addEventListener('click', (e) => {
 	hideShowInfo();
@@ -498,6 +349,7 @@ doms.close.addEventListener('click', (e) => {
 doms.inputIcon.addEventListener('click', (e) => {
 	search();
 });
+
 doms.small.addEventListener('click', (e) => {
 	showLeftNav();
 	doms.searchInput.focus();
@@ -506,6 +358,7 @@ doms.small.addEventListener('click', (e) => {
 doms.control.addEventListener('click', (e) => {
 	toggleLeftNav();
 });
+
 /**
  * setCurStatus
  * @param {HTMLElement} who - who
@@ -524,8 +377,15 @@ const setCurStatus = (who) => {
 			d.classList.remove('cur');
 		}
 	});
-	who.classList.add('cur');
+	setTimeout(() => {
+		if (who.className === 'label' || who.className === 'icon') {
+			who.parentNode.classList.add('cur');
+		} else {
+			who.classList.add('cur');
+		}
+	}, 100);
 };
+
 doms.mainHome.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createHomePage();
@@ -563,6 +423,16 @@ doms.searchInput.addEventListener('focusout', (e) => {
 	// doms.leftNav.classList.remove('show');
 });
 
+/**
+ * Recursively traverses an object to extract data based on a target type.
+ *
+ * @param {Object} obj - The object to traverse.
+ * @param {boolean} [more=false] - Whether to extract all data or only the first `targetCount` matches.
+ * @param {number} [targetCount=7] - The maximum number of matches to extract.
+ * @param {string} [targetType='tip'] - The type of data to extract.
+ * @param {Array} [extractedData=[]] - The array to store the extracted data.
+ * @return {Array} The extracted data, either the first `targetCount` matches or all matches if `more` is true.
+ */
 function extractData(
 	obj,
 	more = false,
@@ -600,6 +470,13 @@ function extractData(
 	}
 }
 
+/**
+ * Recursively counts the number of objects in the input object that contain a specific type specified by `targetType`.
+ *
+ * @param {Object} obj - The object to traverse and count specific type objects.
+ * @param {string} [targetType='tip'] - The type of object to count.
+ * @return {number} The total count of objects that match the specified type.
+ */
 function countSpecificTypeObjects(obj, targetType = 'tip') {
 	let count = 0;
 
@@ -651,19 +528,23 @@ const createAppPage = () => {
 	doms.sum.innerText = `(${countSpecificTypeObjects(allAppIconItemData)})`;
 	hideBack();
 };
+
+/* bottom categorization */
 const createCompanyPage = () => {
 	curPage = 'company';
 	createIconWrapElement(iconData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
 	hideBack();
 };
-
 const createSoftwarePage = () => {
 	curPage = 'software';
 	createAppElement(softwareData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(softwareData)})`;
 	hideBack();
 };
+
+/* create right iconWrap and iconItem */
+
 const createIconWrapElement = (what) => {
 	doms.content.innerHTML = '';
 	what.forEach((data) => {
@@ -703,7 +584,7 @@ const createIconWrapElement = (what) => {
 		}
 		iconWrapContent.addEventListener('click', () => {
 			lastData = what;
-			type = 'wrap';
+			curWillCreateType = 'wrap';
 			curPage = 'canShowBack';
 			lastPosition.push(companyName);
 			createAppElement(data[companyName]);
@@ -713,7 +594,6 @@ const createIconWrapElement = (what) => {
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
-
 const createAppElement = (data = []) => {
 	doms.content.innerHTML = '';
 	data.forEach((d) => {
@@ -752,7 +632,7 @@ const createAppElement = (data = []) => {
 			}
 		}
 		iconWrapContent.addEventListener('click', () => {
-			type = 'app';
+			curWillCreateType = 'app';
 			lastData = data;
 			lastPosition.push(appName);
 			createIconItemElement(d[appName]);
@@ -766,6 +646,29 @@ const createAppElement = (data = []) => {
 	doms.content.classList.remove('showIconItem');
 	doms.content.classList.add('showIconWrap');
 };
+/* create IconItem */
+const createIconItemElement = (data) => {
+	doms.content.innerHTML = '';
+	data.forEach((d) => {
+		const iconItem = document.createElement('div');
+		iconItem.classList.add('iconItem');
+		iconItem.title = d.tip;
+		iconItem.innerHTML = `<img id="${d.name}" src="${d.pic}" alt="">`;
+		iconItem.addEventListener('click', () => {
+			// window.open(d.url);
+			showShowInfo(d);
+		});
+		doms.content.appendChild(iconItem);
+	});
+	showBack();
+	// if (!noShowBackBtnPage.includes(curPage)) {
+	// showBack();
+	// }
+	doms.content.classList.remove('showIconWrap');
+	doms.content.classList.add('showIconItem');
+};
+
+/* showInfo */
 const showInfoDataInit = {
 	pic: '',
 	app: '',
@@ -778,6 +681,7 @@ const showInfoCapitalCaseMap = {
 	company: 'Company',
 	type: 'Type',
 };
+
 let showInfoData = showInfoDataInit;
 const extractDataToShowInfo = (infoData, showInfoData) => {
 	for (const key in showInfoData) {
@@ -787,54 +691,11 @@ const extractDataToShowInfo = (infoData, showInfoData) => {
 	}
 };
 
-/**
- * addEventListenerInfoItemClickWillGo
- * @type {HTMLDivElement} infoItem - infoItem
- * @type {string} key - key
- * @type {string} will - will
- */
-const addEventListenerInfoItemClickWillGo = (
-	infoItem = new HTMLDivElement(),
-	key,
-	will
-) => {
-	switch (key) {
-		case 'company': {
-			infoItem.removeEventListener('click', (e) => {
-				hideShowInfo();
-				createCompanyPage();
-			});
-			infoItem.addEventListener('click', (e) => {
-				hideShowInfo();
-				createCompanyPage();
-				setTimeout(() => {
-					location.href = `#${will}`;
-				}, 1);
-			});
-			break;
-		}
-		case 'app': {
-			infoItem.removeEventListener('click', (e) => {
-				hideShowInfo();
-				createAppPage();
-			});
-			infoItem.addEventListener('click', (e) => {
-				hideShowInfo();
-				createSoftwarePage();
-				setTimeout(() => {
-					location.href = `#${will}`;
-				}, 1);
-			});
-			break;
-		}
-	}
-};
-
 const showShowInfo = (infoData) => {
 	console.log(infoData);
 	extractDataToShowInfo(infoData, showInfoData);
 	doms.coverImgShow.src = showInfoData.pic;
-	for (key in showInfoData) {
+	for (let key in showInfoData) {
 		if (key === 'pic' || showInfoData[key] === '') {
 			continue;
 		}
@@ -864,27 +725,54 @@ const hideShowInfo = () => {
 	doms.showInfo.classList.add('hide');
 };
 
-const createIconItemElement = (data) => {
-	doms.content.innerHTML = '';
-	data.forEach((d) => {
-		const iconItem = document.createElement('div');
-		iconItem.classList.add('iconItem');
-		iconItem.title = d.tip;
-		iconItem.innerHTML = `<img id="${d.name}" src="${d.pic}" alt="">`;
-		iconItem.addEventListener('click', () => {
-			// window.open(d.url);
-			showShowInfo(d);
-		});
-		doms.content.appendChild(iconItem);
-	});
-	showBack();
-	// if (!noShowBackBtnPage.includes(curPage)) {
-	// showBack();
-	// }
-	doms.content.classList.remove('showIconWrap');
-	doms.content.classList.add('showIconItem');
+/**
+ * addEventListenerInfoItemClickWillGo
+ * @type {HTMLDivElement} infoItem - infoItem
+ * @type {string} key - key
+ * @type {string} will - will
+ */
+const addEventListenerInfoItemClickWillGo = (
+	infoItem = new HTMLDivElement(),
+	key,
+	will
+) => {
+	switch (key) {
+		case 'company': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createCompanyPage();
+				location.href = `#${will}`;
+
+				// setTimeout(() => {
+				// 	location.href = `#${will}`;
+				// }, 1);
+			});
+			break;
+		}
+		case 'app': {
+			infoItem.removeEventListener('click', (e) => {
+				hideShowInfo();
+				createAppPage();
+			});
+			infoItem.addEventListener('click', (e) => {
+				hideShowInfo();
+				createSoftwarePage();
+				location.href = `#${will}`;
+
+				// setTimeout(() => {
+				// 	location.href = `#${will}`;
+				// }, 1);
+			});
+			break;
+		}
+	}
 };
-// createHomeElement();
+
+/* back */
 let isBackShow = false;
 const hideBack = () => {
 	doms.back.style.opacity = 0;
@@ -898,7 +786,7 @@ const back = () => {
 	if (!isBackShow) {
 		return;
 	}
-	switch (type) {
+	switch (curWillCreateType) {
 		case 'wrap': {
 			createIconWrapElement(iconData);
 			location.href = `#${lastPosition.pop()}`;
@@ -909,44 +797,6 @@ const back = () => {
 			location.href = `#${lastPosition.pop()}`;
 		}
 	}
-	type = 'wrap';
+	curWillCreateType = 'wrap';
 };
 doms.back.addEventListener('click', back);
-
-{
-	// 	<div class="iconWrap">
-	//     <div class="iconWrapContent">
-	//         <div class="bigIcon">
-	//             <img src="./asset/1716458856474.png" alt="">
-	//         </div>
-	//         <div class="bigIcon">
-	//             <img src="./asset/1716515782501.png" alt="">
-	//         </div>
-	//         <div class="bigIcon">
-	//             <img src="./asset/1716515799621.png" alt="">
-	//         </div>
-	//         <div class="smallIconWrap">
-	//             <div class="smallIcon">
-	//                 <img src="./asset/1716515811590.png" alt="">
-	//             </div>
-	//             <div class="smallIcon">
-	//                 <img src="./asset/1716515811590.png" alt="">
-	//             </div>
-	//             <div class="smallIcon">
-	//                 <img src="./asset/1716515811590.png" alt="">
-	//             </div>
-	//             <div class="smallIcon">
-	//                 <img src="./asset/1716515811590.png" alt="">
-	//             </div>
-	//         </div>
-	//     </div>
-	//     <div class="bottomInfo">
-	//         <p class="name">
-	//             xygod
-	//         </p>
-	//         <span class="sum">
-	//             (99)
-	//         </span>
-	//     </div>
-	// </div>
-}
