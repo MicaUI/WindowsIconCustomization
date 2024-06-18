@@ -1,86 +1,17 @@
 import { doms } from './modules/dom.js';
+let iconData, folders, file, highContrast, app, softwareData, lastData;
+
+let allIconItemData,
+	allFolderIconItemData,
+	allFileIconItemData,
+	allHighContrastIconItemData,
+	allAppIconItemData;
 
 /**
- * @typedef {Array} iconData - 图标数据
- */
-
-/**
- * 图标数据
- * @type {Array}
- */
-let iconData;
-
-/**
- * 文件夹图标数据
- * @type {Array}
- */
-let folders;
-
-/**
- * 文件类型图标数据
- * @type {Array}
- */
-let file;
-
-/**
- * 高对比度图标数据
- * @type {Array}
- */
-let highContrast;
-
-/**
- * 应用程序图标数据
- * @type {Array}
- */
-let app;
-
-/**
- * 软件图标数据
- * @type {Array}
- */
-let softwareData;
-
-/**
- * 最新数据
- * @type {Array}
- */
-let lastData;
-
-/**
- * 所有图标项数据
- * @type {Array}
- */
-let allIconItemData;
-
-/**
- * 所有文件夹图标项数据
- * @type {Array}
- */
-let allFolderIconItemData;
-
-/**
- * 所有文件类型图标项数据
- * @type {Array}
- */
-let allFileIconItemData;
-
-/**
- * 所有高对比度图标项数据
- * @type {Array}
- */
-let allHighContrastIconItemData;
-
-/**
- * 所有应用程序图标项数据
- * @type {Array}
- */
-let allAppIconItemData;
-
-/**
- * 类型
+ * 将要生成的图标类型(是公司还是应用)
  * @type {string}
  */
-let type;
+let curWillCreateType;
 
 /**
  * 当前页面
@@ -96,7 +27,7 @@ let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 
 /**
  * 最后位置
- * @type {Array<number>}
+ * @type {Array<string>}
  */
 let lastPosition = [];
 
@@ -108,8 +39,56 @@ const configUrl =
 	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
 // const configUrl = './../config.json';
 
+/* 下载文件的基础路径 */
 const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
 
+/* 启动函数 */
+document.addEventListener('DOMContentLoaded', async function () {
+	const configPromise = (await fetch(configUrl)).json();
+	const config = await configPromise;
+	main(config);
+});
+/* 主函数 */
+const main = (_config) => {
+	//_config 代表读取到的json中的数据
+	iconData = convertConfigToIconData(_config);
+	folders = convertFoldersToFoldersData(_config['folders']);
+	file = convertConfigToFileData(_config);
+	highContrast = convertConfigToHighContrastData(_config);
+	app = convertConfigToAppData(_config);
+	softwareData = convertConfigToSoftwareData(_config);
+
+	allIconItemData = extractData(iconData, true);
+	allFolderIconItemData = extractData(folders, true);
+	allFileIconItemData = extractData(file, true);
+	allHighContrastIconItemData = extractData(highContrast, true);
+	allAppIconItemData = extractData(app, true);
+	allIconItemData.push(...allFolderIconItemData);
+
+	doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
+	doms.sum.style.opacity = 1;
+	// createIconWrapElement(iconData);
+	createHomePage();
+	setCurStatus(doms.mainHome);
+};
+/**
+ * Deconstructs the file object into a new object with specified properties.
+ *
+ * @param {Object} file - The file object to be deconstructed.
+ * @param {string} file.path - The path of the file.
+ * @param {string} file.name - The name of the file.
+ * @param {string} file.company - The company associated with the file.
+ * @param {string} file.app - The application associated with the file.
+ * @param {string} file.type - The type of the file.
+ * @return {Object} The deconstructed object with the following properties:
+ *   - pic: The path of the file.
+ *   - tip: The name of the file.
+ *   - url: The URL of the file.
+ *   - name: The name of the file.
+ *   - company: The company associated with the file.
+ *   - app: The application associated with the file.
+ *   - type: The type of the file.
+ */
 const deconstructionFileData = (file) => {
 	return {
 		pic: file.path,
@@ -344,30 +323,6 @@ const convertConfigToSoftwareData = (config) => {
 	return data;
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-	fetch(configUrl)
-		.then((response) => response.json())
-		.then((_config) => {
-			//_config 代表读取到的json中的数据
-			iconData = convertConfigToIconData(_config);
-			folders = convertFoldersToFoldersData(_config['folders']);
-			file = convertConfigToFileData(_config);
-			highContrast = convertConfigToHighContrastData(_config);
-			app = convertConfigToAppData(_config);
-			softwareData = convertConfigToSoftwareData(_config);
-			allIconItemData = extractData(iconData, true);
-			allFolderIconItemData = extractData(folders, true);
-			allFileIconItemData = extractData(file, true);
-			allHighContrastIconItemData = extractData(highContrast, true);
-			allAppIconItemData = extractData(app, true);
-			allIconItemData.push(...allFolderIconItemData);
-			doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
-			doms.sum.style.opacity = 1;
-			// createIconWrapElement(iconData);
-			createHomePage();
-			setCurStatus(doms.mainHome);
-		});
-});
 let curLeftNavStatus = true;
 const toggleLeftNav = () => {
 	console.log('toggle');
@@ -430,6 +385,7 @@ const setCurStatus = (who) => {
 		}
 	}, 100);
 };
+
 doms.mainHome.addEventListener('click', (e) => {
 	setCurStatus(e.target);
 	createHomePage();
@@ -628,7 +584,7 @@ const createIconWrapElement = (what) => {
 		}
 		iconWrapContent.addEventListener('click', () => {
 			lastData = what;
-			type = 'wrap';
+			curWillCreateType = 'wrap';
 			curPage = 'canShowBack';
 			lastPosition.push(companyName);
 			createAppElement(data[companyName]);
@@ -676,7 +632,7 @@ const createAppElement = (data = []) => {
 			}
 		}
 		iconWrapContent.addEventListener('click', () => {
-			type = 'app';
+			curWillCreateType = 'app';
 			lastData = data;
 			lastPosition.push(appName);
 			createIconItemElement(d[appName]);
@@ -830,7 +786,7 @@ const back = () => {
 	if (!isBackShow) {
 		return;
 	}
-	switch (type) {
+	switch (curWillCreateType) {
 		case 'wrap': {
 			createIconWrapElement(iconData);
 			location.href = `#${lastPosition.pop()}`;
@@ -841,6 +797,6 @@ const back = () => {
 			location.href = `#${lastPosition.pop()}`;
 		}
 	}
-	type = 'wrap';
+	curWillCreateType = 'wrap';
 };
 doms.back.addEventListener('click', back);
