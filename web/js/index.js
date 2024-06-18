@@ -1,25 +1,107 @@
 /**
- * iconData
- * @type {Array} iconData - iconData
+ * @typedef {Array} iconData - 图标数据
+ */
+
+/**
+ * 图标数据
+ * @type {Array}
  */
 let iconData;
+
+/**
+ * 文件夹图标数据
+ * @type {Array}
+ */
 let folders;
+
+/**
+ * 文件类型图标数据
+ * @type {Array}
+ */
 let file;
+
+/**
+ * 高对比度图标数据
+ * @type {Array}
+ */
 let highContrast;
+
+/**
+ * 应用程序图标数据
+ * @type {Array}
+ */
 let app;
+
+/**
+ * 软件图标数据
+ * @type {Array}
+ */
 let softwareData;
+
+/**
+ * 最新数据
+ * @type {Array}
+ */
 let lastData;
+
+/**
+ * 所有图标项数据
+ * @type {Array}
+ */
 let allIconItemData;
+
+/**
+ * 所有文件夹图标项数据
+ * @type {Array}
+ */
 let allFolderIconItemData;
+
+/**
+ * 所有文件类型图标项数据
+ * @type {Array}
+ */
 let allFileIconItemData;
+
+/**
+ * 所有高对比度图标项数据
+ * @type {Array}
+ */
 let allHighContrastIconItemData;
+
+/**
+ * 所有应用程序图标项数据
+ * @type {Array}
+ */
 let allAppIconItemData;
+
+/**
+ * 类型
+ * @type {string}
+ */
 let type;
+
+/**
+ * 当前页面
+ * @type {string}
+ */
 let curPage = 'home';
+
+/**
+ * 不显示返回按钮的页面
+ * @type {Array<string>}
+ */
 let noShowBackBtnPage = ['home', 'folders', 'file', 'company', 'software'];
 
+/**
+ * 最后位置
+ * @type {Array<number>}
+ */
 let lastPosition = [];
 
+/**
+ * 配置文件的URL
+ * @type {string}
+ */
 const configUrl =
 	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
 // const configUrl = './../config.json';
@@ -335,28 +417,28 @@ const convertConfigToSoftwareData = (config) => {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-	$.getJSON(configUrl, function (_config) {
-		//data 代表读取到的json中的数据
-		iconData = convertConfigToIconData(_config);
-		folders = convertFoldersToFoldersData(_config['folders']);
-		file = convertConfigToFileData(_config);
-		highContrast = convertConfigToHighContrastData(_config);
-		app = convertConfigToAppData(_config);
-		softwareData = convertConfigToSoftwareData(_config);
-
-		allIconItemData = extractData(iconData, true);
-		allFolderIconItemData = extractData(folders, true);
-		allFileIconItemData = extractData(file, true);
-		allHighContrastIconItemData = extractData(highContrast, true);
-
-		allAppIconItemData = extractData(app, true);
-		allIconItemData.push(...allFolderIconItemData);
-		doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
-		doms.sum.style.opacity = 1;
-		// createIconWrapElement(iconData);
-		createHomePage();
-		setCurStatus(doms.mainHome);
-	});
+	fetch(configUrl)
+		.then((response) => response.json())
+		.then((_config) => {
+			//_config 代表读取到的json中的数据
+			iconData = convertConfigToIconData(_config);
+			folders = convertFoldersToFoldersData(_config['folders']);
+			file = convertConfigToFileData(_config);
+			highContrast = convertConfigToHighContrastData(_config);
+			app = convertConfigToAppData(_config);
+			softwareData = convertConfigToSoftwareData(_config);
+			allIconItemData = extractData(iconData, true);
+			allFolderIconItemData = extractData(folders, true);
+			allFileIconItemData = extractData(file, true);
+			allHighContrastIconItemData = extractData(highContrast, true);
+			allAppIconItemData = extractData(app, true);
+			allIconItemData.push(...allFolderIconItemData);
+			doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
+			doms.sum.style.opacity = 1;
+			// createIconWrapElement(iconData);
+			createHomePage();
+			setCurStatus(doms.mainHome);
+		});
 });
 let curLeftNavStatus = true;
 const toggleLeftNav = () => {
