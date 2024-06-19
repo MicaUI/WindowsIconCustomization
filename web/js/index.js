@@ -91,7 +91,6 @@ const main = (_config) => {
  *   - type: The type of the file.
  */
 const deconstructionFileData = (file) => {
-	console.log(file);
 	return {
 		pic: file.path,
 		tip: file.name,
@@ -272,8 +271,10 @@ const convertConfigToAppData = (config) => {
 			const appData = [];
 
 			fileList.forEach((file) => {
-				const fileData = deconstructionFileData(file);
-				appData.push(fileData);
+				if (!file.name.endsWith('_HighContrastDark')) {
+					const fileData = deconstructionFileData(file);
+					appData.push(fileData);
+				}
 			});
 
 			apps.push({
@@ -526,6 +527,7 @@ const createHighContrastPage = () => {
 };
 const createAppPage = () => {
 	curPage = 'app';
+	console.log(allAppIconItemData);
 	createIconItemElement(allAppIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allAppIconItemData)})`;
 	hideBack();
