@@ -611,6 +611,9 @@ body {
   --showInfoLabelColor: #ffffff;
   --closeColor: #ffffff;
   --maskColor: #2b2b2b;
+  --downloadBtnColor: #ffffff;
+  --downloadBtnBorderColor: rgba(255, 255, 255, 0.0786);
+  --downloadBtnBackgroundColor: #393939;
 }
 .home {
   --leftNavWidth: 320px;
