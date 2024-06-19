@@ -35,8 +35,9 @@
   font-family: 'SEGOEICONS' !important;
 }
 .showInfo .infoContent .coverImg {
-  width: 46%;
+  width: 31%;
   height: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
