@@ -123,8 +123,8 @@ const traverseDirectory = (dir, rootDir) => {
 			const software = traverseDirectory(itemPath, rootDir);
 			companies[item] = software;
 		} else {
+			// 如果是根目录下的单个文件，则跳过
 			if (dir !== rootDir) {
-				// 如果是根目录下的单个文件，则跳过
 				if (!companies['_files']) {
 					companies['_files'] = [];
 				}
