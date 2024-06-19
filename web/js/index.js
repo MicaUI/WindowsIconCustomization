@@ -36,7 +36,7 @@ let lastPosition = [];
  * @type {string}
  */
 let configUrl = 'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
-configUrl = './../config.json';
+// configUrl = './../config.json';
 
 /* 下载文件的基础路径 */
 const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
