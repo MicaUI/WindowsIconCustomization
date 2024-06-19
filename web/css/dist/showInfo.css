@@ -35,8 +35,9 @@
   font-family: 'SEGOEICONS' !important;
 }
 .showInfo .infoContent .coverImg {
-  width: 46%;
+  width: 31%;
   height: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,8 +87,20 @@
 }
 .showInfo .infoContent .downloadBtn {
   position: absolute;
-  top: 100px;
-  background-color: aliceblue;
+  display: flex;
+  width: 146px;
+  height: 30px;
+  padding: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--downloadBtnBorderColor);
+  color: var(--downloadBtnColor);
+  background-color: var(--downloadBtnBackgroundColor);
+  left: 50%;
+  bottom: 30%;
 }
 .showInfo.show ~ .mask {
   display: block;

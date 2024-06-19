@@ -26,6 +26,9 @@ const lightColors = {
 	showInfoLabelColor: '#000000',
 	closeColor: '#000000',
 	maskColor: '#2b2b2b',
+	downloadBtnColor: ' rgba(0,0,0,0.8956)',
+	downloadBtnBorderColor: 'rgba(255, 255, 255, 0.0786)',
+	downloadBtnBackgroundColor: 'rgba(255, 255, 255, 0.70)',
 };
 
 const darkColors = {
@@ -56,6 +59,9 @@ const darkColors = {
 	showInfoLabelColor: '#FFFFFF',
 	closeColor: '#FFFFFF',
 	maskColor: '#2b2b2b',
+	downloadBtnColor: ' #ffffff',
+	downloadBtnBorderColor: 'rgba(255, 255, 255, 0.0786)',
+	downloadBtnBackgroundColor: '#393939',
 };
 
 // auto change light dark
