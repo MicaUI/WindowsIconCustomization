@@ -527,7 +527,6 @@ const createHighContrastPage = () => {
 };
 const createAppPage = () => {
 	curPage = 'app';
-	console.log(allAppIconItemData);
 	createIconItemElement(allAppIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allAppIconItemData)})`;
 	hideBack();
