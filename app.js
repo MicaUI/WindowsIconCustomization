@@ -1,4 +1,3 @@
-const { info } = require('console');
 const fs = require('fs');
 const path = require('path');
 
@@ -107,6 +106,7 @@ const traverseDirectory = (dir, rootDir) => {
 			item === '.git' ||
 			item === '.github' ||
 			item === 'web' ||
+			item === '.vscode' ||
 			item.endsWith('.md')
 		) {
 			// 如果是 .git 或者 web 目录，则跳过
@@ -142,6 +142,7 @@ const traverseDirectory = (dir, rootDir) => {
 					companies['_files'].push({
 						path: relativePath,
 						name: item.split('.')[0],
+						suffix: item.split('.')[1],
 						company:
 							company === 'folders'
 								? ''

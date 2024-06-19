@@ -6,6 +6,7 @@
           {
             "path": "Adobe\\Au\\AppIcon\\Au.png",
             "name": "Au",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Au",
             "type": "应用图标"
@@ -19,6 +20,7 @@
           {
             "path": "Adobe\\Ch\\AppIcon\\Ch.png",
             "name": "Ch",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Ch",
             "type": "应用图标"
@@ -32,6 +34,7 @@
           {
             "path": "Adobe\\Fr\\AppIcon\\Fr.png",
             "name": "Fr",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Fr",
             "type": "应用图标"
@@ -45,6 +48,7 @@
           {
             "path": "Adobe\\Ic\\AppIcon\\IC.png",
             "name": "IC",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Ic",
             "type": "应用图标"
@@ -58,6 +62,7 @@
           {
             "path": "Adobe\\Id\\AppIcon\\ID.png",
             "name": "ID",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Id",
             "type": "应用图标"
@@ -71,6 +76,7 @@
           {
             "path": "Adobe\\Illustrator\\AppIcon\\AI.png",
             "name": "AI",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Illustrator",
             "type": "应用图标"
@@ -78,6 +84,7 @@
           {
             "path": "Adobe\\Illustrator\\AppIcon\\Ai6128w.png",
             "name": "Ai6128w",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Illustrator",
             "type": "应用图标"
@@ -89,6 +96,7 @@
           {
             "path": "Adobe\\Illustrator\\FileTypeIcon\\ai.ico",
             "name": "ai",
+            "suffix": "ico",
             "company": "Adobe",
             "app": "Illustrator",
             "type": "文件类型图标"
@@ -102,6 +110,7 @@
           {
             "path": "Adobe\\Lr\\AppIcon\\Lr.png",
             "name": "Lr",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Lr",
             "type": "应用图标"
@@ -115,6 +124,7 @@
           {
             "path": "Adobe\\Photoshop\\AppIcon\\Ps4.ico",
             "name": "Ps4",
+            "suffix": "ico",
             "company": "Adobe",
             "app": "Photoshop",
             "type": "应用图标"
@@ -126,6 +136,7 @@
           {
             "path": "Adobe\\Photoshop\\FileTypeIcon\\psb.ico",
             "name": "psb",
+            "suffix": "ico",
             "company": "Adobe",
             "app": "Photoshop",
             "type": "文件类型图标"
@@ -133,6 +144,7 @@
           {
             "path": "Adobe\\Photoshop\\FileTypeIcon\\psd.ico",
             "name": "psd",
+            "suffix": "ico",
             "company": "Adobe",
             "app": "Photoshop",
             "type": "文件类型图标"
@@ -146,6 +158,7 @@
           {
             "path": "Adobe\\Pr\\AppIcon\\Pr.png",
             "name": "Pr",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Pr",
             "type": "应用图标"
@@ -159,6 +172,7 @@
           {
             "path": "Adobe\\Pt\\AppIcon\\Pt.png",
             "name": "Pt",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Pt",
             "type": "应用图标"
@@ -172,6 +186,7 @@
           {
             "path": "Adobe\\Sb\\AppIcon\\Sb.png",
             "name": "Sb",
+            "suffix": "png",
             "company": "Adobe",
             "app": "Sb",
             "type": "应用图标"
@@ -187,6 +202,7 @@
           {
             "path": "Apple\\macOS\\FileTypeIcon\\dmg.ico",
             "name": "dmg",
+            "suffix": "ico",
             "company": "Apple",
             "app": "macOS",
             "type": "文件类型图标"
@@ -194,6 +210,7 @@
           {
             "path": "Apple\\macOS\\FileTypeIcon\\pkg.png",
             "name": "pkg",
+            "suffix": "png",
             "company": "Apple",
             "app": "macOS",
             "type": "文件类型图标"
@@ -207,6 +224,7 @@
           {
             "path": "Apple\\Xcode\\FileTypeIcon\\sdef.png",
             "name": "sdef",
+            "suffix": "png",
             "company": "Apple",
             "app": "Xcode",
             "type": "文件类型图标"
@@ -214,6 +232,7 @@
           {
             "path": "Apple\\Xcode\\FileTypeIcon\\storyboard.png",
             "name": "storyboard",
+            "suffix": "png",
             "company": "Apple",
             "app": "Xcode",
             "type": "文件类型图标"
@@ -221,6 +240,7 @@
           {
             "path": "Apple\\Xcode\\FileTypeIcon\\Xcodearchive.png",
             "name": "Xcodearchive",
+            "suffix": "png",
             "company": "Apple",
             "app": "Xcode",
             "type": "文件类型图标"
@@ -228,6 +248,7 @@
           {
             "path": "Apple\\Xcode\\FileTypeIcon\\xcodeproj.png",
             "name": "xcodeproj",
+            "suffix": "png",
             "company": "Apple",
             "app": "Xcode",
             "type": "文件类型图标"
@@ -235,6 +256,7 @@
           {
             "path": "Apple\\Xcode\\FileTypeIcon\\Xcodworkspace.png",
             "name": "Xcodworkspace",
+            "suffix": "png",
             "company": "Apple",
             "app": "Xcode",
             "type": "文件类型图标"
@@ -250,6 +272,7 @@
           {
             "path": "AskLink\\AskLink\\AppIcon\\asklink.ico",
             "name": "asklink",
+            "suffix": "ico",
             "company": "AskLink",
             "app": "AskLink",
             "type": "应用图标"
@@ -265,6 +288,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\3Ds.png",
             "name": "3Ds",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -272,6 +296,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\ant.png",
             "name": "ant",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -279,6 +304,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\bip.png",
             "name": "bip",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -286,6 +312,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\bpr.png",
             "name": "bpr",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -293,6 +320,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\bprx.png",
             "name": "bprx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -300,6 +328,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cal.png",
             "name": "cal",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -307,6 +336,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cam.png",
             "name": "cam",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -314,6 +344,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx-1.png",
             "name": "cfx-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -321,6 +352,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cfx.png",
             "name": "cfx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -328,6 +360,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\chr.png",
             "name": "chr",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -335,6 +368,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\clp.png",
             "name": "clp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -342,6 +376,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\clr.png",
             "name": "clr",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -349,6 +384,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\clrx.png",
             "name": "clrx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -356,6 +392,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cpy.png",
             "name": "cpy",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -363,6 +400,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\csm.png",
             "name": "csm",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -370,6 +408,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cui.png",
             "name": "cui",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -377,6 +416,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\cuix.png",
             "name": "cuix",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -384,6 +424,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\ds.png",
             "name": "ds",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -391,6 +432,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\dxf.png",
             "name": "dxf",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -398,6 +440,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\eny.png",
             "name": "eny",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -405,6 +448,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm-1.png",
             "name": "fgm-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -412,6 +456,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\fgm.png",
             "name": "fgm",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -419,6 +464,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\fig.png",
             "name": "fig",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -426,6 +472,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\ifl.png",
             "name": "ifl",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -433,6 +480,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\kbd.png",
             "name": "kbd",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -440,6 +488,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\kbdx.png",
             "name": "kbdx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -447,6 +496,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mat.png",
             "name": "mat",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -454,6 +504,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\max-1.png",
             "name": "max-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -461,6 +512,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\max.png",
             "name": "max",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -468,6 +520,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc-1.png",
             "name": "maxc-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -475,6 +528,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\maxc.png",
             "name": "maxc",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -482,6 +536,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt-1.png",
             "name": "maxt-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -489,6 +544,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\maxt.png",
             "name": "maxt",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -496,6 +552,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg-1.png",
             "name": "mcg-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -503,6 +560,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mcg.png",
             "name": "mcg",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -510,6 +568,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr-1.png",
             "name": "mcr-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -517,6 +576,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mcr.png",
             "name": "mcr",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -524,6 +584,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mfe.png",
             "name": "mfe",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -531,6 +592,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mi.png",
             "name": "mi",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -538,6 +600,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mix.png",
             "name": "mix",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -545,6 +608,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mnm.png",
             "name": "mnm",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -552,6 +616,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mnu.png",
             "name": "mnu",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -559,6 +624,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mnux.png",
             "name": "mnux",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -566,6 +632,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\moc.png",
             "name": "moc",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -573,6 +640,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\ms.png",
             "name": "ms",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -580,6 +648,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mse.png",
             "name": "mse",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -587,6 +656,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mus.png",
             "name": "mus",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -594,6 +664,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\musx.png",
             "name": "musx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -601,6 +672,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mxp.png",
             "name": "mxp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -608,6 +680,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\mzp.png",
             "name": "mzp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -615,6 +688,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\pc2.png",
             "name": "pc2",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -622,6 +696,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\pfc.png",
             "name": "pfc",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -629,6 +704,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\phy.png",
             "name": "phy",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -636,6 +712,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\pmap.png",
             "name": "pmap",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -643,6 +720,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\prj.png",
             "name": "prj",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -650,6 +728,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\pse.png",
             "name": "pse",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -657,6 +736,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\qop.png",
             "name": "qop",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -664,6 +744,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\rcs.png",
             "name": "rcs",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -671,6 +752,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\rg3.png",
             "name": "rg3",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -678,6 +760,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\rps.png",
             "name": "rps",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -685,6 +768,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\shp.png",
             "name": "shp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -692,6 +776,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\stat.png",
             "name": "stat",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -699,6 +784,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\stp.png",
             "name": "stp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -706,6 +792,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\ui.png",
             "name": "ui",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -713,6 +800,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\vpx.png",
             "name": "vpx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -720,6 +808,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\xaf.png",
             "name": "xaf",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -727,6 +816,7 @@
           {
             "path": "Autodesk\\3Ds\\FileTypeIcon\\xmm.png",
             "name": "xmm",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "3Ds",
             "type": "文件类型图标"
@@ -740,6 +830,7 @@
           {
             "path": "Autodesk\\Alias\\FileTypeIcon\\wire_1.png",
             "name": "wire_1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Alias",
             "type": "文件类型图标"
@@ -747,6 +838,7 @@
           {
             "path": "Autodesk\\Alias\\FileTypeIcon\\Wire_2.png",
             "name": "Wire_2",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Alias",
             "type": "文件类型图标"
@@ -760,6 +852,7 @@
           {
             "path": "Autodesk\\AutoCAD\\AppIcon\\CAD.ico",
             "name": "CAD",
+            "suffix": "ico",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "应用图标"
@@ -771,6 +864,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ARX.png",
             "name": "ARX",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -778,6 +872,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\ctb.png",
             "name": "ctb",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -785,6 +880,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\DBX.png",
             "name": "DBX",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -792,6 +888,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dgn.png",
             "name": "dgn",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -799,6 +896,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwg.ico",
             "name": "dwg",
+            "suffix": "ico",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -806,6 +904,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\dwgbak.ico",
             "name": "dwgbak",
+            "suffix": "ico",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -813,6 +912,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\HDI.png",
             "name": "HDI",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -820,6 +920,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\LSP.png",
             "name": "LSP",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -827,6 +928,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\PC3.png",
             "name": "PC3",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -834,6 +936,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\pmp.png",
             "name": "pmp",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -841,6 +944,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\SHX.png",
             "name": "SHX",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -848,6 +952,7 @@
           {
             "path": "Autodesk\\AutoCAD\\FileTypeIcon\\stb.png",
             "name": "stb",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "AutoCAD",
             "type": "文件类型图标"
@@ -861,6 +966,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\cfd-1.png",
             "name": "cfd-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -868,6 +974,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\cfd.png",
             "name": "cfd",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -875,6 +982,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\cfdpk.png",
             "name": "cfdpk",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -882,6 +990,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\cfz.png",
             "name": "cfz",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -889,6 +998,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\tpl.png",
             "name": "tpl",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -896,6 +1006,7 @@
           {
             "path": "Autodesk\\CFD\\FileTypeIcon\\vtfx.png",
             "name": "vtfx",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "CFD",
             "type": "文件类型图标"
@@ -909,6 +1020,7 @@
           {
             "path": "Autodesk\\FromIt\\FileTypeIcon\\axm.png",
             "name": "axm",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "FromIt",
             "type": "文件类型图标"
@@ -916,6 +1028,7 @@
           {
             "path": "Autodesk\\FromIt\\FileTypeIcon\\axm_2.png",
             "name": "axm_2",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "FromIt",
             "type": "文件类型图标"
@@ -929,6 +1042,7 @@
           {
             "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_1.png",
             "name": "f3d_1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Fusion360",
             "type": "文件类型图标"
@@ -936,6 +1050,7 @@
           {
             "path": "Autodesk\\Fusion360\\FileTypeIcon\\f3d_2.png",
             "name": "f3d_2",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Fusion360",
             "type": "文件类型图标"
@@ -949,6 +1064,7 @@
           {
             "path": "Autodesk\\Inventor\\FileTypeIcon\\idw.png",
             "name": "idw",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Inventor",
             "type": "文件类型图标"
@@ -956,6 +1072,7 @@
           {
             "path": "Autodesk\\Inventor\\FileTypeIcon\\ipn.png",
             "name": "ipn",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Inventor",
             "type": "文件类型图标"
@@ -963,6 +1080,7 @@
           {
             "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt-1.png",
             "name": "ipt-1",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Inventor",
             "type": "文件类型图标"
@@ -970,6 +1088,7 @@
           {
             "path": "Autodesk\\Inventor\\FileTypeIcon\\ipt.png",
             "name": "ipt",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Inventor",
             "type": "文件类型图标"
@@ -983,6 +1102,7 @@
           {
             "path": "Autodesk\\Revit\\FileTypeIcon\\RFA.png",
             "name": "RFA",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Revit",
             "type": "文件类型图标"
@@ -990,6 +1110,7 @@
           {
             "path": "Autodesk\\Revit\\FileTypeIcon\\RFT.png",
             "name": "RFT",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Revit",
             "type": "文件类型图标"
@@ -997,6 +1118,7 @@
           {
             "path": "Autodesk\\Revit\\FileTypeIcon\\RTE.png",
             "name": "RTE",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Revit",
             "type": "文件类型图标"
@@ -1004,6 +1126,7 @@
           {
             "path": "Autodesk\\Revit\\FileTypeIcon\\RVT.png",
             "name": "RVT",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Revit",
             "type": "文件类型图标"
@@ -1011,6 +1134,7 @@
           {
             "path": "Autodesk\\Revit\\FileTypeIcon\\RVT_2.png",
             "name": "RVT_2",
+            "suffix": "png",
             "company": "Autodesk",
             "app": "Revit",
             "type": "文件类型图标"
@@ -1024,8 +1148,9 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Baidu\\BaiduWangpan\\AppIcon\\BaiduWangpan_2.ico",
-            "name": "BaiduWangpan_2",
+            "path": "Baidu\\BaiduWangpan\\AppIcon\\BaiduWangpan.ico",
+            "name": "BaiduWangpan",
+            "suffix": "ico",
             "company": "Baidu",
             "app": "BaiduWangpan",
             "type": "应用图标"
@@ -1041,6 +1166,7 @@
           {
             "path": "BitTorrent\\uTorrent\\AppIcon\\uTorrent.png",
             "name": "uTorrent",
+            "suffix": "png",
             "company": "BitTorrent",
             "app": "uTorrent",
             "type": "应用图标"
@@ -1056,6 +1182,7 @@
           {
             "path": "Blender\\Blender\\AppIcon\\Blender.png",
             "name": "Blender",
+            "suffix": "png",
             "company": "Blender",
             "app": "Blender",
             "type": "应用图标"
@@ -1067,6 +1194,7 @@
           {
             "path": "Blender\\Blender\\FileTypeIcon\\blend.ico",
             "name": "blend",
+            "suffix": "ico",
             "company": "Blender",
             "app": "Blender",
             "type": "文件类型图标"
@@ -1074,6 +1202,7 @@
           {
             "path": "Blender\\Blender\\FileTypeIcon\\Blend1.ico",
             "name": "Blend1",
+            "suffix": "ico",
             "company": "Blender",
             "app": "Blender",
             "type": "文件类型图标"
@@ -1089,6 +1218,7 @@
           {
             "path": "Cisco\\CiscoPacketTracer\\AppIcon\\CiscoPacketTracer.png",
             "name": "CiscoPacketTracer",
+            "suffix": "png",
             "company": "Cisco",
             "app": "CiscoPacketTracer",
             "type": "应用图标"
@@ -1104,6 +1234,7 @@
           {
             "path": "Coscos2d\\Coscos2d\\AppIcon\\Coscos2D.png",
             "name": "Coscos2D",
+            "suffix": "png",
             "company": "Coscos2d",
             "app": "Coscos2d",
             "type": "应用图标"
@@ -1119,6 +1250,7 @@
           {
             "path": "Discord\\Discord\\AppIcon\\Discord.png",
             "name": "Discord",
+            "suffix": "png",
             "company": "Discord",
             "app": "Discord",
             "type": "应用图标"
@@ -1134,6 +1266,7 @@
           {
             "path": "Figma\\Figma\\AppIcon\\figma.ico",
             "name": "figma",
+            "suffix": "ico",
             "company": "Figma",
             "app": "Figma",
             "type": "应用图标"
@@ -1141,6 +1274,7 @@
           {
             "path": "Figma\\Figma\\AppIcon\\figma_2.ico",
             "name": "figma_2",
+            "suffix": "ico",
             "company": "Figma",
             "app": "Figma",
             "type": "应用图标"
@@ -1152,6 +1286,7 @@
           {
             "path": "Figma\\Figma\\FileTypeIcon\\fig.ico",
             "name": "fig",
+            "suffix": "ico",
             "company": "Figma",
             "app": "Figma",
             "type": "文件类型图标"
@@ -1166,6 +1301,7 @@
         {
           "path": "folders\\blue grey\\blue grey.png",
           "name": "blue grey",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1173,6 +1309,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Background.png",
           "name": "blue grey_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1180,6 +1317,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Desktop.png",
           "name": "blue grey_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1187,6 +1325,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Documents.png",
           "name": "blue grey_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1194,6 +1333,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Download.png",
           "name": "blue grey_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1201,6 +1341,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Links.png",
           "name": "blue grey_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1208,6 +1349,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Music.png",
           "name": "blue grey_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1215,6 +1357,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Pictures.png",
           "name": "blue grey_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1222,6 +1365,7 @@
         {
           "path": "folders\\blue grey\\blue grey_User.png",
           "name": "blue grey_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1229,6 +1373,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Users.png",
           "name": "blue grey_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1236,6 +1381,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Videos.png",
           "name": "blue grey_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1243,6 +1389,7 @@
         {
           "path": "folders\\blue grey\\blue grey_Windows.png",
           "name": "blue grey_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1254,6 +1401,7 @@
         {
           "path": "folders\\bluepink\\bluepink.png",
           "name": "bluepink",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1261,6 +1409,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Background.png",
           "name": "bluepink_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1268,6 +1417,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Desktop.png",
           "name": "bluepink_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1275,6 +1425,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Documents.png",
           "name": "bluepink_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1282,6 +1433,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Download.png",
           "name": "bluepink_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1289,6 +1441,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Links.png",
           "name": "bluepink_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1296,6 +1449,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Music.png",
           "name": "bluepink_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1303,6 +1457,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Pictures.png",
           "name": "bluepink_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1310,6 +1465,7 @@
         {
           "path": "folders\\bluepink\\bluepink_User.png",
           "name": "bluepink_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1317,6 +1473,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Users.png",
           "name": "bluepink_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1324,6 +1481,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Videos.png",
           "name": "bluepink_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1331,6 +1489,7 @@
         {
           "path": "folders\\bluepink\\bluepink_Windows.png",
           "name": "bluepink_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1342,6 +1501,7 @@
         {
           "path": "folders\\cyan\\cyan green_Background.png",
           "name": "cyan green_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1349,6 +1509,7 @@
         {
           "path": "folders\\cyan\\cyan green_Desktop.png",
           "name": "cyan green_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1356,6 +1517,7 @@
         {
           "path": "folders\\cyan\\cyan green_Documents.png",
           "name": "cyan green_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1363,6 +1525,7 @@
         {
           "path": "folders\\cyan\\cyan green_Download.png",
           "name": "cyan green_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1370,6 +1533,7 @@
         {
           "path": "folders\\cyan\\cyan green_Links.png",
           "name": "cyan green_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1377,6 +1541,7 @@
         {
           "path": "folders\\cyan\\cyan green_Music.png",
           "name": "cyan green_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1384,6 +1549,7 @@
         {
           "path": "folders\\cyan\\cyan green_Pictures.png",
           "name": "cyan green_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1391,6 +1557,7 @@
         {
           "path": "folders\\cyan\\cyan green_User.png",
           "name": "cyan green_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1398,6 +1565,7 @@
         {
           "path": "folders\\cyan\\cyan green_Users.png",
           "name": "cyan green_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1405,6 +1573,7 @@
         {
           "path": "folders\\cyan\\cyan green_Videos.png",
           "name": "cyan green_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1412,6 +1581,7 @@
         {
           "path": "folders\\cyan\\cyan green_Windows.png",
           "name": "cyan green_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1423,6 +1593,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue.png",
           "name": "cyan blue",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1430,6 +1601,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Background.png",
           "name": "cyan blue_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1437,6 +1609,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Desktop.png",
           "name": "cyan blue_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1444,6 +1617,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Documents.png",
           "name": "cyan blue_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1451,6 +1625,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Download.png",
           "name": "cyan blue_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1458,6 +1633,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Links.png",
           "name": "cyan blue_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1465,6 +1641,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Music.png",
           "name": "cyan blue_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1472,6 +1649,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Pictures.png",
           "name": "cyan blue_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1479,6 +1657,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Users.png",
           "name": "cyan blue_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1486,6 +1665,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_User_Windows.png",
           "name": "cyan blue_User_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1493,6 +1673,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Videos.png",
           "name": "cyan blue_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1500,6 +1681,7 @@
         {
           "path": "folders\\cyan blue\\cyan blue_Windows.png",
           "name": "cyan blue_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1511,6 +1693,7 @@
         {
           "path": "folders\\cyan green\\cyan green.png",
           "name": "cyan green",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1518,6 +1701,7 @@
         {
           "path": "folders\\cyan green\\cyan.png",
           "name": "cyan",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1525,6 +1709,7 @@
         {
           "path": "folders\\cyan green\\cyan_Background.png",
           "name": "cyan_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1532,6 +1717,7 @@
         {
           "path": "folders\\cyan green\\cyan_Desktop.png",
           "name": "cyan_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1539,6 +1725,7 @@
         {
           "path": "folders\\cyan green\\cyan_Documents.png",
           "name": "cyan_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1546,6 +1733,7 @@
         {
           "path": "folders\\cyan green\\cyan_Download.png",
           "name": "cyan_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1553,6 +1741,7 @@
         {
           "path": "folders\\cyan green\\cyan_Links.png",
           "name": "cyan_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1560,6 +1749,7 @@
         {
           "path": "folders\\cyan green\\cyan_Music.png",
           "name": "cyan_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1567,6 +1757,7 @@
         {
           "path": "folders\\cyan green\\cyan_Pictures.png",
           "name": "cyan_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1574,6 +1765,7 @@
         {
           "path": "folders\\cyan green\\cyan_User.png",
           "name": "cyan_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1581,6 +1773,7 @@
         {
           "path": "folders\\cyan green\\cyan_Users.png",
           "name": "cyan_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1588,6 +1781,7 @@
         {
           "path": "folders\\cyan green\\cyan_Videos.png",
           "name": "cyan_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1595,6 +1789,7 @@
         {
           "path": "folders\\cyan green\\cyan_Windows.png",
           "name": "cyan_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1606,6 +1801,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light.png",
           "name": "Fluent Light",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1613,6 +1809,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Background.png",
           "name": "Fluent Light_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1620,6 +1817,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Desktop.png",
           "name": "Fluent Light_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1627,6 +1825,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Documents.png",
           "name": "Fluent Light_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1634,6 +1833,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Download.png",
           "name": "Fluent Light_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1641,6 +1841,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Links.png",
           "name": "Fluent Light_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1648,6 +1849,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Music.png",
           "name": "Fluent Light_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1655,6 +1857,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Pictures.png",
           "name": "Fluent Light_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1662,6 +1865,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Users.png",
           "name": "Fluent Light_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1669,6 +1873,7 @@
         {
           "path": "folders\\Fluent\\Fluent Light_Videos.png",
           "name": "Fluent Light_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1680,6 +1885,7 @@
         {
           "path": "folders\\green\\green.png",
           "name": "green",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1687,6 +1893,7 @@
         {
           "path": "folders\\green\\green_Background.png",
           "name": "green_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1694,6 +1901,7 @@
         {
           "path": "folders\\green\\green_Desktop.png",
           "name": "green_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1701,6 +1909,7 @@
         {
           "path": "folders\\green\\green_Documents.png",
           "name": "green_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1708,6 +1917,7 @@
         {
           "path": "folders\\green\\green_Download.png",
           "name": "green_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1715,6 +1925,7 @@
         {
           "path": "folders\\green\\green_Links.png",
           "name": "green_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1722,6 +1933,7 @@
         {
           "path": "folders\\green\\green_Music.png",
           "name": "green_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1729,6 +1941,7 @@
         {
           "path": "folders\\green\\green_Pictures.png",
           "name": "green_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1736,6 +1949,7 @@
         {
           "path": "folders\\green\\green_User.png",
           "name": "green_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1743,6 +1957,7 @@
         {
           "path": "folders\\green\\green_Users.png",
           "name": "green_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1750,6 +1965,7 @@
         {
           "path": "folders\\green\\green_Videos.png",
           "name": "green_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1757,6 +1973,7 @@
         {
           "path": "folders\\green\\green_Windows.png",
           "name": "green_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1768,6 +1985,7 @@
         {
           "path": "folders\\green grey\\green grey.png",
           "name": "green grey",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1775,6 +1993,7 @@
         {
           "path": "folders\\green grey\\green grey_Background.png",
           "name": "green grey_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1782,6 +2001,7 @@
         {
           "path": "folders\\green grey\\green grey_Desktop.png",
           "name": "green grey_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1789,6 +2009,7 @@
         {
           "path": "folders\\green grey\\green grey_Documents.png",
           "name": "green grey_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1796,6 +2017,7 @@
         {
           "path": "folders\\green grey\\green grey_Download.png",
           "name": "green grey_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1803,6 +2025,7 @@
         {
           "path": "folders\\green grey\\green grey_Links.png",
           "name": "green grey_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1810,6 +2033,7 @@
         {
           "path": "folders\\green grey\\green grey_Music.png",
           "name": "green grey_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1817,6 +2041,7 @@
         {
           "path": "folders\\green grey\\green grey_Pictures.png",
           "name": "green grey_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1824,6 +2049,7 @@
         {
           "path": "folders\\green grey\\green grey_User.png",
           "name": "green grey_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1831,6 +2057,7 @@
         {
           "path": "folders\\green grey\\green grey_Users.png",
           "name": "green grey_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1838,6 +2065,7 @@
         {
           "path": "folders\\green grey\\green grey_Videos.png",
           "name": "green grey_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1845,6 +2073,7 @@
         {
           "path": "folders\\green grey\\green grey_Windows.png",
           "name": "green grey_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1856,6 +2085,7 @@
         {
           "path": "folders\\grey\\ballance.ico",
           "name": "ballance",
+          "suffix": "ico",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1867,6 +2097,7 @@
         {
           "path": "folders\\Oringe\\Oringe-1.png",
           "name": "Oringe-1",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1874,6 +2105,7 @@
         {
           "path": "folders\\Oringe\\Oringe.png",
           "name": "Oringe",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1881,6 +2113,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Background.png",
           "name": "Oringe_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1888,6 +2121,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Desktop.png",
           "name": "Oringe_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1895,6 +2129,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Documents.png",
           "name": "Oringe_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1902,6 +2137,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Download.png",
           "name": "Oringe_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1909,6 +2145,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Links.png",
           "name": "Oringe_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1916,6 +2153,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Music.png",
           "name": "Oringe_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1923,6 +2161,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Pictures.png",
           "name": "Oringe_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1930,6 +2169,7 @@
         {
           "path": "folders\\Oringe\\Oringe_User.png",
           "name": "Oringe_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1937,6 +2177,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Users.png",
           "name": "Oringe_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1944,6 +2185,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Videos.png",
           "name": "Oringe_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1951,6 +2193,7 @@
         {
           "path": "folders\\Oringe\\Oringe_Windows.png",
           "name": "Oringe_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1962,6 +2205,7 @@
         {
           "path": "folders\\pink\\pink_Background.png",
           "name": "pink_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1969,6 +2213,7 @@
         {
           "path": "folders\\pink\\pink_Desktop.png",
           "name": "pink_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1976,6 +2221,7 @@
         {
           "path": "folders\\pink\\pink_Download.png",
           "name": "pink_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1983,6 +2229,7 @@
         {
           "path": "folders\\pink\\pink_Links.png",
           "name": "pink_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1990,6 +2237,7 @@
         {
           "path": "folders\\pink\\pink_Music.png",
           "name": "pink_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -1997,6 +2245,7 @@
         {
           "path": "folders\\pink\\pink_Pictures.png",
           "name": "pink_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2004,6 +2253,7 @@
         {
           "path": "folders\\pink\\pink_User.png",
           "name": "pink_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2011,6 +2261,7 @@
         {
           "path": "folders\\pink\\pink_Users.png",
           "name": "pink_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2018,6 +2269,7 @@
         {
           "path": "folders\\pink\\pink_Videos.png",
           "name": "pink_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2025,6 +2277,7 @@
         {
           "path": "folders\\pink\\pink_Windows.png",
           "name": "pink_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2036,6 +2289,7 @@
         {
           "path": "folders\\purpose\\purpose.png",
           "name": "purpose",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2043,6 +2297,7 @@
         {
           "path": "folders\\purpose\\purpose_Background.png",
           "name": "purpose_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2050,6 +2305,7 @@
         {
           "path": "folders\\purpose\\purpose_Desktop.png",
           "name": "purpose_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2057,6 +2313,7 @@
         {
           "path": "folders\\purpose\\purpose_Documents.png",
           "name": "purpose_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2064,6 +2321,7 @@
         {
           "path": "folders\\purpose\\purpose_Download.png",
           "name": "purpose_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2071,6 +2329,7 @@
         {
           "path": "folders\\purpose\\purpose_Links.png",
           "name": "purpose_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2078,6 +2337,7 @@
         {
           "path": "folders\\purpose\\purpose_Music.png",
           "name": "purpose_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2085,6 +2345,7 @@
         {
           "path": "folders\\purpose\\purpose_Pictures.png",
           "name": "purpose_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2092,6 +2353,7 @@
         {
           "path": "folders\\purpose\\purpose_User.png",
           "name": "purpose_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2099,6 +2361,7 @@
         {
           "path": "folders\\purpose\\purpose_Users.png",
           "name": "purpose_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2106,6 +2369,7 @@
         {
           "path": "folders\\purpose\\purpose_Videos.png",
           "name": "purpose_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2113,6 +2377,7 @@
         {
           "path": "folders\\purpose\\purpose_Windows.png",
           "name": "purpose_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2124,6 +2389,7 @@
         {
           "path": "folders\\purpose red\\purpose red.png",
           "name": "purpose red",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2131,6 +2397,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Background.png",
           "name": "purpose red_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2138,6 +2405,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Desktop.png",
           "name": "purpose red_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2145,6 +2413,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Documents.png",
           "name": "purpose red_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2152,6 +2421,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Download.png",
           "name": "purpose red_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2159,6 +2429,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Links.png",
           "name": "purpose red_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2166,6 +2437,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Music.png",
           "name": "purpose red_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2173,6 +2445,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Pictures.png",
           "name": "purpose red_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2180,6 +2453,7 @@
         {
           "path": "folders\\purpose red\\purpose red_User.png",
           "name": "purpose red_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2187,6 +2461,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Users.png",
           "name": "purpose red_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2194,6 +2469,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Videos.png",
           "name": "purpose red_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2201,6 +2477,7 @@
         {
           "path": "folders\\purpose red\\purpose red_Windows.png",
           "name": "purpose red_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2212,6 +2489,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey.png",
           "name": "red yellow grey",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2219,6 +2497,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Background.png",
           "name": "red yellow grey_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2226,6 +2505,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Desktop.png",
           "name": "red yellow grey_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2233,6 +2513,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Documents.png",
           "name": "red yellow grey_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2240,6 +2521,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Download.png",
           "name": "red yellow grey_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2247,6 +2529,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Links.png",
           "name": "red yellow grey_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2254,6 +2537,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Music.png",
           "name": "red yellow grey_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2261,6 +2545,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Pictures.png",
           "name": "red yellow grey_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2268,6 +2553,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_User.png",
           "name": "red yellow grey_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2275,6 +2561,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Users.png",
           "name": "red yellow grey_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2282,6 +2569,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Videos.png",
           "name": "red yellow grey_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2289,6 +2577,7 @@
         {
           "path": "folders\\red yellow\\red yellow grey_Windows.png",
           "name": "red yellow grey_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2300,6 +2589,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Back.png",
           "name": "Fluent Light_Back",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2307,6 +2597,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Desktop.png",
           "name": "Fluent Light_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2314,6 +2605,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Documents.png",
           "name": "Fluent Light_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2321,6 +2613,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Folder.png",
           "name": "Fluent Light_Folder",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2328,6 +2621,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Music.png",
           "name": "Fluent Light_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2335,6 +2629,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Pictures.png",
           "name": "Fluent Light_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2342,6 +2637,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_User.png",
           "name": "Fluent Light_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2349,6 +2645,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Users.png",
           "name": "Fluent Light_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2356,6 +2653,7 @@
         {
           "path": "folders\\Sunrise\\Fluent Light_Windows.png",
           "name": "Fluent Light_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2367,6 +2665,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Background.png",
           "name": "Windows Blue Dark_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2374,6 +2673,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Desktop.png",
           "name": "Windows Blue Dark_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2381,6 +2681,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Documents.png",
           "name": "Windows Blue Dark_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2388,6 +2689,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Download.png",
           "name": "Windows Blue Dark_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2395,6 +2697,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Favorites.png",
           "name": "Windows Blue Dark_Favorites",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2402,6 +2705,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Games.png",
           "name": "Windows Blue Dark_Games",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2409,6 +2713,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Links.png",
           "name": "Windows Blue Dark_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2416,6 +2721,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Music.png",
           "name": "Windows Blue Dark_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2423,6 +2729,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_new.png",
           "name": "Windows Blue Dark_new",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2430,6 +2737,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Pictures.png",
           "name": "Windows Blue Dark_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2437,6 +2745,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Program Files.png",
           "name": "Windows Blue Dark_Program Files",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2444,6 +2753,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_User.png",
           "name": "Windows Blue Dark_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2451,6 +2761,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Users.png",
           "name": "Windows Blue Dark_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2458,6 +2769,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Video.png",
           "name": "Windows Blue Dark_Video",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2465,6 +2777,7 @@
         {
           "path": "folders\\Windows Blue Dark\\Windows Blue Dark_Windows.png",
           "name": "Windows Blue Dark_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2476,6 +2789,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Desktop.png",
           "name": "Windows Blue Dark_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2483,6 +2797,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Documents.png",
           "name": "Windows Blue Dark_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2490,6 +2805,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Music.png",
           "name": "Windows Blue Dark_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2497,6 +2813,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Pictures.png",
           "name": "Windows Blue Dark_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2504,6 +2821,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_User.png",
           "name": "Windows Blue Dark_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2511,6 +2829,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Users.png",
           "name": "Windows Blue Dark_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2518,6 +2837,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Dark_Windows.png",
           "name": "Windows Blue Dark_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2525,6 +2845,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light-1.png",
           "name": "Windows Blue Light-1",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2532,6 +2853,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Background.png",
           "name": "Windows Blue Light-1_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2539,6 +2861,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Download.png",
           "name": "Windows Blue Light-1_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2546,6 +2869,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Links.png",
           "name": "Windows Blue Light-1_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2553,6 +2877,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light-1_Videos.png",
           "name": "Windows Blue Light-1_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2560,6 +2885,7 @@
         {
           "path": "folders\\Windows Blue Light\\Windows Blue Light.png",
           "name": "Windows Blue Light",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2571,6 +2897,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey.png",
           "name": "yellow grey",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2578,6 +2905,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Background.png",
           "name": "yellow grey_Background",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2585,6 +2913,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Desktop.png",
           "name": "yellow grey_Desktop",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2592,6 +2921,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Documents.png",
           "name": "yellow grey_Documents",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2599,6 +2929,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Download.png",
           "name": "yellow grey_Download",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2606,6 +2937,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Links.png",
           "name": "yellow grey_Links",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2613,6 +2945,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Music.png",
           "name": "yellow grey_Music",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2620,6 +2953,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Pictures.png",
           "name": "yellow grey_Pictures",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2627,6 +2961,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_User.png",
           "name": "yellow grey_User",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2634,6 +2969,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Users.png",
           "name": "yellow grey_Users",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2641,6 +2977,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Videos.png",
           "name": "yellow grey_Videos",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2648,6 +2985,7 @@
         {
           "path": "folders\\yellow grey\\yellow grey_Windows.png",
           "name": "yellow grey_Windows",
+          "suffix": "png",
           "company": "",
           "app": "",
           "type": "文件夹图标"
@@ -2662,6 +3000,7 @@
           {
             "path": "Fontforge\\Fontforge\\AppIcon\\Fontforge.ico",
             "name": "Fontforge",
+            "suffix": "ico",
             "company": "Fontforge",
             "app": "Fontforge",
             "type": "应用图标"
@@ -2677,6 +3016,7 @@
           {
             "path": "GIMP\\GIMP\\AppIcon\\GIMP.png",
             "name": "GIMP",
+            "suffix": "png",
             "company": "GIMP",
             "app": "GIMP",
             "type": "应用图标"
@@ -2692,6 +3032,7 @@
           {
             "path": "Git\\Git\\AppIcon\\GitBash.ico",
             "name": "GitBash",
+            "suffix": "ico",
             "company": "Git",
             "app": "Git",
             "type": "应用图标"
@@ -2699,6 +3040,7 @@
           {
             "path": "Git\\Git\\AppIcon\\GitCMD.ico",
             "name": "GitCMD",
+            "suffix": "ico",
             "company": "Git",
             "app": "Git",
             "type": "应用图标"
@@ -2706,6 +3048,7 @@
           {
             "path": "Git\\Git\\AppIcon\\GitGUI_D.ico",
             "name": "GitGUI_D",
+            "suffix": "ico",
             "company": "Git",
             "app": "Git",
             "type": "应用图标"
@@ -2713,6 +3056,7 @@
           {
             "path": "Git\\Git\\AppIcon\\GitGUI_W.png",
             "name": "GitGUI_W",
+            "suffix": "png",
             "company": "Git",
             "app": "Git",
             "type": "应用图标"
@@ -2728,6 +3072,7 @@
           {
             "path": "Godot\\Godot\\AppIcon\\Godot.png",
             "name": "Godot",
+            "suffix": "png",
             "company": "Godot",
             "app": "Godot",
             "type": "应用图标"
@@ -2743,6 +3088,7 @@
           {
             "path": "Google\\Android\\FileTypeIcon\\apk.ico",
             "name": "apk",
+            "suffix": "ico",
             "company": "Google",
             "app": "Android",
             "type": "文件类型图标/安卓图标"
@@ -2750,6 +3096,7 @@
           {
             "path": "Google\\Android\\FileTypeIcon\\apk2.ico",
             "name": "apk2",
+            "suffix": "ico",
             "company": "Google",
             "app": "Android",
             "type": "文件类型图标/安卓图标"
@@ -2763,6 +3110,7 @@
           {
             "path": "Google\\Android Studio\\AppIcon\\Android Studio.png",
             "name": "Android Studio",
+            "suffix": "png",
             "company": "Google",
             "app": "Android Studio",
             "type": "应用图标/安卓图标"
@@ -2776,6 +3124,7 @@
       {
         "path": "HighContrast\\Bug_HighContrastDark.ico",
         "name": "Bug_HighContrastDark",
+        "suffix": "ico",
         "company": "",
         "app": "",
         "type": "高对比度图标"
@@ -2783,6 +3132,7 @@
       {
         "path": "HighContrast\\CommandLine_HighContrastDark.ico",
         "name": "CommandLine_HighContrastDark",
+        "suffix": "ico",
         "company": "",
         "app": "",
         "type": "高对比度图标"
@@ -2790,6 +3140,7 @@
       {
         "path": "HighContrast\\Manual_HighContrastDark.ico",
         "name": "Manual_HighContrastDark",
+        "suffix": "ico",
         "company": "",
         "app": "",
         "type": "高对比度图标"
@@ -2797,6 +3148,7 @@
       {
         "path": "HighContrast\\Permission_HighContrastDark.ico",
         "name": "Permission_HighContrastDark",
+        "suffix": "ico",
         "company": "",
         "app": "",
         "type": "高对比度图标"
@@ -2804,6 +3156,7 @@
       {
         "path": "HighContrast\\ReleaseNote_HighContrastDark.ico",
         "name": "ReleaseNote_HighContrastDark",
+        "suffix": "ico",
         "company": "",
         "app": "",
         "type": "高对比度图标"
@@ -2817,6 +3170,7 @@
           {
             "path": "IDM\\IDM\\AppIcon\\IDM.png",
             "name": "IDM",
+            "suffix": "png",
             "company": "IDM",
             "app": "IDM",
             "type": "应用图标"
@@ -2832,6 +3186,7 @@
           {
             "path": "Kakao\\PotPlayer\\AppIcon\\PotPlayer.ico",
             "name": "PotPlayer",
+            "suffix": "ico",
             "company": "Kakao",
             "app": "PotPlayer",
             "type": "应用图标"
@@ -2847,6 +3202,7 @@
           {
             "path": "Krita\\Krita\\AppIcon\\Krita.png",
             "name": "Krita",
+            "suffix": "png",
             "company": "Krita",
             "app": "Krita",
             "type": "应用图标"
@@ -2862,6 +3218,7 @@
           {
             "path": "LabCenterElectronics\\Proteus\\AppIcon\\Proteus.png",
             "name": "Proteus",
+            "suffix": "png",
             "company": "LabCenterElectronics",
             "app": "Proteus",
             "type": "应用图标"
@@ -2877,6 +3234,7 @@
           {
             "path": "Luxion\\Keyshot\\FileTypeIcon\\Keyshot Package.ico",
             "name": "Keyshot Package",
+            "suffix": "ico",
             "company": "Luxion",
             "app": "Keyshot",
             "type": "文件类型图标"
@@ -2884,6 +3242,7 @@
           {
             "path": "Luxion\\Keyshot\\FileTypeIcon\\ksp.ico",
             "name": "ksp",
+            "suffix": "ico",
             "company": "Luxion",
             "app": "Keyshot",
             "type": "文件类型图标"
@@ -2899,6 +3258,7 @@
           {
             "path": "Maxon\\Cinema 4D\\AppIcon\\Cinema4D.ico",
             "name": "Cinema4D",
+            "suffix": "ico",
             "company": "Maxon",
             "app": "Cinema 4D",
             "type": "应用图标"
@@ -2906,6 +3266,7 @@
           {
             "path": "Maxon\\Cinema 4D\\AppIcon\\Cinema4D_HighContrastDark.ico",
             "name": "Cinema4D_HighContrastDark",
+            "suffix": "ico",
             "company": "Maxon",
             "app": "Cinema 4D",
             "type": "高对比度图标"
@@ -2917,6 +3278,7 @@
           {
             "path": "Maxon\\Cinema 4D\\FileTypeIcon\\c4d.ico",
             "name": "c4d",
+            "suffix": "ico",
             "company": "Maxon",
             "app": "Cinema 4D",
             "type": "文件类型图标"
@@ -2932,6 +3294,7 @@
           {
             "path": "McNeel\\Rhino\\AppIcon\\Rhino.ico",
             "name": "Rhino",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "应用图标"
@@ -2943,6 +3306,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\3dm.ico",
             "name": "3dm",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2950,6 +3314,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\3dmbak.ico",
             "name": "3dmbak",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2957,6 +3322,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\gh.ico",
             "name": "gh",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2964,6 +3330,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\gha.ico",
             "name": "gha",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2971,6 +3338,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\ghi.origin.png",
             "name": "ghi",
+            "suffix": "origin",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2978,6 +3346,7 @@
           {
             "path": "McNeel\\Rhino\\FileTypeIcon\\rhi.ico",
             "name": "rhi",
+            "suffix": "ico",
             "company": "McNeel",
             "app": "Rhino",
             "type": "文件类型图标"
@@ -2993,6 +3362,7 @@
           {
             "path": "MicaApps\\Character Map\\AppIcon\\Character Map.png",
             "name": "Character Map",
+            "suffix": "png",
             "company": "MicaApps",
             "app": "Character Map",
             "type": "应用图标"
@@ -3006,6 +3376,7 @@
           {
             "path": "MicaApps\\DiskInfo\\AppIcon\\DiskInfo.png",
             "name": "DiskInfo",
+            "suffix": "png",
             "company": "MicaApps",
             "app": "DiskInfo",
             "type": "应用图标"
@@ -3019,6 +3390,7 @@
           {
             "path": "MicaApps\\Mail\\AppIcon\\Mail.png",
             "name": "Mail",
+            "suffix": "png",
             "company": "MicaApps",
             "app": "Mail",
             "type": "应用图标"
@@ -3032,6 +3404,7 @@
           {
             "path": "MicaApps\\PDF Viewer\\AppIcon\\PDF Viewer.png",
             "name": "PDF Viewer",
+            "suffix": "png",
             "company": "MicaApps",
             "app": "PDF Viewer",
             "type": "应用图标"
@@ -3047,6 +3420,7 @@
           {
             "path": "MicaGames\\Ballance\\AppIcon\\Ballance.png",
             "name": "Ballance",
+            "suffix": "png",
             "company": "MicaGames",
             "app": "Ballance",
             "type": "应用图标"
@@ -3060,6 +3434,7 @@
           {
             "path": "MicaGames\\Inkball\\AppIcon\\InkBall.png",
             "name": "InkBall",
+            "suffix": "png",
             "company": "MicaGames",
             "app": "Inkball",
             "type": "应用图标"
@@ -3075,6 +3450,7 @@
           {
             "path": "Microsoft\\MineCraft\\AppIcon\\Minecraft.png",
             "name": "Minecraft",
+            "suffix": "png",
             "company": "Microsoft",
             "app": "MineCraft",
             "type": "应用图标"
@@ -3088,6 +3464,7 @@
           {
             "path": "Microsoft\\Spy++\\AppIcon\\Spy++.png",
             "name": "Spy++",
+            "suffix": "png",
             "company": "Microsoft",
             "app": "Spy++",
             "type": "应用图标"
@@ -3101,6 +3478,7 @@
           {
             "path": "Microsoft\\Visual Studio\\FileTypeIcon\\appxmanifast.ico",
             "name": "appxmanifast",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Visual Studio",
             "type": "文件类型图标"
@@ -3108,6 +3486,7 @@
           {
             "path": "Microsoft\\Visual Studio\\FileTypeIcon\\xaml.ico",
             "name": "xaml",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Visual Studio",
             "type": "文件类型图标"
@@ -3121,6 +3500,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\bat.ico",
             "name": "bat",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3128,6 +3508,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\chm.ico",
             "name": "chm",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3135,6 +3516,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\glsl.ico",
             "name": "glsl",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3142,6 +3524,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\hlsl.ico",
             "name": "hlsl",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3149,6 +3532,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\html.ico",
             "name": "html",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3156,6 +3540,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\hxs.png",
             "name": "hxs",
+            "suffix": "png",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3163,6 +3548,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\icc.png",
             "name": "icc",
+            "suffix": "png",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3170,6 +3556,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\icm.png",
             "name": "icm",
+            "suffix": "png",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3177,6 +3564,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\ini.ico",
             "name": "ini",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3184,6 +3572,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\msstyle.ico",
             "name": "msstyle",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3191,6 +3580,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\otf.ico",
             "name": "otf",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3198,6 +3588,7 @@
           {
             "path": "Microsoft\\Windows\\FileTypeIcon\\svg.ico",
             "name": "svg",
+            "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
             "type": "文件类型图标/Windows图标"
@@ -3213,6 +3604,7 @@
           {
             "path": "MongoDB\\MongoDB\\AppIcon\\MongoDB.png",
             "name": "MongoDB",
+            "suffix": "png",
             "company": "MongoDB",
             "app": "MongoDB",
             "type": "应用图标"
@@ -3228,6 +3620,7 @@
           {
             "path": "MuseGroup\\Audacity\\AppIcon\\Audacity.png",
             "name": "Audacity",
+            "suffix": "png",
             "company": "MuseGroup",
             "app": "Audacity",
             "type": "应用图标"
@@ -3243,6 +3636,7 @@
           {
             "path": "Navida\\Navida\\AppIcon\\Navida.png",
             "name": "Navida",
+            "suffix": "png",
             "company": "Navida",
             "app": "Navida",
             "type": "应用图标"
@@ -3258,6 +3652,7 @@
           {
             "path": "NetEase\\NetEaseCloudMusic\\AppIcon\\NetEaseCloudMusic.png",
             "name": "NetEaseCloudMusic",
+            "suffix": "png",
             "company": "NetEase",
             "app": "NetEaseCloudMusic",
             "type": "应用图标"
@@ -3273,6 +3668,7 @@
           {
             "path": "NetSarang\\XShell\\AppIcon\\Xshell.png",
             "name": "Xshell",
+            "suffix": "png",
             "company": "NetSarang",
             "app": "XShell",
             "type": "应用图标"
@@ -3288,6 +3684,7 @@
           {
             "path": "ni\\Multisim\\AppIcon\\Multisim.png",
             "name": "Multisim",
+            "suffix": "png",
             "company": "ni",
             "app": "Multisim",
             "type": "应用图标"
@@ -3303,6 +3700,7 @@
           {
             "path": "Obsidian\\Obsidian\\AppIcon\\Obsidian.png",
             "name": "Obsidian",
+            "suffix": "png",
             "company": "Obsidian",
             "app": "Obsidian",
             "type": "应用图标"
@@ -3318,6 +3716,7 @@
           {
             "path": "OBSStudio\\OBSStudio\\AppIcon\\OBSStudio.png",
             "name": "OBSStudio",
+            "suffix": "png",
             "company": "OBSStudio",
             "app": "OBSStudio",
             "type": "应用图标"
@@ -3333,6 +3732,7 @@
           {
             "path": "OpenJS\\NodeJS\\AppIcon\\Node.js.png",
             "name": "Node",
+            "suffix": "js",
             "company": "OpenJS",
             "app": "NodeJS",
             "type": "应用图标"
@@ -3348,6 +3748,7 @@
           {
             "path": "OriginLab\\OriginPro\\AppIcon\\OriginPro.png",
             "name": "OriginPro",
+            "suffix": "png",
             "company": "OriginLab",
             "app": "OriginPro",
             "type": "应用图标"
@@ -3363,6 +3764,7 @@
           {
             "path": "Postman\\Postman\\AppIcon\\Postman.png",
             "name": "Postman",
+            "suffix": "png",
             "company": "Postman",
             "app": "Postman",
             "type": "应用图标"
@@ -3378,6 +3780,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\Creo.png",
             "name": "Creo",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3385,6 +3788,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\creo_modelcheck.png",
             "name": "creo_modelcheck",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3392,6 +3796,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\creo_optionsmodeler.png",
             "name": "creo_optionsmodeler",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3399,6 +3804,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\creo_render_studio.png",
             "name": "creo_render_studio",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3406,6 +3812,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\dbatchc.png",
             "name": "dbatchc",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3413,6 +3820,7 @@
           {
             "path": "PTC\\CREO\\AppIcon\\dsm.png",
             "name": "dsm",
+            "suffix": "png",
             "company": "PTC",
             "app": "CREO",
             "type": "应用图标"
@@ -3428,6 +3836,7 @@
           {
             "path": "Python\\Python\\AppIcon\\IDLE.png",
             "name": "IDLE",
+            "suffix": "png",
             "company": "Python",
             "app": "Python",
             "type": "应用图标"
@@ -3435,6 +3844,7 @@
           {
             "path": "Python\\Python\\AppIcon\\Python.png",
             "name": "Python",
+            "suffix": "png",
             "company": "Python",
             "app": "Python",
             "type": "应用图标"
@@ -3450,6 +3860,7 @@
           {
             "path": "QuickLook\\QuickLook\\FileTypeIcon\\QLPlugin.ico",
             "name": "QLPlugin",
+            "suffix": "ico",
             "company": "QuickLook",
             "app": "QuickLook",
             "type": "文件类型图标"
@@ -3465,6 +3876,7 @@
           {
             "path": "ResourceHacker\\ResourceHacker\\AppIcon\\ResourceHacker.png",
             "name": "ResourceHacker",
+            "suffix": "png",
             "company": "ResourceHacker",
             "app": "ResourceHacker",
             "type": "应用图标"
@@ -3480,6 +3892,7 @@
           {
             "path": "RustDesk\\RustDesk\\AppIcon\\RustDesk_D2.ico",
             "name": "RustDesk_D2",
+            "suffix": "ico",
             "company": "RustDesk",
             "app": "RustDesk",
             "type": "应用图标"
@@ -3487,6 +3900,7 @@
           {
             "path": "RustDesk\\RustDesk\\AppIcon\\RustDesk_W.ico",
             "name": "RustDesk_W",
+            "suffix": "ico",
             "company": "RustDesk",
             "app": "RustDesk",
             "type": "应用图标"
@@ -3502,6 +3916,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\GeometryViewer.ico",
             "name": "GeometryViewer",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3509,6 +3924,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\GeometryViewer_2.ico",
             "name": "GeometryViewer_2",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3516,6 +3932,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\Houdini_D.ico",
             "name": "Houdini_D",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3523,6 +3940,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\Houdini_W.png",
             "name": "Houdini_W",
+            "suffix": "png",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3530,6 +3948,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\ImageViewer.ico",
             "name": "ImageViewer",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3537,6 +3956,7 @@
           {
             "path": "SideFX\\Houdini\\AppIcon\\ImageViewer_2.ico",
             "name": "ImageViewer_2",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "应用图标"
@@ -3548,6 +3968,7 @@
           {
             "path": "SideFX\\Houdini\\FileTypeIcon\\hip.ico",
             "name": "hip",
+            "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
             "type": "文件类型图标"
@@ -3563,6 +3984,7 @@
           {
             "path": "Tencent\\QQ\\AppIcon\\qq2.ico",
             "name": "qq2",
+            "suffix": "ico",
             "company": "Tencent",
             "app": "QQ",
             "type": "应用图标"
@@ -3570,6 +3992,7 @@
           {
             "path": "Tencent\\QQ\\AppIcon\\tencent-qq.ico",
             "name": "tencent-qq",
+            "suffix": "ico",
             "company": "Tencent",
             "app": "QQ",
             "type": "应用图标"
@@ -3583,6 +4006,7 @@
           {
             "path": "Tencent\\TencentMeeting\\AppIcon\\TencentMeeting.png",
             "name": "TencentMeeting",
+            "suffix": "png",
             "company": "Tencent",
             "app": "TencentMeeting",
             "type": "应用图标"
@@ -3598,6 +4022,7 @@
           {
             "path": "ToDesk\\ToDesk\\AppIcon\\ToDesk.ico",
             "name": "ToDesk",
+            "suffix": "ico",
             "company": "ToDesk",
             "app": "ToDesk",
             "type": "应用图标"
@@ -3605,6 +4030,7 @@
           {
             "path": "ToDesk\\ToDesk\\AppIcon\\Todesk_2.ico",
             "name": "Todesk_2",
+            "suffix": "ico",
             "company": "ToDesk",
             "app": "ToDesk",
             "type": "应用图标"
@@ -3620,6 +4046,7 @@
           {
             "path": "Typora\\Typora\\AppIcon\\Typora.png",
             "name": "Typora",
+            "suffix": "png",
             "company": "Typora",
             "app": "Typora",
             "type": "应用图标"
@@ -3635,6 +4062,7 @@
           {
             "path": "Unity\\Unity\\AppIcon\\Report a Problem with Unity.png",
             "name": "Report a Problem with Unity",
+            "suffix": "png",
             "company": "Unity",
             "app": "Unity",
             "type": "应用图标"
@@ -3642,6 +4070,7 @@
           {
             "path": "Unity\\Unity\\AppIcon\\Unity.ico",
             "name": "Unity",
+            "suffix": "ico",
             "company": "Unity",
             "app": "Unity",
             "type": "应用图标"
@@ -3653,6 +4082,7 @@
           {
             "path": "Unity\\Unity\\FileTypeIcon\\unitypackage.ico",
             "name": "unitypackage",
+            "suffix": "ico",
             "company": "Unity",
             "app": "Unity",
             "type": "文件类型图标"
@@ -3666,6 +4096,7 @@
           {
             "path": "Unity\\UnityHub\\AppIcon\\UnityHub.ico",
             "name": "UnityHub",
+            "suffix": "ico",
             "company": "Unity",
             "app": "UnityHub",
             "type": "应用图标"
@@ -3681,6 +4112,7 @@
           {
             "path": "Valve\\Steam\\AppIcon\\Steam.png",
             "name": "Steam",
+            "suffix": "png",
             "company": "Valve",
             "app": "Steam",
             "type": "应用图标"
@@ -3696,6 +4128,7 @@
           {
             "path": "Ventoy\\Ventoy\\AppIcon\\Ventoy.png",
             "name": "Ventoy",
+            "suffix": "png",
             "company": "Ventoy",
             "app": "Ventoy",
             "type": "应用图标"
@@ -3711,6 +4144,7 @@
           {
             "path": "VLC\\VLC\\AppIcon\\VLC.png",
             "name": "VLC",
+            "suffix": "png",
             "company": "VLC",
             "app": "VLC",
             "type": "应用图标"
@@ -3726,6 +4160,7 @@
           {
             "path": "Zotero\\Zotero\\AppIcon\\Zotero.png",
             "name": "Zotero",
+            "suffix": "png",
             "company": "Zotero",
             "app": "Zotero",
             "type": "应用图标"

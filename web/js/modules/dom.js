@@ -94,4 +94,10 @@ export const doms = {
 	 * @type {HTMLDivElement} back - back
 	 */
 	back: document.querySelector('.mainContent .back'),
+	/**
+	 * downloadBtn
+	 * @type {HTMLButtonElement} downloadBtn - downloadBtn
+	 */
+	downloadBtn: document.querySelector('.showInfo .downloadBtn'),
 };
+console.log(doms);

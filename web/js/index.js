@@ -35,9 +35,8 @@ let lastPosition = [];
  * 配置文件的URL
  * @type {string}
  */
-const configUrl =
-	'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
-// const configUrl = './../config.json';
+let configUrl = 'https://micaui.github.io/WindowsIconCustomization/CONFIG.json';
+configUrl = './../config.json';
 
 /* 下载文件的基础路径 */
 const baseUrl = 'https://micaui.github.io/WindowsIconCustomization/';
@@ -70,7 +69,9 @@ const main = (_config) => {
 	// createIconWrapElement(iconData);
 	createHomePage();
 	setCurStatus(doms.mainHome);
+	// hideLeftNav();
 };
+
 /**
  * Deconstructs the file object into a new object with specified properties.
  *
@@ -90,11 +91,13 @@ const main = (_config) => {
  *   - type: The type of the file.
  */
 const deconstructionFileData = (file) => {
+	console.log(file);
 	return {
 		pic: file.path,
 		tip: file.name,
 		url: baseUrl + file.path,
 		name: file.name,
+		suffix: file.suffix,
 		company: file.company,
 		app: file.app,
 		type: file.type,
@@ -230,7 +233,6 @@ const convertConfigToHighContrastData = (config) => {
 			});
 		} else {
 			const highContrastList = config[company]._files;
-			console.log(highContrastList);
 			const appData = [];
 
 			highContrastList.forEach((file) => {
@@ -712,6 +714,9 @@ const showShowInfo = (infoData) => {
 		}
 		doms.infoList.appendChild(infoItem);
 	}
+	doms.downloadBtn.onclick = () => {
+		downLoadFile(infoData);
+	};
 	doms.showInfo.classList.remove('show');
 	doms.showInfo.classList.remove('hide');
 	doms.showInfo.classList.add('show');
@@ -800,3 +805,22 @@ const back = () => {
 	curWillCreateType = 'wrap';
 };
 doms.back.addEventListener('click', back);
+
+const downLoadFile = (fileData) => {
+	fetch(fileData.url)
+		.then((response) => response.blob())
+		.then((blob) => {
+			// 将下载的文件保存到本地
+			const url = window.URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.style.display = 'none';
+			a.href = url;
+			a.download = `${fileData.name}.${fileData.suffix}`;
+			document.body.appendChild(a);
+			a.click();
+			window.URL.revokeObjectURL(url);
+		})
+		.catch((error) => {
+			console.error('下载失败:', error);
+		});
+};
