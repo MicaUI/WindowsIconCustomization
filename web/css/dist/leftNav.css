@@ -81,6 +81,8 @@
 .leftNav .top .search .small {
   font-size: 16px;
   margin-left: 12px;
+  -webkit-user-select: none;
+          user-select: none;
 }
 .leftNav .top .search .searchBig {
   width: 90%;
@@ -120,6 +122,12 @@
   font-size: 16px;
   margin-left: 0px;
   color: #b1b1b1;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.leftNav .top .control {
+  -webkit-user-select: none;
+          user-select: none;
 }
 .leftNav .center {
   margin-bottom: 0px;
@@ -133,7 +141,7 @@
 .leftNav .bottom .about .navItem a {
   color: #b7b0a7;
   opacity: 0;
-  font-size: 0px;
+  font-size: 0;
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -197,7 +205,7 @@
   line-height: 36px;
   /* display: flex; */
   /* align-items: center; */
-  font-size: 0px;
+  font-size: 0;
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
