@@ -7,6 +7,12 @@ let allIconItemData,
 	allHighContrastIconItemData,
 	allAppIconItemData;
 
+let mql = window.matchMedia('(max-width: 600px)');
+mql.addEventListener('change', (e) => {
+	isPhone = e.matches;
+});
+let isPhone = mql.matches;
+
 /**
  * 将要生成的图标类型(是公司还是应用)
  * @type {string}
@@ -69,7 +75,7 @@ const main = (_config) => {
 	// createIconWrapElement(iconData);
 	createHomePage();
 	setCurStatus(doms.mainHome);
-	// hideLeftNav();
+	hideLeftNav();
 };
 
 /**
@@ -418,11 +424,11 @@ doms.software.addEventListener('click', (e) => {
 	createSoftwarePage();
 });
 doms.searchInput.addEventListener('focusin', (e) => {
-	inputHasFocus = true;
+	// inputHasFocus = true;
 	// doms.leftNav.classList.add('show');
 });
 doms.searchInput.addEventListener('focusout', (e) => {
-	inputHasFocus = false;
+	// inputHasFocus = false;
 	// doms.leftNav.classList.remove('show');
 });
 
@@ -504,18 +510,27 @@ const createHomePage = () => {
 	createIconItemElement(allIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allIconItemData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 const createFoldersPage = () => {
 	curPage = 'folders';
 	createIconItemElement(allFolderIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allFolderIconItemData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 const createFilePage = () => {
 	curPage = 'file';
 	createIconItemElement(allFileIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allFileIconItemData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 const createHighContrastPage = () => {
 	curPage = 'file';
@@ -524,12 +539,18 @@ const createHighContrastPage = () => {
 		allHighContrastIconItemData
 	)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 const createAppPage = () => {
 	curPage = 'app';
 	createIconItemElement(allAppIconItemData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(allAppIconItemData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 
 /* bottom categorization */
@@ -538,12 +559,18 @@ const createCompanyPage = () => {
 	createIconWrapElement(iconData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(iconData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 const createSoftwarePage = () => {
 	curPage = 'software';
 	createAppElement(softwareData);
 	doms.sum.innerText = `(${countSpecificTypeObjects(softwareData)})`;
 	hideBack();
+	if (isPhone) {
+		hideLeftNav();
+	}
 };
 
 /* create right iconWrap and iconItem */
