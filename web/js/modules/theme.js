@@ -28,7 +28,7 @@ const lightColors = {
 	maskColor: '#2b2b2b',
 	downloadBtnColor: ' rgba(0,0,0,0.8956)',
 	downloadBtnBorderColor: 'rgba(255, 255, 255, 0.0786)',
-	downloadBtnBackgroundColor: 'rgba(255, 255, 255, 0.70)',
+	downloadBtnBackgroundColor: 'rgba(255, 255, 255, 0.80)',
 };
 
 const darkColors = {

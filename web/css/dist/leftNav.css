@@ -70,13 +70,16 @@
 .leftNav .top {
   margin-bottom: 0px;
 }
+.leftNav .top .control {
+  -webkit-user-select: none;
+          user-select: none;
+}
 .leftNav .top .search {
   display: flex;
   justify-content: start;
   align-items: center;
   height: 46px;
   margin: 20px 0;
-  margin-top: 80px;
 }
 .leftNav .top .search .small {
   font-size: 16px;
@@ -86,6 +89,7 @@
 }
 .leftNav .top .search .searchBig {
   width: 90%;
+  height: 30px;
   opacity: 0;
   position: relative;
   transition: 0.1s;
@@ -98,7 +102,7 @@
   outline: none;
   border: none;
   width: 100%;
-  height: 30px;
+  height: 90%;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -122,10 +126,6 @@
   font-size: 16px;
   margin-left: 0px;
   color: #b1b1b1;
-  -webkit-user-select: none;
-          user-select: none;
-}
-.leftNav .top .control {
   -webkit-user-select: none;
           user-select: none;
 }
@@ -259,6 +259,5 @@
   font-size: 16px;
 }
 .leftNav.show .line {
-  width: var(--lineWidth);
   transition-delay: 0s;
 }
