@@ -149,23 +149,29 @@
   }
   .mainContent {
     overflow-x: hidden;
+    margin: 0;
   }
   .mainContent .content {
-    overflow-x: hidden;
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     min-height: 60vh;
+    gap: 0;
   }
   .mainContent .content .iconItem {
-    margin: 10px;
+    padding: 0;
+    margin: 0;
   }
   .mainContent .content.showIconItem {
+    margin-left: -1rem;
     /* grid-template-columns: repeat(10, 1fr); */
     /* gap: 0 1%; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mainContent .content.showIconItem .leftTitle {
+    margin-top: -10px;
   }
   .mainContent .content.showIconWrap {
     /* grid-template-columns: repeat(4, auto); */
