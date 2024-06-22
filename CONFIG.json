@@ -1423,16 +1423,18 @@
   },
   "GreenFish": {
     "IconEditor": {
-      "_files": [
-        {
-          "path": "GreenFish/IconEditor/IconEditor.ico",
-          "name": "IconEditor",
-          "suffix": "ico",
-          "company": "GreenFish",
-          "app": "IconEditor",
-          "type": ""
-        }
-      ]
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "GreenFish/IconEditor/AppIcon/IconEditor.ico",
+            "name": "IconEditor",
+            "suffix": "ico",
+            "company": "GreenFish",
+            "app": "IconEditor",
+            "type": "应用图标"
+          }
+        ]
+      }
     }
   },
   "HighContrast": {
