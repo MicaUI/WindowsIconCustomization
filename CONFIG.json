@@ -1421,6 +1421,20 @@
       }
     }
   },
+  "GreenFish": {
+    "IconEditor": {
+      "_files": [
+        {
+          "path": "GreenFish/IconEditor/IconEditor.ico",
+          "name": "IconEditor",
+          "suffix": "ico",
+          "company": "GreenFish",
+          "app": "IconEditor",
+          "type": ""
+        }
+      ]
+    }
+  },
   "HighContrast": {
     "_files": [
       {
@@ -1440,6 +1454,22 @@
         "type": "高对比度图标"
       },
       {
+        "path": "HighContrast/Local_HighContrastDark.ico",
+        "name": "Local_HighContrastDark",
+        "suffix": "ico",
+        "company": "",
+        "app": "",
+        "type": "高对比度图标"
+      },
+      {
+        "path": "HighContrast/Log_HighContrastDark.ico",
+        "name": "Log_HighContrastDark",
+        "suffix": "ico",
+        "company": "",
+        "app": "",
+        "type": "高对比度图标"
+      },
+      {
         "path": "HighContrast/Manual_HighContrastDark.ico",
         "name": "Manual_HighContrastDark",
         "suffix": "ico",
@@ -1450,6 +1480,14 @@
       {
         "path": "HighContrast/Permission_HighContrastDark.ico",
         "name": "Permission_HighContrastDark",
+        "suffix": "ico",
+        "company": "",
+        "app": "",
+        "type": "高对比度图标"
+      },
+      {
+        "path": "HighContrast/Powershell_HighContrastDark.ico",
+        "name": "Powershell_HighContrastDark",
         "suffix": "ico",
         "company": "",
         "app": "",
@@ -2208,14 +2246,6 @@
             "type": "应用图标"
           },
           {
-            "path": "SideFX/Houdini/AppIcon/GeometryViewer_2.ico",
-            "name": "GeometryViewer_2",
-            "suffix": "ico",
-            "company": "SideFX",
-            "app": "Houdini",
-            "type": "应用图标"
-          },
-          {
             "path": "SideFX/Houdini/AppIcon/Houdini_D.ico",
             "name": "Houdini_D",
             "suffix": "ico",
@@ -2234,14 +2264,6 @@
           {
             "path": "SideFX/Houdini/AppIcon/ImageViewer.ico",
             "name": "ImageViewer",
-            "suffix": "ico",
-            "company": "SideFX",
-            "app": "Houdini",
-            "type": "应用图标"
-          },
-          {
-            "path": "SideFX/Houdini/AppIcon/ImageViewer_2.ico",
-            "name": "ImageViewer_2",
             "suffix": "ico",
             "company": "SideFX",
             "app": "Houdini",
@@ -4163,6 +4185,22 @@
             "suffix": "png",
             "company": "ni",
             "app": "Multisim",
+            "type": "应用图标"
+          }
+        ]
+      }
+    }
+  },
+  "oray": {
+    "sunlogin": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "oray/sunlogin/AppIcon/Sunlogin.ico",
+            "name": "Sunlogin",
+            "suffix": "ico",
+            "company": "oray",
+            "app": "sunlogin",
             "type": "应用图标"
           }
         ]
