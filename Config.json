@@ -1,0 +1,588 @@
+{
+	"app": [
+		{
+			"Photoshop": [
+				{
+					"type": "AppIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.adobe.com/products/photoshop.html",
+					"name": "Photoshop",
+					"company": "Adobe"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.adobe.com/products/photoshop.html",
+					"name": "psd",
+					"company": "Adobe"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.adobe.com/products/photoshop.html",
+					"name": "psb",
+					"company": "Adobe"
+				}
+			],
+			"Illustrator": [
+				{
+					"type": "AppIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.adobe.com/products/illustrator.html",
+					"name": "Illustrator",
+					"company": "Adobe"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.adobe.com/products/illustrator.html",
+					"name": "ai",
+					"company": "Adobe"
+				}
+			],
+			"apk": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "apk",
+					"company": "Google"
+				}
+			],
+			"Alias": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/alias-products/overview",
+					"name": "wire",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/alias-products/overview",
+					"name": "wire2",
+					"company": "Autodesk"
+				}
+			],
+			"AutoCAD": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "dwg",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "dwgbak",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "arx",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "ctb",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "dbx",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "dgn",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "dwg",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "hdi",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "pmp",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "lsp",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "pc3",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "shx",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/autocad/overview",
+					"name": "stb",
+					"company": "Autodesk"
+				}
+			],
+			"CFD": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "cfd-1",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "cfd",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "cfdpk",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "cfz",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "tpl",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/cfd/overview",
+					"name": "vtfx",
+					"company": "Autodesk"
+				}
+			],
+			"FormIt": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://formit.autodesk.com/",
+					"name": "axm",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://formit.autodesk.com/",
+					"name": "axm_2",
+					"company": "Autodesk"
+				}
+			],
+			"Fusion": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/fusion-360/overview",
+					"name": "f3d_1",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/fusion-360/overview",
+					"name": "f3d_2",
+					"company": "Autodesk"
+				}
+			],
+			"Inventor": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/inventor/overview",
+					"name": "idw",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/inventor/overview",
+					"name": "ipn",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/inventor/overview",
+					"name": "ipt-1",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/inventor/overview",
+					"name": "ipt",
+					"company": "Autodesk"
+				}
+			],
+			"Revit ": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/revit/overview",
+					"name": "rfa",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/revit/overview",
+					"name": "rft",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/revit/overview",
+					"name": "rte",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "rvt",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "rvt_2",
+					"company": "Autodesk"
+				}
+			],
+			"3DMax": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "ant",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "bip",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "bpr",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "bprx",
+					"company": "Autodesk"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.autodesk.com/products/3ds-max/overview",
+					"name": "cal",
+					"company": "Autodesk"
+				}
+			],
+			"bat": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "bat",
+					"company": "Microsoft"
+				}
+			],
+			"Blender": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.blender.org/",
+					"name": "blend",
+					"company": "Blender"
+				}
+			],
+			"dmg": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "dmg",
+					"company": ""
+				}
+			],
+			"Figma": [
+				{
+					"type": "AppIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.figma.com/",
+					"name": "Figma",
+					"company": "Figma"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.figma.com/",
+					"name": "fig",
+					"company": "Figma"
+				}
+			],
+			"glsl": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "glsl",
+					"company": ""
+				}
+			],
+			"Houdini": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.sidefx.com/products/houdini/",
+					"name": "hip",
+					"company": "SideFX"
+				}
+			],
+			"html": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "html",
+					"company": ""
+				}
+			],
+			"icc": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "icc",
+					"company": ""
+				}
+			],
+			"ini": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "ini",
+					"company": ""
+				}
+			],
+			"Keyshot": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.keyshot.com/",
+					"name": "ksp",
+					"company": "Luxion"
+				}
+			],
+			"msstyle": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "msstyle",
+					"company": "Microsoft"
+				}
+			],
+			"QuickLook": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://github.com/QL-Win/QuickLook",
+					"name": "qlplugin",
+					"company": "QL-Win"
+				}
+			],
+			"QQ": [
+				{
+					"type": "AppIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://im.qq.com/",
+					"name": "QQ",
+					"company": "Tencent"
+				}
+			],
+			"Rhino": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.rhino3d.com/",
+					"name": "gh",
+					"company": "McNeel"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.rhino3d.com/",
+					"name": "gha",
+					"company": "McNeel"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.rhino3d.com/",
+					"name": "rhi",
+					"company": "McNeel"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.rhino3d.com/",
+					"name": "3dm",
+					"company": "McNeel"
+				},
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://www.rhino3d.com/",
+					"name": "3dmbak",
+					"company": "McNeel"
+				}
+			],
+			"svg": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "",
+					"name": "svg",
+					"company": ""
+				}
+			],
+			"Unity": [
+				{
+					"type": "FileTypeIcon",
+					"pic": "",
+					"tip": "",
+					"url": "https://unity.com/",
+					"name": "unitypackage",
+					"company": "Unity"
+				}
+			],
+		}
+	]
+}
