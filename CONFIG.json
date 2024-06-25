@@ -1211,6 +1211,22 @@
       }
     }
   },
+  "Bootise": {
+    "Bootise": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Bootise/Bootise/AppIcon/bootise.png",
+            "name": "bootise",
+            "suffix": "png",
+            "company": "Bootise",
+            "app": "Bootise",
+            "type": "应用图标"
+          }
+        ]
+      }
+    }
+  },
   "Cisco": {
     "CiscoPacketTracer": {
       "AppIcon": {
@@ -1786,6 +1802,20 @@
     }
   },
   "Microsoft": {
+    "HyperV": {
+      "AppIcon": {
+        "_files": [
+          {
+            "path": "Microsoft/HyperV/AppIcon/HyperV.png",
+            "name": "HyperV",
+            "suffix": "png",
+            "company": "Microsoft",
+            "app": "HyperV",
+            "type": "应用图标"
+          }
+        ]
+      }
+    },
     "MineCraft": {
       "AppIcon": {
         "_files": [
@@ -1930,6 +1960,14 @@
           {
             "path": "Microsoft/Windows/FileTypeIcon/svg.ico",
             "name": "svg",
+            "suffix": "ico",
+            "company": "Microsoft",
+            "app": "Windows",
+            "type": "文件类型图标/Windows图标"
+          },
+          {
+            "path": "Microsoft/Windows/FileTypeIcon/vhdx.ico",
+            "name": "vhdx",
             "suffix": "ico",
             "company": "Microsoft",
             "app": "Windows",
